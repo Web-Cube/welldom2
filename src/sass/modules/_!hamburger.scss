@@ -1,0 +1,26 @@
+.hamburger{
+	padding: 0;
+
+	&-box{
+		width: 25rem;
+		
+	}
+
+	&-inner{
+		width: 25rem;
+		height: 3px;
+
+		&:before, &:after{
+			width: inherit;
+			height: 3px;
+		}
+
+		&:before{
+			top: -8px;
+		}
+
+		&:after{
+			bottom: -8px;
+		}
+	}
+}

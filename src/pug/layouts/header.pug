@@ -1,0 +1,65 @@
++b.A.discount-btn.flat-button__.js-modal(href='#recall')
+	+e.text Получить скидку
+	+e.percent %
++e.mobile-bg
++b.SECTION.mobile#mobile-messengers
+	+e.inner
+		+e.title.h3 ЖК «Шереметьевский»
+		+e.text.p.gray Расположен в районе Марьина Роща города Москвы
+		+e.messengers
+			+e.item
+				+e.A.link._wa.js-modal(data-for="whatsapp" href="#recall" data-title="Выберите способ связи с Вами" data-subtitle="Менеджер свяжется в ближайшее время")
+					+icon('whatsapp-logo', '0 0 90 90')
+					+e.SPAN Написать Вам в WhatsApp
+			+e.item
+				+e.A.link._viber.js-modal(data-for="viber" href="#recall" data-title="Выберите способ связи с Вами" data-subtitle="Менеджер свяжется в ближайшее время")
+					+icon('viber', '0 0 514.055 514.055')
+					+e.SPAN Написать Вам в Viber
+			+e.item
+				+e.A.link._telegram.js-modal(data-for="telegram" href="#recall" data-title="Выберите способ связи с Вами" data-subtitle="Менеджер свяжется в ближайшее время")
+					+icon('telegram', '0 0 300 300')
+					+e.SPAN Написать Вам в Telegram
+			+e.item
+				+e.A.link._telephone.js-modal(data-for="telephone" href="#recall" data-title="Выберите способ связи с Вами" data-subtitle="Менеджер свяжется в ближайшее время")
+					+icon('telephone', '0 0 480.56 480.56')
+					+e.SPAN Заказать обратный звонок
+			+e.item
+				+e.A.link._mail.js-modal(data-for="email" href="#recall" data-title="Выберите способ связи с Вами" data-subtitle="Менеджер свяжется в ближайшее время")
+					+icon('mail', '0 0 14 14')
+					+e.SPAN Написать на почту
++b.SECTION.mobile#mobile-menu
+	+e.inner
+		+e.title.h3 ЖК «Шереметьевский»
+		+e.text.p.gray Расположен в районе Марьина Роща города Москвы
+		+e.UL.list.inline
+			+e.LI.item
+				+e.A.link._center._current.p(href="#vantages") Преимущества
+			+e.LI.item
+				+e.A.link._center.p(href="#filter") Цены и Планировки
+			+e.LI.item
+				+e.A.link._center.p(href="#view") Шоу-рум
+			+e.LI.item
+				+e.A.link._center.p(href="#mortgage") Ипотека
+			+e.LI.item
+				+e.A.link._center.p(href="#promo") Акции
+			+e.LI.item
+				+e.A.link._center.p(href="#contacts") Контакты
++b.HEADER.header
+	+e.wrap.wrap
+		+e.row.flex._vertical._justify
+			+e.cell._logo
+				include logo.pug
+			+e.cell._contacts
+				include contacts-list.pug
+			+e.cell._nowrap.flex._vertical
+				+e.A.button.button__._grey.js-scroll(href="catalog.html")
+					+e.inner
+						+e.text Выбрать квартиру
+				include phone.pug
+			+e.cell._mess
+				include messenger.pug
+				//- include messenger_mobile.pug
+			+e.cell._mobile
+				+e.hamburger.hamburger.hamburger--squeeze.js-toggle-mobile
+					.hamburger-box
+						.hamburger-inner

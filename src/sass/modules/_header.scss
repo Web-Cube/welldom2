@@ -1,0 +1,175 @@
+.header{
+    padding-top: 20rem;
+    padding-bottom: 19rem;
+	z-index: 999;
+	position: relative;
+	background-color: #fff;
+	border-bottom: 1rem solid rgba(#000, 0.102);	
+	transition: border-bottom-color .5s ease .8s;
+
+	&_single{
+		padding-top: 19rem;
+		padding-bottom: 19rem;
+	}
+
+	@include max-screen($large_desktop) {
+		padding: 15rem 0;
+
+		&_single{
+			padding-top: 8rem;
+			padding-bottom: 8rem;
+		}
+	}
+
+	@include max-screen($small_tablet) {
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+	}
+
+	@include max-screen($large_mobile) {
+		padding: 7rem 0;
+	}
+
+	&__row{
+		@include max-screen($small_desktop) {
+			justify-content: space-between;
+		}
+	}
+
+	&__title{
+		@include max-screen($large_tablet) {
+			margin-bottom: 10rem;
+		}
+	}
+
+	&__text{
+		@include max-screen($small_desktop) {
+			font-size: 13.899999999999999rem;
+		}
+
+		@include max-screen($large_tablet) {
+			font-size: 12rem;
+		}
+	}
+
+	&__button{
+		height: 52rem;
+		width: 235rem;
+		margin-right: 96rem;
+
+		@include max-screen($large_tablet) {
+			width: 220rem;
+		}
+
+		@include max-screen($small_tablet) {
+			display: none;
+		}
+	}
+
+	&__messengers{
+		@include max-screen($small_desktop) {
+			width: 50rem;
+			padding-top: 50rem;
+		}
+
+		@include max-screen($large_mobile) {
+			width: 40rem;
+			padding-top: 40rem;
+
+			svg{
+				width: 14rem !important;
+			}
+		}
+	}
+
+	&__cell{
+
+		&_logo{
+			width: 30%;
+			visibility: visible;
+			opacity: 1;
+		}
+
+		&_name{
+			text-align: center;
+			width: 38.4%;
+			padding-left: 10rem;
+			padding-right: 10rem;
+		}
+
+		&_nowrap{
+			flex-wrap: nowrap;
+		}
+
+		&_contacts{
+			text-align: center;
+			width: 20%;
+			margin-right: 4.6%;
+		}
+
+		&_phone{
+			text-align: center;
+
+			width: 17.51%;
+		}
+
+		&_mess{
+			width: 4.56%;
+		}
+
+		&_mobile{
+			display: none;
+		}
+
+		@include max-screen($large_desktop) {
+			&_name{
+			    width: 36.4%;
+			}
+
+			&_contacts{
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}	
+
+		@include max-screen($small_desktop) {
+			width: auto;
+		}	
+
+		@include max-screen($large_tablet) {
+			&_mobile{
+				display: block;
+			}
+
+			&_name{
+				padding-left: 0;
+				padding-right: 0;
+				padding-top: 10rem;
+			}
+			// &_mess
+			&_contacts{
+				display: none;
+			}
+		}	
+
+		@include max-screen($small_tablet) {
+			&_name{
+				display: none;
+			}
+			
+			&_logo{
+				display: flex;
+				align-items: center;
+			}
+
+		}	
+
+		@include max-screen($small_mobile) {
+			&_phone{
+				// display: none;
+			}
+		}	
+	}
+}

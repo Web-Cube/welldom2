@@ -1,0 +1,172 @@
+.presentation{
+	padding-bottom: 120rem;
+	padding-top: 175rem;
+	overflow: hidden;
+	&__cell{
+		&_left{
+			width: 659/1336*100%;
+			margin-right: 58/1336*100%;
+			position: relative;
+		}
+
+		&_right{
+			width: 619/1336*100%;
+		}
+	}
+	
+	&__lock {
+		width: 100rem;
+		height: 100rem;
+		border-radius: 100%;
+		background: #fff;
+  		box-shadow: 0px 11px 17.82px 0.18px rgba(108, 108, 108, 0.1);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translateX(-160%) translateY(-50%);
+		&-border {
+			width: 80rem;
+			height: 80rem;
+			border-radius: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid ($orange, 0.3);
+		}
+		&-img {
+			width: 25rem;
+		}
+	}
+
+	&__book{
+		margin-right: 9px;
+		width: 810/659*100%;
+	}
+
+	&__row{
+		position: relative;
+
+		&:before{
+			content: '';
+			display: block;
+			z-index: -1;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			margin-left: 167/1336*100%;
+			height: 100%;
+			width: 100%;
+			box-sizing: border-box;
+			border-radius: 10px;
+			background: #262626;
+		}
+	}
+
+	&__title{
+		margin-bottom: 54rem;
+	}
+
+	&__text{
+		line-height: 28rem;
+
+	}
+
+	&__box{
+		padding: 50rem 60rem;
+		border: 2px solid #3d3d3d;
+		border-radius: 21px;
+		padding-right: 40rem;
+		margin-bottom: 52rem;
+		position: relative;
+		&:before, &:after {
+			content: '';
+			display: block;
+			position: absolute;
+			left: 65rem;
+			border: 15rem solid transparent;
+		}
+		
+		&:before {
+			border-bottom: 15rem solid #3d3d3d;
+			top: -30rem;
+		}
+		
+		&:after {
+			border-bottom: 15rem solid #262626;
+			top: -28rem;
+		}
+
+		&-cell{
+			&_left{
+				width: 55/517*100%;
+				margin-right: 43/517*100%;
+			}
+			&_right{
+				width: 419/517*100%;
+			}
+		}
+	}
+}
+
+@include max-screen($small_tablet) {
+	.presentation {
+		&__row {
+			&:before {
+				display: none;
+			}
+		}
+		&__cell {
+			&_left {
+				padding-right: 0;
+				margin-right: 0;
+			}
+			&_right {
+				
+			}
+		}
+		&__box {
+			padding: 30rem;
+		}
+	}
+}
+
+@include max-screen($large_mobile) {
+	.presentation {
+		padding: 80px 0 80px 0;
+		&__cell {
+			width: 100%;
+			&_left {
+				margin-bottom: 30px;
+			}
+		}
+		&__book {
+			margin-right: -5%;
+			width: 110%;
+		}
+		&__lock {
+			transform: translateX(-50%) translateY(-50%);
+		}
+		&__title {
+			margin-bottom: 10px;
+		}
+		&__box {
+			padding: 0;
+			border: 0;
+			margin-bottom: 30px;
+			&-cell {
+				&_left {
+					margin-right: 20rem;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+

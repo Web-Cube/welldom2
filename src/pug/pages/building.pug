@@ -1,0 +1,151 @@
+extends ../layouts/base
+
+append vars
+	- title = 'Ход строительства';
+	- body['classList'] = 'is-loaded';
+
+block content
+	+b.SECTION.fullscreen
+		+e.container._fix._header
+			include ../layouts/header
+			include ../layouts/nav
+		+b.page
+			+e.head
+				+e.head-wrap.wrap.flex._justify
+					+e.H1.title.h1
+						| Ход строительства
+					+e.UL.breadcrumbs.breadcrumbs__
+						+e.LI.item
+							+e.A.link(href="main.html") Главная
+						+e.LI.item
+							+e.SPAN.current Ход строительства
+			+e.building.building__
+				+e.wrap.wrap
+					+e.SECTION.box
+						+e.H2.box-title
+							| Ход строительства Январь 2020
+						+e.showing.flex_vertical
+							+e.date
+								+e.date-icon
+									img(src="/img/calendar.png")
+								+e.date-text 20.02.2020
+							+e.views
+								+e.views-icon
+									+icon('eye','0 0 24.969 14')
+								+e.views-text 103
+						+b.gallery.autowidth-slider.js-have-bottom.js-inside-nav.js-building-gallery.owl-carousel.js-gallery
+							+e.A.slide(href="/app/img/building__img1.jpg")
+								+e.IMG.pic(src="/img/building__img1.jpg")
+							+e.A.slide(href="/app/img/building__img2.jpg")
+								+e.IMG.pic(src="/img/building__img2.jpg")
+							+e.A.slide(href="/app/img/building__img3.jpg")
+								+e.IMG.pic(src="/img/building__img3.jpg")
+							+e.A.slide(href="/app/img/building__img4.jpg")
+								+e.IMG.pic(src="/img/building__img4.jpg")
+							+e.A.slide(href="/app/img/building__img1.jpg")
+								+e.IMG.pic(src="/img/building__img1.jpg")
+							+e.A.slide(href="/app/img/building__img2.jpg")
+								+e.IMG.pic(src="/img/building__img2.jpg")
+							+e.A.slide(href="/app/img/building__img3.jpg")
+								+e.IMG.pic(src="/img/building__img3.jpg")
+							+e.A.slide(href="/app/img/building__img4.jpg")
+								+e.IMG.pic(src="/img/building__img4.jpg")
+						+e.nav.owl-scrollbar__._dark
+							+e.part._progress
+								+e.line
+									+e.path
+										+e.done
+							+e.part._num
+								+e.text 
+									span 01
+									|  / 05 
+							+e.part._nav.flex
+								+e.buttons-here.flex
+									include ../layouts/owl-arrows.pug
+					+e.SECTION.box
+						+e.H2.box-title
+							| Ход строительства Январь 2020
+						+e.showing.flex_vertical
+							+e.date
+								+e.date-icon
+									img(src="/img/calendar.png")
+								+e.date-text 20.02.2020
+							+e.views
+								+e.views-icon
+									+icon('eye','0 0 24.969 14')
+								+e.views-text 103
+						+b.gallery.autowidth-slider.js-have-bottom.js-inside-nav.js-building-gallery.owl-carousel.js-gallery
+							+e.A.slide(href="/app/img/building__img1.jpg")
+								+e.IMG.pic(src="/img/building__img1.jpg")
+							+e.A.slide(href="/app/img/building__img2.jpg")
+								+e.IMG.pic(src="/img/building__img2.jpg")
+							+e.A.slide(href="/app/img/building__img3.jpg")
+								+e.IMG.pic(src="/img/building__img3.jpg")
+							+e.A.slide(href="/app/img/building__img4.jpg")
+								+e.IMG.pic(src="/img/building__img4.jpg")
+							+e.A.slide(href="/app/img/building__img1.jpg")
+								+e.IMG.pic(src="/img/building__img1.jpg")
+							+e.A.slide(href="/app/img/building__img2.jpg")
+								+e.IMG.pic(src="/img/building__img2.jpg")
+						+e.nav.owl-scrollbar__._dark
+							+e.part._progress
+								+e.line
+									+e.path
+										+e.done
+							+e.part._num
+								+e.text 
+									span 01
+									|  / 05 
+							+e.part._nav.flex
+								+e.buttons-here.flex
+									include ../layouts/owl-arrows.pug
+					+e.SECTION.box
+						+e.H2.box-title
+							| Ход строительства Январь 2020
+						+e.showing.flex_vertical
+							+e.date
+								+e.date-icon
+									img(src="/img/calendar.png")
+								+e.date-text 20.02.2020
+							+e.views
+								+e.views-icon
+									+icon('eye','0 0 24.969 14')
+								+e.views-text 103
+						+b.gallery.autowidth-slider.js-have-bottom.js-inside-nav.js-building-gallery.owl-carousel.js-gallery
+							+e.A.slide(href="/app/img/building__img1.jpg")
+								+e.IMG.pic(src="/img/building__img1.jpg")
+							+e.A.slide(href="/app/img/building__img2.jpg")
+								+e.IMG.pic(src="/img/building__img2.jpg")
+							+e.A.slide(href="/app/img/building__img3.jpg")
+								+e.IMG.pic(src="/img/building__img3.jpg")
+							+e.A.slide(href="/app/img/building__img4.jpg")
+								+e.IMG.pic(src="/img/building__img4.jpg")
+							+e.A.slide(href="/app/img/building__img1.jpg")
+								+e.IMG.pic(src="/img/building__img1.jpg")
+							+e.A.slide(href="/app/img/building__img2.jpg")
+								+e.IMG.pic(src="/img/building__img2.jpg")
+							+e.A.slide(href="/app/img/building__img3.jpg")
+								+e.IMG.pic(src="/img/building__img3.jpg")
+							+e.A.slide(href="/app/img/building__img4.jpg")
+								+e.IMG.pic(src="/img/building__img4.jpg")
+							+e.A.slide(href="/app/img/building__img1.jpg")
+								+e.IMG.pic(src="/img/building__img1.jpg")
+							+e.A.slide(href="/app/img/building__img2.jpg")
+								+e.IMG.pic(src="/img/building__img2.jpg")
+							+e.A.slide(href="/app/img/building__img3.jpg")
+								+e.IMG.pic(src="/img/building__img3.jpg")
+							+e.A.slide(href="/app/img/building__img4.jpg")
+								+e.IMG.pic(src="/img/building__img4.jpg")
+						+e.nav.owl-scrollbar__._dark
+							+e.part._progress
+								+e.line
+									+e.path
+										+e.done
+							+e.part._num
+								+e.text 
+									span 01
+									|  / 05 
+							+e.part._nav.flex
+								+e.buttons-here.flex
+									include ../layouts/owl-arrows.pug
+								

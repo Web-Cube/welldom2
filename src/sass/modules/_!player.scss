@@ -1,0 +1,358 @@
+.player{
+	// padding-top: 48.35%;
+	padding-top: 56.25%;
+	background-color: #fff;
+	border-radius: 5rem;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	cursor: pointer;
+
+	&.is-hover{
+		.player{
+			&__cover{
+				// clip-path: circle(71% at 50% 50%);
+				clip-path: circle(18% at 50% 50%);
+				-webkit-clip-path: circle(18% at 50% 50%);
+			}
+
+			&__list{
+				opacity: 0;
+				visibility: hidden;
+			}
+
+			&__button{
+				transition: .2s ease 0s;
+				border-color: transparent;
+				.icon{
+					transition: .3s ease 0s;
+					fill: white;
+				}
+			}
+		}
+	}
+
+	@include max-screen($large_mobile) {
+		.player{
+			&__cover{
+				// clip-path: circle(71% at 50% 50%);
+				clip-path: circle(20% at 50% 50%);
+				-webkit-clip-path: circle(20% at 50% 50%);
+			}
+
+			&__list{
+				opacity: 0;
+				visibility: hidden;
+			}
+
+			&__button{
+				transition: .2s ease 0s;
+				border-color: transparent;
+				.icon{
+					transition: .3s ease 0s;
+					fill: white;
+				}
+			}
+		}
+	}
+
+
+	&.is-active{
+
+		&:before{
+			border-color: rgb(255, 255, 255);
+			opacity: .3;
+		}
+
+		.player{
+
+			&__list{
+				opacity: 0;
+				visibility: hidden;
+			}
+			
+			&__cover{
+				clip-path: circle(71% at 50% 50%);
+				-webkit-clip-path: circle(71% at 50% 50%);
+			}
+
+			&__title{
+				color: #fff;
+			}
+
+			&__button{
+				opacity: 0;
+				visibility: hidden;
+				transform: scale(0.5);			
+
+				width: 70rem!important;
+				height: 70rem!important;
+				border-radius: 50%!important;
+				margin-left: -35rem;
+				margin-top: -35rem;				
+				transition: .3s ease 0s;
+				border: 1rem solid rgba(255, 255, 255, 0.302)!important;	
+
+				@include max-screen($large_mobile) {
+					width: 40rem !important;
+					height: 40rem !important;
+					margin-left: -20rem;
+					margin-top: -20rem;
+				}
+				.icon{
+					transition: all 0s!important;
+					fill: white;
+				}
+				// .icon{
+				// 	transform: translateZ(-1rem);
+				// }			
+			}
+		}	
+
+		&:not(.is-paused){
+			&:hover{
+				.player{
+					&__pause{
+						transform: scale(1);
+						opacity: 1;
+						visibility: visible;
+					}
+				}
+			}			
+		}
+
+	
+	}
+
+	&.is-paused{
+		.player{
+			&__button{
+				transition: .3s ease 0s;
+				border-color: transparent;
+				opacity: 1;
+				transform: scale(1);
+				visibility: visible;
+				.icon{
+					transition: all 0s!important;
+					fill: white;
+				}
+			}			
+			&__pause{
+				transform: scale(0.5);
+				opacity: 0;
+				visibility: hidden;
+			}
+		}		
+	}
+
+	&:before{
+		content: '';
+		display: block;
+		position: absolute;
+		transition: .3s ease 0s;
+		left: 60rem;
+		top: 60rem;
+		bottom: 60rem;
+		right: 60rem;
+		z-index: 15;
+		box-sizing: border-box;
+		border: 6rem solid rgb(50, 131, 214);
+		border-radius: 5rem;
+		opacity: 0.102;
+		pointer-events: none;
+	}
+
+	@include max-screen($large_tablet) {
+		&:before{
+			right: 15rem;
+			left: 15rem;
+			top: 15rem;
+			bottom: 15rem;
+		}
+	}
+
+	@include max-screen($large_mobile) {
+		&:before{
+			border-width: 3rem;
+		}
+	}
+
+	&__pause{
+		width: 70rem;
+		height: 70rem;
+		border-radius: 50%;
+		border: 1rem solid rgba(255, 255, 255, 0.302);
+		margin-left: -35rem;
+		margin-top: -35rem;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		visibility: hidden;
+		transform: scale(0.5);
+		opacity: 0;
+		z-index: 2000;
+		transition: .3s ease 0s;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.icon{
+			display: block;
+			height: 28rem;
+			fill: #ffffff;
+		}
+
+		@include max-screen($large_mobile) {
+			width: 40rem;
+			height: 40rem;
+			margin-left: -20rem;
+			margin-top: -20rem;
+
+			.icon{
+				height: 16rem;
+			}
+		}
+	}
+
+	&__button{
+		width: 145rem;
+		height: 145rem;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -72rem;
+		margin-top: -72rem;
+		border-radius: 50%;
+		border: 3rem solid $blue;
+		transition: .3s ease .1s;
+
+		.icon{
+			height: 21rem;
+			fill: $blue;
+			transition: .3s ease .1s;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-left: -10rem;
+			margin-top: -10rem;
+
+		}
+		@include max-screen($large_tablet) {
+			width: 80rem;
+			height: 80rem;
+			margin-left: -40rem;
+			margin-top: -40rem;
+			border-width: 2rem;
+
+			.icon{
+				width: 16rem;
+				height: 16rem;
+				margin-left: -8rem;
+				margin-top: -8rem;
+			}
+		}
+
+		@include max-screen($large_mobile) {
+			width: 40rem;
+			height: 40rem;
+			margin-top: -20rem;
+			margin-left: -20rem;
+
+			// .icon{
+			// 	width: 8rem;
+			// 	height: 8rem;
+			// 	margin-left: -4rem;
+			// 	margin-top: -4rem;
+			// }			
+		}
+	}
+
+
+	&__list{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		transition: .2s ease 0s;
+		pointer-events: none;
+	}
+
+	&__list-item{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+
+		border: 2rem solid rgba(50, 131, 214, 0.07);
+
+		animation: circleScale 2s infinite cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+		&:nth-child(2){
+			animation-delay: 1s;
+		}
+
+		@include max-screen($large_mobile) {
+			border-width: 1rem;
+		}
+	}	
+
+	&__title{
+		position: absolute;
+		left: 108rem;
+		bottom: 98rem;
+		user-select: none;
+		color: #000;
+		transition: .3s ease 0s;
+
+		@include max-screen($large_tablet) {
+			left: 36rem;
+			bottom: 36rem;
+		}
+
+		@include max-screen($large_mobile) {
+			display: none;
+		}
+	}
+
+	&__cover{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 5rem;
+		overflow: hidden;
+		
+		clip-path: circle(0% at 50% 50%);
+		-webkit-clip-path: circle(0% at 50% 50%);
+
+		transition: cubic-bezier(0.23, 1, 0.32, 1) .6s;
+
+		-webkit-animation: mymove 0.1s infinite; /* Safari 4.0 - 8.0 */
+
+		&:after{
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		iframe{
+			position: absolute;
+			left: 0;
+			// pointer-events: none;
+			top: 0;
+			width: 100%;
+			height: 100%;
+
+			border-radius: 5rem;
+			overflow: hidden;
+		}
+	}
+}

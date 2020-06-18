@@ -1,0 +1,146 @@
+extends ../layouts/base
+
+append vars
+	- title = 'Планировки и цены';
+	- body['classList'] = 'is-loaded';
+
+block content
+	+b.SECTION.fullscreen
+		+e.container._fix._header
+			include ../layouts/header
+			include ../layouts/nav
+		+b.page
+			+e.head
+				+e.head-wrap.wrap.flex._justify
+					+e.H1.title.h1
+						| Планировки и цены
+					+e.UL.breadcrumbs.breadcrumbs__
+						+e.LI.item
+							+e.A.link(href="main.html") Главная
+						+e.LI.item
+							+e.SPAN.current Планировки и цены
+			+e.catalog.catalog__
+				+e.wrap.wrap
+					+e.sub.t18 Выберите количество комнат
+					+e.top.flex._vertical
+						+e.pagination.pagination__.flex
+							+e.item
+								+e.link.is-active.A(href="#") 1
+							+e.item
+								+e.link.A(href="#") 2
+							+e.item
+								+e.link.A(href="#") 3
+							+e.item
+								+e.link.A(href="#") 4
+							+e.item
+								+e.link.A(href="#") 5+
+						+e.A.link.arrow-link__.t18(href="#")
+								+e.text Получить все планировки
+								+e.icon
+									+icon('rightArrow')
+					+e.list.flex
+						+e.item
+							+e.preview.owl-carousel
+								+e.image(style="background-image: url('/app/img/catalog_1.jpg');")
+								+e.image(style="background-image: url('/app/img/gallery-image_5.jpg');")
+							+e.name 
+								| 1-комнатная квартира, 50 м
+								sup 2
+							+e.A.link.arrow-link__.t18.js-modal(href="#price",data-room-name="Название квартиры")
+								+e.text Узнать цену
+								+e.icon
+									+icon('rightArrow')
+						+e.item
+							+e.preview
+								+e.image(style="background-image: url('/app/img/catalog_1.jpg');")
+							+e.name 
+								| 1-к квартира, с описанием в две строки, 50 м
+								sup 2
+							+e.A.link.arrow-link__.t18.js-modal(href="#price",data-room-name="Название квартиры")
+								+e.text Узнать цену
+								+e.icon
+									+icon('rightArrow')
+						+e.item
+							+e.preview
+								+e.image(style="background-image: url('/app/img/catalog_1.jpg');")
+							+e.name 
+								| 1-комнатная квартира, 50 м
+								sup 2
+							+e.A.link.arrow-link__.t18.js-modal(href="#price",data-room-name="Название квартиры")
+								+e.text Узнать цену
+								+e.icon
+									+icon('rightArrow')
+						+e.item
+							+e.preview
+								+e.image(style="background-image: url('/app/img/catalog_1.jpg');")
+							+e.name 
+								| 1-комнатная квартира, 50 м
+								sup 2
+							+e.A.link.arrow-link__.t18.js-modal(href="#price",data-room-name="Название квартиры")
+								+e.text Узнать цену
+								+e.icon
+									+icon('rightArrow')
+						+e.item
+							+e.preview
+								+e.image(style="background-image: url('/app/img/catalog_1.jpg');")
+							+e.name 
+								| 1-к квартира, с описанием в две строки, 50 м
+								sup 2
+							+e.A.link.arrow-link__.t18.js-modal(href="#price",data-room-name="Название квартиры")
+								+e.text Узнать цену
+								+e.icon
+									+icon('rightArrow')
+						+e.item
+							+e.preview
+								+e.image(style="background-image: url('/app/img/catalog_1.jpg');")
+							+e.name 
+								| 1-комнатная квартира, 50 м
+								sup 2
+							+e.A.link.arrow-link__.t18.js-modal(href="#price",data-room-name="Название квартиры")
+								+e.text Узнать цену
+								+e.icon
+									+icon('rightArrow')
+						+e.item
+							+e.preview
+								+e.image(style="background-image: url('/app/img/catalog_1.jpg');")
+							+e.name 
+								| 1-комнатная квартира, 50 м
+								sup 2
+							+e.A.link.arrow-link__.t18.js-modal(href="#price",data-room-name="Название квартиры")
+								+e.text Узнать цену
+								+e.icon
+									+icon('rightArrow')
+						+e.item
+							+e.preview
+								+e.image(style="background-image: url('/app/img/catalog_1.jpg');")
+							+e.name 
+								| 1-к квартира, с описанием в две строки, 50 м
+								sup 2
+							+e.A.link.arrow-link__.t18.js-modal(href="#price",data-room-name="Название квартиры")
+								+e.text Узнать цену
+								+e.icon
+									+icon('rightArrow')
+						+e.item
+							+e.preview
+								+e.image(style="background-image: url('/app/img/catalog_1.jpg');")
+							+e.name 
+								| 1-комнатная квартира, 50 м
+								sup 2
+							+e.A.link.arrow-link__.t18.js-modal(href="#price",data-room-name="Название квартиры")
+								+e.text Узнать цену
+								+e.icon
+									+icon('rightArrow')
+					+e.bottom.css-text-center
+						+e.A.button.flat-button__.js-modal(href="#apartment")
+							+e.text Получить планировки
+			+e.about._big.css-gray-bg
+				+e.about-wrap.wrap
+					+e.H2.about-title.h1._small
+						| Рекомендуем забронировать 
+						br
+						| понравившуюся квартиру
+					+e.about-row.flex_justify
+						+e.about-column
+							| Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры играет важную роль в формировании дальнейших направлений развития.
+						+e.about-column
+							| Задача организации, в особенности же дальнейшее развитие различных форм деятельности требуют определения и уточнения форм развития. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание существенных финансовых и административных условий.

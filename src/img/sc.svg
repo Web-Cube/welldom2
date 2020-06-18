@@ -1,0 +1,3823 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="444.76874"
+   width="765.44464"
+   version="1.1"
+   viewBox="0 0 765.44464 444.76874"
+   data-name="Слой 1"
+   id="Слой_1">
+  <metadata
+     id="metadata1317">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>ТЦ_2</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs606">
+    <style
+       id="style2">.cls-1{fill:none;}.cls-2{fill:#316dc9;}.cls-3{fill:#e9f2ff;}.cls-4{fill:#fff;}.cls-5{fill:url(#Новый_образец_узора_2);}.cls-6{fill:#d7e7ff;}.cls-7{fill:#3474f7;}.cls-8{fill:#a7c8fe;}.cls-9{fill:url(#Новый_образец_узора_2-3);}.cls-10{fill:url(#Новый_образец_узора_2-5);}.cls-11{fill:url(#Новый_образец_узора_2-7);}.cls-12{fill:url(#Новый_образец_узора_2-9);}.cls-13{fill:url(#Новый_образец_узора_2-11);}.cls-14{fill:url(#Новый_образец_узора_2-13);}.cls-15{fill:url(#Новый_образец_узора_2-15);}.cls-16{fill:url(#Новый_образец_узора_2-17);}.cls-17{fill:url(#Новый_образец_узора_2-19);}.cls-18{fill:url(#Новый_образец_узора_2-21);}.cls-19{fill:url(#Новый_образец_узора_2-23);}.cls-20{fill:url(#Новый_образец_узора_2-25);}.cls-21{fill:url(#Новый_образец_узора_2-27);}.cls-22{fill:#c0daff;}</style>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(-9.48 -14.08)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2">
+      <rect
+         id="rect4"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle6"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle8"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle10"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle12"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle14"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle16"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle18"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle20"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle22"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle24"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle26"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle28"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle30"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle32"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle34"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle36"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle38"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle40"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle42"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle44"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(10.25 -0.33) scale(0.69)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-3">
+      <rect
+         id="rect47"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle49"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle51"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle53"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle55"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle57"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle59"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle61"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle63"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle65"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle67"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle69"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle71"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle73"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle75"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle77"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle79"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle81"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle83"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle85"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle87"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(16.3 -3.31) scale(0.69)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-5">
+      <rect
+         id="rect90"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle92"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle94"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle96"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle98"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle100"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle102"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle104"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle106"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle108"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle110"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle112"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle114"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle116"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle118"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle120"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle122"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle124"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle126"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle128"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle130"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(22.34 -6.3) scale(0.69)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-7">
+      <rect
+         id="rect133"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle135"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle137"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle139"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle141"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle143"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle145"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle147"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle149"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle151"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle153"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle155"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle157"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle159"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle161"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle163"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle165"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle167"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle169"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle171"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle173"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(28.39 -9.29) scale(0.69)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-9">
+      <rect
+         id="rect176"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle178"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle180"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle182"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle184"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle186"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle188"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle190"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle192"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle194"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle196"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle198"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle200"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle202"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle204"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle206"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle208"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle210"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle212"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle214"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle216"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(-3.38 -1.69) scale(0.81)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-11">
+      <rect
+         id="rect219"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle221"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle223"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle225"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle227"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle229"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle231"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle233"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle235"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle237"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle239"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle241"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle243"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle245"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle247"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle249"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle251"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle253"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle255"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle257"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle259"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(-3.39 -7.38) scale(0.81)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-13">
+      <rect
+         id="rect262"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle264"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle266"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle268"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle270"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle272"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle274"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle276"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle278"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle280"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle282"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle284"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle286"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle288"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle290"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle292"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle294"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle296"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle298"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle300"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle302"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(-10.15 -12.98) scale(0.81)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-15">
+      <rect
+         id="rect305"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle307"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle309"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle311"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle313"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle315"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle317"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle319"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle321"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle323"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle325"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle327"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle329"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle331"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle333"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle335"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle337"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle339"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle341"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle343"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle345"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(3.71 -5.2) scale(0.81)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-17">
+      <rect
+         id="rect348"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle350"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle352"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle354"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle356"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle358"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle360"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle362"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle364"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle366"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle368"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle370"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle372"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle374"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle376"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle378"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle380"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle382"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle384"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle386"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle388"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(10.8 -8.7) scale(0.81)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-19">
+      <rect
+         id="rect391"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle393"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle395"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle397"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle399"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle401"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle403"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle405"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle407"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle409"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle411"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle413"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle415"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle417"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle419"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle421"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle423"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle425"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle427"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle429"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle431"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(-7.24 13) scale(0.82)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-21">
+      <rect
+         id="rect434"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle436"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle438"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle440"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle442"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle444"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle446"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle448"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle450"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle452"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle454"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle456"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle458"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle460"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle462"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle464"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle466"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle468"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle470"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle472"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle474"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(-11.43 17) scale(0.82)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-23">
+      <rect
+         id="rect477"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle479"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle481"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle483"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle485"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle487"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle489"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle491"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle493"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle495"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle497"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle499"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle501"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle503"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle505"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle507"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle509"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle511"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle513"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle515"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle517"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(-13.76 7.4) scale(0.82)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-25">
+      <rect
+         id="rect520"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle522"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle524"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle526"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle528"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle530"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle532"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle534"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle536"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle538"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle540"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle542"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle544"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle546"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle548"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle550"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle552"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle554"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle556"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle558"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle560"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+    <pattern
+       viewBox="0 0 9 9"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(-14.91 -0.04) scale(0.72)"
+       height="9"
+       width="9"
+       data-name="Новый образец узора 2"
+       id="Новый_образец_узора_2-27">
+      <rect
+         id="rect563"
+         height="9"
+         width="9"
+         class="cls-1" />
+      <circle
+         id="circle565"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle567"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle569"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle571"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle573"
+         r="0.58"
+         cy="1.15"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle575"
+         r="0.58"
+         cy="3.38"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle577"
+         r="0.58"
+         cy="5.62"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle579"
+         r="0.58"
+         cy="7.85"
+         cx="1.15"
+         class="cls-2" />
+      <circle
+         id="circle581"
+         r="0.58"
+         cy="1.15"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle583"
+         r="0.58"
+         cy="3.38"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle585"
+         r="0.58"
+         cy="5.62"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle587"
+         r="0.58"
+         cy="7.85"
+         cx="3.38"
+         class="cls-2" />
+      <circle
+         id="circle589"
+         r="0.58"
+         cy="1.15"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle591"
+         r="0.58"
+         cy="3.38"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle593"
+         r="0.58"
+         cy="5.62"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle595"
+         r="0.58"
+         cy="7.85"
+         cx="5.62"
+         class="cls-2" />
+      <circle
+         id="circle597"
+         r="0.58"
+         cy="1.15"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle599"
+         r="0.58"
+         cy="3.38"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle601"
+         r="0.58"
+         cy="5.62"
+         cx="7.85"
+         class="cls-2" />
+      <circle
+         id="circle603"
+         r="0.58"
+         cy="7.85"
+         cx="7.85"
+         class="cls-2" />
+    </pattern>
+  </defs>
+  <title
+     id="title608">ТЦ_2</title>
+  <path
+     style="fill:#e9f2ff"
+     id="path610"
+     d="m 752.8875,298.19813 -107.89,-62.88 21.34,-12.31 -361.77,-208.869998 a 105.55,105.55 0 0 0 -105.54,0 l -170.73,98.569998 c -37.73,21.79 -37.73,76.25 0,98 l 329.64,190.35 0.53,-0.3 16.1,9.26 a 82.62,82.62 0 0 0 82.7,-0.16 l 1,-0.58 a 32.53,32.53 0 0 1 32.58,0 l 50.81,29.79 a 42.55,42.55 0 0 0 42.55,0 l 168.65,-97.37 a 25.1,25.1 0 0 0 0.03,-43.5 z"
+     class="cls-3" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon612"
+     points="727.11,388.36 690.47,367.15 672.15,377.79 708.79,398.93 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path614"
+     d="m 451.2475,288.29813 a 0.54,0.54 0 0 1 -0.25,-0.06 l -36.64,-21.15 a 0.48,0.48 0 0 1 -0.25,-0.43 0.5,0.5 0 0 1 0.25,-0.44 l 18.32,-10.63 a 0.5,0.5 0 0 1 0.5,0 l 36.64,21.21 a 0.49,0.49 0 0 1 0,0.86 l -18.36,10.58 a 0.54,0.54 0 0 1 -0.21,0.06 z m -35.64,-21.64 35.64,20.57 17.32,-10 -35.64,-20.63 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     id="polygon616"
+     points="690.47,367.15 679.05,373.78 715.65,394.97 727.11,388.36 "
+     class="cls-5" />
+  <path
+     style="fill:#d7e7ff"
+     id="path618"
+     d="m 360.4575,78.868132 -64.14,-37 a 82,82 0 0 0 -81.94,0 l -152.75,88.199998 a 29.64,29.64 0 0 0 0,51.35 l 64.14,37 a 82,82 0 0 0 81.93,0 l 152.76,-88.25 a 29.64,29.64 0 0 0 0,-51.299998 z m -15.19,36.099998 -154.92,89.41 a 47.21,47.21 0 0 1 -47.2,0 l -66.32,-38.29 a 12,12 0 0 1 0,-20.86 l 154.93,-89.449998 a 47.16,47.16 0 0 1 47.2,0 l 66.32,38.29 a 12,12 0 0 1 0,20.849998 z"
+     class="cls-6" />
+  <path
+     style="fill:#316dc9"
+     id="path620"
+     d="m 166.7475,229.80813 a 82.4,82.4 0 0 1 -41.22,-11 l -64.14,-37 a 30.14,30.14 0 0 1 0,-52.22 l 152.75,-88.199998 a 82.67,82.67 0 0 1 82.44,0 l 64.14,37 a 30.15,30.15 0 0 1 0,52.229998 l -152.76,88.18 a 82.39,82.39 0 0 1 -41.21,11.01 z m 88.61,-198.469998 a 81.44,81.44 0 0 0 -40.72,10.88 l -152.75,88.189998 a 29.15,29.15 0 0 0 0,50.49 l 64.14,37 a 81.65,81.65 0 0 0 81.43,0 l 152.76,-88.19 a 29.15,29.15 0 0 0 0,-50.489998 l -64.14,-37 a 81.44,81.44 0 0 0 -40.72,-10.88 z m -88.61,179.839998 a 47.63,47.63 0 0 1 -23.85,-6.37 l -66.32,-38.29 a 12.54,12.54 0 0 1 0,-21.73 l 154.93,-89.449998 a 47.85,47.85 0 0 1 47.7,0 l 66.32,38.29 a 12.55,12.55 0 0 1 0,21.729998 l -154.93,89.45 a 47.69,47.69 0 0 1 -23.85,6.37 z m 88.61,-161.209998 a 46.68,46.68 0 0 0 -23.35,6.24 l -154.93,89.449998 a 11.53,11.53 0 0 0 0,20 l 66.32,38.29 a 46.81,46.81 0 0 0 46.7,0 l 154.93,-89.45 0.25,0.43 -0.25,-0.43 a 11.54,11.54 0 0 0 0,-19.999998 l -66.32,-38.29 a 46.65,46.65 0 0 0 -23.35,-6.24 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon622"
+     points="346.7,266.79 512.9,170.83 590.49,215.63 424.29,311.58 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path624"
+     d="m 166.7475,200.94813 a 0.43,0.43 0 0 1 -0.29,-0.08 l -77.59,-44.79 a 0.5,0.5 0 0 1 0,-0.87 l 166.2,-95.999998 a 0.5,0.5 0 0 1 0.5,0 l 77.59,44.789998 a 0.5,0.5 0 0 1 0,0.87 l -166.16,96 a 0.47,0.47 0 0 1 -0.25,0.08 z m -76.59,-45.29 76.59,44.21 165.2,-95.37 -76.59,-44.219998 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path626"
+     d="m 154.2375,193.72813 a 0.47,0.47 0 0 1 -0.25,-0.07 l -52.53,-30.35 a 0.5,0.5 0 0 1 0,-0.87 l 28.82,-16.64 a 0.5,0.5 0 0 1 0.5,0 l 52.58,30.35 a 0.5,0.5 0 0 1 0.25,0.44 0.48,0.48 0 0 1 -0.25,0.43 l -28.9,16.64 a 0.45,0.45 0 0 1 -0.22,0.07 z m -51.57,-30.86 51.57,29.77 27.83,-16.06 -51.61,-29.77 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path628"
+     d="m 145.8975,188.86813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -35.89,-20.67 a 0.5,0.5 0 0 1 0,-0.87 l 12.11,-7 a 0.5,0.5 0 0 1 0.5,0 l 35.89,20.72 a 0.49,0.49 0 0 1 0,0.86 l -12.11,7 a 0.47,0.47 0 0 1 -0.25,0.03 z m -34.89,-21.22 34.89,20.22 11.11,-6.41 -34.89,-20.14 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path630"
+     d="m 249.8475,152.96813 a 0.54,0.54 0 0 1 -0.25,-0.06 l -77.59,-44.8 a 0.5,0.5 0 0 1 0.5,-0.86 l 77.59,44.79 a 0.5,0.5 0 0 1 -0.25,0.93 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path632"
+     d="m 211.2075,145.16813 c -6.59,0 -13.2,-1.46 -18.24,-4.37 -5.04,-2.91 -7.71,-6.71 -7.71,-10.82 0,-4.11 2.7,-7.87 7.6,-10.7 10,-5.75 26.24,-5.72 36.27,0.07 v 0 c 5,2.87 7.72,6.71 7.72,10.82 0,4.11 -2.7,7.87 -7.6,10.7 -4.9,2.83 -11.5,4.3 -18.04,4.3 z m -0.32,-29.2 c -6.36,0 -12.7,1.39 -17.53,4.18 -4.58,2.64 -7.1,6.14 -7.1,9.83 0,3.69 2.56,7.27 7.21,10 9.76,5.63 25.58,5.66 35.28,0.06 4.58,-2.64 7.1,-6.14 7.1,-9.83 0,-3.69 -2.56,-7.27 -7.22,-10 v 0 c -4.89,-2.82 -11.32,-4.24 -17.74,-4.24 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path634"
+     d="m 172.4575,170.94813 a 0.59,0.59 0 0 1 -0.25,-0.07 l -31.3,-18.07 a 0.51,0.51 0 0 1 -0.24,-0.53 0.49,0.49 0 0 1 0.41,-0.4 c 8.91,-1.43 18.53,0 25.1,3.83 6.72,3.89 9.3,9.61 6.73,15 a 0.48,0.48 0 0 1 -0.3,0.26 z m -29.8,-18.29 29.57,17.08 c 1.93,-4.69 -0.54,-9.69 -6.55,-13.16 -6.01,-3.47 -14.77,-4.94 -23.05,-3.92 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path636"
+     d="m 93.5875,158.70813 a 0.57,0.57 0 0 1 -0.25,-0.06 l -4.43,-2.56 a 0.5,0.5 0 0 1 0,-0.87 l 4.4,-2.54 a 0.5,0.5 0 0 1 0.5,0 3.61,3.61 0 0 1 2.1,3 3.57,3.57 0 0 1 -2.07,3 0.54,0.54 0 0 1 -0.25,0.03 z m -3.43,-3 3.42,2 a 2.46,2.46 0 0 0 1.33,-1.95 2.49,2.49 0 0 0 -1.35,-2 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path638"
+     d="m 166.7475,200.94813 a 0.43,0.43 0 0 1 -0.29,-0.08 l -4.43,-2.55 a 0.5,0.5 0 0 1 -0.25,-0.44 0.48,0.48 0 0 1 0.25,-0.43 10.33,10.33 0 0 1 9.33,0 0.49,0.49 0 0 1 0.25,0.43 0.5,0.5 0 0 1 -0.25,0.43 l -4.4,2.54 a 0.47,0.47 0 0 1 -0.21,0.1 z m -3.37,-3 3.37,1.94 3.33,-1.92 a 9.65,9.65 0 0 0 -6.7,-0.04 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path640"
+     d="m 291.6075,114.41813 a 0.47,0.47 0 0 1 -0.25,-0.07 l -52.57,-30.349998 a 0.5,0.5 0 0 1 0,-0.87 l 28.83,-16.64 a 0.5,0.5 0 0 1 0.5,0 l 52.57,30.38 a 0.5,0.5 0 0 1 0,0.87 l -28.83,16.609998 a 0.43,0.43 0 0 1 -0.25,0.07 z m -51.57,-30.859998 51.57,29.779998 27.85,-16.059998 -51.57,-29.78 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path642"
+     d="m 299.9775,99.948132 a 0.47,0.47 0 0 1 -0.25,-0.07 l -35.88,-20.72 a 0.47,0.47 0 0 1 -0.25,-0.43 0.48,0.48 0 0 1 0.25,-0.43 l 12.11,-7 a 0.5,0.5 0 0 1 0.5,0 l 35.89,20.71 a 0.52,0.52 0 0 1 0.25,0.44 0.5,0.5 0 0 1 -0.25,0.43 l -12.12,7 a 0.43,0.43 0 0 1 -0.25,0.07 z m -34.88,-21.22 34.88,20.14 11.12,-6.41 -34.89,-20.14 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path644"
+     d="m 274.2175,108.80813 c -6.74,0 -13.35,-1.54 -18.26,-4.37 -6.72,-3.89 -9.31,-9.609998 -6.74,-14.949998 a 0.48,0.48 0 0 1 0.31,-0.26 0.48,0.48 0 0 1 0.39,0 l 31.31,18.079998 a 0.49,0.49 0 0 1 0.24,0.52 0.5,0.5 0 0 1 -0.42,0.4 43.29,43.29 0 0 1 -6.83,0.58 z m -24.32,-18.389998 c -1.93,4.68 0.54,9.679998 6.56,13.149998 6.02,3.47 14.74,4.94 23,3.92 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path646"
+     d="m 255.3975,63.798132 a 9.65,9.65 0 0 1 -4.69,-1.12 0.5,0.5 0 0 1 -0.25,-0.44 0.48,0.48 0 0 1 0.25,-0.43 l 4.4,-2.54 a 0.5,0.5 0 0 1 0.5,0 l 4.43,2.56 a 0.47,0.47 0 0 1 0.25,0.43 0.48,0.48 0 0 1 -0.25,0.43 9.48,9.48 0 0 1 -4.64,1.11 z m -3.38,-1.6 a 9.6,9.6 0 0 0 6.7,0 l -3.36,-1.94 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path648"
+     d="m 328.5375,107.53813 a 0.59,0.59 0 0 1 -0.25,-0.07 3.18,3.18 0 0 1 0,-6 0.5,0.5 0 0 1 0.5,0 l 4.43,2.56 a 0.5,0.5 0 0 1 0,0.87 l -4.41,2.54 a 0.52,0.52 0 0 1 -0.27,0.1 z m 0,-5 a 2.11,2.11 0 0 0 0,3.93 l 3.4,-2 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path650"
+     d="m 166.7475,225.14813 a 73.71,73.71 0 0 1 -36.88,-9.85 l -64.69,-37.35 a 25.75,25.75 0 0 1 0,-44.59 l 0.25,0.43 -0.25,-0.43 153.28,-88.489998 a 74,74 0 0 1 73.76,0 l 64.68,37.35 a 25.74,25.74 0 0 1 0,44.589998 l -153.3,88.51 a 73.67,73.67 0 0 1 -36.85,9.83 z m 88.61,-189.149998 a 72.82,72.82 0 0 0 -36.38,9.71 l -153.3,88.509998 a 24.76,24.76 0 0 0 0,42.87 l 64.69,37.35 a 73,73 0 0 0 72.75,0 l 153.34,-88.51 a 24.75,24.75 0 0 0 0,-42.869998 l -64.68,-37.35 a 72.82,72.82 0 0 0 -36.42,-9.71 z"
+     class="cls-2" />
+  <path
+     style="fill:#3474f7"
+     id="path652"
+     d="m 360.4575,78.868132 -64.14,-37 a 82,82 0 0 0 -81.94,0 l -152.75,88.199998 a 29.64,29.64 0 0 0 0,51.35 l 64.14,37 a 82,82 0 0 0 81.93,0 l 152.76,-88.25 a 29.64,29.64 0 0 0 0,-51.299998 z m -3.8,47.539998 -153.29,88.46 a 73.27,73.27 0 0 1 -73.25,0 l -64.66,-37.35 a 25.25,25.25 0 0 1 0,-43.73 l 153.3,-88.509998 a 73.29,73.29 0 0 1 73.26,0 l 64.68,37.35 a 25.24,25.24 0 0 1 -0.03,43.729998 z"
+     class="cls-7" />
+  <path
+     style="fill:#316dc9"
+     id="path654"
+     d="m 166.7475,229.80813 a 82.4,82.4 0 0 1 -41.22,-11 l -64.14,-37 a 30.14,30.14 0 0 1 0,-52.22 l 152.75,-88.199998 a 82.67,82.67 0 0 1 82.44,0 l 64.14,37 a 30.15,30.15 0 0 1 0,52.229998 l -152.76,88.18 a 82.39,82.39 0 0 1 -41.21,11.01 z m 88.61,-198.469998 a 81.44,81.44 0 0 0 -40.72,10.88 l -152.75,88.189998 a 29.15,29.15 0 0 0 0,50.49 l 64.14,37 a 81.65,81.65 0 0 0 81.43,0 l 152.76,-88.19 a 29.15,29.15 0 0 0 0,-50.489998 l -64.14,-37 a 81.44,81.44 0 0 0 -40.72,-10.88 z m -88.61,193.809998 a 73.71,73.71 0 0 1 -36.88,-9.85 l -64.69,-37.35 a 25.75,25.75 0 0 1 0,-44.59 l 153.28,-88.489998 a 74,74 0 0 1 73.76,0 l 64.68,37.35 a 25.74,25.74 0 0 1 0,44.589998 l -0.25,-0.43 0.25,0.43 -153.3,88.51 a 73.67,73.67 0 0 1 -36.85,9.83 z m 88.61,-189.149998 a 72.82,72.82 0 0 0 -36.38,9.71 l -153.3,88.509998 a 24.76,24.76 0 0 0 0,42.87 l 64.69,37.35 a 73,73 0 0 0 72.75,0 l 153.34,-88.51 a 24.75,24.75 0 0 0 0,-42.869998 l -64.68,-37.35 a 72.82,72.82 0 0 0 -36.42,-9.71 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path656"
+     d="m 166.7475,220.48813 a 65,65 0 0 1 -32.54,-8.69 l -65.23,-37.66 a 21.35,21.35 0 0 1 0,-37 v 0 l 153.85,-88.819998 a 65.21,65.21 0 0 1 65.06,0 l 65.24,37.66 a 21.35,21.35 0 0 1 0,36.999998 l -153.85,88.82 a 65,65 0 0 1 -32.53,8.69 z m -97.52,-82.89 0.25,0.44 a 20.35,20.35 0 0 0 0,35.24 l 65.23,37.66 a 64.24,64.24 0 0 0 64.07,0 l 153.85,-88.82 a 20.36,20.36 0 0 0 0,-35.249998 l -65.24,-37.66 a 64.22,64.22 0 0 0 -64.06,0 l -153.87,88.829998 z"
+     class="cls-2" />
+  <path
+     style="fill:#a7c8fe"
+     id="path658"
+     d="m 356.6675,82.628132 -64.68,-37.35 a 73.29,73.29 0 0 0 -73.26,0 l -153.27,88.509998 a 25.25,25.25 0 0 0 0,43.73 l 64.66,37.35 a 73.27,73.27 0 0 0 73.25,0 l 153.3,-88.51 a 25.24,25.24 0 0 0 0,-43.729998 z m -3.79,39.919998 -153.85,88.82 a 64.54,64.54 0 0 1 -64.57,0 l -65.23,-37.66 a 20.85,20.85 0 0 1 0,-36.11 l 153.85,-88.819998 a 64.57,64.57 0 0 1 64.56,0 l 65.24,37.66 a 20.85,20.85 0 0 1 0,36.109998 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path660"
+     d="m 166.7475,225.14813 a 73.71,73.71 0 0 1 -36.88,-9.85 l -64.69,-37.35 a 25.75,25.75 0 0 1 0,-44.59 l 153.28,-88.489998 a 74,74 0 0 1 73.76,0 l 64.68,37.35 a 25.74,25.74 0 0 1 0,44.589998 l -153.3,88.51 a 73.67,73.67 0 0 1 -36.85,9.83 z m 88.61,-189.149998 a 72.82,72.82 0 0 0 -36.38,9.71 l -153.3,88.509998 a 24.76,24.76 0 0 0 0,42.87 l 64.69,37.35 a 73,73 0 0 0 72.75,0 l 153.34,-88.51 a 24.75,24.75 0 0 0 0,-42.869998 l -64.68,-37.35 a 72.82,72.82 0 0 0 -36.42,-9.71 z m -88.61,184.489998 a 65,65 0 0 1 -32.54,-8.69 l -65.23,-37.66 a 21.35,21.35 0 0 1 0,-37 l 153.85,-88.819998 a 65.21,65.21 0 0 1 65.06,0 l 65.24,37.66 a 21.35,21.35 0 0 1 0,36.999998 l -0.25,-0.43 0.25,0.43 -153.85,88.82 a 65,65 0 0 1 -32.53,8.69 z m 88.61,-179.829998 a 64.07,64.07 0 0 0 -32,8.55 l -153.9,88.829998 a 20.35,20.35 0 0 0 0,35.24 l 65.23,37.66 a 64.24,64.24 0 0 0 64.07,0 l 153.85,-88.82 a 20.36,20.36 0 0 0 0,-35.249998 l -65.24,-37.66 a 64.07,64.07 0 0 0 -32.01,-8.55 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path662"
+     d="m 166.7475,215.86813 a 56.41,56.41 0 0 1 -28.2,-7.53 l -65.77,-38 a 16.95,16.95 0 0 1 0,-29.35 l 0.25,0.43 -0.25,-0.43 154.39,-89.119998 a 56.48,56.48 0 0 1 56.38,0 l 65.78,38 a 16.95,16.95 0 0 1 0,29.349998 l -154.39,89.09 a 56.38,56.38 0 0 1 -28.19,7.56 z m -93.47,-74 a 15.95,15.95 0 0 0 0,27.62 l 65.77,38 a 55.56,55.56 0 0 0 55.39,0 l 154.39,-89.14 a 15.94,15.94 0 0 0 0,-27.609998 l -65.78,-38 a 55.54,55.54 0 0 0 -55.38,0 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon664"
+     points="643.67,342.19 779.13,420.37 779.13,348.74 643.67,270.56 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path666"
+     d="m 521.5875,309.73813 a 0.45,0.45 0 0 1 -0.25,-0.07 l -135.46,-78.17 a 0.52,0.52 0 0 1 -0.25,-0.44 v -71.63 a 0.5,0.5 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 135.46,78.17 a 0.52,0.52 0 0 1 0.25,0.44 v 71.63 a 0.5,0.5 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.07 z m -135,-79 134.46,77.6 v -70.47 l -134.46,-77.6 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon668"
+     points="739.01,335.04 760.86,347.65 760.86,359.62 739.01,347 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path670"
+     d="m 503.3175,248.98813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -21.85,-12.61 a 0.5,0.5 0 0 1 -0.25,-0.44 v -12 a 0.47,0.47 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 21.85,12.61 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.25,0.08 z m -21.35,-13.41 20.85,12 v -10.77 l -20.85,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon672"
+     points="746.95,339.63 752.91,343.07 752.91,355.03 746.95,351.59 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path674"
+     d="m 495.3675,244.39813 a 0.47,0.47 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.52,0.52 0 0 1 0.25,-0.44 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.5,0.5 0 0 1 0.25,0.44 v 12 a 0.47,0.47 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.07 z m -5.46,-4.23 5,2.87 v -10.82 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon676"
+     points="739.01,355.41 760.86,368.02 760.86,379.99 739.01,367.37 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path678"
+     d="m 503.3175,269.35813 a 0.52,0.52 0 0 1 -0.25,-0.07 l -21.85,-12.62 a 0.47,0.47 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.75,-0.44 l 21.85,12.62 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.59,0.59 0 0 1 -0.25,0.08 z m -21.35,-13.41 20.85,12 v -10.77 l -20.85,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon680"
+     points="746.95,359.99 752.91,363.43 752.91,375.4 746.95,371.96 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path682"
+     d="m 495.3675,264.76813 a 0.47,0.47 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.5,0.5 0 0 1 -0.25,-0.43 v -11.96 a 0.5,0.5 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.03 z m -5.46,-4.23 5,2.86 v -10.81 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon684"
+     points="739.01,375.77 760.86,388.39 760.86,400.36 739.01,387.74 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path686"
+     d="m 503.3175,289.72813 a 0.52,0.52 0 0 1 -0.25,-0.07 l -21.85,-12.62 a 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.75,-0.43 l 21.85,12.69 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.52,0.52 0 0 1 -0.25,0.43 0.59,0.59 0 0 1 -0.25,0 z m -21.35,-13.41 20.85,12 v -10.77 l -20.85,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon688"
+     points="746.95,380.36 752.91,383.8 752.91,395.77 746.95,392.33 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path690"
+     d="m 495.3675,285.13813 a 0.47,0.47 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.07 z m -5.46,-4.27 5,2.86 v -10.77 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon692"
+     points="701.66,313.48 723.51,326.09 723.51,338.06 701.66,325.44 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path694"
+     d="m 465.9675,227.42813 a 0.47,0.47 0 0 1 -0.25,-0.07 l -21.84,-12.61 a 0.5,0.5 0 0 1 -0.25,-0.44 v -12 a 0.47,0.47 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 21.84,12.61 a 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 0.43,0.43 0 0 1 -0.25,0.08 z m -21.34,-13.4 20.84,12 v -10.78 l -20.84,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon696"
+     points="709.61,318.07 715.57,321.51 715.57,333.47 709.61,330.03 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path698"
+     d="m 458.0275,222.86813 a 0.45,0.45 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.49,0.49 0 0 1 -0.25,-0.43 v -12 a 0.52,0.52 0 0 1 0.25,-0.44 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.49,0.49 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.07 z m -5.46,-4.23 5,2.87 v -10.85 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon700"
+     points="701.66,333.85 723.51,346.46 723.51,358.43 701.66,345.81 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path702"
+     d="m 465.9675,247.79813 a 0.47,0.47 0 0 1 -0.25,-0.07 l -21.84,-12.61 a 0.5,0.5 0 0 1 -0.25,-0.44 v -12 a 0.5,0.5 0 0 1 0.75,-0.44 l 21.84,12.63 a 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 0.43,0.43 0 0 1 -0.25,0.07 z m -21.34,-13.41 20.84,12 v -10.77 l -20.84,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon704"
+     points="709.61,338.43 715.57,341.87 715.57,353.84 709.61,350.4 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path706"
+     d="m 458.0275,243.20813 a 0.45,0.45 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.52,0.52 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.07 z m -5.46,-4.23 5,2.86 v -10.81 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon708"
+     points="664.32,291.92 686.17,304.53 686.17,316.5 664.32,303.88 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path710"
+     d="m 428.6275,205.86813 a 0.47,0.47 0 0 1 -0.25,-0.07 l -21.85,-12.61 a 0.52,0.52 0 0 1 -0.25,-0.44 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 21.85,12.61 a 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.08 z m -21.35,-13.4 20.85,12 v -10.78 l -20.85,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon712"
+     points="672.27,296.51 678.23,299.95 678.23,311.91 672.27,308.47 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path714"
+     d="m 420.6875,201.27813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.47,0.47 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.75,-0.44 l 6,3.44 a 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.49,0.49 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.25,0.07 z m -5.46,-4.23 5,2.87 v -10.81 l -5,-2.87 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon716"
+     points="664.32,312.29 686.17,324.9 686.17,336.87 664.32,324.25 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path718"
+     d="m 428.6275,226.23813 a 0.47,0.47 0 0 1 -0.25,-0.07 l -21.85,-12.61 a 0.52,0.52 0 0 1 -0.25,-0.44 v -12 a 0.52,0.52 0 0 1 0.25,-0.44 0.5,0.5 0 0 1 0.5,0 l 21.85,12.62 a 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.08 z m -21.35,-13.37 20.85,12 v -10.81 l -20.85,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon720"
+     points="672.27,316.87 678.23,320.31 678.23,332.28 672.27,328.84 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path722"
+     d="m 420.6875,221.64813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.75,-0.43 l 6,3.44 a 0.52,0.52 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.25,0.07 z m -5.46,-4.23 5,2.86 v -10.81 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon724"
+     points="664.32,332.65 686.17,345.27 686.17,357.24 664.32,344.62 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path726"
+     d="m 428.6275,246.60813 a 0.59,0.59 0 0 1 -0.25,-0.07 l -21.85,-12.62 a 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.52,0.52 0 0 1 0.25,-0.44 0.5,0.5 0 0 1 0.5,0 l 21.85,12.62 a 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 0.55,0.55 0 0 1 -0.25,0.08 z m -21.35,-13.41 20.85,12 v -10.77 l -20.85,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon728"
+     points="672.27,337.24 678.23,340.68 678.23,352.65 672.27,349.21 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path730"
+     d="m 420.6875,242.01813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.25,0.07 z m -5.46,-4.23 5,2.86 v -10.78 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon732"
+     points="703.21,464.16 779.13,420.33 779.13,348.7 703.21,392.53 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path734"
+     d="m 445.6675,353.52813 a 0.51,0.51 0 0 1 -0.25,-0.06 0.5,0.5 0 0 1 -0.25,-0.44 v -71.63 a 0.48,0.48 0 0 1 0.25,-0.43 l 75.92,-43.84 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.44 v 71.63 a 0.5,0.5 0 0 1 -0.25,0.43 l -75.92,43.84 a 0.57,0.57 0 0 1 -0.25,0.06 z m 0.5,-71.84 v 70.48 l 74.92,-43.3 v -70.44 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#3474f7"
+     id="polygon736"
+     points="567.75,386.03 643.67,342.19 643.67,270.56 567.75,314.39 "
+     class="cls-7" />
+  <path
+     style="fill:#316dc9"
+     id="path738"
+     d="m 310.2075,275.39813 a 0.52,0.52 0 0 1 -0.25,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -71.64 a 0.5,0.5 0 0 1 0.25,-0.43 l 75.92,-43.83 a 0.5,0.5 0 0 1 0.5,0 0.5,0.5 0 0 1 0.25,0.43 v 71.63 a 0.52,0.52 0 0 1 -0.25,0.44 l -75.92,43.83 a 0.59,0.59 0 0 1 -0.25,0.07 z m 0.5,-71.85 v 70.48 l 74.92,-43.26 v -70.47 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#d7e7ff"
+     id="polygon740"
+     points="791,443.27 966.58,341.9 966.58,413.53 791,514.9 "
+     class="cls-6" />
+  <path
+     style="fill:#316dc9"
+     id="path742"
+     d="m 533.4575,404.26813 a 0.43,0.43 0 0 1 -0.25,-0.07 0.47,0.47 0 0 1 -0.25,-0.43 v -71.63 a 0.47,0.47 0 0 1 0.25,-0.43 l 175.58,-101.38 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.44 v 71.63 a 0.5,0.5 0 0 1 -0.25,0.43 l -175.58,101.37 a 0.47,0.47 0 0 1 -0.25,0.07 z m 0.5,-71.84 v 70.44 l 174.58,-100.8 v -70.44 z m 175.08,-30 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon744"
+     points="811.85,440.69 833.7,428.08 833.7,440.05 811.85,452.66 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path746"
+     d="m 554.3075,342.02813 a 0.45,0.45 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.52,0.52 0 0 1 0.25,-0.43 l 21.85,-12.61 a 0.5,0.5 0 0 1 0.5,0 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.52,0.52 0 0 1 -0.25,0.43 l -21.85,12.61 a 0.45,0.45 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.81 l 20.85,-12 v -10.79 z m 21.35,-0.93 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon748"
+     points="819.8,436.11 825.75,432.67 825.75,444.63 819.8,448.07 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path750"
+     d="m 562.2575,337.43813 a 0.51,0.51 0 0 1 -0.25,-0.06 0.5,0.5 0 0 1 -0.25,-0.44 v -12 a 0.5,0.5 0 0 1 0.25,-0.44 l 6,-3.44 a 0.5,0.5 0 0 1 0.75,0.44 v 12 a 0.5,0.5 0 0 1 -0.25,0.44 l -6,3.44 a 0.57,0.57 0 0 1 -0.25,0.06 z m 0.5,-12.17 v 10.81 l 5,-2.87 v -10.81 z m 5.45,8.23 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon752"
+     points="849.19,419.13 871.04,406.52 871.04,418.49 849.19,431.1 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path754"
+     d="m 591.6475,320.46813 a 0.47,0.47 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.52,0.52 0 0 1 0.25,-0.43 l 21.85,-12.61 a 0.5,0.5 0 0 1 0.5,0 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 l -21.85,12.61 a 0.43,0.43 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.81 l 20.85,-12 v -10.84 z m 21.35,-0.93 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon756"
+     points="857.14,414.55 863.1,411.11 863.1,423.07 857.14,426.51 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path758"
+     d="m 599.5975,315.86813 a 0.54,0.54 0 0 1 -0.25,-0.06 0.5,0.5 0 0 1 -0.25,-0.44 v -12 a 0.5,0.5 0 0 1 0.25,-0.44 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.52,0.52 0 0 1 -0.25,0.44 l -6,3.44 a 0.57,0.57 0 0 1 -0.25,0.06 z m 0.5,-12.17 v 10.81 l 5,-2.87 v -10.77 z m 5.46,8.23 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon760"
+     points="886.53,397.57 908.38,384.96 908.38,396.93 886.53,409.54 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path762"
+     d="m 628.9975,298.86813 a 0.43,0.43 0 0 1 -0.25,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 21.84,-12.61 a 0.5,0.5 0 0 1 0.5,0 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 l -21.84,12.68 a 0.47,0.47 0 0 1 -0.25,0 z m 0.5,-12.18 v 10.81 l 20.84,-12 v -10.8 z m 21.34,-0.93 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon764"
+     points="894.48,392.99 900.44,389.55 900.44,401.51 894.48,404.95 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path766"
+     d="m 636.9375,294.31813 a 0.54,0.54 0 0 1 -0.25,-0.06 0.52,0.52 0 0 1 -0.23,-0.39 v -12 a 0.52,0.52 0 0 1 0.25,-0.44 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.52,0.52 0 0 1 -0.25,0.44 l -6,3.44 a 0.54,0.54 0 0 1 -0.27,0.01 z m 0.5,-12.17 v 10.81 l 5,-2.87 v -10.81 z m 5.46,8.23 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon768"
+     points="811.85,461.06 833.7,448.45 833.7,460.41 811.85,473.03 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path770"
+     d="m 554.3075,362.39813 a 0.45,0.45 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 21.85,-12.6 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.52,0.52 0 0 1 -0.25,0.44 l -21.85,12.58 a 0.45,0.45 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.81 l 20.85,-12 v -10.85 z m 21.35,-0.94 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon772"
+     points="819.8,456.48 825.75,453.04 825.75,465 819.8,468.44 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path774"
+     d="m 562.2575,357.80813 a 0.43,0.43 0 0 1 -0.25,-0.07 0.47,0.47 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.44 l 6,-3.44 a 0.5,0.5 0 0 1 0.75,0.44 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 l -6,3.44 a 0.47,0.47 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.82 l 5,-2.87 v -10.81 z m 5.45,8.24 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon776"
+     points="849.19,439.5 871.04,426.89 871.04,438.85 849.19,451.47 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path778"
+     d="m 591.6475,340.86813 a 0.47,0.47 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 21.85,-12.61 a 0.5,0.5 0 0 1 0.5,0 0.47,0.47 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.44 l -21.85,12.57 a 0.43,0.43 0 0 1 -0.25,0.1 z m 0.5,-12.18 v 10.78 l 20.85,-12 v -10.85 z m 21.35,-0.94 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon780"
+     points="857.14,434.92 863.1,431.48 863.1,443.44 857.14,446.88 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path782"
+     d="m 599.5975,336.24813 a 0.45,0.45 0 0 1 -0.25,-0.07 0.47,0.47 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.44 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.49,0.49 0 0 1 -0.25,0.43 l -6,3.44 a 0.47,0.47 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.8 l 5,-2.87 v -10.79 z m 5.46,8.24 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon784"
+     points="886.53,417.94 908.38,405.33 908.38,417.29 886.53,429.91 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path786"
+     d="m 628.9975,319.27813 a 0.43,0.43 0 0 1 -0.25,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 l 21.84,-12.61 a 0.5,0.5 0 0 1 0.5,0 0.47,0.47 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.44 l -21.84,12.61 a 0.47,0.47 0 0 1 -0.25,0.06 z m 0.5,-12.18 v 10.77 l 20.84,-12 v -10.81 z m 21.34,-0.94 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon788"
+     points="894.48,413.36 900.44,409.92 900.44,421.88 894.48,425.32 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path790"
+     d="m 636.9375,314.68813 a 0.45,0.45 0 0 1 -0.25,-0.07 0.49,0.49 0 0 1 -0.25,-0.43 v -12 a 0.52,0.52 0 0 1 0.25,-0.44 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.49,0.49 0 0 1 -0.25,0.43 l -6,3.44 a 0.45,0.45 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.82 l 5,-2.87 v -10.81 z m 5.46,8.24 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon792"
+     points="811.85,481.43 833.7,468.82 833.7,480.78 811.85,493.4 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path794"
+     d="m 554.3075,382.76813 a 0.55,0.55 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 21.85,-12.62 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.49,0.49 0 0 1 -0.25,0.43 l -21.85,12.61 a 0.55,0.55 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.81 l 20.85,-12 v -10.85 z m 21.35,-0.94 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon796"
+     points="819.8,476.84 825.75,473.4 825.75,485.37 819.8,488.81 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path798"
+     d="m 562.2575,378.17813 a 0.43,0.43 0 0 1 -0.25,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 l -6,3.44 a 0.47,0.47 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.81 l 5,-2.86 v -10.81 z m 5.45,8.24 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon800"
+     points="849.19,459.87 871.04,447.26 871.04,459.22 849.19,471.84 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path802"
+     d="m 591.6475,361.20813 a 0.59,0.59 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 21.85,-12.62 a 0.5,0.5 0 0 1 0.75,0.44 v 12 a 0.5,0.5 0 0 1 -0.25,0.44 l -21.85,12.61 a 0.52,0.52 0 0 1 -0.25,0.06 z m 0.5,-12.18 v 10.84 l 20.85,-12 v -10.88 z m 21.35,-0.94 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon804"
+     points="857.14,455.28 863.1,451.84 863.1,463.81 857.14,467.25 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path806"
+     d="m 599.5975,356.61813 a 0.45,0.45 0 0 1 -0.25,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 l -6,3.44 a 0.47,0.47 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.81 l 5,-2.86 v -10.81 z m 5.46,8.24 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon808"
+     points="886.53,438.31 908.38,425.7 908.38,437.66 886.53,450.28 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path810"
+     d="m 628.9975,339.64813 a 0.52,0.52 0 0 1 -0.25,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 l 21.84,-12.62 a 0.5,0.5 0 0 1 0.75,0.44 v 12 a 0.5,0.5 0 0 1 -0.25,0.44 l -21.84,12.61 a 0.59,0.59 0 0 1 -0.25,0.06 z m 0.5,-12.18 v 10.81 l 20.84,-12 v -10.85 z m 21.34,-0.94 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon812"
+     points="894.48,433.72 900.44,430.28 900.44,442.25 894.48,445.69 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path814"
+     d="m 636.9375,335.05813 a 0.45,0.45 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.52,0.52 0 0 1 0.25,-0.43 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 l -6,3.44 a 0.45,0.45 0 0 1 -0.25,0.07 z m 0.52,-12.19 v 10.81 l 5,-2.86 v -10.8 z m 5.46,8.24 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon816"
+     points="703.21,392.58 791,443.27 791,514.9 703.21,464.21 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path818"
+     d="m 533.4575,404.26813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -87.75,-50.68 a 0.5,0.5 0 0 1 -0.25,-0.44 v -71.63 a 0.48,0.48 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 87.79,50.69 a 0.49,0.49 0 0 1 0.25,0.43 v 71.63 a 0.49,0.49 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.29,0.07 z m -87.29,-51.47 86.79,50.07 v -70.44 l -86.79,-50.11 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon820"
+     points="721.48,412.6 735.38,420.62 735.38,432.59 721.48,424.56 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path822"
+     d="m 477.8375,321.95813 a 0.47,0.47 0 0 1 -0.25,-0.07 l -13.9,-8 a 0.5,0.5 0 0 1 -0.25,-0.44 v -12 a 0.5,0.5 0 0 1 0.75,-0.44 l 13.9,8 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 0.43,0.43 0 0 1 -0.25,0.09 z m -13.38,-8.82 12.9,7.45 v -10.81 l -12.9,-7.45 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon824"
+     points="721.48,412.6 727.44,416.04 727.44,428 721.48,424.56 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path826"
+     d="m 469.8975,317.36813 a 0.51,0.51 0 0 1 -0.25,-0.06 l -6,-3.44 a 0.5,0.5 0 0 1 -0.25,-0.44 v -12 a 0.5,0.5 0 0 1 0.75,-0.44 l 6,3.44 a 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.52,0.52 0 0 1 -0.25,0.44 0.57,0.57 0 0 1 -0.25,0.06 z m -5.44,-4.23 5,2.87 v -10.81 l -5,-2.87 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon828"
+     points="750.88,429.57 772.73,442.18 772.73,454.15 750.88,441.54 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path830"
+     d="m 515.1875,343.51813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -21.85,-12.58 a 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 21.87,12.61 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.27,0.04 z m -21.35,-13.4 20.85,12 v -10.78 l -20.85,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon832"
+     points="758.82,434.16 764.78,437.6 764.78,449.56 758.82,446.12 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path834"
+     d="m 507.2375,338.92813 a 0.54,0.54 0 0 1 -0.25,-0.06 l -6,-3.45 a 0.49,0.49 0 0 1 -0.25,-0.43 v -12 a 0.52,0.52 0 0 1 0.25,-0.44 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.52,0.52 0 0 1 -0.25,0.44 0.54,0.54 0 0 1 -0.25,0.06 z m -5.46,-4.23 5,2.87 v -10.81 l -5,-2.87 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon836"
+     points="721.48,432.96 735.38,440.99 735.38,452.96 721.48,444.93 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path838"
+     d="m 477.8375,342.32813 a 0.47,0.47 0 0 1 -0.25,-0.07 l -13.9,-8 a 0.47,0.47 0 0 1 -0.25,-0.43 v -11.96 a 0.5,0.5 0 0 1 0.75,-0.43 l 13.9,8 a 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 0.43,0.43 0 0 1 -0.25,0.03 z m -13.38,-8.82 12.9,7.45 v -10.81 l -12.9,-7.45 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon840"
+     points="721.48,432.96 727.44,436.4 727.44,448.37 721.48,444.93 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path842"
+     d="m 469.8975,337.73813 a 0.45,0.45 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.47,0.47 0 0 1 -0.25,-0.43 v -11.93 a 0.5,0.5 0 0 1 0.75,-0.43 l 6,3.44 a 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.25,-0.01 z m -5.44,-4.23 5,2.86 v -10.81 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon844"
+     points="750.88,449.94 772.73,462.55 772.73,474.52 750.88,461.9 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path846"
+     d="m 515.1875,363.86813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -21.85,-12.61 a 0.5,0.5 0 0 1 -0.25,-0.44 v -12 a 0.5,0.5 0 0 1 0.25,-0.44 0.55,0.55 0 0 1 0.5,0 l 21.87,12.68 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.27,0.02 z m -21.35,-13.41 20.85,12 v -10.75 l -20.85,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon848"
+     points="758.82,454.52 764.78,457.96 764.78,469.93 758.82,466.49 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path850"
+     d="m 507.2375,359.29813 a 0.45,0.45 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.52,0.52 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.52,0.52 0 0 1 0.25,0.43 v 12 a 0.49,0.49 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.07 z m -5.46,-4.23 5,2.87 v -10.82 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon852"
+     points="721.48,453.33 735.38,461.36 735.38,473.33 721.48,465.3 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path854"
+     d="m 477.8375,362.69813 a 0.59,0.59 0 0 1 -0.25,-0.07 l -13.9,-8 a 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 13.9,8 a 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 0.52,0.52 0 0 1 -0.25,0.07 z m -13.38,-8.83 12.9,7.45 v -10.8 l -12.9,-7.45 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon856"
+     points="721.48,453.33 727.44,456.77 727.44,468.74 721.48,465.3 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path858"
+     d="m 469.8975,358.10813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.25,0.07 z m -5.44,-4.24 5,2.86 v -10.8 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon860"
+     points="750.88,470.31 772.73,482.92 772.73,494.89 750.88,482.27 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path862"
+     d="m 515.1875,384.25813 a 0.52,0.52 0 0 1 -0.25,-0.07 l -21.85,-12.61 a 0.5,0.5 0 0 1 -0.25,-0.44 v -12 a 0.5,0.5 0 0 1 0.75,-0.44 l 21.87,12.66 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.59,0.59 0 0 1 -0.27,0.04 z m -21.35,-13.39 20.85,12 v -10.79 l -20.85,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon864"
+     points="758.82,474.89 764.78,478.33 764.78,490.3 758.82,486.86 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path866"
+     d="m 507.2375,379.66813 a 0.45,0.45 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.07 z m -5.46,-4.23 5,2.86 v -10.81 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#a7c8fe"
+     id="polygon868"
+     points="479.96,263.71 567.75,314.39 567.75,386.03 479.96,335.34 "
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path870"
+     d="m 310.2075,275.39813 a 0.52,0.52 0 0 1 -0.25,-0.07 l -87.79,-50.69 a 0.47,0.47 0 0 1 -0.25,-0.43 v -71.63 a 0.47,0.47 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 87.79,50.72 a 0.52,0.52 0 0 1 0.25,0.43 v 71.57 a 0.5,0.5 0 0 1 -0.25,0.43 0.59,0.59 0 0 1 -0.25,0.1 z m -87.29,-51.48 86.79,50.11 v -70.48 l -86.79,-50.11 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon872"
+     points="498.23,283.72 512.13,291.75 512.13,303.72 498.23,295.69 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path874"
+     d="m 254.5875,193.08813 a 0.59,0.59 0 0 1 -0.25,-0.07 l -13.9,-8 a 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 13.9,8 a 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 0.52,0.52 0 0 1 -0.25,0.07 z m -13.4,-8.82 12.9,7.45 v -10.85 l -12.9,-7.45 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon876"
+     points="498.23,283.72 504.19,287.16 504.19,299.13 498.23,295.69 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path878"
+     d="m 246.6475,188.49813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.25,0.07 z m -5.46,-4.23 5,2.86 v -10.81 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon880"
+     points="527.63,300.69 549.48,313.31 549.48,325.28 527.63,312.66 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path882"
+     d="m 291.9275,214.64813 a 0.59,0.59 0 0 1 -0.25,-0.07 l -21.84,-12.62 a 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.75,-0.44 l 21.84,12.62 a 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 0.52,0.52 0 0 1 -0.25,0.08 z m -21.34,-13.41 20.84,12 v -10.77 l -20.84,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon884"
+     points="535.57,305.28 541.53,308.72 541.53,320.69 535.57,317.25 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path886"
+     d="m 283.9875,210.05813 a 0.45,0.45 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.07 z m -5.46,-4.19 5,2.86 v -10.86 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon888"
+     points="498.23,304.09 512.13,312.12 512.13,324.08 498.23,316.06 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path890"
+     d="m 254.5875,213.44813 a 0.57,0.57 0 0 1 -0.25,-0.06 l -13.9,-8 a 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 13.9,8 a 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.44 0.51,0.51 0 0 1 -0.25,0.05 z m -13.4,-8.81 12.9,7.45 v -10.81 l -12.9,-7.41 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon892"
+     points="498.23,304.09 504.19,307.53 504.19,319.5 498.23,316.06 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path894"
+     d="m 246.6475,208.86813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.25,0.07 z m -5.46,-4.23 5,2.86 v -10.81 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon896"
+     points="527.63,321.06 549.48,333.68 549.48,345.64 527.63,333.03 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path898"
+     d="m 291.9275,235.00813 a 0.57,0.57 0 0 1 -0.25,-0.06 l -21.84,-12.62 a 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 21.84,12.62 a 0.47,0.47 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.44 0.51,0.51 0 0 1 -0.25,0.05 z m -21.34,-13.4 20.84,12 v -10.74 l -20.84,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon900"
+     points="535.57,325.65 541.53,329.09 541.53,341.06 535.57,337.62 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path902"
+     d="m 283.9875,230.42813 a 0.45,0.45 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.07 z m -5.46,-4.23 5,2.86 v -10.81 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon904"
+     points="498.23,324.46 512.13,332.49 512.13,344.45 498.23,336.43 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path906"
+     d="m 254.5875,233.86813 a 0.57,0.57 0 0 1 -0.25,-0.06 l -13.9,-8 a 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.27,-0.51 0.5,0.5 0 0 1 0.5,0 l 13.9,8 a 0.5,0.5 0 0 1 0.25,0.44 v 12 a 0.5,0.5 0 0 1 -0.25,0.44 0.51,0.51 0 0 1 -0.27,0.12 z m -13.4,-8.81 12.9,7.45 v -10.86 l -12.9,-7.45 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon908"
+     points="498.23,324.46 504.19,327.9 504.19,339.87 498.23,336.43 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path910"
+     d="m 246.6475,229.23813 a 0.52,0.52 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.31,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.52,0.52 0 0 1 -0.25,0.43 0.59,0.59 0 0 1 -0.31,0.07 z m -5.46,-4.23 5,2.86 v -10.81 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon912"
+     points="527.63,341.43 549.48,354.05 549.48,366.01 527.63,353.4 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path914"
+     d="m 291.9275,255.37813 a 0.57,0.57 0 0 1 -0.25,-0.06 l -21.84,-12.62 a 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 21.84,12.61 a 0.5,0.5 0 0 1 0.25,0.44 v 12 a 0.5,0.5 0 0 1 -0.25,0.44 0.51,0.51 0 0 1 -0.25,0.05 z m -21.34,-13.4 20.84,12 v -10.77 l -20.84,-12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon916"
+     points="535.57,346.02 541.53,349.46 541.53,361.43 535.57,357.99 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path918"
+     d="m 283.9875,250.79813 a 0.55,0.55 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.52,0.52 0 0 1 -0.25,-0.43 v -11.99 a 0.5,0.5 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 6,3.44 a 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.52,0.52 0 0 1 -0.25,0.43 0.55,0.55 0 0 1 -0.25,0.06 z m -5.46,-4.23 5,2.86 v -10.81 l -5,-2.86 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#3474f7"
+     id="polygon920"
+     points="779.13,414.83 643.67,336.66 643.67,342.19 779.13,420.37 "
+     class="cls-7" />
+  <path
+     style="fill:#316dc9"
+     id="path922"
+     d="m 521.5875,309.73813 a 0.45,0.45 0 0 1 -0.25,-0.07 l -135.46,-78.17 a 0.52,0.52 0 0 1 -0.25,-0.44 v -5.53 a 0.52,0.52 0 0 1 0.25,-0.44 0.5,0.5 0 0 1 0.5,0 l 135.46,78.18 a 0.52,0.52 0 0 1 0.25,0.43 v 5.54 a 0.5,0.5 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.07 z m -135,-79 134.46,77.6 v -4.38 l -134.46,-77.6 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#316dc9"
+     id="polygon924"
+     points="643.67,336.66 567.75,380.49 567.75,386.03 643.67,342.19 "
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path926"
+     d="m 310.2075,275.39813 a 0.52,0.52 0 0 1 -0.25,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -5.54 a 0.48,0.48 0 0 1 0.25,-0.43 l 75.92,-43.84 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.44 v 5.53 a 0.52,0.52 0 0 1 -0.25,0.44 l -75.92,43.83 a 0.59,0.59 0 0 1 -0.25,0.07 z m 0.5,-5.75 v 4.38 l 74.92,-43.26 v -4.38 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#316dc9"
+     id="polygon928"
+     points="966.58,407.99 791,509.37 791,514.9 966.58,413.53 "
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path930"
+     d="m 533.4575,404.26813 a 0.43,0.43 0 0 1 -0.25,-0.07 0.47,0.47 0 0 1 -0.25,-0.43 v -5.53 a 0.5,0.5 0 0 1 0.25,-0.44 l 175.58,-101.37 a 0.5,0.5 0 0 1 0.5,0 0.5,0.5 0 0 1 0.25,0.43 v 5.54 a 0.5,0.5 0 0 1 -0.25,0.43 l -175.58,101.37 a 0.47,0.47 0 0 1 -0.25,0.07 z m 0.5,-5.75 v 4.35 l 174.58,-100.8 v -4.38 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#3474f7"
+     id="polygon932"
+     points="791,509.37 703.21,458.68 703.21,464.21 791,514.9 "
+     class="cls-7" />
+  <path
+     style="fill:#316dc9"
+     id="path934"
+     d="m 533.4575,404.26813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -87.75,-50.68 a 0.5,0.5 0 0 1 -0.25,-0.44 v -5.53 a 0.47,0.47 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 87.79,50.68 a 0.52,0.52 0 0 1 0.25,0.44 v 5.53 a 0.49,0.49 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.29,0.07 z m -87.29,-51.47 86.79,50.07 v -4.39 l -86.79,-50.11 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#3474f7"
+     id="polygon936"
+     points="567.75,380.49 479.96,329.81 479.96,335.34 567.75,386.03 "
+     class="cls-7" />
+  <path
+     style="fill:#316dc9"
+     id="path938"
+     d="m 310.2075,275.39813 a 0.52,0.52 0 0 1 -0.25,-0.07 l -87.79,-50.69 a 0.47,0.47 0 0 1 -0.25,-0.43 v -5.53 a 0.5,0.5 0 0 1 0.75,-0.44 l 87.79,50.69 a 0.5,0.5 0 0 1 0.25,0.43 v 5.51 a 0.5,0.5 0 0 1 -0.25,0.43 0.59,0.59 0 0 1 -0.25,0.1 z m -87.29,-51.48 86.79,50.11 v -4.38 l -86.79,-50.11 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon940"
+     points="605.71,302.24 583.86,314.85 583.86,326.82 605.71,314.2 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path942"
+     d="m 326.3175,216.18813 a 0.45,0.45 0 0 1 -0.25,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 l 21.85,-12.62 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.52,0.52 0 0 1 -0.25,0.44 l -21.85,12.61 a 0.45,0.45 0 0 1 -0.25,0.06 z m 0.5,-12.18 v 10.86 l 20.85,-12 v -10.9 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon944"
+     points="597.76,306.82 591.8,310.26 591.8,322.23 597.76,318.79 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path946"
+     d="m 334.2575,211.59813 a 0.47,0.47 0 0 1 -0.25,-0.07 0.49,0.49 0 0 1 -0.25,-0.43 v -12 a 0.52,0.52 0 0 1 0.25,-0.43 l 6,-3.44 a 0.5,0.5 0 0 1 0.75,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 l -6,3.44 a 0.43,0.43 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.82 l 5,-2.87 v -10.81 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon948"
+     points="627.56,289.62 605.71,302.24 605.71,314.2 627.56,301.59 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path950"
+     d="m 348.1675,203.56813 a 0.54,0.54 0 0 1 -0.25,-0.06 0.5,0.5 0 0 1 -0.25,-0.44 v -12 a 0.5,0.5 0 0 1 0.25,-0.44 l 21.85,-12.61 a 0.5,0.5 0 0 1 0.5,0 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 l -21.81,12.63 a 0.54,0.54 0 0 1 -0.29,0.06 z m 0.5,-12.17 v 10.81 l 20.85,-12 v -10.85 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon952"
+     points="619.61,294.21 613.65,297.65 613.65,309.62 619.61,306.18 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path954"
+     d="m 356.1075,198.98813 a 0.59,0.59 0 0 1 -0.25,-0.07 0.52,0.52 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 l -6,3.44 a 0.52,0.52 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.81 l 5,-2.86 v -10.81 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon956"
+     points="605.71,322.31 583.86,334.93 583.86,346.89 605.71,334.28 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path958"
+     d="m 326.3175,236.25813 a 0.45,0.45 0 0 1 -0.25,-0.07 0.47,0.47 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.44 l 21.85,-12.61 a 0.5,0.5 0 0 1 0.5,0 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 l -21.85,12.61 a 0.45,0.45 0 0 1 -0.25,0.08 z m 0.5,-12.18 v 10.79 l 20.85,-12 v -10.82 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon960"
+     points="597.76,326.9 591.8,330.34 591.8,342.31 597.76,338.86 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path962"
+     d="m 334.2575,231.66813 a 0.57,0.57 0 0 1 -0.25,-0.06 0.52,0.52 0 0 1 -0.25,-0.44 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.47,0.47 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.44 l -6,3.44 a 0.51,0.51 0 0 1 -0.25,0.06 z m 0.5,-12.17 v 10.81 l 5,-2.86 v -10.82 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon964"
+     points="627.56,309.7 605.71,322.31 605.71,334.28 627.56,321.66 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path966"
+     d="m 348.1675,223.64813 a 0.55,0.55 0 0 1 -0.25,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 l 21.85,-12.62 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.49,0.49 0 0 1 -0.25,0.43 l -21.81,12.61 a 0.55,0.55 0 0 1 -0.29,0.07 z m 0.5,-12.18 v 10.81 l 20.85,-12 v -10.85 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon968"
+     points="619.61,314.28 613.65,317.72 613.65,329.69 619.61,326.25 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path970"
+     d="m 356.1075,219.05813 a 0.47,0.47 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 l -6,3.44 a 0.43,0.43 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.81 l 5,-2.86 v -10.81 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon972"
+     points="605.71,342.38 583.86,355 583.86,366.96 605.71,354.35 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path974"
+     d="m 326.3175,256.32813 a 0.54,0.54 0 0 1 -0.25,-0.06 0.5,0.5 0 0 1 -0.25,-0.44 v -11.96 a 0.48,0.48 0 0 1 0.25,-0.43 l 21.85,-12.57 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 l -21.85,12.54 a 0.54,0.54 0 0 1 -0.25,0.06 z m 0.5,-12.17 v 10.81 l 20.85,-12 v -10.85 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon976"
+     points="597.76,346.97 591.8,350.41 591.8,362.38 597.76,358.94 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path978"
+     d="m 334.2575,251.74813 a 0.47,0.47 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 l -6,3.44 a 0.43,0.43 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.81 l 5,-2.86 v -10.81 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon980"
+     points="627.56,329.77 605.71,342.38 605.71,354.35 627.56,341.74 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path982"
+     d="m 348.1675,243.71813 a 0.45,0.45 0 0 1 -0.25,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 21.85,-12.61 a 0.5,0.5 0 0 1 0.5,0 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.52,0.52 0 0 1 -0.25,0.43 l -21.81,12.61 a 0.45,0.45 0 0 1 -0.29,0.07 z m 0.5,-12.18 v 10.81 l 20.85,-12 v -10.84 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon984"
+     points="619.61,334.36 613.65,337.8 613.65,349.76 619.61,346.32 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path986"
+     d="m 356.1075,239.12813 a 0.57,0.57 0 0 1 -0.25,-0.06 0.52,0.52 0 0 1 -0.25,-0.44 v -12 a 0.52,0.52 0 0 1 0.25,-0.44 l 6,-3.44 a 0.5,0.5 0 0 1 0.75,0.44 v 12 a 0.5,0.5 0 0 1 -0.25,0.44 l -6,3.44 a 0.51,0.51 0 0 1 -0.25,0.06 z m 0.5,-12.17 v 10.81 l 5,-2.87 v -10.81 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#3474f7"
+     id="polygon988"
+     points="727.11,368.79 727.11,365.51 708.79,376.08 708.79,379.37 "
+     class="cls-7" />
+  <path
+     style="fill:#316dc9"
+     id="path990"
+     d="m 451.2475,268.73813 a 0.55,0.55 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -3.29 a 0.48,0.48 0 0 1 0.25,-0.43 l 18.32,-10.57 a 0.5,0.5 0 0 1 0.5,0 0.5,0.5 0 0 1 0.25,0.43 v 3.28 a 0.49,0.49 0 0 1 -0.25,0.43 l -18.36,10.58 a 0.55,0.55 0 0 1 -0.21,0.07 z m 0.5,-3.5 v 2.13 l 17.32,-10 v -2.12 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#a7c8fe"
+     id="polygon992"
+     points="708.79,376.08 672.15,354.94 672.15,358.22 708.79,379.37 "
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path994"
+     d="m 451.2475,268.73813 a 0.55,0.55 0 0 1 -0.25,-0.07 l -36.64,-21.15 a 0.48,0.48 0 0 1 -0.25,-0.43 v -3.28 a 0.5,0.5 0 0 1 0.75,-0.44 l 36.6,21.15 a 0.5,0.5 0 0 1 0.25,0.43 v 3.29 a 0.52,0.52 0 0 1 -0.25,0.43 0.55,0.55 0 0 1 -0.21,0.07 z m -36.14,-21.94 35.64,20.57 v -2.13 l -35.64,-20.57 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon996"
+     points="727.11,365.51 690.47,344.3 672.15,354.94 708.79,376.08 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path998"
+     d="m 451.2475,265.44813 a 0.45,0.45 0 0 1 -0.25,-0.07 l -36.64,-21.14 a 0.5,0.5 0 0 1 0,-0.87 l 18.32,-10.63 a 0.5,0.5 0 0 1 0.5,0 l 36.64,21.21 a 0.49,0.49 0 0 1 0,0.86 l -18.36,10.57 a 0.45,0.45 0 0 1 -0.21,0.07 z m -35.64,-21.65 35.64,20.57 17.32,-10 -35.64,-20.63 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#3474f7"
+     id="polygon1000"
+     points="681.24,377.83 681.24,363.47 678.23,361.73 678.23,379.57 "
+     class="cls-7" />
+  <path
+     style="fill:#316dc9"
+     id="path1002"
+     d="m 420.6875,268.93813 a 0.43,0.43 0 0 1 -0.23,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -17.84 a 0.5,0.5 0 0 1 0.75,-0.44 l 3,1.75 a 0.47,0.47 0 0 1 0.25,0.43 v 14.36 a 0.48,0.48 0 0 1 -0.25,0.43 l -3,1.74 a 0.47,0.47 0 0 1 -0.27,0.07 z m 0.5,-17.48 v 16.11 l 2,-1.16 v -13.78 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#e9f2ff"
+     id="polygon1004"
+     points="678.23,361.73 675.21,359.99 675.21,377.83 678.23,379.57 "
+     class="cls-3" />
+  <path
+     style="fill:#316dc9"
+     id="path1006"
+     d="m 420.6875,268.93813 a 0.43,0.43 0 0 1 -0.23,-0.07 l -3,-1.74 a 0.5,0.5 0 0 1 -0.25,-0.43 v -17.83 a 0.52,0.52 0 0 1 0.25,-0.44 0.5,0.5 0 0 1 0.5,0 l 3,1.74 a 0.52,0.52 0 0 1 0.25,0.44 v 17.84 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.27,0.06 z m -2.52,-2.53 2,1.16 v -16.7 l -2,-1.17 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#3474f7"
+     id="polygon1008"
+     points="706.22,392.19 706.22,377.83 703.21,376.09 703.21,393.93 "
+     class="cls-7" />
+  <path
+     style="fill:#316dc9"
+     id="path1010"
+     d="m 445.6675,283.29813 a 0.43,0.43 0 0 1 -0.25,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -17.84 a 0.47,0.47 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 3,1.74 a 0.48,0.48 0 0 1 0.25,0.43 v 14.36 a 0.48,0.48 0 0 1 -0.25,0.43 l -3,1.74 a 0.47,0.47 0 0 1 -0.25,0.07 z m 0.5,-17.48 v 16.11 l 2,-1.16 v -13.78 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#e9f2ff"
+     id="polygon1012"
+     points="703.21,376.09 700.19,374.35 700.19,392.19 703.21,393.93 "
+     class="cls-3" />
+  <path
+     style="fill:#316dc9"
+     id="path1014"
+     d="m 445.6675,283.29813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -3,-1.74 a 0.48,0.48 0 0 1 -0.25,-0.43 v -17.84 a 0.5,0.5 0 0 1 0.75,-0.44 l 3,1.75 a 0.49,0.49 0 0 1 0.25,0.43 v 17.84 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.25,0.07 z m -2.52,-2.53 2,1.16 v -16.68 l -2,-1.17 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon1016"
+     points="672.15,381.29 703.21,399.21 703.21,395.71 672.15,377.79 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1018"
+     d="m 445.6675,288.57813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -31.06,-17.92 a 0.5,0.5 0 0 1 -0.25,-0.43 v -3.5 a 0.5,0.5 0 0 1 0.75,-0.44 l 31.06,17.93 a 0.5,0.5 0 0 1 0.25,0.43 v 3.5 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.25,0.07 z m -30.56,-18.71 30.06,17.34 v -2.34 l -30.06,-17.35 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1020"
+     ry="5.6399999"
+     rx="6.96"
+     cy="97.538132"
+     cx="84.227486"
+     class="cls-9" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1022"
+     d="m 87.6475,87.798132 a 0.8,0.8 0 0 0 -0.85,0.73 v 12.619998 a 0.86,0.86 0 0 0 1.7,0 V 88.528132 a 0.8,0.8 0 0 0 -0.85,-0.73 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1024"
+     d="m 87.6475,102.37813 a 1.29,1.29 0 0 1 -1.35,-1.23 V 88.538132 a 1.35,1.35 0 0 1 2.7,0 v 12.609998 a 1.29,1.29 0 0 1 -1.35,1.23 z m 0,-14.079998 c -0.21,0 -0.35,0.12 -0.35,0.24 v 12.609998 c 0,0.11 0.14,0.23 0.35,0.23 0.21,0 0.35,-0.12 0.35,-0.23 V 88.538132 c 0,-0.12 -0.14,-0.24 -0.35,-0.24 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1026"
+     d="m 87.8975,65.438132 h -0.25 -0.25 c -5.91,0.41 -8.29,15.15 -8.29,18.74 0,4.06 3.82,7.35 8.54,7.35 4.72,0 8.54,-3.29 8.54,-7.35 0,-3.59 -2.38,-18.31 -8.29,-18.74 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1028"
+     d="m 87.6475,92.028132 c -5,0 -9,-3.52 -9,-7.85 0,-3.29 2.28,-18.79 8.76,-19.23 a 1.87,1.87 0 0 1 0.58,0 c 6.47,0.47 8.74,15.94 8.74,19.23 -0.04,4.33 -4.09,7.85 -9.08,7.85 z m 0,-26.11 h -0.18 c -5.43,0.38 -7.86,14.61 -7.86,18.24 0,3.78 3.61,6.85 8,6.85 4.39,0 8,-3.07 8,-6.85 0,-3.63 -2.42,-17.86 -7.82,-18.24 v 0 z"
+     class="cls-2" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1030"
+     d="m 93.2075,87.658132 c -4.66,0.7 -8.94,-2 -9.54,-6 -0.37,-2.43 -0.41,-10.2 1.47,-15.27 -4.26,3.36 -6,14.7 -6,17.79 0,4.06 3.82,7.35 8.54,7.35 a 8.65,8.65 0 0 0 7.89,-4.53 9.79,9.79 0 0 1 -2.36,0.66 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1032"
+     d="m 87.6475,92.028132 c -5,0 -9,-3.52 -9,-7.85 0,-2.7 1.62,-14.56 6.22,-18.18 a 0.5,0.5 0 0 1 0.6,0 0.5,0.5 0 0 1 0.17,0.58 c -1.84,5 -1.77,12.78 -1.44,15 a 6.34,6.34 0 0 0 3,4.42 8.75,8.75 0 0 0 6,1.16 v 0 a 9,9 0 0 0 2.2,-0.62 0.5,0.5 0 0 1 0.65,0.68 9.15,9.15 0 0 1 -8.4,4.81 z m -3.63,-23.7 c -3.07,4.32 -4.41,13.15 -4.41,15.85 0,3.78 3.61,6.85 8,6.85 a 8.46,8.46 0 0 0 6.74,-3.11 10.76,10.76 0 0 1 -1.1,0.23 9.71,9.71 0 0 1 -6.64,-1.3 7.29,7.29 0 0 1 -3.47,-5.12 42.2,42.2 0 0 1 0.88,-13.4 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1034"
+     ry="5.6399999"
+     rx="6.96"
+     cy="82.158127"
+     cx="115.0575"
+     class="cls-10" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1036"
+     d="m 118.4575,72.418132 a 0.8,0.8 0 0 0 -0.85,0.74 v 12.61 a 0.86,0.86 0 0 0 1.7,0 v -12.61 a 0.8,0.8 0 0 0 -0.85,-0.74 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1038"
+     d="m 118.4575,86.998132 a 1.3,1.3 0 0 1 -1.35,-1.23 v -12.61 a 1.35,1.35 0 0 1 2.7,0 v 12.61 a 1.29,1.29 0 0 1 -1.35,1.23 z m 0,-14.08 c -0.21,0 -0.35,0.12 -0.35,0.24 v 12.61 c 0,0.11 0.14,0.23 0.35,0.23 0.21,0 0.35,-0.12 0.35,-0.23 v -12.61 c 0.02,-0.12 -0.12,-0.24 -0.35,-0.24 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1040"
+     d="m 118.7275,50.058132 h -0.25 -0.25 c -5.91,0.41 -8.29,15.15 -8.29,18.74 0,4.06 3.82,7.35 8.54,7.35 4.72,0 8.54,-3.29 8.54,-7.35 0,-3.59 -2.38,-18.33 -8.29,-18.74 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1042"
+     d="m 118.4575,76.648132 c -5,0 -9,-3.52 -9,-7.85 0,-3.29 2.28,-18.79 8.76,-19.23 a 1.87,1.87 0 0 1 0.58,0 c 6.47,0.47 8.74,15.94 8.74,19.23 -0.02,4.33 -4.08,7.85 -9.08,7.85 z m 0,-26.11 h -0.18 c -5.43,0.38 -7.86,14.61 -7.86,18.24 0,3.78 3.61,6.85 8,6.85 4.39,0 8,-3.07 8,-6.85 0,-3.63 -2.42,-17.86 -7.82,-18.24 v 0 z"
+     class="cls-2" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1044"
+     d="m 124.0375,72.278132 c -4.66,0.7 -8.94,-2 -9.54,-6 -0.37,-2.43 -0.41,-10.2 1.47,-15.27 -4.26,3.36 -6,14.7 -6,17.79 0,4.06 3.82,7.35 8.54,7.35 a 8.65,8.65 0 0 0 7.89,-4.53 9.79,9.79 0 0 1 -2.36,0.66 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1046"
+     d="m 118.4575,76.648132 c -5,0 -9,-3.52 -9,-7.85 0,-2.7 1.62,-14.56 6.21,-18.18 a 0.51,0.51 0 0 1 0.61,0 0.5,0.5 0 0 1 0.17,0.58 c -1.84,5 -1.77,12.78 -1.44,15 0.57,3.74 4.59,6.24 9,5.58 v 0 a 9.23,9.23 0 0 0 2.21,-0.62 0.49,0.49 0 0 1 0.55,0.12 0.51,0.51 0 0 1 0.09,0.56 9.15,9.15 0 0 1 -8.4,4.81 z m -3.63,-23.7 c -3.07,4.32 -4.41,13.15 -4.41,15.85 0,3.78 3.61,6.85 8,6.85 a 8.46,8.46 0 0 0 6.74,-3.11 10.76,10.76 0 0 1 -1.1,0.23 v 0 c -4.94,0.74 -9.47,-2.14 -10.11,-6.42 a 42.2,42.2 0 0 1 0.9,-13.4 z m 9.19,19.33 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1048"
+     ry="5.6399999"
+     rx="6.96"
+     cy="66.778137"
+     cx="145.8875"
+     class="cls-11" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1050"
+     d="m 149.3075,57.038132 a 0.8,0.8 0 0 0 -0.85,0.74 v 12.61 a 0.86,0.86 0 0 0 1.7,0 v -12.61 a 0.8,0.8 0 0 0 -0.85,-0.74 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1052"
+     d="m 149.3075,71.618132 a 1.3,1.3 0 0 1 -1.35,-1.23 v -12.61 a 1.35,1.35 0 0 1 2.7,0 v 12.61 a 1.29,1.29 0 0 1 -1.35,1.23 z m 0,-14.08 c -0.2,0 -0.35,0.12 -0.35,0.24 v 12.61 c 0,0.11 0.14,0.23 0.35,0.23 0.21,0 0.35,-0.12 0.35,-0.23 v -12.61 c 0,-0.12 -0.15,-0.24 -0.35,-0.24 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1054"
+     d="m 149.5575,34.678132 h -0.5 c -5.91,0.41 -8.29,15.15 -8.29,18.74 0,4.06 3.82,7.35 8.54,7.35 4.72,0 8.54,-3.29 8.54,-7.35 0,-3.55 -2.39,-18.33 -8.29,-18.74 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1056"
+     d="m 149.3075,61.268132 c -5,0 -9,-3.52 -9,-7.85 0,-3.29 2.28,-18.79 8.76,-19.23 a 1.87,1.87 0 0 1 0.58,0 c 6.47,0.47 8.74,15.94 8.74,19.23 -0.04,4.33 -4.09,7.85 -9.08,7.85 z m 0,-26.11 h -0.18 c -5.43,0.38 -7.86,14.61 -7.86,18.24 0,3.63 3.61,6.85 8,6.85 4.39,0 8,-3.07 8,-6.85 0,-3.78 -2.42,-17.86 -7.82,-18.24 v 0 z"
+     class="cls-2" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1058"
+     d="m 154.8675,56.868132 c -4.66,0.7 -8.94,-2 -9.54,-6 -0.37,-2.43 -0.41,-10.2 1.47,-15.27 -4.26,3.36 -6,14.7 -6,17.79 0,4.06 3.82,7.35 8.54,7.35 a 8.65,8.65 0 0 0 7.89,-4.53 9.79,9.79 0 0 1 -2.36,0.66 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1060"
+     d="m 149.3075,61.268132 c -5,0 -9,-3.52 -9,-7.85 0,-2.7 1.62,-14.55 6.22,-18.18 a 0.49,0.49 0 0 1 0.77,0.56 c -1.84,5 -1.77,12.78 -1.44,15 a 6.34,6.34 0 0 0 3,4.41 8.75,8.75 0 0 0 6,1.16 v 0 a 9,9 0 0 0 2.2,-0.62 0.5,0.5 0 0 1 0.65,0.68 9.15,9.15 0 0 1 -8.4,4.84 z m -3.63,-23.7 c -3.07,4.33 -4.41,13.15 -4.41,15.85 0,3.78 3.61,6.85 8,6.85 a 8.46,8.46 0 0 0 6.74,-3.11 10.76,10.76 0 0 1 -1.1,0.23 9.71,9.71 0 0 1 -6.64,-1.3 7.29,7.29 0 0 1 -3.47,-5.12 42.2,42.2 0 0 1 0.88,-13.4 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1062"
+     ry="5.6399999"
+     rx="6.96"
+     cy="51.398132"
+     cx="176.71751"
+     class="cls-12" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1064"
+     d="m 180.1375,41.658132 a 0.8,0.8 0 0 0 -0.85,0.74 v 12.61 a 0.86,0.86 0 0 0 1.7,0 v -12.61 a 0.8,0.8 0 0 0 -0.85,-0.74 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1066"
+     d="m 180.1375,56.238132 a 1.3,1.3 0 0 1 -1.35,-1.23 v -12.61 a 1.35,1.35 0 0 1 2.7,0 v 12.61 a 1.29,1.29 0 0 1 -1.35,1.23 z m 0,-14.08 c -0.21,0 -0.35,0.13 -0.35,0.24 v 12.61 c 0,0.11 0.14,0.23 0.35,0.23 0.21,0 0.35,-0.12 0.35,-0.23 v -12.61 c -0.03,-0.11 -0.14,-0.24 -0.35,-0.24 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1068"
+     d="m 180.3875,19.308132 a 1.57,1.57 0 0 0 -0.5,0 c -5.91,0.4 -8.29,15.14 -8.29,18.73 0,4.06 3.82,7.35 8.54,7.35 4.72,0 8.54,-3.29 8.54,-7.35 0,-3.59 -2.38,-18.33 -8.29,-18.73 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1070"
+     d="m 180.1375,45.868132 c -5,0 -9,-3.52 -9,-7.85 0,-3.29 2.28,-18.79 8.76,-19.23 a 1.87,1.87 0 0 1 0.58,0 c 6.47,0.47 8.74,15.94 8.74,19.23 -0.04,4.35 -4.09,7.85 -9.08,7.85 z m 0,-26.1 h -0.18 c -5.43,0.38 -7.86,14.61 -7.86,18.24 0,3.78 3.61,6.85 8,6.85 4.39,0 8,-3.07 8,-6.85 0,-3.63 -2.42,-17.86 -7.82,-18.24 h -0.22 z"
+     class="cls-2" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1072"
+     d="m 185.6975,41.518132 c -4.66,0.7 -8.93,-2 -9.54,-6 -0.37,-2.43 -0.41,-10.2 1.47,-15.27 -4.26,3.36 -6,14.7 -6,17.79 0,4.06 3.82,7.35 8.54,7.35 a 8.65,8.65 0 0 0 7.89,-4.53 9.79,9.79 0 0 1 -2.36,0.66 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1074"
+     d="m 180.1375,45.868132 c -5,0 -9,-3.52 -9,-7.85 0,-2.7 1.62,-14.55 6.22,-18.18 a 0.49,0.49 0 0 1 0.77,0.56 c -1.84,5 -1.77,12.78 -1.44,15 a 6.38,6.38 0 0 0 3,4.41 8.75,8.75 0 0 0 6,1.16 v 0 a 9,9 0 0 0 2.2,-0.62 0.5,0.5 0 0 1 0.65,0.68 9.15,9.15 0 0 1 -8.4,4.84 z m -3.63,-23.7 c -3.07,4.33 -4.41,13.15 -4.41,15.85 0,3.78 3.61,6.85 8,6.85 a 8.46,8.46 0 0 0 6.74,-3.11 10.76,10.76 0 0 1 -1.1,0.23 9.71,9.71 0 0 1 -6.64,-1.3 7.32,7.32 0 0 1 -3.47,-5.12 42.2,42.2 0 0 1 0.88,-13.38 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1076"
+     ry="6.6199999"
+     rx="8.1599998"
+     cy="406.31815"
+     cx="589.41754"
+     class="cls-13" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1078"
+     d="m 593.4575,394.86813 a 0.94,0.94 0 0 0 -1,0.86 v 14.78 a 1,1 0 0 0 2,0 v -14.74 a 0.94,0.94 0 0 0 -1,-0.9 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1080"
+     d="m 593.4575,411.86813 a 1.43,1.43 0 0 1 -1.5,-1.36 v -14.74 a 1.51,1.51 0 0 1 3,0 v 14.78 a 1.43,1.43 0 0 1 -1.5,1.32 z m 0,-16.5 c -0.27,0 -0.5,0.16 -0.5,0.36 v 14.78 c 0,0.2 0.23,0.36 0.5,0.36 0.27,0 0.5,-0.16 0.5,-0.36 v -14.74 c -0.03,-0.2 -0.26,-0.36 -0.5,-0.36 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1082"
+     d="m 593.7175,368.69813 h -0.29 -0.29 c -6.93,0.48 -9.72,17.75 -9.72,22 0,4.76 4.48,8.62 10,8.62 5.52,0 10,-3.86 10,-8.62 0.04,-4.25 -2.77,-21.52 -9.7,-22 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1084"
+     d="m 593.4575,399.77813 c -5.8,0 -10.51,-4.09 -10.51,-9.12 0,-3.84 2.65,-21.94 10.18,-22.46 a 3.07,3.07 0 0 1 0.68,0 c 7.52,0.55 10.17,18.62 10.17,22.46 -0.03,5.03 -4.75,9.12 -10.52,9.12 z m 0,-30.6 h -0.22 c -6.42,0.45 -9.29,17.2 -9.29,21.47 0,4.48 4.27,8.12 9.51,8.12 5.24,0 9.52,-3.64 9.52,-8.12 0,-4.27 -2.88,-21 -9.26,-21.46 h -0.26 z"
+     class="cls-2" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1086"
+     d="m 599.9475,394.73813 c -5.47,0.82 -10.48,-2.33 -11.19,-7 -0.43,-2.85 -0.47,-12 1.72,-17.9 -5,3.94 -7.06,17.23 -7.06,20.85 0,4.76 4.48,8.62 10,8.62 a 10.14,10.14 0 0 0 9.25,-5.31 11.47,11.47 0 0 1 -2.72,0.74 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1088"
+     d="m 593.4575,399.77813 c -5.8,0 -10.51,-4.09 -10.51,-9.12 0,-3.16 1.89,-17 7.25,-21.25 a 0.53,0.53 0 0 1 0.61,0 0.5,0.5 0 0 1 0.17,0.58 c -2.17,5.88 -2.09,15 -1.69,17.65 0.67,4.43 5.43,7.39 10.62,6.61 l 0.07,0.5 -0.07,-0.5 a 11,11 0 0 0 2.6,-0.73 0.5,0.5 0 0 1 0.65,0.68 10.63,10.63 0 0 1 -9.7,5.58 z m -4.06,-28.1 c -3.8,4.95 -5.45,15.74 -5.45,19 0,4.48 4.27,8.12 9.51,8.12 a 9.94,9.94 0 0 0 8.12,-3.88 13.28,13.28 0 0 1 -1.52,0.33 v 0 c -5.74,0.87 -11,-2.48 -11.76,-7.45 a 48.86,48.86 0 0 1 1.07,-16.12 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1090"
+     ry="6.6199999"
+     rx="8.1599998"
+     cy="269.88812"
+     cx="248.02751"
+     class="cls-14" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1092"
+     d="m 252.0375,258.47813 a 0.94,0.94 0 0 0 -1,0.86 v 14.78 a 1,1 0 0 0 2,0 v -14.78 a 0.94,0.94 0 0 0 -1,-0.86 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1094"
+     d="m 252.0375,275.47813 a 1.43,1.43 0 0 1 -1.5,-1.36 v -14.78 a 1.51,1.51 0 0 1 3,0 v 14.78 a 1.43,1.43 0 0 1 -1.5,1.36 z m 0,-16.5 c -0.27,0 -0.5,0.17 -0.5,0.36 v 14.78 c 0,0.2 0.23,0.36 0.5,0.36 0.27,0 0.5,-0.16 0.5,-0.36 v -14.78 c 0,-0.19 -0.23,-0.36 -0.5,-0.36 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1096"
+     d="m 252.3275,232.26813 h -0.29 -0.29 c -6.93,0.48 -9.72,17.75 -9.72,22 0,4.76 4.48,8.62 10,8.62 5.52,0 10,-3.86 10,-8.62 0.02,-4.25 -2.77,-21.52 -9.7,-22 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1098"
+     d="m 252.0375,263.34813 c -5.8,0 -10.51,-4.09 -10.51,-9.12 0,-3.84 2.65,-21.94 10.18,-22.46 a 3,3 0 0 1 0.67,0 c 7.52,0.55 10.17,18.63 10.17,22.46 0,5.03 -4.71,9.12 -10.51,9.12 z m 0,-30.6 a 0.78,0.78 0 0 0 -0.22,0 c -6.42,0.44 -9.29,17.19 -9.29,21.46 0,4.48 4.26,8.12 9.51,8.12 5.25,0 9.51,-3.64 9.51,-8.12 0,-4.27 -2.87,-21 -9.25,-21.46 v 0 a 0.78,0.78 0 0 0 -0.26,0 z"
+     class="cls-2" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1100"
+     d="m 258.5575,258.30813 c -5.47,0.82 -10.48,-2.32 -11.19,-7 -0.43,-2.85 -0.47,-12 1.72,-17.9 -5,3.94 -7.06,17.23 -7.06,20.85 0,4.76 4.48,8.62 10,8.62 a 10.12,10.12 0 0 0 9.24,-5.31 11.39,11.39 0 0 1 -2.71,0.74 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1102"
+     d="m 252.0375,263.34813 c -5.8,0 -10.51,-4.09 -10.51,-9.12 0,-3.15 1.89,-17 7.25,-21.24 a 0.5,0.5 0 0 1 0.78,0.56 c -2.17,5.88 -2.09,15 -1.69,17.65 0.66,4.43 5.42,7.4 10.61,6.62 v 0 a 11.42,11.42 0 0 0 2.61,-0.74 0.51,0.51 0 0 1 0.56,0.12 0.5,0.5 0 0 1 0.08,0.56 10.6,10.6 0 0 1 -9.69,5.59 z m -4.06,-28.1 c -3.8,4.95 -5.45,15.74 -5.45,19 0,4.48 4.26,8.12 9.51,8.12 a 9.92,9.92 0 0 0 8.11,-3.88 10.06,10.06 0 0 1 -1.52,0.33 v 0 c -5.72,0.87 -11,-2.47 -11.75,-7.45 a 48.86,48.86 0 0 1 1.1,-16.12 z m 10.58,23.06 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1104"
+     ry="6.6199999"
+     rx="8.1599998"
+     cy="257.02814"
+     cx="219.47749"
+     class="cls-15" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1106"
+     d="m 223.4575,245.61813 a 0.94,0.94 0 0 0 -1,0.86 v 14.78 a 1,1 0 0 0 2,0 v -14.78 a 0.94,0.94 0 0 0 -1,-0.86 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1108"
+     d="m 223.4575,262.61813 a 1.43,1.43 0 0 1 -1.5,-1.36 v -14.78 a 1.51,1.51 0 0 1 3,0 v 14.78 a 1.44,1.44 0 0 1 -1.5,1.36 z m 0,-16.5 c -0.27,0 -0.5,0.17 -0.5,0.36 v 14.78 c 0,0.2 0.23,0.36 0.5,0.36 0.27,0 0.5,-0.16 0.5,-0.36 v -14.78 c 0.04,-0.19 -0.19,-0.36 -0.5,-0.36 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1110"
+     d="m 223.7875,219.40813 h -0.29 -0.29 c -6.93,0.48 -9.73,17.75 -9.73,22 0,4.76 4.49,8.62 10,8.62 5.51,0 10,-3.86 10,-8.62 0.03,-4.25 -2.76,-21.54 -9.69,-22 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1112"
+     d="m 223.4575,250.48813 c -5.8,0 -10.52,-4.09 -10.52,-9.12 0,-3.84 2.66,-21.94 10.19,-22.46 a 3,3 0 0 1 0.67,0 c 7.52,0.55 10.17,18.63 10.17,22.46 0.04,5.03 -4.68,9.12 -10.51,9.12 z m 0,-30.6 h -0.22 c -6.43,0.44 -9.3,17.19 -9.3,21.46 0,4.48 4.27,8.12 9.52,8.12 5.25,0 9.51,-3.64 9.51,-8.12 0,-4.27 -2.87,-21 -9.26,-21.46 v 0 z"
+     class="cls-2" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1114"
+     d="m 230.0175,245.44813 c -5.47,0.82 -10.48,-2.32 -11.19,-7 -0.43,-2.85 -0.48,-12 1.72,-17.9 -5,3.94 -7.07,17.23 -7.07,20.85 0,4.76 4.49,8.62 10,8.62 a 10.14,10.14 0 0 0 9.24,-5.31 11.52,11.52 0 0 1 -2.7,0.74 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1116"
+     d="m 223.4575,250.48813 c -5.8,0 -10.52,-4.09 -10.52,-9.12 0,-3.15 1.9,-17 7.26,-21.24 a 0.5,0.5 0 0 1 0.6,0 0.52,0.52 0 0 1 0.18,0.58 c -2.17,5.88 -2.09,15 -1.7,17.66 0.67,4.42 5.44,7.38 10.62,6.6 v 0 a 10.58,10.58 0 0 0 2.61,-0.73 0.51,0.51 0 0 1 0.56,0.12 0.5,0.5 0 0 1 0.08,0.56 10.61,10.61 0 0 1 -9.69,5.57 z m -4,-28.1 c -3.8,5 -5.46,15.74 -5.46,19 0,4.48 4.27,8.12 9.52,8.12 a 9.92,9.92 0 0 0 8.11,-3.88 10.06,10.06 0 0 1 -1.52,0.33 v 0 c -5.73,0.87 -11,-2.47 -11.75,-7.45 a 48.87,48.87 0 0 1 1.1,-16.12 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1118"
+     ry="6.6199999"
+     rx="8.1599998"
+     cy="388.28815"
+     cx="625.5575"
+     class="cls-16" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1120"
+     d="m 629.5675,376.86813 a 0.94,0.94 0 0 0 -1,0.86 v 14.78 a 1,1 0 0 0 2,0 v -14.77 a 0.94,0.94 0 0 0 -1,-0.87 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1122"
+     d="m 629.5675,393.86813 a 1.44,1.44 0 0 1 -1.5,-1.36 v -14.77 a 1.51,1.51 0 0 1 3,0 v 14.78 a 1.43,1.43 0 0 1 -1.5,1.35 z m 0,-16.5 c -0.27,0 -0.5,0.16 -0.5,0.36 v 14.78 c 0,0.2 0.23,0.36 0.5,0.36 0.27,0 0.5,-0.16 0.5,-0.36 v -14.77 c 0,-0.2 -0.23,-0.36 -0.5,-0.36 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1124"
+     d="m 629.8675,350.66813 h -0.3 -0.29 c -6.93,0.48 -9.72,17.75 -9.72,22 0,4.76 4.48,8.62 10,8.62 5.52,0 10,-3.86 10,-8.62 0.03,-4.25 -2.77,-21.52 -9.69,-22 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1126"
+     d="m 629.5675,381.74813 c -5.79,0 -10.51,-4.09 -10.51,-9.12 0,-3.84 2.65,-21.94 10.19,-22.46 a 3,3 0 0 1 0.67,0 c 7.52,0.55 10.17,18.62 10.17,22.46 0,5.03 -4.72,9.12 -10.52,9.12 z m 0,-30.6 h -0.22 c -6.42,0.45 -9.29,17.2 -9.29,21.47 0,4.48 4.27,8.12 9.51,8.12 5.24,0 9.52,-3.64 9.52,-8.12 0,-4.27 -2.87,-21 -9.26,-21.46 h -0.26 z"
+     class="cls-2" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1128"
+     d="m 636.0875,376.70813 c -5.47,0.82 -10.47,-2.32 -11.18,-7 -0.43,-2.85 -0.48,-12 1.71,-17.9 -5,3.94 -7.06,17.23 -7.06,20.85 0,4.76 4.48,8.62 10,8.62 a 10.14,10.14 0 0 0 9.25,-5.31 11.47,11.47 0 0 1 -2.72,0.74 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1130"
+     d="m 629.5675,381.74813 c -5.79,0 -10.51,-4.09 -10.51,-9.12 0,-3.16 1.89,-17 7.25,-21.25 a 0.53,0.53 0 0 1 0.61,0 0.5,0.5 0 0 1 0.17,0.58 c -2.17,5.88 -2.09,15 -1.69,17.65 0.67,4.43 5.43,7.39 10.62,6.61 l 0.07,0.5 -0.07,-0.5 a 11,11 0 0 0 2.61,-0.73 0.49,0.49 0 0 1 0.55,0.12 0.5,0.5 0 0 1 0.09,0.56 10.63,10.63 0 0 1 -9.7,5.58 z m -4.06,-28.1 c -3.79,5 -5.45,15.74 -5.45,19 0,4.48 4.27,8.12 9.51,8.12 a 9.94,9.94 0 0 0 8.12,-3.88 13.28,13.28 0 0 1 -1.52,0.33 v 0 c -5.74,0.87 -11,-2.47 -11.76,-7.45 a 49.14,49.14 0 0 1 1.1,-16.12 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1132"
+     ry="6.6199999"
+     rx="8.1599998"
+     cy="370.25815"
+     cx="661.69751"
+     class="cls-17" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1134"
+     d="m 665.7075,358.86813 a 0.93,0.93 0 0 0 -1,0.86 v 14.78 a 1,1 0 0 0 2,0 v -14.8 a 0.93,0.93 0 0 0 -1,-0.84 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1136"
+     d="m 665.7075,375.86813 a 1.43,1.43 0 0 1 -1.49,-1.36 v -14.8 a 1.5,1.5 0 0 1 3,0 v 14.78 a 1.43,1.43 0 0 1 -1.51,1.38 z m 0,-16.5 c -0.27,0 -0.49,0.16 -0.49,0.36 v 14.78 c 0,0.2 0.22,0.36 0.49,0.36 0.27,0 0.5,-0.16 0.5,-0.36 v -14.8 c 0,-0.2 -0.22,-0.36 -0.5,-0.36 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1138"
+     d="m 666.0075,332.63813 h -0.3 -0.29 c -6.93,0.48 -9.72,17.75 -9.72,22 0,4.76 4.48,8.62 10,8.62 5.52,0 10,-3.86 10,-8.62 0.03,-4.25 -2.77,-21.52 -9.69,-22 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1140"
+     d="m 665.7075,363.71813 c -5.79,0 -10.51,-4.09 -10.51,-9.12 0,-3.84 2.65,-21.94 10.19,-22.46 a 3,3 0 0 1 0.67,0 c 7.52,0.55 10.17,18.63 10.17,22.46 0,5.03 -4.72,9.12 -10.52,9.12 z m 0,-30.6 a 0.86,0.86 0 0 0 -0.22,0 c -6.42,0.44 -9.29,17.19 -9.29,21.46 0,4.48 4.27,8.12 9.51,8.12 5.24,0 9.52,-3.64 9.52,-8.12 0,-4.27 -2.87,-21 -9.26,-21.46 v 0 a 0.78,0.78 0 0 0 -0.26,0 z"
+     class="cls-2" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1142"
+     d="m 672.2275,358.67813 c -5.46,0.82 -10.47,-2.32 -11.18,-7 -0.43,-2.85 -0.48,-12 1.72,-17.9 -5,3.94 -7.07,17.23 -7.07,20.85 0,4.76 4.48,8.62 10,8.62 a 10.14,10.14 0 0 0 9.26,-5.38 11.47,11.47 0 0 1 -2.73,0.81 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1144"
+     d="m 665.7075,363.71813 c -5.79,0 -10.51,-4.09 -10.51,-9.12 0,-3.15 1.89,-17 7.26,-21.24 a 0.5,0.5 0 0 1 0.6,0 0.52,0.52 0 0 1 0.18,0.58 c -2.18,5.88 -2.1,15 -1.7,17.66 a 7.49,7.49 0 0 0 3.58,5.23 10.29,10.29 0 0 0 7,1.37 v 0 a 10.91,10.91 0 0 0 2.61,-0.73 0.5,0.5 0 0 1 0.64,0.68 10.62,10.62 0 0 1 -9.66,5.57 z m -4.06,-28.1 c -3.79,4.95 -5.45,15.74 -5.45,19 0,4.48 4.27,8.12 9.51,8.12 a 9.94,9.94 0 0 0 8.12,-3.88 11.45,11.45 0 0 1 -1.52,0.33 11.3,11.3 0 0 1 -7.72,-1.51 8.51,8.51 0 0 1 -4,-5.94 49.42,49.42 0 0 1 1.06,-16.12 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1146"
+     ry="6.75"
+     rx="8.3299999"
+     cy="391.72812"
+     cx="452.12747"
+     class="cls-18" />
+  <circle
+     style="fill:#ffffff"
+     id="circle1148"
+     r="9.8800001"
+     cy="387.97812"
+     cx="456.41751"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1150"
+     d="m 456.4575,398.35813 a 10.38,10.38 0 1 1 10.38,-10.38 10.39,10.39 0 0 1 -10.38,10.38 z m 0,-19.76 a 9.38,9.38 0 1 0 9.38,9.38 9.39,9.39 0 0 0 -9.38,-9.38 z"
+     class="cls-2" />
+  <circle
+     style="fill:#e9f2ff"
+     id="circle1152"
+     r="2.25"
+     cy="381.95813"
+     cx="458.66751"
+     class="cls-3" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1154"
+     d="m 456.4575,394.99813 c -5.18,0 -9.43,-3.44 -9.84,-7.81 0,0.26 0,0.52 0,0.79 a 9.88,9.88 0 0 0 19.76,0 c 0,-0.27 0,-0.53 0,-0.79 -0.53,4.37 -4.77,7.81 -9.92,7.81 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1156"
+     d="m 456.4575,398.35813 a 10.39,10.39 0 0 1 -10.38,-10.38 c 0,-0.28 0,-0.56 0,-0.83 a 0.51,0.51 0 0 1 0.5,-0.46 v 0 a 0.49,0.49 0 0 1 0.5,0.45 c 0.39,4.13 4.49,7.36 9.34,7.36 4.85,0 9,-3.23 9.34,-7.36 a 0.5,0.5 0 0 1 0.5,-0.45 v 0 a 0.5,0.5 0 0 1 0.49,0.46 c 0,0.27 0,0.55 0,0.83 a 10.38,10.38 0 0 1 -10.29,10.38 z m -8.79,-7.1 a 9.38,9.38 0 0 0 17.58,0 11.23,11.23 0 0 1 -17.58,0 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1158"
+     ry="6.75"
+     rx="8.3299999"
+     cy="403.13815"
+     cx="425.70749"
+     class="cls-19" />
+  <circle
+     style="fill:#ffffff"
+     id="circle1160"
+     r="9.8800001"
+     cy="399.39813"
+     cx="429.99747"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1162"
+     d="m 429.9975,409.77813 a 10.38,10.38 0 1 1 10.38,-10.38 10.4,10.4 0 0 1 -10.38,10.38 z m 0,-19.76 a 9.38,9.38 0 1 0 9.38,9.38 9.39,9.39 0 0 0 -9.38,-9.38 z"
+     class="cls-2" />
+  <circle
+     style="fill:#e9f2ff"
+     id="circle1164"
+     r="2.25"
+     cy="393.36813"
+     cx="432.25748"
+     class="cls-3" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1166"
+     d="m 429.9975,406.40813 c -5.18,0 -9.43,-3.44 -9.83,-7.81 a 7,7 0 0 0 -0.05,0.8 9.88,9.88 0 0 0 19.76,0 7,7 0 0 0 0,-0.8 c -0.42,4.37 -4.69,7.81 -9.88,7.81 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1168"
+     d="m 429.9975,409.77813 a 10.4,10.4 0 0 1 -10.38,-10.38 7.73,7.73 0 0 1 0.05,-0.84 0.49,0.49 0 0 1 0.49,-0.46 v 0 a 0.49,0.49 0 0 1 0.49,0.45 c 0.39,4.13 4.49,7.36 9.34,7.36 4.85,0 9,-3.23 9.35,-7.36 a 0.49,0.49 0 0 1 0.49,-0.45 v 0 a 0.49,0.49 0 0 1 0.49,0.46 c 0,0.27 0,0.55 0,0.84 a 10.39,10.39 0 0 1 -10.32,10.38 z m -8.78,-7.11 a 9.37,9.37 0 0 0 17.57,0 11.22,11.22 0 0 1 -17.57,0 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1170"
+     ry="6.75"
+     rx="8.3299999"
+     cy="282.36813"
+     cx="275.14749"
+     class="cls-20" />
+  <circle
+     style="fill:#ffffff"
+     id="circle1172"
+     r="9.8800001"
+     cy="278.61813"
+     cx="279.43747"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1174"
+     d="m 279.4575,288.99813 a 10.38,10.38 0 1 1 10.37,-10.38 10.38,10.38 0 0 1 -10.37,10.38 z m 0,-19.75 a 9.38,9.38 0 1 0 9.37,9.37 9.38,9.38 0 0 0 -9.37,-9.37 z"
+     class="cls-2" />
+  <circle
+     style="fill:#e9f2ff"
+     id="circle1176"
+     r="2.25"
+     cy="272.59814"
+     cx="281.69748"
+     class="cls-3" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1178"
+     d="m 279.4575,285.63813 c -5.18,0 -9.43,-3.44 -9.83,-7.81 a 7,7 0 0 0 0,0.79 9.88,9.88 0 1 0 19.75,0 7,7 0 0 0 0,-0.79 c -0.5,4.37 -4.75,7.81 -9.92,7.81 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1180"
+     d="m 279.4575,288.99813 a 10.38,10.38 0 0 1 -10.38,-10.38 7.56,7.56 0 0 1 0,-0.83 0.49,0.49 0 0 1 0.49,-0.46 v 0 a 0.49,0.49 0 0 1 0.49,0.45 c 0.39,4.13 4.49,7.36 9.35,7.36 4.86,0 9,-3.23 9.34,-7.36 a 0.49,0.49 0 0 1 0.49,-0.45 v 0 a 0.49,0.49 0 0 1 0.49,0.46 c 0,0.27 0,0.55 0,0.83 a 10.38,10.38 0 0 1 -10.27,10.38 z m -8.8,-7.1 a 9.38,9.38 0 0 0 17.58,0 11.23,11.23 0 0 1 -17.58,0 z"
+     class="cls-2" />
+  <ellipse
+     id="ellipse1182"
+     ry="5.9299998"
+     rx="7.3099999"
+     cy="110.56813"
+     cx="57.607494"
+     class="cls-21" />
+  <circle
+     style="fill:#ffffff"
+     id="circle1184"
+     r="8.6700001"
+     cy="107.27814"
+     cx="61.387493"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1186"
+     d="m 61.3875,116.45813 a 9.18,9.18 0 1 1 9.17,-9.18 9.19,9.19 0 0 1 -9.17,9.18 z m 0,-17.349998 a 8.18,8.18 0 1 0 8.17,8.169998 8.19,8.19 0 0 0 -8.17,-8.169998 z"
+     class="cls-2" />
+  <circle
+     style="fill:#e9f2ff"
+     id="circle1188"
+     r="1.98"
+     cy="101.98813"
+     cx="63.357494"
+     class="cls-3" />
+  <path
+     style="fill:#a7c8fe"
+     id="path1190"
+     d="m 61.3875,113.44813 c -4.56,0 -8.29,-3 -8.64,-6.87 0,0.23 0,0.47 0,0.7 a 8.68,8.68 0 1 0 17.35,0 c 0,-0.23 0,-0.47 0,-0.7 -0.43,3.84 -4.16,6.87 -8.71,6.87 z"
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1192"
+     d="m 61.3875,116.45813 a 9.19,9.19 0 0 1 -9.18,-9.18 c 0,-0.25 0,-0.49 0,-0.74 a 0.49,0.49 0 0 1 0.49,-0.46 v 0 a 0.5,0.5 0 0 1 0.49,0.46 c 0.34,3.59 3.91,6.41 8.15,6.41 4.24,0 7.8,-2.82 8.14,-6.41 a 0.5,0.5 0 0 1 0.5,-0.46 v 0 a 0.49,0.49 0 0 1 0.49,0.46 c 0,0.25 0,0.49 0,0.74 a 9.19,9.19 0 0 1 -9.08,9.18 z m -7.5,-5.91 a 8.18,8.18 0 0 0 15,0 10,10 0 0 1 -15,0 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#a7c8fe"
+     id="polygon1194"
+     points="923.75,439 946.29,452 946.29,380.37 923.75,367.36 "
+     class="cls-8" />
+  <path
+     style="fill:#316dc9"
+     id="path1196"
+     d="m 688.7475,341.36813 a 0.54,0.54 0 0 1 -0.25,-0.06 l -22.54,-13 a 0.52,0.52 0 0 1 -0.25,-0.44 v -71.64 a 0.5,0.5 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 22.54,13 a 0.5,0.5 0 0 1 0.25,0.43 v 71.64 a 0.52,0.52 0 0 1 -0.25,0.44 0.54,0.54 0 0 1 -0.25,0.06 z m -22,-13.79 21.54,12.43 v -70.48 l -21.54,-12.43 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon1198"
+     points="966.58,413.53 989.12,426.54 989.12,354.91 966.58,341.9 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1200"
+     d="m 731.5775,315.86813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -22.54,-13 a 0.48,0.48 0 0 1 -0.25,-0.43 v -71.6 a 0.5,0.5 0 0 1 0.75,-0.44 l 22.54,13 a 0.52,0.52 0 0 1 0.25,0.44 v 71.63 a 0.5,0.5 0 0 1 -0.25,0.43 0.47,0.47 0 0 1 -0.25,0.04 z m -22,-13.8 21.54,12.43 v -70.43 l -21.54,-12.44 z"
+     class="cls-2" />
+  <path
+     style="fill:#3474f7"
+     id="path1202"
+     d="m 688.7475,340.86813 c 0,-0.58 42.83,-25.47 42.83,-25.47 v -71.62 l -42.83,25.46 z"
+     class="cls-7" />
+  <path
+     style="fill:#316dc9"
+     id="path1204"
+     d="m 688.7475,341.36813 a 0.5,0.5 0 0 1 -0.5,-0.5 v -71.63 a 0.51,0.51 0 0 1 0.24,-0.43 l 42.83,-25.46 a 0.47,0.47 0 0 1 0.5,0 0.51,0.51 0 0 1 0.26,0.44 v 71.63 a 0.5,0.5 0 0 1 -0.25,0.43 c -16.49,9.58 -41.32,24.15 -42.67,25.32 a 0.49,0.49 0 0 1 -0.41,0.2 z m 0.5,-71.84 v 70.43 c 2.5,-1.73 11.24,-7.07 41.83,-24.84 v -70.46 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#3474f7"
+     id="polygon1206"
+     points="923.75,439 946.29,452 946.29,445.68 923.75,432.67 "
+     class="cls-7" />
+  <path
+     style="fill:#316dc9"
+     id="path1208"
+     d="m 688.7475,341.36813 a 0.54,0.54 0 0 1 -0.25,-0.06 l -22.54,-13 a 0.52,0.52 0 0 1 -0.25,-0.44 v -6.32 a 0.5,0.5 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 22.54,13 a 0.5,0.5 0 0 1 0.25,0.43 v 6.32 a 0.52,0.52 0 0 1 -0.25,0.44 0.54,0.54 0 0 1 -0.25,0.06 z m -22,-13.79 21.54,12.43 v -5.14 l -21.54,-12.43 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path1210"
+     d="m 688.7475,340.86813 c 0,-0.58 42.83,-25.47 42.83,-25.47 v -6.32 l -42.83,25.46 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path1212"
+     d="m 688.7475,341.36813 a 0.5,0.5 0 0 1 -0.5,-0.5 v -6.32 a 0.51,0.51 0 0 1 0.24,-0.43 l 42.83,-25.46 a 0.5,0.5 0 0 1 0.5,0 0.51,0.51 0 0 1 0.26,0.44 v 6.32 a 0.5,0.5 0 0 1 -0.25,0.43 c -16.49,9.58 -41.32,24.15 -42.67,25.32 a 0.49,0.49 0 0 1 -0.41,0.2 z m 0.5,-6.53 v 5.12 c 2.5,-1.73 11.24,-7.07 41.83,-24.84 v -5.15 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon1214"
+     points="956.78,381.13 978.63,368.52 978.63,380.48 956.78,393.1 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1216"
+     d="m 699.2375,282.46813 a 0.45,0.45 0 0 1 -0.25,-0.07 0.48,0.48 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 l 21.85,-12.62 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.44 v 12 a 0.52,0.52 0 0 1 -0.25,0.44 l -21.88,12.6 a 0.47,0.47 0 0 1 -0.22,0.07 z m 0.5,-12.18 v 10.81 l 20.85,-12 v -10.85 z m 21.35,-0.94 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon1218"
+     points="964.72,376.54 970.68,373.1 970.68,385.07 964.72,388.51 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1220"
+     d="m 707.1775,277.86813 a 0.47,0.47 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.52,0.52 0 0 1 0.25,-0.43 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 l -6,3.44 a 0.43,0.43 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.81 l 5,-2.86 v -10.77 z m 5.46,8.24 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon1222"
+     points="956.78,401.5 978.63,388.88 978.63,400.85 956.78,413.47 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1224"
+     d="m 699.2375,302.86813 a 0.55,0.55 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.48,0.48 0 0 1 0.25,-0.43 l 21.85,-12.62 a 0.5,0.5 0 0 1 0.5,0 0.52,0.52 0 0 1 0.25,0.43 v 12 a 0.49,0.49 0 0 1 -0.25,0.43 l -21.88,12.59 a 0.59,0.59 0 0 1 -0.22,0.1 z m 0.5,-12.18 v 10.78 l 20.85,-12 v -10.85 z m 21.35,-0.94 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon1226"
+     points="964.72,396.91 970.68,393.47 970.68,405.44 964.72,408.88 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1228"
+     d="m 707.1775,298.24813 a 0.47,0.47 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 l -6,3.44 a 0.43,0.43 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.8 l 5,-2.86 v -10.8 z m 5.46,8.24 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon1230"
+     points="956.78,421.87 978.63,409.25 978.63,421.22 956.78,433.83 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1232"
+     d="m 699.2375,323.19813 a 0.54,0.54 0 0 1 -0.25,-0.06 0.5,0.5 0 0 1 -0.25,-0.44 v -12 a 0.47,0.47 0 0 1 0.25,-0.43 l 21.85,-12.62 a 0.5,0.5 0 0 1 0.5,0 0.5,0.5 0 0 1 0.25,0.43 v 12 a 0.5,0.5 0 0 1 -0.25,0.43 l -21.88,12.63 a 0.57,0.57 0 0 1 -0.22,0.06 z m 0.5,-12.17 v 10.84 l 20.85,-12 v -10.88 z m 21.35,-0.94 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon1234"
+     points="964.72,417.28 970.68,413.84 970.68,425.81 964.72,429.25 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1236"
+     d="m 707.1775,318.61813 a 0.59,0.59 0 0 1 -0.25,-0.07 0.5,0.5 0 0 1 -0.25,-0.43 v -12 a 0.5,0.5 0 0 1 0.25,-0.43 l 6,-3.44 a 0.5,0.5 0 0 1 0.5,0 0.48,0.48 0 0 1 0.25,0.43 v 12 a 0.48,0.48 0 0 1 -0.25,0.43 l -6,3.44 a 0.52,0.52 0 0 1 -0.25,0.07 z m 0.5,-12.18 v 10.81 l 5,-2.86 v -10.81 z m 5.46,8.24 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1238"
+     d="m 709.0375,230.76813 -311,-180.119998 -175.58,101.929998 87.79,50.68 75.92,-43.83 135.42,78.14 -75.92,43.88 87.79,50.69 132.33,-76.4 v 0 l 23,13.5 42.83,-25.46 c 0.38,-0.26 -22.58,-13.01 -22.58,-13.01 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1240"
+     d="m 533.4575,332.63813 a 0.43,0.43 0 0 1 -0.25,-0.07 l -87.75,-50.7 a 0.47,0.47 0 0 1 -0.25,-0.43 0.48,0.48 0 0 1 0.25,-0.43 l 75.17,-43.45 -134.5,-77.55 -75.67,43.69 a 0.5,0.5 0 0 1 -0.5,0 l -87.79,-50.69 a 0.48,0.48 0 0 1 -0.25,-0.43 0.5,0.5 0 0 1 0.24,-0.43 l 175.59,-101.929998 a 0.5,0.5 0 0 1 0.5,0 l 311,180.109998 c 22.78,12.66 22.79,13.05 22.79,13.43 a 0.53,0.53 0 0 1 -0.25,0.45 l -42.78,25.46 a 0.52,0.52 0 0 1 -0.51,0 l -22.71,-13.35 -132.08,76.25 a 0.47,0.47 0 0 1 -0.25,0.07 z m -86.79,-51.19 86.79,50.11 132.08,-76.26 a 0.5,0.5 0 0 1 0.5,0 l 22.71,13.35 42,-24.94 c -2.58,-1.69 -14.08,-8.17 -21.9,-12.52 v 0 l -310.79,-179.999998 -174.6,101.389998 86.8,50.11 75.67,-43.69 a 0.5,0.5 0 0 1 0.5,0 l 135.46,78.13 a 0.52,0.52 0 0 1 0.25,0.44 0.5,0.5 0 0 1 -0.25,0.43 z"
+     class="cls-2" />
+  <path
+     style="fill:#e9f2ff"
+     id="path1242"
+     d="m 722.7175,243.94813 -22.78,-13.15 v 0 l -301.79,-174.379998 -165.62,96.149998 77.81,44.92 75.92,-43.83 145.46,83.9 -75.92,43.89 77.81,44.93 c 38,-21.57 95.79,-54.87 132.3,-75.93 l 22.81,13.15 z"
+     class="cls-3" />
+  <path
+     style="fill:#316dc9"
+     id="path1244"
+     d="m 533.6075,326.94813 -0.25,-0.14 -78.56,-45.36 0.75,-0.43 75.17,-43.46 -144.46,-83.33 -75.92,43.84 -0.25,-0.15 -78.56,-45.35 166.62,-96.699998 0.25,0.15 302.53,174.749998 v 0 l 22.8,13.17 -35,20.22 -22.81,-13.14 c -32.74,18.85 -93.16,53.7 -132.06,75.79 z m -76.82,-45.5 76.82,44.35 c 39,-22.16 99.45,-57 132.05,-75.78 l 0.25,-0.15 22.81,13.15 33,-19.07 -22.83,-13.19 v 0 l -300.74,-173.759998 -164.62,95.569998 76.81,44.3 75.92,-43.83 0.25,0.14 146.21,84.34 -0.75,0.43 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#c0daff"
+     id="polygon1246"
+     points="489.94,263.7 499.92,269.46 655.55,179.11 655.55,167.55 "
+     class="cls-22" />
+  <path
+     style="fill:#316dc9"
+     id="path1248"
+     d="m 242.3775,158.86813 a 0.45,0.45 0 0 1 -0.25,-0.07 l -10,-5.76 a 0.48,0.48 0 0 1 -0.25,-0.43 0.51,0.51 0 0 1 0.24,-0.44 l 165.64,-96.179998 a 0.5,0.5 0 0 1 0.5,0 0.48,0.48 0 0 1 0.25,0.43 v 11.56 a 0.5,0.5 0 0 1 -0.24,0.43 l -155.64,90.349998 a 0.45,0.45 0 0 1 -0.25,0.11 z m -9,-6.26 9,5.18 155.13,-90.059998 v -10.4 z m 164.62,-84.589998 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#c0daff"
+     id="polygon1250"
+     points="713.2,392.58 723.21,398.36 789.13,360.25 789.13,348.69 "
+     class="cls-22" />
+  <path
+     style="fill:#316dc9"
+     id="path1252"
+     d="m 465.6675,287.72813 a 0.52,0.52 0 0 1 -0.25,-0.07 l -9.96,-5.79 a 0.49,0.49 0 0 1 0,-0.86 l 75.93,-43.89 a 0.5,0.5 0 0 1 0.5,0 0.5,0.5 0 0 1 0.25,0.43 v 11.56 a 0.5,0.5 0 0 1 -0.25,0.43 l -65.92,38.11 a 0.59,0.59 0 0 1 -0.3,0.08 z m -9,-6.28 9,5.2 65.42,-37.78 v -10.4 z m 74.93,-32.33 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path1254"
+     d="m 712.5775,250.30813 a 0.45,0.45 0 0 1 -0.25,-0.07 L 397.7575,68.408132 a 0.5,0.5 0 0 1 -0.25,-0.43 v -11.56 a 0.5,0.5 0 0 1 0.25,-0.43 0.5,0.5 0 0 1 0.5,0 l 324.71,187.529998 a 0.5,0.5 0 0 1 0.25,0.43 0.52,0.52 0 0 1 -0.25,0.44 l -10.14,5.85 a 0.45,0.45 0 0 1 -0.25,0.07 z m -314.07,-182.619998 314.07,181.539998 9.14,-5.28 -323.21,-186.659998 z"
+     class="cls-2" />
+  <ellipse
+     style="fill:#ffffff"
+     id="ellipse1256"
+     ry="2.8499999"
+     rx="3.3099999"
+     cy="403.77811"
+     cx="499.88748"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1258"
+     d="m 499.8875,407.12813 a 3.38,3.38 0 1 1 3.81,-3.35 3.61,3.61 0 0 1 -3.81,3.35 z m 0,-5.7 a 2.39,2.39 0 1 0 2.81,2.35 2.62,2.62 0 0 0 -2.81,-2.35 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path1260"
+     d="m 499.8875,404.27813 a 0.5,0.5 0 0 1 -0.5,-0.5 v -132.71 a 0.5,0.5 0 0 1 0.5,-0.5 0.5,0.5 0 0 1 0.5,0.5 v 132.71 a 0.5,0.5 0 0 1 -0.5,0.5 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1262"
+     d="m 499.8875,271.11813 v 13.23 a 9.53,9.53 0 0 1 5,2.54 34.65,34.65 0 0 0 8.5,5.68 c -1.78,-2.41 -1.74,-11.3 -1.87,-12.44 -0.21,-1.9 -2.72,-4.12 -5.32,-5.38 -2.41,-1.15 -4.54,-4.09 -6.31,-3.63 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1264"
+     d="m 513.3675,293.07813 a 0.51,0.51 0 0 1 -0.17,0 35.2,35.2 0 0 1 -8.67,-5.8 9,9 0 0 0 -4.7,-2.4 0.51,0.51 0 0 1 -0.44,-0.5 v -13.26 a 0.5,0.5 0 0 1 0.37,-0.49 c 1.33,-0.34 2.65,0.74 4.06,1.87 a 13.68,13.68 0 0 0 2.58,1.8 c 2.52,1.22 5.35,3.54 5.6,5.77 0,0.22 0.05,0.71 0.07,1.38 0.1,2.69 0.34,9 1.7,10.83 a 0.49,0.49 0 0 1 0,0.59 0.52,0.52 0 0 1 -0.4,0.21 z m -13,-9.15 a 10.3,10.3 0 0 1 4.82,2.59 39.13,39.13 0 0 0 7.1,5 c -1,-2.73 -1.14,-7.53 -1.24,-10.05 0,-0.64 0,-1.1 -0.06,-1.31 -0.18,-1.53 -2.35,-3.68 -5,-5 a 14.68,14.68 0 0 1 -2.78,-1.92 6.68,6.68 0 0 0 -2.8,-1.7 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1266"
+     d="m 508.5875,285.13813 c -2.72,-2.72 -5.7,-4.66 -8.7,-4.89"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1268"
+     d="m 508.5875,285.63813 a 0.51,0.51 0 0 1 -0.36,-0.15 c -2.94,-2.95 -5.76,-4.54 -8.38,-4.74 a 0.5,0.5 0 0 1 -0.46,-0.54 0.5,0.5 0 0 1 0.54,-0.46 c 2.86,0.22 5.89,1.91 9,5 a 0.51,0.51 0 0 1 0,0.71 0.5,0.5 0 0 1 -0.34,0.18 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1270"
+     d="m 508.5875,280.64813 c -2.72,-2.72 -5.7,-4.66 -8.7,-4.89"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1272"
+     d="m 508.5875,281.14813 a 0.51,0.51 0 0 1 -0.36,-0.15 c -2.94,-2.95 -5.76,-4.54 -8.38,-4.74 a 0.5,0.5 0 0 1 -0.46,-0.54 0.5,0.5 0 0 1 0.54,-0.46 c 2.86,0.22 5.89,1.91 9,5 a 0.51,0.51 0 0 1 0,0.71 0.5,0.5 0 0 1 -0.34,0.18 z"
+     class="cls-2" />
+  <ellipse
+     style="fill:#ffffff"
+     id="ellipse1274"
+     ry="2.8499999"
+     rx="3.3099999"
+     cy="413.26816"
+     cx="514.96753"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1276"
+     d="m 514.9675,416.61813 a 3.38,3.38 0 1 1 3.82,-3.35 3.61,3.61 0 0 1 -3.82,3.35 z m 0,-5.7 a 2.39,2.39 0 1 0 2.82,2.35 2.61,2.61 0 0 0 -2.82,-2.35 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path1278"
+     d="m 514.9675,413.76813 a 0.5,0.5 0 0 1 -0.5,-0.5 v -132.71 a 0.5,0.5 0 0 1 0.5,-0.5 0.5,0.5 0 0 1 0.5,0.5 v 132.71 a 0.5,0.5 0 0 1 -0.5,0.5 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1280"
+     d="m 514.9675,280.60813 v 13.26 a 9.49,9.49 0 0 1 5,2.54 34.81,34.81 0 0 0 8.49,5.68 c -1.77,-2.41 -1.73,-11.31 -1.86,-12.45 -0.22,-1.89 -2.72,-4.12 -5.32,-5.37 -2.4,-1.18 -4.53,-4.12 -6.31,-3.66 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1282"
+     d="m 528.4575,302.55813 a 0.45,0.45 0 0 1 -0.16,0 34.94,34.94 0 0 1 -8.67,-5.79 9.22,9.22 0 0 0 -4.7,-2.41 0.5,0.5 0 0 1 -0.47,-0.49 v -13.26 a 0.51,0.51 0 0 1 0.38,-0.49 c 1.33,-0.34 2.65,0.73 4.05,1.87 a 14.73,14.73 0 0 0 2.59,1.8 c 2.52,1.21 5.34,3.54 5.6,5.77 0,0.22 0,0.71 0.07,1.38 0.1,2.68 0.34,9 1.7,10.83 a 0.49,0.49 0 0 1 0,0.59 0.51,0.51 0 0 1 -0.39,0.2 z m -13,-9.14 a 10.27,10.27 0 0 1 4.83,2.59 38.51,38.51 0 0 0 7.09,5 c -0.95,-2.73 -1.14,-7.52 -1.23,-10 0,-0.63 0,-1.09 -0.07,-1.3 -0.17,-1.54 -2.34,-3.68 -5,-5 a 15.16,15.16 0 0 1 -2.78,-1.92 6.83,6.83 0 0 0 -2.8,-1.71 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1284"
+     d="m 523.6675,294.61813 c -2.71,-2.71 -5.69,-4.65 -8.7,-4.88"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1286"
+     d="m 523.6675,295.11813 a 0.52,0.52 0 0 1 -0.35,-0.14 c -3,-2.95 -5.77,-4.55 -8.38,-4.74 a 0.5,0.5 0 0 1 -0.46,-0.54 0.48,0.48 0 0 1 0.53,-0.46 c 2.86,0.22 5.89,1.91 9,5 a 0.51,0.51 0 0 1 0,0.71 0.54,0.54 0 0 1 -0.34,0.17 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1288"
+     d="m 523.6675,290.12813 c -2.71,-2.71 -5.69,-4.65 -8.7,-4.88"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1290"
+     d="m 523.6675,290.62813 a 0.52,0.52 0 0 1 -0.35,-0.14 c -3,-2.95 -5.77,-4.54 -8.38,-4.74 a 0.49,0.49 0 0 1 -0.46,-0.54 0.48,0.48 0 0 1 0.53,-0.46 c 2.86,0.22 5.89,1.91 9,5 a 0.51,0.51 0 0 1 0,0.71 0.54,0.54 0 0 1 -0.34,0.17 z"
+     class="cls-2" />
+  <ellipse
+     style="fill:#ffffff"
+     id="ellipse1292"
+     ry="2.8499999"
+     rx="3.3099999"
+     cy="422.75815"
+     cx="530.0575"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1294"
+     d="m 530.0575,426.10813 a 3.38,3.38 0 1 1 3.81,-3.35 3.61,3.61 0 0 1 -3.81,3.35 z m 0,-5.7 a 2.39,2.39 0 1 0 2.81,2.35 2.61,2.61 0 0 0 -2.81,-2.35 z"
+     class="cls-2" />
+  <path
+     style="fill:#316dc9"
+     id="path1296"
+     d="m 530.0575,423.25813 a 0.5,0.5 0 0 1 -0.5,-0.5 v -132.71 a 0.5,0.5 0 1 1 1,0 v 132.71 a 0.5,0.5 0 0 1 -0.5,0.5 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1298"
+     d="m 530.0575,290.08813 v 13.23 a 9.58,9.58 0 0 1 5,2.54 34.51,34.51 0 0 0 8.49,5.69 c -1.78,-2.41 -1.73,-11.31 -1.86,-12.45 -0.22,-1.89 -2.72,-4.12 -5.32,-5.37 -2.41,-1.16 -4.53,-4.1 -6.31,-3.64 z"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1300"
+     d="m 543.5375,312.04813 a 0.51,0.51 0 0 1 -0.17,0 35.41,35.41 0 0 1 -8.67,-5.79 9.11,9.11 0 0 0 -4.69,-2.41 0.5,0.5 0 0 1 -0.45,-0.5 v -13.26 a 0.5,0.5 0 0 1 0.38,-0.48 c 1.32,-0.34 2.65,0.73 4,1.87 a 14.67,14.67 0 0 0 2.58,1.8 c 2.52,1.21 5.35,3.53 5.6,5.77 0,0.21 0,0.7 0.07,1.37 0.11,2.69 0.35,9 1.7,10.83 a 0.51,0.51 0 0 1 0,0.6 0.48,0.48 0 0 1 -0.35,0.2 z m -13,-9.15 a 10.46,10.46 0 0 1 4.83,2.6 38.65,38.65 0 0 0 7.09,5 c -1,-2.73 -1.14,-7.53 -1.24,-10.05 0,-0.63 0,-1.1 -0.06,-1.3 -0.18,-1.54 -2.34,-3.68 -5,-5 a 14.74,14.74 0 0 1 -2.78,-1.93 6.79,6.79 0 0 0 -2.8,-1.7 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1302"
+     d="m 538.7575,304.10813 c -2.71,-2.71 -5.7,-4.66 -8.7,-4.89"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1304"
+     d="m 538.7575,304.60813 a 0.51,0.51 0 0 1 -0.36,-0.15 c -2.94,-2.94 -5.76,-4.54 -8.38,-4.74 a 0.5,0.5 0 0 1 -0.46,-0.53 0.49,0.49 0 0 1 0.54,-0.46 c 2.86,0.21 5.89,1.91 9,5 a 0.5,0.5 0 0 1 -0.35,0.85 z"
+     class="cls-2" />
+  <path
+     style="fill:#ffffff"
+     id="path1306"
+     d="m 538.7575,299.61813 c -2.71,-2.71 -5.7,-4.66 -8.7,-4.88"
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1308"
+     d="m 538.7575,300.11813 a 0.51,0.51 0 0 1 -0.36,-0.15 c -2.94,-2.94 -5.76,-4.54 -8.38,-4.74 a 0.5,0.5 0 0 1 -0.46,-0.53 0.49,0.49 0 0 1 0.54,-0.46 c 2.86,0.21 5.89,1.91 9,5 a 0.5,0.5 0 0 1 -0.35,0.85 z"
+     class="cls-2" />
+  <polygon
+     transform="translate(-257.5425,-111.13187)"
+     style="fill:#ffffff"
+     id="polygon1310"
+     points="932.04,387.27 938,390.71 938,424.4 932.04,420.96 "
+     class="cls-4" />
+  <path
+     style="fill:#316dc9"
+     id="path1312"
+     d="m 680.4575,313.76813 a 0.47,0.47 0 0 1 -0.25,-0.07 l -6,-3.44 a 0.5,0.5 0 0 1 -0.25,-0.43 v -33.69 a 0.5,0.5 0 0 1 0.75,-0.43 l 6,3.44 a 0.47,0.47 0 0 1 0.25,0.43 v 33.69 a 0.48,0.48 0 0 1 -0.25,0.43 0.45,0.45 0 0 1 -0.25,0.07 z m -5.46,-4.23 5,2.86 v -32.53 l -5,-2.87 z"
+     class="cls-2" />
+</svg>

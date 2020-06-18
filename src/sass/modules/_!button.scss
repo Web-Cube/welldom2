@@ -1,0 +1,107 @@
+.button{
+	height: 66rem;
+	border: 1rem solid rgba(0, 3, 7, 0.102);
+	border-radius: 60rem;
+	text-align: center;
+	cursor: pointer;
+	background: transparent;
+	display: flex;
+	align-items: center;
+	font-size: 16rem;
+	transition: border-color ease .15s;
+	font-weight: 500;
+	color: #000000;
+	position: relative;
+	padding: 0 20rem;
+	overflow: hidden;
+	@include letter-spacing(16,20);
+
+	@include max-screen($large_tablet) {
+		height: 50rem;
+	}	
+
+	&:before{
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 0%;
+		transition: ease-in-out .3s;
+		height: 100%;
+		z-index: 5;
+		border-radius: 60rem;
+		background-color: $orange;
+	}
+
+	&_blue{
+		border-color: #1270f8;
+	}
+	
+	&_grey {
+		border-color: rgba(#000307, 0.1);
+	}
+
+
+	&__inner{
+		display: block;
+		width: 100%;
+		z-index: 15;
+		position: relative;
+	}
+
+	&__text{
+		display: inline-block;
+		vertical-align: middle;
+		z-index: 15;
+		position: relative;	
+		transition: ease-out .3s;
+	}
+
+	&__icon{
+		vertical-align: middle;
+		margin-right: 11rem;
+		z-index: 15;
+		position: relative;		
+		
+		display: inline-flex;
+		align-items: center;
+
+
+		svg{
+			display: block;
+			width: inherit;
+			fill: #181818;
+			transition: ease-out .3s;
+		}
+
+		&_right{
+			margin-right: 0;
+			margin-left: 17rem;
+		}
+
+		.icon-settings{
+			width: 25rem;
+		}
+	}
+
+	&:hover{
+		border-color: transparent;
+
+		.button{
+			&__text{
+				color: #fff;
+			}
+
+			&__icon{
+				svg{
+					fill: #fff;
+				}
+			}			
+		}
+
+		&:before{
+			width: 100%;
+		}
+	}
+}

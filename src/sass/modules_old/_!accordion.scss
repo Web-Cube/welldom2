@@ -1,0 +1,47 @@
+.accordion{
+	display: block;
+	padding-left: 35rem;
+
+	&__header{
+		font-size: 16rem;
+		line-height: 25rem;
+		position: relative;
+		cursor: pointer;
+		padding: 5rem 0;
+		font-family: SFUIDisplay-Medium;
+		transition: ease .2s;
+
+		&:before{
+			content: '+';
+			display: block;
+			position: absolute;
+		    line-height: 13rem;
+		    width: 16rem;
+		    height: 16rem;			
+			left: -37rem;
+			top: 9rem;
+			font-size: 25rem;
+			transition: transform ease .3s;
+			font-family: SFUIDisplay-Regular;
+		}
+
+		&:hover{
+			color: $blue;
+		}
+	}
+
+	&__body{
+		display: none;
+	}
+
+	&.is-active{
+		.accordion{
+			&__header{
+				color: $blue;
+				&:before{
+					transform: rotate(409deg);
+				}
+			}
+		}
+	}
+}

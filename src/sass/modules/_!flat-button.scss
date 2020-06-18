@@ -1,0 +1,130 @@
+.flat-button{
+	display: inline-flex;
+	text-decoration: none;
+	align-items: center;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	background-color: $orange;
+	justify-content: center;
+	font-weight: 500;
+	padding: 0 30rem;
+	height: 66rem;
+	font-size: 18rem;
+	line-height: 1.2em;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+	max-width: 100%;
+	text-align: center;
+	@include letter-spacing(18,20);
+	transition: ease-in-out .3s;
+	
+	&__percent {
+		font-size: 30rem;
+		margin-left: 25rem;
+		position: relative;
+		z-index: 15;
+		transition: ease-in-out .3s;
+	}
+
+
+	@include max-screen($large_tablet) {
+		height: 50rem;
+	}
+	
+	@include max-screen($large_mobile) {
+		padding: 0 20rem;
+	}
+
+	&__icon{
+		z-index: 20;
+		&_presa{
+			width: 26rem;
+			margin-right: 19rem;
+		}
+
+		@include max-screen($large_mobile) {
+			&_presa{
+				display: none;
+			}
+		}
+	}
+
+	&:before{
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 0%;
+		transition: ease-in-out .3s;
+		height: 100%;
+		z-index: 5;
+		border-radius: 5px;
+		background-color: #cb927a;
+	}
+
+	&__text{
+		z-index: 15;
+		position: relative;	
+		transition: ease-out .3s;		
+	}
+
+	&__pin{
+		z-index: 15;
+		position: relative;
+		width: 20rem;
+		fill: #fff;
+		margin-right: 13rem;
+		svg{
+			width: 100%;
+		}
+	}
+
+
+	&_gray{
+		background-color: #e8ebf0;
+
+		&:before{
+			background-color: #d6d6d6;
+		}
+	}
+	
+	&__arrow {
+		width: 20rem;
+		min-width: 20rem;
+		height: 20rem;
+		fill: #fff;
+		position: relative;
+		z-index: 6;
+	}
+
+
+	&:hover{
+		.button{
+			&__text{
+				color: #fff;
+			}
+
+			&__icon{
+				svg{
+					fill: #fff;
+				}
+			}			
+		}
+
+		&:before{
+			width: 100%;
+		}
+	}
+
+	&[disabled]{
+		cursor: not-allowed;
+			
+		&:before{
+			width: 100%;
+			background-color: $gray;
+		}		
+	}
+}

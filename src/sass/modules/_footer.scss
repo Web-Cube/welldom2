@@ -1,0 +1,270 @@
+.footer{
+	padding-bottom: 130rem;
+
+	@include max-screen($small_tablet) {
+		padding-bottom: 0;
+		padding-top: 40rem;
+	}
+	
+	&__logo {
+		display: block;
+		img {
+			max-width: 220rem;
+			height: 70rem;
+		}
+		&:not(:last-child) {
+			margin-right: 50rem;
+		}
+	}
+
+	&__button{
+		margin-top: 30rem;
+	}
+
+	&__up{
+		display: inline-flex;
+		align-items: center;
+		font-size: 18rem;
+		color: $orange;
+		&-text {
+			margin-right: 19rem;
+		}
+		&-icon {
+			width: 15rem;
+			fill: $orange;
+			transform: rotate(-90deg);
+		}
+	}
+
+	&__wrap-top{
+		@include max-screen($large_mobile) {
+			align-items: center;
+		}
+	}
+
+	&__top{
+		margin-bottom: 80rem;
+		align-items: flex-end;
+
+		&-cell{
+			
+			&_left{
+			}
+		}
+	}
+
+	&__label{
+		color: #8f8f8f;
+		line-height: 20rem;
+		margin-bottom: 35rem;
+		font-weight: bold;
+
+		@include max-screen($large_mobile) {
+			margin-bottom: 13rem;
+		}
+	}
+
+	&__menu{
+		margin-bottom: -11rem;
+		&-item{
+			display: block;
+			width: 50%;
+			margin-bottom: 11rem;
+		}
+
+		&-link{
+			text-decoration: none;
+			color: #fff;
+			transition: ease .15s;
+			font-weight: 600;
+
+			&:hover{
+				color: $blue;
+			}
+		}
+	}
+
+	&__link{
+
+		color: #fff;
+		line-height: 25rem;
+		font-weight: bold;
+		display: inline-block;
+
+		span{
+			display: inline-block;
+			line-height: 1em;
+			transition: border-bottom-color ease .15s;
+			border-bottom: 1rem solid #fff;
+		}
+
+
+		&_creator{
+			position: absolute;
+			right: 0;
+			bottom: 20rem;
+
+			font-size: 16rem;
+			line-height: 25rem;
+		}
+
+		transition: ease .15s;
+
+		&:hover{
+			color: $blue;
+			span{
+				border-bottom-color: $blue;
+			}
+		}	
+
+		@include max-screen($large_tablet) {
+
+			span{
+				border-bottom: none;
+				text-decoration: underline;
+				line-height: 1.5em;
+			}		
+				
+			&_creator{
+				width: 60%;
+
+			}
+		}	
+
+		@include max-screen($small_tablet) {
+			margin-bottom: 20rem;
+			&_creator{
+				width: 100%;
+				right: auto;
+				left: 0;
+				position: static;
+				
+
+			}		
+		}
+		
+		@include max-screen($large_mobile) {
+			br {
+				display: none;
+			}
+		}
+	}
+
+	&__messengers{
+		width: 338rem;
+		max-width: 100%;
+		margin-top: 45rem;
+
+		@include max-screen($small_tablet) {
+			width: 90%;
+		}
+
+		@include max-screen($small_mobile) {
+			width: 100%;
+		}
+	}
+
+	&__bottom{
+		&-cell{
+			position: relative;
+
+			&_menu{
+				width: 480/1334*100%;
+			}
+
+			&_info{
+				width: 19%;
+			}
+
+			&_contacts{
+				width: 30%;
+				margin-left: 7%;
+			}
+
+			&_last{
+				width: 23%;
+				text-align: right;
+			}
+		}
+		
+		@include max-screen($large_tablet) {
+			&-cell{
+				&_contacts{
+					margin-left: 5%;
+				}
+				&_last{
+					width: 25%;
+				}
+			}
+		}
+
+		@include max-screen($small_tablet) {
+			&-cell{
+				width: 50%;
+				margin-bottom: 40rem;
+
+				&:nth-child(2n){
+					text-align: left;
+				}
+				&_contacts{
+					margin-left: 0;
+				}
+				&_last {
+					width: 100%;
+					text-align: center;
+				}
+			}
+		}
+
+		@include max-screen($large_mobile) {
+			&-cell{
+				&_contacts, &_last{
+					width: 100%;
+					text-align: left !important;
+				}
+			}
+		}
+	}
+}
+
+@include max-screen($small_tablet) {
+	.footer {
+		padding-top: 0;
+		&__logo {
+			width: 200rem;
+		}
+		&__up {
+			padding-top: 10rem;
+		}
+		&__link {
+			br {
+				display: none;
+			}
+		}
+	}
+}
+
+@include max-screen($large_mobile) {
+	.footer {
+		&__logo {
+			margin-right: 0;
+			img {
+				max-width: 180rem;
+			}
+			&:last-child {
+				display: none;
+			}
+		}
+		&__button {
+			width: 100%;
+		}
+		&__top {
+			margin-bottom: 40px;
+		}
+		&__bottom {
+			&-cell {
+				width: 100%;
+			}
+		}
+	}
+}

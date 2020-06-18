@@ -1,0 +1,254 @@
++b.SECTION.quiz.css-black-bg
+	+e.wrap.wrap
+		+e.title.h1._big
+			| Ответь на пять вопросов и получи
+			br
+			| подходящую планировку
+		+e.FORM.form.form(action="")
+			+e.INPUT(type="hidden" name="form" value="Квиз")
+			.form__default
+				+e.box.flex
+					+e.cell._left
+						+e.slider
+							+e.list.inline
+								+e.slide._current
+									+e.question С какой целью рассматриваете недвижимость?
+									+e.row.flex
+										+e.LABEL.image-checkbox.image-checkbox__
+											+e.INPUT.input(type="radio" name="quiz[target]" value="Инвестиции")
+											+e.content
+												+e.IMG.image(src="/img/quiz_1.jpg")
+												+e.text Инвестиции
+										+e.LABEL.image-checkbox.image-checkbox__
+											+e.INPUT.input(type="radio" name="quiz[target]" value="Для жизни")
+											+e.content
+												+e.IMG.image(src="/img/quiz_2.jpg")
+												+e.text Для жизни
+								+e.slide
+									+e.question Сколько комнат должно быть в квартире?
+									+e.middle
+										+e.IMG.decor._second(src="/img/quiz_3.png")
+										+e.row._second.flex
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[rooms]" value="Студия")
+													+e.content
+														+e.text Студия
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[rooms]" value="1 комната")
+													+e.content
+														+e.text 1 комната
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[rooms]" value="2 комнаты")
+													+e.content
+														+e.text 2 комнаты
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[rooms]" value="3 комнаты")
+													+e.content
+														+e.text 3 комнаты
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[rooms]" value="4 комнаты")
+													+e.content
+														+e.text 4 комнаты
+								+e.slide
+									+e.question В какой бюджет планируете уложиться?
+									+e.middle
+										+e.IMG.decor._third(src="/img/quiz_4.png")
+										+e.row._third.flex
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[price]" value="до 4 000 000 руб")
+													+e.content
+														+e.text до 4 000 000 руб
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[price]" value="до 8 000 000 руб")
+													+e.content
+														+e.text до 8 000 000 руб
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[price]" value="до 12 000 000 руб")
+													+e.content
+														+e.text до 12 000 000 руб
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[price]" value="от 15 000 000 руб")
+													+e.content
+														+e.text от 15 000 000 руб
+								+e.slide
+									+e.question Какой вариант отделки интересует?
+									+e.middle
+										+e.IMG.decor._fourth(src="/img/quiz_5.png")
+										+e.row._fourth.flex
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[finishing]" value="Чистовая")
+													+e.content
+														+e.text Чистовая
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[finishing]" value="Подчистовая")
+													+e.content
+														+e.text Подчистовая
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[finishing]" value="Без разницы")
+													+e.content
+														+e.text Без разницы
+								+e.slide
+									+e.question Важен ли определенный срок сдачи дома?
+									+e.middle
+										+e.row._fifth.flex
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[time]" value="Квартира нужна в 2019 году")
+													+e.content
+														+e.text Квартира нужна в 2019 году
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[time]" value="Квартира нужна в 2020 году")
+													+e.content
+														+e.text Квартира нужна в 2020 году
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="radio" name="quiz[time]" value="Готов подождать, чтобы получить самую низкую цену")
+													+e.content
+														+e.text Готов подождать, чтобы получить самую низкую цену
+								+e.slide
+									+e.question Какие дополнения будут актуальны для вас?
+									+e.middle
+										+e.row._sixth.flex
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="checkbox" name="quiz[more]" value="Кухня-гостиная")
+													+e.content
+														+e.text Кухня-гостиная
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="checkbox" name="quiz[more]" value="Большая лоджия")
+													+e.content
+														+e.text Большая лоджия
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="checkbox" name="quiz[more]" value="Несколько санузлов")
+													+e.content
+														+e.text Несколько санузлов
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="checkbox" name="quiz[more]" value="Гардеробная")
+													+e.content
+														+e.text Гардеробная
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="checkbox" name="quiz[more]" value="Паркинг")
+													+e.content
+														+e.text Паркинг
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="checkbox" name="quiz[more]" value="Видовая квартира")
+													+e.content
+														+e.text Видовая квартира
+											+e.column
+												+e.LABEL.radio.radio__
+													+e.INPUT.input(type="checkbox" name="quiz[more]" value="Рассмотрю все")
+													+e.content
+														+e.text Рассмотрю все
+						+e.final
+							+e.final-decor.IMG(src="/img/presa_quiz.png")
+							+e.final-inside
+								+e.question._small 
+									| Система уже начала поиск наиболее 
+									| подходящих вариантов
+								+e.final-text
+									| Введите контактные данные 
+									br
+									| и выберите удобный способ получения файлов
+								+e.final-bottom
+									+e.final-box
+										+e.final-fluid
+											+e.final-messengers
+												+e.messengers.horizontal-messengers__._fluid.js-message-to
+													+e.INPUT.value(type="hidden" name="quiz[to]" value="WhatsApp")
+													+e.info.p
+														| Куда 
+														br
+														| отправить?
+													+e.demo
+														+e.demo-list._noanimate.inline
+															+e.demo-part
+																+e.demo-item._wa
+																	+icon('whatsapp-logo', '0 0 90 90')
+															+e.demo-part
+																+e.demo-item._viber
+																	+icon('viber', '0 0 514.055 514.055')
+															+e.demo-part
+																+e.demo-item._telegram
+																	+icon('telegram', '0 0 300 300')
+															+e.demo-part
+																+e.demo-item._mail
+																	+icon('mail', '0 0 14 14')
+													+e.list
+														+e.item
+															+e.A.link._close.js-messengers-close(href="#")
+																+icon('cancel', '0 0 64 64')
+														+e.item
+															+e.A.link._wa.js-messengers-close(href="#" data-value="WhatsApp")
+																+icon('whatsapp-logo', '0 0 90 90')
+																+e.SPAN.help.p Написать Вам в WhatsApp
+														+e.item
+															+e.A.link._viber.js-messengers-close(href="#" data-value="Viber")
+																+icon('viber', '0 0 514.055 514.055')
+																+e.SPAN.help.p Написать Вам в Viber
+														+e.item
+															+e.A.link._telegram.js-messengers-close(href="#" data-value="Telegram")
+																+icon('telegram', '0 0 300 300')
+																+e.SPAN.help.p Написать Вам в Telegram
+														+e.item
+															+e.A.link._mail.js-messengers-close(href="#" data-value="Почта")
+																+icon('mail', '0 0 14 14')
+																+e.SPAN.help.p Написать на почту
+										+e.final-field
+											+e.INPUT.newinput.form__newinput._big(type="text" name="phone" required="" placeholder="+7 (999) 999-99-99")
+										+e.final-field._mail
+											+e.INPUT.newinput.form__newinput._big(type="text" name="email" placeholder="name@mail.com")
+										+e.final-field
+											+e.BUTTON.final-button.flat-button__
+												+e.text Получить результаты
+						+e.nav.flex._justify._bottom
+							+e.nav-cell._left
+								+e.status
+									+e.status-text
+										| Готово 
+										span 0%
+									+e.status-line
+										+e.status-done
+							+e.nav-cell._right.flex._right
+								+e.BUTTON.nav-prev.flat-button__._gray.js-quiz-prev(type="button")
+									+e.IMG(src="/img/arrow-left.png" style="z-index:20; position: relative")
+								+e.BUTTON.nav-next.flat-button__.js-quiz-next(type="button")
+									+e.text Далее
+					+e.cell._right
+						+e.search
+							+e.IMG.search-image(src="/img/search.png")
+							+e.search-label
+								| “Умный 
+								br
+								| поиск”
+						+e.text.p
+							| Ответьте на 6 вопросов, после этого вам придет презентация наиболее подходящих квартир по вашим ответам
+			+e.thank.form__thank
+				+e.thank-row.flex
+					+e.IMG.thank-circle(src="/img/circle-check.png")
+					+e.thank-content
+						+e.thank-title
+							| Спасибо,
+							br
+							| система начала подбор вариантов.
+						+e.thank-text
+							| Для уточнения параметров квартиры и помощи 
+							br
+							| в выборе с Вами может связаться эксперт по недвижимости

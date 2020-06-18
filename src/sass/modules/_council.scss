@@ -1,0 +1,132 @@
+.council{
+	background-color: rgb(241, 242, 247);
+	overflow: hidden;
+
+
+	
+	&__wrap{
+		padding-top: 90rem;
+		padding-bottom: 95rem;
+		
+		@include max-screen($large_mobile) {
+			padding-top: 60rem;
+			padding-bottom: 60rem;
+		}
+	}
+
+
+	&__author{
+		position: absolute;
+		bottom: 0;
+		right: -30rem;
+		width: 501rem;
+		color: #1f1f1f;
+
+		&-help{
+			font-size: 18rem;
+			line-height: 25rem;
+			margin-bottom: 6rem;
+		}
+
+		&-name{
+			font-family: SFUIDisplay-Semibold;
+		}
+
+		&-box{
+			left: 187rem;
+			bottom: 86rem;
+			position: absolute;
+			background-color: #fff;
+			padding-left: 56rem;
+			padding-bottom: 42rem;
+			padding-top: 42rem;
+			width: 50vw;
+			border-radius: 20rem;
+
+		}
+
+		@include max-screen($large_tablet) {
+			width: 421rem;	
+			bottom: -70rem;		
+			&-box{
+				left: 0;
+				padding-left: 36rem;
+				padding-bottom: 32rem;
+				padding-top: 32rem;
+			}
+		}
+
+		@include max-screen($small_tablet) {
+			display: none;
+		}
+	}
+
+
+	&__title{
+		margin-bottom: 50rem;
+		padding-left: 65rem;
+		width: 65.49%;
+
+		@include max-screen($large_tablet) {
+			padding-left: 0;
+		}
+
+		@include max-screen($small_tablet) {
+			margin-bottom: 40rem;
+		}
+
+		@include max-screen($large_mobile) {
+			width: 100%;
+		}
+	}
+
+	&__button{
+		margin-left: 42rem;
+		// width: 420rem;
+		width: 380rem;
+
+		@include max-screen($large_tablet) {
+			margin-left: 0;
+		}
+
+	}
+
+	&__box{
+		border-radius: 30rem;
+		background-color: rgb(255, 255, 255);		
+		width: 65.49%;
+		margin-left: -28rem;
+		position: relative;
+		padding-left: 70rem;
+		padding-right: 311rem;
+		padding-top: 62rem;
+		padding-bottom: 62rem;
+		margin-bottom: 57rem;
+
+		&:before{
+			content: '';
+			display: block;
+			position: absolute;
+			left: 100%;
+			top: 38rem;
+			background: url('/img/angle.png') no-repeat;
+			width: 43rem;
+			height: 75rem;
+		}
+
+		@include max-screen($large_tablet) {
+			margin-left: 0;
+		    width: 53.49%;
+		    padding: 22rem 41rem 22rem 30rem;
+		}
+
+		@include max-screen($small_tablet) {
+			margin-bottom: 40rem;
+			width: 100%;
+			&:before{
+				display: none;
+			}
+		}
+	}
+}
+

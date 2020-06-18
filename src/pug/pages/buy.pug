@@ -1,0 +1,41 @@
+extends ../layouts/base
+
+append vars
+	- title = 'Как купить';
+	- body['classList'] = 'is-loaded';
+
+block content
+	+b.SECTION.fullscreen
+		+e.container._fix._header
+			include ../layouts/header
+			include ../layouts/nav
+		+b.page
+			+e.head
+				+e.head-wrap.wrap.flex._justify
+					+e.H1.title.h1
+						| Как купить
+					+e.UL.breadcrumbs.breadcrumbs__
+						+e.LI.item
+							+e.A.link(href="main.html") Главная
+						+e.LI.item
+							+e.SPAN.current Как купить
+			+e.buy.css-light-bg
+				include ../layouts/payments
+				include ../layouts/calc
+			include ../layouts/notify_third
+			+e.banks.banks__
+				+e.wrap.wrap
+					+e.row.flex._justify._vertical
+						+e.item
+							img(src="/img/sberbank.png")
+						+e.item
+							img(src="/img/alfabank.png")
+						+e.item
+							img(src="/img/vtb_bank.png")
+						+e.item
+							img(src="/img/gazprom.png")
+					+e.desc.css-text-center.t18
+						| И еще более 10 банков
+					+e.bottom.css-text-center
+						+e.A.button.flat-button__.js-scroll-to(href="#calc")
+							+e.text Расчитать ипотеку

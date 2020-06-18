@@ -1,0 +1,69 @@
++b.SECTION.work#work(data-aos="singleSlider" data-aos-offset="600" data-max="67")
+	+e.top.css-gray-bg
+		+e.wrap.wrap
+			+e.H2.title.h1 Мы в процессе...
+			+e.steps
+				+e.path(style="width: 100%")
+					+e.done
+					+e.done-item
+						+e.done-label.p 
+							| Готовность 
+							span 30%
+				+e.steps-item._project.is-active
+					+e.steps-info
+						+e.steps-icon(style="width: 56px;")
+							+icon('blueprint', '0 -29 512 511')
+						+e.steps-text.p Проектирование
+				+e.steps-item._build
+					+e.steps-info
+						+e.steps-icon(style="width: 52px;")
+							+icon('crane', '0 0 480 480')
+						+e.steps-text.p Стройка				
+				+e.steps-item._complete
+					+e.steps-info
+						+e.steps-icon(style="width: 53px;")
+							+icon('building', '0 0 512 512')
+						+e.steps-text.p Сдача
+	+e.bottom
+		//- .js-loop-false.js-autoplay-false
+		+e.gallery.gallery__._simple.autowidth-slider.owl-carousel.js-have-bottom.js-inside-nav.js-gallery
+			+e.A.item(href="/app/img/modernhouse.jpg" data-text="02.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+			+e.A.item(href="/app/img/testhome1.jpg" data-text="02.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+			+e.A.item(href="/app/img/testhome2.jpg" data-text="03.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+			+e.A.item(href="/app/img/testhome3.jpg" data-text="04.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+			+e.A.item(href="/app/img/testhome4.jpg" data-text="05.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+			+e.A.item(href="/app/img/testhome5.jpg" data-text="06.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+			+e.A.item(href="/app/img/testhome6.jpg" data-text="07.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+			+e.A.item(href="/app/img/modernhouse.jpg" data-text="08.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+			+e.A.item(href="/app/img/testhome1.jpg" data-text="09.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+			+e.A.item(href="/app/img/testhome2.jpg" data-text="10.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+			+e.A.item(href="/app/img/testhome3.jpg" data-text="11.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+			+e.A.item(href="/app/img/testhome4.jpg" data-text="12.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+			+e.A.item(href="/app/img/testhome5.jpg" data-text="13.02.2016")
+				+e.IMG.image.object-fit(src="/img/gallery-image_5.jpg")
+	+e.down
+		+e.wrap.wrap
+			+e.nav.owl-scrollbar__._dark
+				+e.part._num
+					+e.text 
+						span 01
+						|  / 05 
+				+e.part._progress
+					+e.line
+						+e.path
+							+e.done
+				+e.part._nav.flex
+					+e.buttons-here.flex
+						include owl-arrows.pug

@@ -1,0 +1,80 @@
+include docs
++b.FOOTER.footer.css-black-bg#contacts
+	+e.top
+		+e.wrap-top.wrap.flex._justify._vertical
+			+e.top-cell._left.flex._vertical
+				+e.A.logo(href="main.html")
+					img(src="/app/img/welldom_logo.svg")
+				+e.A.logo(href="main.html")
+					img(src="/img/valo2.png")
+			+e.top-cell._right
+				+e.A.up.js-scroll-to(href="#top")
+					+e.up-text Наверх
+					+e.up-icon
+						+icon('rightArrow', '0 0 31.49 31.49')
+	+e.bottom
+		+e.wrap.wrap.flex._justify
+			+e.bottom-cell._menu
+				+e.label.p По сайту
+				+e.UL.menu.flex
+					+e.LI.menu-item
+						+e.A.menu-link._current.p(href="#") Главная
+					+e.LI.menu-item
+						+e.A.menu-link.p(href="#") Застройщик
+					+e.LI.menu-item
+						+e.A.menu-link.p(href="#") О комплексе
+					+e.LI.menu-item
+						+e.A.menu-link.p(href="#") Контакты
+					+e.LI.menu-item
+						+e.A.menu-link.p(href="#") Планировки и цены
+					+e.LI.menu-item
+						+e.A.menu-link.p(href="#") Ход строительства
+					+e.LI.menu-item
+						+e.A.menu-link.p(href="#") Где купить
+					+e.LI.menu-item
+						+e.A.menu-link.p(href="#") Скидки и акции
+					+e.LI.menu-item
+						+e.A.menu-link.p(href="#") Галерея
+					+e.LI.menu-item
+						+e.A.menu-link.p(href="#") Отделка
+			//+e.bottom-cell._info
+				+e.label.p Инфо
+
+				+e.UL.menu
+					+e.LI.menu-item
+						+e.text.p ООО «КУАРТА»
+					+e.LI.menu-item
+						+e.text.p ИНН: 7802669529
+					+e.LI.menu-item
+						+e.text.p КПП: 780201001		
+			+e.bottom-cell._contacts
+				+e.label.p Контакты
+
+				include ../layouts/contact-ul.pug
+
+				//+e.BUTTON.button.flat-button__.js-modal(data-modal="#recall" data-for="whatsapp" data-title="Выберите способ связи с Вами" data-subtitle="Менеджер свяжется в ближайшее время" data-input="Бесплатная консультация (футер)")
+					+e.text Бесплатная консультация
+
+				+e.messengers.horizontal-messengers__._default
+					+e.item
+						+e.A.link._wa(href="#" target="_blank")
+							+icon('whatsapp-logo', '0 0 90 90')
+					+e.item
+						+e.A.link._viber(href="#" target="_blank")
+							+icon('viber', '0 0 514.055 514.055')
+					+e.item
+						+e.A.link._telegram(href="#" target="_blank")
+							+icon('telegram', '0 0 300 300')
+					+e.item
+						+e.A.link._telephone(href="#" target="_blank")
+							+icon('telephone', '0 0 480.56 480.56')
+					+e.item
+						+e.A.link._mail(href="#" target="_blank")
+							+icon('mail', '0 0 14 14')
+			+e.bottom-cell._last
+				+e.A.link.p.js-modal(href="#polit")
+					span Политика 
+					br
+					span конфиденциальности
+				+e.A.link._creator.p(href="http://karanikola.ru" target="_blank")
+					span Создание сайта — Karanikola

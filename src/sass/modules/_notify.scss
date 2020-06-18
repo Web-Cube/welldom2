@@ -1,0 +1,230 @@
+.notify{
+	min-height: 545rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 77rem 0 56rem 0;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	
+	&__bg {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		&:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: #07152a;
+			opacity: .65;
+		}
+		img {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			transition-timing-function: cubic-bezier(0,0,0,1);
+			transition-duration: 1s;
+		}
+		@include max-screen($small_tablet) {
+			width: 900px;
+			left: 50%;
+			margin-left: -400px;
+		}
+	}
+
+	&__wrap{
+		width: 100%;
+	}
+	
+	&__icon {
+		width: 177rem;
+		height: 135rem;
+		border: 2px solid rgba(#fff, .3);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 24rem;
+		margin-right: 60rem;
+		svg {
+			width: 60rem;
+			fill: #fff;
+		}
+	}
+	
+	&__support-icon {
+		width: 67rem;
+	}
+	
+	&__title {
+		margin-bottom: 10rem;
+	}
+	
+	&__left {
+		max-width: 820rem;
+	}
+	
+	&__form {
+		width: 400rem;
+		display: none;
+		justify-content: space-between;
+		&.is-active {
+			display: flex;
+		}
+		&-left {
+			width: 290/400*100%;
+		}
+		&-button {
+			width: 86rem;
+			height: 56rem;
+			padding: 0;
+		}
+	}
+	
+	&__field {
+		max-width: 250rem;
+		position: relative;
+		margin-bottom: 20rem;
+		&-icon {
+			width: 12rem;
+			height: 12rem;
+			fill: #fff;
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			margin-top: -6rem;
+		}
+		&.error {
+			.notify__input {
+				color: red;
+				border-color: red;
+				&::placeholder {
+					color: red;
+				}
+				& + .notify__field-icon {
+					fill: red;
+				}
+			}
+		}
+	}
+	
+	&__input {
+		width: 100%;
+		display: block;
+		border: 0;
+		border-bottom: 1px solid #fff;
+		height: 56rem;
+		background: none;
+		color: #fff;
+		font-size: 20rem;
+		font-family: 'SF UI Display';
+		font-weight: 500;
+		&::placeholder {
+			color: #fff;
+		}
+	}
+	
+	&__checkbox {
+		font-size: 10px;
+		display: flex;
+		align-items: flex-start;
+		cursor: pointer;
+		&-icon {
+			width: 19px;
+			min-width: 19px;
+			margin-right: 15px;
+			height: 19px;
+			border: 1px solid rgba(#fff, .3);
+			border-radius: 5px;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			svg {
+				width: 12px;
+				height: 8px;
+				fill: #fff;
+				stroke: #fff;
+				stroke-width: 2;
+				opacity: .8;
+				transition: ease .2s;
+				opacity: 0;
+				transform: scale(0);
+			}
+		}
+		
+		input:checked + .notify__checkbox-icon svg {
+			opacity: 1;
+			transform: scale(1);
+		}
+		
+		&-text {
+			color: rgba(#fff, .5);
+			line-height: 16px;
+		}
+	}
+	
+	
+	&__button {
+		width: 100%;
+		max-width: 290rem;
+	}
+}
+
+@include max-screen($large_tablet) {
+	.notify {
+		&__icon {
+			margin-right: 40rem;
+		}
+		&__form {
+			width: 380rem;
+		}
+	}
+}
+
+@include max-screen($small_tablet) {
+	.notify {
+		&__form {
+			margin-left: 217rem;
+			width: 450rem;
+		}
+		&__field {
+			max-width: 300rem;
+		}
+	}
+}
+
+@include max-screen($large_mobile) {
+	.notify {
+		&__icon {
+			margin: 0 auto 30px auto;
+		}
+		&__title, &__desc {
+			text-align: center;
+		}
+		&__form {
+			width: 100%;
+			margin-left: 0;
+			margin-top: 30px;
+			&-left {
+				width: 270/400*100%;
+			}
+		}
+		&__checkbox {
+			margin-right: -80px;
+		}
+		&__button {
+			margin: 20px auto 0 auto;
+		}
+	}
+}

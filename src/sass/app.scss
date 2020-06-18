@@ -1,0 +1,16 @@
+$gray: rgba(#1a1b1d, 0.5);
+$gray_light: #abaaaa;
+$blue: #1270f8;
+$orange: #ba795d;
+
+@mixin letter-spacing($x, $y) {
+	letter-spacing: toem(($x*$y)/1000,$x);
+}
+
+@function toem($num, $parent: 16) {
+	@return $num/$parent+em;
+}
+
+@import "mixins/**/*.scss";
+@import "defaults/**/*.scss";
+@import "modules/**/*.scss";

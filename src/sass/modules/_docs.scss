@@ -1,0 +1,153 @@
+.docs{
+	padding-top: 85rem;
+
+	
+	@include max-screen($large_tablet) {
+		padding-top: 40rem;
+	}
+
+	&__title{
+		margin-right: 86rem;
+
+		@include max-screen($large_tablet) {
+			margin-right: 40rem;
+		}
+
+		@include max-screen($small_tablet) {
+			display: block;
+		}
+
+		@include max-screen($large_mobile) {
+			margin-right: 0;
+		}
+	}
+
+	&__top{
+		
+		// padding-bottom: 124rem;
+
+		&-row{
+			margin-bottom: 28rem;
+		}
+
+		&-cell{
+			margin-bottom: 30rem;
+		}
+
+		@include max-screen($large_tablet) {
+			&-row{
+				margin-bottom: 0;
+			}
+		}
+
+		@include max-screen($large_mobile) {
+			&-cell{
+				&_left{
+					width: 100%;
+					padding-right: 115rem;
+				}
+				&_right{
+					position: absolute;
+					right: 15rem;
+					top: 0;
+
+				}
+			}
+		}
+
+	}
+
+	&__bottom{
+		padding-top: 234rem;
+		margin-top: -221rem;
+
+		@include max-screen($large_tablet) {
+			padding-top: 210rem;
+			margin-top: -200rem;			
+		}
+	}
+
+	&__link{
+		margin-bottom: 7rem;
+
+		@include max-screen($large_tablet) {
+			margin-bottom: 18rem;
+		}
+	}
+
+	&__slider{
+		
+		.owl-stage-outer{
+			padding: 100rem 0;
+			margin: -100rem 0;
+		}
+		
+		@include max-screen($large_mobile) {
+			.owl-stage-outer{
+				padding-bottom: 60rem;
+			}
+		}
+	}
+
+	&__nav{
+		margin-top: 0;
+	}
+
+	&__item{
+		text-align: center;
+		height: 245rem;
+		width: 295rem;
+		padding-right: 40rem;
+		padding-left: 40rem;
+		border-radius: 5rem;
+		overflow: hidden;
+		position: relative;
+		background-color: #242424;
+		box-shadow: 0rem 0rem 100rem 0rem rgba(108, 108, 108, 0.1);
+		transition: ease .25s;
+
+		&:hover{
+			background: $orange;
+			.docs__icon {
+				svg {
+					fill: #fff;
+				}
+			}
+			.docs__text {
+				color: #fff;
+			}
+		}
+
+		@include max-screen($large_tablet) {
+		    height: 190rem;
+		    width: 210rem;
+		    padding-right: 15rem;
+		    padding-left: 15rem;			
+		}
+	}
+
+	&__icon{
+		margin-bottom: 17rem;
+
+		svg{
+			height: 37rem;
+			fill: rgba(#fcfbfa, .5);
+			transition: ease .25s;
+
+		}
+	}
+
+	&__center{
+		position: relative;
+		z-index: 15;
+		transition: ease .4s;
+	}
+
+	&__text{
+		font-weight: 500;
+		line-height: 20rem;
+		color: #fcfbfa;
+		transition: ease .25s;
+		transition: ease .25s;
+	}
+}

@@ -1,0 +1,92 @@
+.contact {
+	padding-top: 150rem;
+	font-size: 16rem;
+	&__list {
+		padding-top: 30rem;
+		margin-bottom: 60rem;
+	}
+	&__item {
+		margin-top: 30rem;
+		padding-left: 25rem;
+	}
+	&__label {
+		font-weight: 600;
+		color: rgba(#000, .7);
+		margin-bottom: 7rem;
+	}
+	&__text {
+		font-size: 24rem;
+		font-weight: 500;
+		line-height: 35/24*1;
+		max-width: 380rem;
+		position: relative;
+		&-icon {
+			position: absolute;
+			right: 100%;
+			margin-right: 13rem;
+			width: 13rem;
+			top: 7rem;
+			fill: rgba(#000, .3);
+			&_phone {
+				width: 16rem;
+				top: 6rem;
+				margin-right: 15rem;
+			}
+			&_email {
+				width: 20rem;
+				top: 8rem;
+				margin-right: 15rem;
+			}
+		}
+	}
+	&__map {
+		height: 610rem;
+	}
+}
+
+@include max-screen($small_tablet) {
+	.contact {
+		&__item {
+			&:nth-child(1) {
+				width: 100%;
+				order: 3;
+				br {
+					display: none;
+				}
+			}
+			&:nth-child(2) {
+				width: 45%;
+				order: 1;
+			}
+			&:nth-child(3) {
+				width: 45%;
+				order: 2;
+			}
+		}
+		&__text {
+			max-width: none;
+		}
+	}
+}
+
+@include max-screen($large_mobile) {
+	.contact {
+		padding-top: 80px;
+		&__list {
+			padding-top: 10rem;
+		}
+		&__item {
+			&:nth-child(1) {
+				br {
+					display: block;
+				}
+			}
+			&:nth-child(2) {
+				width: 100%;
+			}
+			&:nth-child(3) {
+				width: 100%;
+			}
+		}
+	}
+}

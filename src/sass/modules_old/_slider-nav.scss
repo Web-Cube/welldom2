@@ -1,0 +1,153 @@
+.slider-nav{
+	border-radius: 5rem;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 39rem;
+	background-color: #fff;
+
+
+	&__line{
+		left: 0;
+		top: 0;
+		right: 83.34%;
+		position: absolute;
+		height: 100%;
+		// width: 16.66%;
+		z-index: 1;
+		transition: linear .4s;
+		background-color: $blue;
+	}
+
+	&__list{
+		z-index: 15;
+		position: relative;
+
+		@include max-screen($small_tablet) {
+			overflow-x: auto;
+			padding-bottom: 15rem;
+			margin-bottom: -15rem;
+		    flex-wrap: nowrap;
+		}		
+
+		&:hover{
+			.slider-nav{
+				&__item{
+					color: #7f7f7f;
+				}
+			}
+		}
+	}
+
+
+	&__item{
+		width: 16.66%;
+		display: flex;
+		align-items: center;
+		min-height: 90rem;
+		justify-content: center;
+		// color: #7f7f7f;
+		color: #000;
+		// background-color: #fff;
+		font-size: 16rem;
+		line-height: 20rem;
+		padding: 20rem;
+		cursor: pointer;
+		position: relative;
+		transition: ease-out .3s;
+
+		&:before{
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			transform-origin: 100% 50%;
+			background-color: $blue;
+			z-index: -1;
+			transform: scale(0, 1);
+		    // transition: transform cubic-bezier(.86,0,.07,1) .6s;
+		    transition: transform ease .7s;
+
+		}
+
+		// animation-timing-function: linear;
+		// animation-duration: .8s;
+
+		// transition-delay: .6s;
+
+
+		&:not(:last-child){
+			border-right: 1rem solid #f2f2f2;
+		}
+
+
+		span{
+			display: block;
+
+		}
+
+		&:hover{
+			color: #000!important;
+		}
+	
+		&_current{
+			// color: #fff!important;
+			&:before{
+				transform-origin: 0% 50%;
+				transform: scale(1,1);
+			}
+		}
+
+		@include max-screen($large_desktop) {
+			padding: 13rem;
+			min-height: 60rem;
+		}
+
+		@include max-screen($small_tablet) {
+			width: auto;
+		    padding: 13rem 50rem;
+		}
+
+		@include max-screen($large_mobile) {
+			padding: 0rem 30rem;
+		}
+
+
+		// , &_current
+		// &_current{
+		// 	color: #fff;
+		// 	transition-delay: .2s;
+		// }
+
+		// &_color{
+		// 	animation-name: colorChange;
+		// }
+
+		// &:hover{
+		// 	background-color: #2f81f0;
+		// 	color: #fff;
+		// }
+
+
+
+		// &:not(.slider-nav__item_color),
+		// &:not(.slider-nav__item_current){
+		// 	&:hover{
+								
+		// 		// transition-delay: 0s;
+		// 		// color: #000;
+
+		// 		span{
+		// 			// transition: ease .3s;
+		// 			color: #000;
+		// 		}
+		// 	}			
+		// }
+	}
+
+	.slider-nav__item_current{
+		color: #fff!important;
+	}
+}

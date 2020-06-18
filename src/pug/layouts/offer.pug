@@ -1,0 +1,41 @@
++b.offer.SECTION
+	+e.bg
+		+e.IMG.bg-image.object-fit(src="/img/offer_bg_light.jpg")
+	+e.wrap.wrap
+		+e.vertical.flex
+			+e.vertical-inside
+				+e.name.h1.H1
+					span ЖК 
+					| «Шереметьевский» — 
+					br
+					| это развитая инфраструктура
+
+				+e.sub.h5
+					| Расположен в районе Марьина Роща города Москвы.
+					br 
+					| 5 минут пешком до станции «Фрунзенская»
+				+e.row.flex._justify
+					+e.cell._left.flex._vertical
+						+e.A.button.flat-button__.js-modal(href='#presentation' data-for="whatsapp")
+							+e.text Открыть презентацию
+						+e.play.play-button__.js-modal(data-modal="#video" data-youtube="wlkCQXHEgjA")
+							+e.circle
+							+e.text.p
+								| Посмотрите
+								br
+								| видео
+					+e.cell._right
+						+b.offer-slider
+							+e.row.flex
+								+e.part
+									+e.sub.h4 185
+									+e.text.p квартир
+								+e.part._small
+									+e.sub.h4 
+										| 40
+									+e.text.p 
+										| площадь от, м
+										sup 2
+								+e.part
+									+e.sub.h4 5 000 000
+									+e.text.p стоимость от, ₽

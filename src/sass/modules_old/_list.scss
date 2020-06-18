@@ -1,0 +1,42 @@
+.list{
+	position: relative;
+
+	li{
+		display: block;
+		position: relative;
+		padding-left: 34rem;
+
+		font-size: 22rem;
+		line-height: 30rem;
+		color: #1f1f1f;
+
+		&:not(:last-child){
+			margin-bottom: 37rem;
+		}
+
+		&:before{
+			content: '';
+			display: block;	
+			position: absolute;
+			left: 0;
+			top: 10rem;
+			width: 9rem;
+			height: 9rem;
+			border-radius: 50%;
+			background-color: #1270f8;
+		}
+
+		@include max-screen($large_tablet) {
+			font-size: 18rem;
+			line-height: 1.4em;
+
+			&:not(:last-child){
+				margin-bottom: 20rem;
+			}
+		}
+
+		@include max-screen($large_mobile) {
+			font-size: 16rem;
+		}
+	}
+}

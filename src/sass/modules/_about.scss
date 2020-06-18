@@ -1,0 +1,70 @@
+.about{
+	// 
+	position: relative;
+
+	&__man{
+		position: absolute;
+		left: 17.59%;
+		bottom: 0;
+		z-index: 2;
+		width: 34.51%;
+
+		@include max-screen($small_tablet) {
+			display: none;
+		}
+	}
+
+	
+
+	&__help{
+		right: 100%;
+		left: auto;
+		padding: 24rem;
+		position: absolute;
+		top: 70rem;
+		width: 168rem;
+		margin-right: -78rem;
+	}
+
+	&__column{
+		position: relative;
+		z-index: 15;
+		// width: 798rem;
+		width: 59.73%;
+		max-width: 100%;
+		min-height: 669rem;
+		text-align: center;
+		padding-top: 83rem;
+
+		@include max-screen($large_tablet) {
+			padding-left: 15rem;
+			padding-right: 15rem;
+		    min-height: 570rem;
+		    padding-top: 40rem;
+		}	
+
+		@include max-screen($small_tablet) {
+			width: 100%;
+			padding-left: 15rem;
+			padding-right: 15rem;
+			min-height: 0;
+			padding-bottom: 50rem;
+			padding-top: 50rem;
+		}
+	}
+
+	&__title{
+		margin-bottom: 25rem;
+	}
+
+	&__text{
+		margin-bottom: 48rem;
+		color: rgba(0,0,0,.5);
+		line-height: 25rem;
+	}
+
+	&__button{
+		width: 276rem;
+		max-width: 100%;
+	}
+}

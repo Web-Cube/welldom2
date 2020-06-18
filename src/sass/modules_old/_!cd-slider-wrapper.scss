@@ -1,0 +1,115 @@
+.cd-slider-wrapper{
+	position: relative;
+	width: 100%;
+	margin: auto;
+	overflow-x: hidden;	
+
+	&__svg-wrapper{
+		height: 0;
+		padding-top: 31.77%;
+		
+		svg{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;			
+		}	
+	}
+
+	// image{
+	// 	position: absolute;
+	// 	left: 0;
+	// 	top: 0;
+	// 	width: 100%;
+	// 	height: 100%;
+	// }
+
+	&__nav-button{
+		position: absolute;
+		z-index: 3;
+		right: 10rem;
+		height: 48rem;
+		width: 48rem;
+
+		a {
+			display: block;
+			height: 100%;
+			overflow: hidden;
+			text-indent: 100%;
+			white-space: nowrap;
+			color: transparent;
+			// background: url(../img/cd-icon-arrows.svg) no-repeat 0 0;
+		}
+
+		&:last-of-type {
+			left: 10rem;
+			right: auto;
+
+			a {
+				background-position: -48rem 0;
+			}
+		}		
+	}
+
+	&__item{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		opacity: 0;
+
+		/* hide vertical scrollbar on IE11 */
+		overflow: hidden;
+
+		&.is-visible {
+			position: relative;
+			z-index: 2;
+			opacity: 1;
+		}
+
+		&.is-animating {
+			z-index: 3;
+			opacity: 1;
+		}		
+	}
+
+	&__controls{
+		position: absolute;
+		bottom: 20rem;
+		z-index: 3;
+		text-align: center;
+		width: 90%;
+
+		li {
+			display: inline-block;
+			margin-right: 10rem;
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+
+			&.selected a {
+				// background-color: $color-3;
+			}
+		}
+
+		a {
+			display: block;
+			/* image replacement */
+			overflow: hidden;
+			text-indent: 100%;
+			white-space: nowrap;
+			color: transparent;
+
+			height: 10rem;
+			width: 10rem;
+			border-radius: 50%;
+			// border: 2rem solid $color-3;
+
+			.no-touch &:hover {
+			// background-color: $color-3;
+			}
+		}		
+	}
+}

@@ -1,0 +1,690 @@
+.quiz{
+	padding-top: 110rem;
+	padding-bottom: 152rem;
+
+
+	.form__thank{
+		background-color: #fafbfd;
+		padding-top: 194rem;
+		padding-left: 180rem;
+		padding-right: 180rem;
+		border-right: 5px;
+
+		@include max-screen($small_tablet) {
+			padding: 15px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+
+	&__item{
+		// margin: 0 !important;
+	}
+
+	&__thank{
+		text-align: left;
+
+		&-circle{
+		
+		}
+
+		&-content{
+			width: 78.02%;
+		}
+
+		&-title{
+			font-size: 34rem;
+			line-height: 41rem;
+			font-weight: 500;
+			margin-bottom: 35rem;
+		}
+
+		&-text{
+			font-size: 22rem;
+			line-height: 33rem;
+
+		}
+
+		picture{
+			margin-top: 10rem;
+			width: 12.82%;
+			margin-right: 9.16%;
+			display: block;			
+		}
+
+		@include max-screen($small_desktop) {
+
+			&-title{
+				font-size: 30rem;
+				line-height: 52rem;	
+				margin-bottom: 20rem;				
+			}
+
+			&-text{
+				font-size: 18rem;
+				line-height: 1.4em;
+			}
+		}
+
+		@include max-screen($large_tablet) {
+			&-title{
+				font-size: 26rem;
+				line-height: 1.3em;						
+			}	
+
+			&-text{
+				font-size: 16rem;
+			}
+		}
+
+		@include max-screen($small_tablet) {
+			picture{
+			    width: 14.82%;
+			    margin-right: 7.16%;				
+			}
+		}
+
+		@include max-screen($large_mobile) {
+			picture{
+				width: 100%;
+				display: block;
+				margin-right: 0;
+				margin-bottom: 30rem;
+				margin-top: 0;
+			}
+
+			img{
+				display: block;
+				margin: auto;
+				width: 80px;
+			}
+
+			&-content{
+				width: 100%;
+				text-align: center;
+			}
+		}
+
+	}
+
+	&__top{
+		height: 90rem;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		font-size: 17rem;
+		line-height: 1.2em;
+		padding-left: 56rem;
+		padding-right: 56rem;
+
+		border-bottom: .20rem solid #f2f3f5;
+
+		transition: ease .3s;
+
+		&.is-hidden{
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		@include max-screen($small_tablet) {
+			display: none;
+		}
+	}
+
+	&__box{
+		background-color: rgb(255, 255, 255);
+		border: 1px solid rgb(226, 226, 226);
+		border-radius: 5px;
+		overflow: hidden;
+		color: #393939;
+
+	}
+
+	&__cell{
+		padding-bottom: 128rem;
+		position: relative;
+		min-height: 632rem;
+
+		&_left{
+			width: 72.91%;
+		}
+
+		&_right{
+			width: 27.09%;
+			padding-left: 4.4%;
+			padding-right: 4.4%;
+			padding-top: 5.3%;
+			// background-color: #f2f3f5;
+			border-left: 1px solid #e2e2e2;
+		}
+
+		@include max-screen($small_tablet) {
+			width: 100%;
+			min-height: 0;
+			padding: 15px;
+
+			&_right{
+				order: 1;
+			}
+
+			&_left{
+				order: 2;
+				padding-bottom: 80px;
+			}
+		}
+	}
+
+	&__image-checkbox{
+		width: 41.62%;
+		margin-right: 3.47%;
+
+		@include max-screen($small_desktop) {
+			margin-top: 20rem;
+		}
+		
+		@include max-screen($large_mobile) {
+			width: 48%;
+			margin-right: 0;
+			&:not(:last-child) {
+				margin-right: 4%;
+			}
+		}
+		
+	}
+
+	&__radio{
+		margin: 32rem 0;
+
+		@include max-screen($large_mobile) {
+			margin: 20rem 0;
+		}
+	}
+
+	&__middle{
+		position: relative;
+	}
+
+	&__messengers{
+		@include max-screen($small_tablet) {
+			display: none;
+		}		
+	}
+
+	&__row{
+		&_second{
+			width: 50.87%;
+		}
+
+		&_third{
+			width: 64.28%;
+		}
+
+		&_fourth{
+			width: 53.64%;
+		}
+
+		&_fifth{
+			width: 89.02%;
+		}
+
+		&_sixth{
+			width: 96.07%;
+
+			.quiz__column{
+				width: 33.33%;
+			}
+
+			@include max-screen($large_mobile) {
+				.quiz__column{
+					width: 50%;
+				}				
+			}
+		}
+
+		@include max-screen($large_tablet) {
+			width: 100%;
+		}
+
+		@include max-screen($large_mobile) {
+			align-items: center;
+		}
+	}
+
+	&__decor{
+		position: absolute;
+
+		&_second{
+			top: -20rem;
+			width: 249rem;
+			// right: 104rem;
+			right: 78rem;
+		}
+		&_third{
+			top: -10rem;
+			width: 230rem;
+			right: 80rem;
+		}
+
+		&_fourth{
+			top: 0rem;
+			width: 233rem;
+			right: 84rem;
+			border-radius: 50%;
+		}
+
+		@include max-screen($large_tablet) {
+			display: none;
+		}
+	}
+
+	&__column{
+		padding-right: 20rem;
+		width: 50%;
+
+		&:last-child{
+			&:nth-child(odd){
+				width: 100%;
+			}
+		}
+
+		@include max-screen($large_mobile) {
+			width: 50%;
+			padding-right: 0;
+		}
+	}
+
+	&__slider{
+		margin-left: 56rem;
+		margin-right: 56rem;
+		
+		overflow: hidden;
+		transition: ease .3s;
+
+		&.is-hidden{
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		@include max-screen($small_tablet) {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+
+	&__newinput{
+		text-align: center;
+		height: 62rem;
+		@include max-screen($large_mobile) {
+			height: 50rem;
+		}
+	}
+
+	&__form{
+		border-radius: 5px;
+		overflow: hidden;
+	}
+
+	&__final{
+		visibility: hidden;
+		opacity: 0;
+		transition: ease .3s;
+
+		padding-top: 60rem;
+
+		padding-left: 56rem;
+
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+
+		&-field{
+			&:not(:last-child){
+				margin-bottom: 20rem;
+			}
+
+			&_mail{
+				display: none;
+			}
+			
+			&.error {
+				.quiz__newinput {
+					color: red;
+					border-color: red;
+					&::placeholder {
+						color: red;
+					}
+				}
+			}
+		}
+		
+
+		&-inside{
+			width: 71.72%;
+		}
+
+		&-fluid{
+			position: absolute;
+			left: 100%;
+			margin-left: 33rem;
+			top: 0;
+		}
+
+		&-messengers{
+			width: 62rem;
+			z-index: 900;
+			position: relative;
+		}
+
+
+		&-box{
+			position: relative;
+			width: 300rem;
+			max-width: 100%;
+
+		}
+
+		&-decor{
+			user-select: none;
+			pointer-events: none;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			width: 330rem;
+			transform: translateY(-50%);
+		}
+
+		&-button{
+			width: 100%;
+			padding-left: 0;
+			padding-right: 0;
+			// margin-top: 48rem;
+			// margin-top: 28rem;
+			height: 70rem;
+		}
+
+		&-text{
+			font-size: 18rem;
+			line-height: 28rem;
+			margin-bottom: 50rem;
+		}
+
+		&.is-visible{
+			opacity: 1;
+			visibility: visible;
+		}
+
+		@include max-screen($large_tablet) {
+			&-decor{
+				width: 260rem;
+				top: 60%;
+			}
+
+			&-text{
+				font-size: 16rem;
+				line-height: 1.4em;
+				margin-bottom: 30rem;
+			}
+		}
+
+		@include max-screen($small_tablet) {
+			padding: 35px 15px;
+
+			&-inside{
+				width: 100%;
+			}
+
+			&-button{
+				margin-top: 28rem;
+			}
+		}
+
+		@include max-screen($large_mobile) {
+			&-decor{
+				display: none;
+			}
+			&-box{
+				width: 100%;
+			}
+			&-button{
+				height: 50rem;
+			}
+
+			&-text{
+				font-size: 14rem;
+				line-height: 1.7em;
+			}
+		}
+	}
+
+	&__list{
+		white-space: nowrap;
+
+		transition: opacity .2s ease-out .1s;
+
+		&.is-hidden{
+			opacity: 0;
+		}
+	}
+
+	&__slide{
+		white-space: normal;
+		width: 100%;
+		vertical-align: top;
+		padding-top: 40rem;
+		padding-bottom: 40rem;
+
+		&.js-error{
+			.radio__text,
+			.image-checkbox__text{
+				color: #d22222;
+			}
+		}
+
+		@include max-screen($small_tablet) {
+			padding: 20rem 0;
+		}
+	}
+
+	&__question{
+		font-size: 34rem;
+		line-height: 50rem;
+		font-weight: 500;
+		color: #1f1f1f;
+		margin-bottom: 43rem;
+
+		&_small{
+			line-height: 40rem;
+			margin-bottom: 28rem;
+		}
+
+		@include max-screen($small_desktop) {
+			font-size: 30rem;
+			line-height: 52rem;	
+			margin-bottom: 20rem;	
+		}
+
+		@include max-screen($large_tablet) {
+			font-size: 26rem;
+			line-height: 1.3em;			
+		}
+	}
+
+	&__nav{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		padding-left: 56rem;
+		padding-right: 140rem;
+		padding-bottom: 56rem;		
+		width: 100%;
+
+		&-cell{
+			&_left{
+				width: 66.28%;
+				
+			}
+
+			&_right{
+				width: 33.72%;
+
+				transition: ease .3s;
+
+				&.is-hidden{
+					opacity: 0;
+					visibility: hidden;
+				}
+			}
+		}
+
+		&-prev{
+			padding: 0;
+			width: 88rem;
+			margin-right: 16rem;
+			picture{
+				display: flex;
+				align-items: center;
+			}
+		}
+
+		&-next{
+			padding-left: 38rem;
+			padding-right: 38rem;
+		}
+
+		@include max-screen($large_tablet) {
+			padding-right: 60rem;
+
+			&-cell{
+				&_left{
+					width: 60%;
+				}
+			}
+
+			&-prev{
+				width: 50rem;
+			}
+
+			&-next{
+			    padding-left: 18rem;
+			    padding-right: 18rem;
+			}
+		}
+
+		@include max-screen($small_tablet) {
+		// 	position: static;
+			padding: 15px;
+		}
+
+		@include max-screen($large_mobile) {
+			&-prev{
+				picture{
+					width: 13px;
+				}				
+			}
+			&-cell{
+				&_left{
+					width: 40%;
+
+				}
+
+				&_right{
+					// opacity: 1!important;
+					// visibility: visible!important;
+					width: 55%;
+				}
+			}
+		}
+	}
+
+	&__status{
+		&-text{
+			font-size: 17rem;
+			line-height: 1em;
+			margin-bottom: 21rem;
+			font-weight: 500;
+			color: #393939;
+
+			span{
+				color: #7d8091;
+			}
+		}
+
+		&-line{
+			position: relative;
+			height: 4rem;
+			background-color: rgba(#7d8091, .2);
+		}
+
+		&-done{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 0%;
+			height: 100%;
+			background-color: $orange;
+			transition: ease .3s;
+		}
+	}
+
+	&__search{
+		margin-bottom: 20rem;
+		color: #1f1f1f;
+		display: inline-block;
+		position: relative;
+
+		&-label{
+			position: absolute;
+			right: 0;
+			font-weight: 500;
+			top: 22rem;
+			transform: translateX(50%);
+			line-height: 27rem;
+			font-size: 22rem;
+		}
+
+		@include max-screen($large_tablet) {
+		    
+		    &-label{
+		    	transform: translateX(12%);
+		    	top: 0;
+		    	font-size: 16rem;
+		    	line-height: 1.3em;
+		    }
+		}
+
+		@include max-screen($small_tablet) {
+			display: none;
+		}
+	}
+
+	&__text{
+		line-height: 31rem;
+		color: rgba(#000, .8);
+
+		@include max-screen($large_mobile) {
+			line-height: 1.7em;
+		}
+	}
+
+
+	@include max-screen($large_desktop) {
+		padding-top: 80rem;
+		padding-bottom: 80rem;
+	}
+	&__title{
+		margin-bottom: 48rem;
+		line-height: 60/48*1;
+
+		@include max-screen($small_tablet) {
+			margin-bottom: 40rem;
+		}
+		@include max-screen($large_mobile) {
+			br {
+				display: none;
+			}
+		}
+	}
+}

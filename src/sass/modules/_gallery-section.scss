@@ -1,0 +1,20 @@
+.gallery-section{
+	padding-top: 70rem;
+	padding-bottom: 100rem;
+
+	&__title{
+		margin-bottom: 56rem;
+	}
+	
+	.owl-scrollbar__text {
+		color: rgba(#fbfaf8, .5);
+		span {
+			color: #fff;
+		}
+	}
+
+	@include max-screen($large_tablet) {
+		padding-top: 30rem;
+		padding-bottom: 80rem;
+	}
+}

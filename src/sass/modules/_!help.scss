@@ -1,0 +1,52 @@
+.help{
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 24rem 18rem;
+	background-color: rgb(47, 129, 239);
+	border-radius: 5rem;
+	color: #fff;
+
+	&:before{
+		content: '';
+		display: block;
+		position: absolute;
+		left: 100%;
+		top: 26rem;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 10rem 0 10rem 9rem;
+		border-color: transparent transparent transparent #2f82ef;
+	}
+
+	&__sub{
+		font-family: SFUIDisplay-Semibold;
+		margin-bottom: 10rem;
+		
+
+		&.p{
+			line-height: 20rem;
+		}
+	}
+
+	&__text{
+		color: rgba(255,255,255, .5);
+		line-height: 18rem;
+	}
+
+	&_gray{
+		background-color: #f5f6fc;	
+		color: #000000;
+
+		&:before{
+			border-color: transparent transparent transparent #f5f6fc;
+		}
+
+		.help{
+			&__text{
+				color: rgba(0,0,0, .5);
+			}
+		}
+	}
+}

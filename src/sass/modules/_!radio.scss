@@ -1,0 +1,97 @@
+.radio{
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+
+	&__input{
+		display: none;
+
+		&:checked{
+			&+.radio__content{
+				&:before{
+					border-color: $orange;
+					background-color: #fff;
+				}
+
+				&:after{
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	&__content{
+		padding-left: 66rem;
+		display: block;
+		position: relative;
+
+		&:before{
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			width: 46rem;
+			height: 46rem;
+			border: 1px solid #dedede;
+			border-radius: 5px;
+			margin-top: -23rem;
+			transition: ease .15s;
+		}
+
+		&:after{
+			content: '';
+			display: block;
+			position: absolute;
+			width: 13rem;
+			height: 10rem;
+			background: url('/img/check_3.png') center no-repeat;
+			top: 50%;
+			margin-top: -3rem;
+			left: 19rem;
+			opacity: 0;
+			transition: ease .15s;
+		}
+
+		@include max-screen($large_mobile) {
+			padding-left: 46rem;
+			&:before{
+				width: 30rem;
+				height: 30rem;
+				left: 1px;
+				margin-top: -15rem;
+
+			}
+
+			&:after{
+			    left: 11rem;
+		        margin-top: -4px;
+		        width: 13px;
+		        height: 10px;
+			}
+		}
+	}
+
+	&__text{
+		font-size: 17rem;
+		line-height: 1.2em;
+		display: block;
+
+		@include max-screen($large_tablet) {
+			font-size: 14rem;
+		}
+	}
+
+	&:hover{
+		.radio{
+			&__content{
+				&:before{
+					border-color: $orange;
+				}
+				&:after{
+					opacity: 1;
+				}
+			}
+		}
+	}
+}

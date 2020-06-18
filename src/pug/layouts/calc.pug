@@ -1,0 +1,81 @@
++b.SECTION.calc-section#calc
+	+e.wrap.wrap
+		+e.box.calc__
+			+e.title.h1._small Рассчитайте ипотеку прямо сейчас
+			+e.js.js-clone-top
+				+e.top.flex
+					+e.top-column.flex
+						+e.top-wrap
+							+e.top-text.p Ставка, от
+							+e.top-number.js-calc-percent(dta-percent="6") 6,0 %
+					+e.top-column.flex._center
+						+e.top-wrap
+							+e.top-text.p Ежемесячный платеж
+							+e.top-number.js-calc-total 32 ₽
+					+e.top-column.flex._center
+						+e.top-wrap
+							+e.top-text.p Первый взнос, от
+							+e.top-number 10 %
+					+e.top-column.flex._end
+						+e.bank-list.flex._vertical
+							+e.bank
+								img(src="/img/bank1.png")
+							+e.bank
+								img(src="/img/bank2.png")
+							+e.bank
+								img(src="/img/bank3.png")
+							+e.bank
+								img(src="/img/bank4.png")
+			+e.row.flex._justify
+				+e.content
+					+e.content-title.h3
+						| Поможем получить особые 
+						br
+						| условия ипотеки
+					ul
+						li
+							| Как в период строительства платить 
+							br
+							| в два раза меньше ежемесячно?
+						li
+							| Как получить одобрение по двум документам?
+						li
+							| Как получить ставку 5% по ипотеке?
+						li
+							a.js-modal(href="#share") Получить особые условия ипотеки
+				+e.form
+					+e.fields
+						+e.field
+							+e.field-head.flex._vertical
+								+e.LABEL.label Стоимость квартиры
+								+e.reference
+									+e.reference-icon ?
+									+e.reference-info
+										| Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних
+							+e.input-wrap.slider-input__
+								+e.INPUT.input.js-calc-input.js-calc-price(data-value="2100000",data-step="100000",data-min="1000000",data-max="10000000",value="21 100 000 ₽",data-sign="₽",name="price")
+								+e.bottom
+						+e.field
+							+e.field-head.flex._vertical
+								+e.LABEL.label Первоначальный взнос
+								+e.reference
+									+e.reference-icon ?
+									+e.reference-info
+										| Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних
+							+e.input-wrap.slider-input__
+								+e.INPUT.input.js-calc-input.js-calc-start(data-value="500000",data-step="50000",data-min="100000",data-max="5000000",value="500 000 ₽",data-sign="₽",name="start")
+								+e.bottom
+								+e.percent.js-start-percent 15.7%
+						+e.field
+							+e.field-head.flex._vertical
+								+e.LABEL.label Срок ипотеки
+								+e.reference
+									+e.reference-icon ?
+									+e.reference-info
+										| Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних
+							+e.input-wrap.slider-input__
+								+e.INPUT.input.js-calc-input.js-calc-year(data-value="20",data-step="1",data-min="1",data-max="30",value="20 лет",data-sign="лет",name="year")
+								+e.bottom
+					.js-html-top
+					+e.BUTTON.button.flat-button__.js-modal(data-modal="#mortgage")
+						+e.text Рассчитать ипотеку

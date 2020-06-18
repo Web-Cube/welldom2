@@ -1,0 +1,60 @@
++b.SECTION.offer-slider
+	+b.cd-slider-wrapper
+		+e.UL.list(data-step1='M1402,800h-2c0,0,0-213,0-423s0-377,0-377h1c0.6,0,1,0.4,1,1V800z', data-step2='M1400,800H724c0,0-297-155-297-423C427,139,728,0,728,0h671c0.6,0,1,0.4,1,1V800z', data-step3='M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z', data-step4='M-2,800h2c0,0,0-213,0-423S0,0,0,0h-1c-0.6,0-1,0.4-1,1V800z', data-step5='M0,800h676c0,0,297-155,297-423C973,139,672,0,672,0L1,0C0.4,0,0,0.4,0,1L0,800z', data-step6='M0,800h1400c0,0-1-213-1-423s0-377,0-377L1,0C0.4,0,0,0.4,0,1L0,800z')
+			+e.LI.item.is-visible
+				+e.svg-wrapper
+					svg( x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice")
+						
+						defs
+							clippath#cd-image-1
+								path#cd-changing-path-1(d='M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z')
+						image(clip-path='url(#cd-image-1)' xlink:href='/app/img/offer-slide_1.jpg')
+			+e.LI.item
+				+e.svg-wrapper
+					svg( x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice")
+						
+						defs
+							clippath#cd-image-2
+								path#cd-changing-path-2(d='M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z')
+						image(clip-path='url(#cd-image-2)' xlink:href='/app/img/offer-slide_2.jpg' x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMinYMin slice")
+			+e.LI.item
+				+e.svg-wrapper
+					svg( x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice")
+						
+						defs
+							clippath#cd-image-3
+								path#cd-changing-path-3(d='M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z')
+						image(clip-path='url(#cd-image-3)' xlink:href='/app/img/offer-slide_1.jpg' x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMinYMin slice")
+			+e.LI.item
+				+e.svg-wrapper
+					svg( x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice")
+						
+						defs
+							clippath#cd-image-4
+								path#cd-changing-path-4(d='M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z')
+						image(clip-path='url(#cd-image-4)' xlink:href='/app/img/offer-slide_2.jpg' x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMinYMin slice")
+		+e.UL.nav
+			+e.LI.nav-item
+				+e.A.nav-button._prev(href='#0') Next
+			+e.LI.nav-item
+				+e.A.nav-button._next(href='#0') Prev
+		+e.OL.controls
+			+e.LI.controls-item.selected
+			+e.LI.controls-item
+			+e.LI.controls-item
+			+e.LI.controls-item
+	//- +e.carousel.owl-carousel.single-slider
+	//- 	+e.item
+	//- 		+e.IMG.image.object-fit(src="/img/.jpg")
+	//- 	+e.item
+	//- 		+e.IMG.image.object-fit(src="/img/offer-slide_2.jpg")
+	//- 	+e.item
+	//- 		+e.IMG.image.object-fit(src="/img/offer-slide_1.jpg")
+	//- 	+e.item
+	//- 		+e.IMG.image.object-fit(src="/img/offer-slide_2.jpg")
+	//- 	+e.item
+	//- 		+e.IMG.image.object-fit(src="/img/offer-slide_1.jpg")
+	//- 	+e.item
+	//- 		+e.IMG.image.object-fit(src="/img/offer-slide_2.jpg")
+	+e.bottom
+		+e.wrap.wrap

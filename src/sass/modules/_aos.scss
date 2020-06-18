@@ -1,0 +1,223 @@
+[data-aos="video-aos"]{
+	
+
+	&:before{
+		visibility: hidden;
+		transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		
+		clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+		-webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+	}
+
+	.player{
+		visibility: hidden;
+		transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+		clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+		-webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+
+
+		.player__button{
+			opacity: 0;
+			display: none;
+		}
+	}
+
+	&.aos-animate{
+		&:before{
+			visibility: visible;
+			transition: 0.8s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+			clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+			-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+		}
+
+		.player{
+			visibility: visible;
+			transition: 0.8s ease .8s;
+			clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+			-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);			
+
+			.player__button{
+				opacity: 1;
+				display: block;
+			}			
+		}
+	}
+}
+
+[data-aos="singleSlider"]{
+	.owl-scrollbar__done, .owl-arrow__autoplay-border{
+		animation-play-state: paused;
+	}
+
+	.owl-item{
+		transform: translate(0, 15rem);
+		opacity: 0;
+		transition-duration: .5s;
+		transition-timing-function: ease-out;
+	}
+
+	&.aos-animate{
+		.owl-item{
+			transform: translate(0, 0rem);
+			opacity: 1;			
+		}
+
+		.owl-scrollbar__done, .owl-arrow__autoplay-border{
+			animation-play-state: running;
+		}
+	}
+}
+
+[data-aos="totop-aos"]{
+	opacity: 0;
+	transition: 0.4s ease 0s;
+	transform: translate(0, 15rem);
+
+	&.aos-animate{
+		opacity: 1;
+		transform: translate(0, 0rem);		
+	}
+}
+
+[data-aos="facts-aos"]{
+
+
+	pointer-events: none;
+	transform: scale(0, 1);
+
+	transition: border-radius ease .4s, .6s transform ease .35s;
+	// transition: border-radius ease .4s, .6s transform ease .5s;
+
+	transform-origin: 100% 50%;
+
+	&:nth-child(3n+2){
+		transform-origin: 50% 50%;
+	}
+
+	&:nth-child(3n+3){
+		transform-origin: 0% 50%;
+	}		
+	
+
+	// .facts__bg{
+	// 	visibility: hidden;
+	// }
+
+	.facts__center{
+		transition: .35s ease 0s;
+		// transition: .5s ease 0s;
+		opacity: 0;
+		transform: translate(0, 15rem);
+	}
+
+	&.aos-animate{
+		transition: border-radius ease .4s, .4s transform ease 0s;
+		// transition: border-radius ease .4s, .6s transform ease 0s;
+		pointer-events: auto;
+		transform: scale(1, 1);
+
+		// .facts__bg{
+		// 	visibility: hidden;
+		// }
+		.facts__center{
+			opacity: 1;
+			transition: .35s ease .4s;
+			// transition: .5s ease .7s;
+			transform: translate(0, 0rem);
+		}				
+	}
+}
+
+[data-aos="recall-aos"]{
+	.recall__box{
+		visibility: hidden;
+		clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+		-webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+
+		transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+
+	}
+
+	.recall__cell_image{
+		transform-origin: 100% 0%;
+		transition: 0.3s ease 0s;
+		visibility: hidden;
+		clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+		-webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+	}
+
+	.recall__cell_content{
+		opacity: 0;
+		visibility: hidden;
+		transition: .3s ease 0s;
+	}
+
+	.icon{
+		opacity: 0;
+		transition: .3s ease 0s;
+		visibility: hidden;
+	}
+	.recall__parent{
+		transition: 0.8s ease 0s;
+	}
+	.recall__icon{
+		transition: box-shadow 0.6s ease 2.4s;	
+	}
+
+	&:before{
+
+		visibility: hidden;
+
+		transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		
+
+		clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+		-webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+	}
+
+	&.aos-animate{
+
+		.recall__cell_content{
+			opacity: 1;
+			visibility: visible;
+		}
+
+		.icon{
+			opacity: 1;
+			visibility: visible;			
+			transition: 0.3s ease 2.4s;	
+		}
+
+		.recall__icon{
+			// transition: 0.3s ease 2.4s;	
+			box-shadow: 0rem 8rem 20rem 0rem rgba(0, 0, 0, 0.1);
+		}
+
+		&:before{
+			transition: 0.8s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		}
+
+		.recall__parent{
+			// border-radius: 5rem;
+			transition: 0.8s ease 1.6s;
+			box-shadow: 0rem 0rem 100rem 0rem rgba(108, 108, 108, 0.1);			
+		}
+
+		.recall__box{
+			visibility: visible;
+			transition: 0.8s ease .8s;	
+			clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+			-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);			
+		}
+
+		.recall__cell_image, .recall__cell_content{
+			transition: 0.8s ease 1.6s;
+		}
+
+		&:before,.recall__cell_image{
+			visibility: visible;
+			clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+			-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+		}		
+	}
+}

@@ -1,0 +1,43 @@
+.video-section{
+	padding-top: 70rem;
+	padding-bottom: 100rem;
+	position: relative;
+
+	&:before{
+		z-index: 1;
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+
+		background-image: url('/img/bg-line.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;		
+	}
+
+	@include max-screen($small_tablet) {
+		padding-top: 40rem;
+		padding-bottom: 40rem;
+	}
+
+	@include max-screen($large_mobile) {
+	    
+
+	    &:before{
+	    	background-position: 50% 80%!important;
+	    }
+	}
+
+	&__title{
+		display: none;
+		margin-bottom: 30rem;
+
+		@include max-screen($large_mobile) {
+			display: block;
+		}		
+	}
+}

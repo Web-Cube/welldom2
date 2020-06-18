@@ -1,0 +1,13 @@
+include ../mixins/mixin-loader.pug
+
+title #{title}
+meta(name='format-detection', content='telephone=no')
+meta(http-equiv='X-UA-Compatible', content='IE=edge')
+meta(charset='UTF-8')
+meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+link(href='/css/app.css', rel='stylesheet')
+meta(name='description' content='Новостройки Санкт-Петербурга')
+meta(property='og:image', content='/app/img/qoP5TdT0O3U.jpg')
+//- link(rel='shortcut icon', href='/app/img/favicon.png', type='image/png')	
+script.
+	function canUseWebP(){var e=document.createElement("canvas");return!(!e.getContext||!e.getContext("2d"))&&0==e.toDataURL("image/webp").indexOf("data:image/webp")}var root=document.getElementsByTagName("html")[0];canUseWebP()?root.classList.add("ws"):root.classList.add("wn");

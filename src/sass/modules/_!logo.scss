@@ -1,0 +1,186 @@
+.logo{
+	z-index: 800;
+	position: relative;
+
+	@include max-screen($large_desktop) {
+	}
+	
+	&__top {
+		margin-right: -100px;
+	}
+
+	&__text{
+
+		@include max-screen($large_mobile) {
+			display: none;
+		}
+	}
+
+	&__modern{
+		width: 140rem;
+		min-width: 140rem;
+		min-height: 32rem;
+		display: inline-block;
+		position: relative;
+
+		&-svg{
+			width: 100%;
+			// width: 80rem;
+			// max-width: 80vw;
+			// width: 50vw;
+
+			position: absolute;
+			left: 0;
+			top: 0;
+			// transform: translate(-50%, -50%);
+			
+
+			// transition: 3s;
+
+			// visibility: hidden;
+
+
+			// &_hide{
+			// 	transition: ease-in-out .9s;
+			// 	width: 100%;
+			// 	transform: translate(0%, 0%);
+			// 	left: 0 !important;
+			// 	top: 0 !important;
+			// }		
+
+			svg{
+				// fill: blue;
+				// fill: transparent;
+				width: 100%;
+
+				// opacity: 0;
+				// stroke-width: 2;
+				// stroke: #1f2022;
+				// stroke-dasharray: 600 600 600;
+				// stroke-dashoffset: 1200;
+
+				// animation-delay: .3s;
+				// animation-duration: 3s;
+
+				// animation-timing-function: ease-in-out;
+				// animation-iteration-count: 1;
+				// animation-fill-mode: forwards;	
+							
+			}
+
+
+			&.js-start{
+				visibility: visible;
+				svg{
+					animation-name: dash;
+				}
+			}
+		}
+
+		@include max-screen($large_mobile) {
+			min-width: 180rem;
+			min-height: 23rem;
+			img {
+				width: 90rem;
+				min-width: 90rem;
+			}
+		}
+	}
+
+	&__cell{
+		margin-bottom: 6rem;
+
+		&_left{
+			position: relative;
+			margin-right: 25rem;
+			padding-right: 15rem;
+
+			// opacity: 1;
+			// visibility: visible;		
+
+			border-right: 1px solid rgba(0, 0, 0, .2);
+
+
+			img{
+				width: 127rem;
+			}
+
+
+		}
+
+		&_center{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+
+			img{
+				max-height: 6.8rem;
+			}
+		}
+
+		&_right{
+			position: relative;
+			width: 45.82%;
+
+			&:before{
+				content: '';
+				display: block;
+				position: absolute;
+				left: 0;
+				height: 3.2rem;
+				top: 50%;
+				margin-top: -1.6rem;
+				width: 0.1rem;
+				background-color: #cccccc;
+			}			
+
+			img{
+				width: 76rem;
+				max-width: 90%;
+			}
+
+		}
+
+		@include max-screen($large_mobile) {
+			// width: 10.2rem;
+			width: auto;
+			margin-bottom: 0;
+			// padding: 0 1rem;
+			&_left{
+				padding-right: 0;
+				text-align: left;
+				border-right: 0;
+				// padding-top: 1rem;
+				// padding-right: 1.5rem;
+			}
+
+			&_right{
+				// padding-left: 1.5rem;
+				display: none;
+			}
+
+			img{
+				// max-width: 70%;
+				// width: 5.5rem;
+				width: 71rem;
+				max-width: none;
+			}
+
+		}
+
+		@include max-screen($small_mobile) {
+			// &_left{
+			// 	padding-right: 1rem;
+			// }
+
+			// &_right{
+			// 	padding-left: 1rem;
+			// }
+
+			img{
+				width: 80rem;
+			}
+
+		}		
+	}
+}

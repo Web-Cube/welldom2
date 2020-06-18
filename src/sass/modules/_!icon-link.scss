@@ -1,0 +1,40 @@
+.icon-link{
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 35rem;
+	font-weight: 600;
+	color: $orange;
+	position: relative;
+
+	&__icon{
+		width: 17rem;
+		display: block;
+		line-height: 1em;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		margin-top: -10rem;
+		// transform: translateY(-50%);
+		// margin-top: 2rem;
+
+		&-image{
+
+		}
+	}
+
+	&__text{
+		display: block;
+		line-height: 1em;
+		padding-bottom: 2rem;
+		border-bottom: 1rem solid $orange;
+	}
+
+	@include max-screen($large_mobile) {
+		padding-left: 25rem;
+		&__text{
+			border-bottom: none;
+			// text-decoration: underline;
+
+		}
+	}
+}

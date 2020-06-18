@@ -1,0 +1,308 @@
+.promo{
+	padding-top: 150rem;
+	padding-bottom: 80rem;
+
+	&_other{
+		padding-top: 130rem;
+		padding-bottom: 126rem;
+	}
+
+	@include max-screen($large_tablet) {
+		padding-top: 80rem;
+		padding-bottom: 40rem;
+	}
+
+	&__title{
+		margin-bottom: 62rem;
+
+		@include max-screen($large_tablet) {
+			margin-bottom: 30rem;
+		}
+
+		@include max-screen($small_mobile) {
+			padding-right: 15rem;
+		}
+
+
+	}
+
+	&__slider{
+		.owl-stage-outer {
+		    padding: 100rem 0;
+		    margin: -100rem 0;
+		}		
+	}
+
+	&__item{
+		background-color: #fff;
+		border-radius: 5rem;
+		overflow: hidden;
+		// width: 707rem;
+		width: 36.82vw;
+		display: block;
+		text-decoration: none;
+		color: #1f1f1f;
+		box-shadow: 0 0 100rem 0 rgba(108,108,108,.1);
+
+		&:hover{
+			.promo{
+				&__button{
+					// border-left-color: transparent;
+					// background-color: #2f81f0;
+
+
+					&:before{
+						transform-origin: 0% 50%;
+						transform: scale(1,1);							
+					}				
+
+					&-text{
+						color: #fff;
+					}
+
+					&-icon{
+						svg{
+							fill: #fff;
+						}
+					}
+				}
+			}
+		}
+
+		@include max-screen($small_desktop) {
+			width: 42.82vw;
+		}	
+
+		@include max-screen($large_tablet) {
+			width: 435rem;
+		}	
+
+		@include max-screen($small_tablet) {
+			width: 400rem;
+		}	
+
+		@include max-screen($large_mobile) {
+			width: 100vw;
+			width: calc(100vw - 30rem);
+		}
+	}
+
+	&__label{
+		position: absolute;
+		left: 37rem;
+		top: 38rem;
+		font-size: 14rem;
+		border-radius: 40rem;
+		line-height: 1em;
+		color: #000;
+		padding: 8rem 15rem;
+		background-color: #f5f6fc;
+		font-family: SFUIDisplay-Semibold;
+
+		@include max-screen($small_tablet) {
+			left: 10rem;
+			top: 10rem;
+		}
+	}
+
+	&__top{
+		position: relative;
+		padding-top: 50.92%;
+		overflow: hidden;
+	}
+
+	&__bottom{
+		border-top: 1rem solid #e5e5e5;
+	}
+
+	&__part{
+		position: relative;
+
+		&_content{
+			// padding: 30rem 37rem;
+		    padding: 1.56vw 1.93vw;
+			width: 65.91%;
+		}
+
+		&_button{
+			width: 34.09%;
+		}
+
+		@include max-screen($small_tablet) {
+			&_content{
+				padding: 10rem;
+			}
+		}
+
+		@include max-screen($small_mobile) {
+			&_content{
+				width: 60.91%;
+			}
+
+			&_button{
+				width: 39.09%;
+			}
+		}	
+	}
+
+	&__bg{
+		position: absolute;
+		// width: 65.27%;
+		width: 100%;
+		text-align: right;
+		// top: 0;
+		bottom: 0;
+		// margin-top: 5%;
+		// left: 41.87%;
+		right: 0;
+		// max-height: 80%;
+
+		svg{
+			fill: #c0d9fa;
+			max-width: none;
+			width: 100%;
+		}
+
+		picture{
+			// max-height: 80%;
+		}
+
+		&-image{
+			// max-height: 80%;
+			display: inline-block !important;
+			width: auto!important;
+
+			// @extend .object-fit;
+
+			// object-fit: contain;
+		}
+
+		&_home{
+			img{
+				max-width: 47.73%;
+			}
+		}
+
+		&_table{
+			img{
+				max-width: 67.71%;
+			}
+		}
+
+		&_pig{
+			img{
+				max-width: 50.99%;
+				margin-right: 3.68%;	
+			}
+		}
+
+		&_houses{
+			img{
+				margin-right: 5.38%;
+				max-width: 62.61%;
+			}
+		}
+
+		&_car{
+			img{
+				max-width: 47.45%;
+			}
+		}
+
+		&_glob{
+			img{
+				max-width: 54.53%;
+			}
+		}
+	}
+
+	&__button{
+		text-decoration: none;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		border-left: 1rem solid #e5e5e5;
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+		&:before{
+			content: '';
+			display: block;
+			position: absolute;
+			left: -1rem;
+			top: 0rem;
+			right: 0rem;
+			bottom: 0rem;
+			transform-origin: 100% 50%;
+			transform: scale(0,1);
+			background-color: $blue;
+			transition: transform ease .5s;
+		}
+
+		&-inner{
+			width: 100%;
+			z-index: 15;
+			position: relative;
+			display: block;
+		}
+
+		&-text{
+			color: #000000;
+			font-size: 16rem;
+			transition: ease-out .5s;
+
+
+		}
+
+		&-icon{
+			margin-left: 20rem;
+			width: 16rem;
+
+			svg{
+				fill: #000;
+				transition: ease .25s;
+			}
+		}
+
+		@include max-screen($large_mobile) {
+			
+			&-text{
+				font-size: 14rem;
+			}
+
+			&-icon{
+				margin-left: 10rem;
+			}			
+		}	
+			
+	}
+
+	&__name{
+		@include max-screen($small_mobile) {
+			margin-bottom: 0;
+		}
+	}
+
+	&__text{
+		line-height: 20rem;
+		color: #7f7f7f;
+
+		@include max-screen($small_mobile) {
+			display: none;
+		}
+	}
+
+	&__cell{
+
+
+		@include max-screen($small_mobile) {
+			
+			&_left{
+				width: 50%;
+			}			
+		}		
+	}
+}

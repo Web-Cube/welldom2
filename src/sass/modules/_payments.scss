@@ -1,0 +1,97 @@
+.payments {
+	padding: 100rem 0 430rem 0;
+	font-size: 17rem;
+	font-weight: 500;
+	line-height: 20/17*1;
+	text-align: center;
+	overflow: hidden;
+	
+	&__list {
+		margin: 0 -50rem;
+		padding-top: 30rem;
+	}
+	
+	&__item {
+		width: 25%;
+		margin-top: 50rem;
+		position: relative;
+		&:not(:first-child) {
+			&:before {
+				content: '';
+				display: block;
+				position: absolute;
+				width: 1px;
+				height: 100rem;
+				background: rgba(#929496, .4);
+				left: 0;
+				top: 30rem;
+			}
+		}
+		
+		&-icon {
+			margin-bottom: 35rem;
+			img {
+				height: 49rem;
+			}
+		}
+		
+		&-title {
+			margin-bottom: 8rem;
+		}
+		
+		&-desc {
+			color: $gray_light;
+		}
+	}
+	&__bottom {
+		text-align: center;
+		margin-top: 80rem;
+	}
+	&__button {
+		width: 100%;
+		max-width: 290rem;
+	}
+}
+
+@include max-screen($large_tablet) {
+	.payments {
+		&__list {
+			margin: 0;
+		}
+	}
+}
+
+@include max-screen($small_tablet) {
+	.payments {
+		&__item {
+			width: 50%;
+			&:nth-child(odd) {
+				&:before {
+					display: none !important;
+				}
+			}
+		}
+	}
+}
+
+@include max-screen($large_mobile) {
+	.payments {
+		padding: 40rem 0 80rem 0;
+		font-size: 17px;
+		&__list {
+			padding-top: 0;
+		}
+		&__item {
+			width: 100%;
+			&:not(:first-child) {
+				&:before {
+					display: none;
+				}
+			}
+			&-icon {
+				height: 49px;
+				margin-bottom: 20px;
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
++b.SECTION.notify
+	+e.bg._third
+		img.js-paralax(src="/img/notify3.jpg",data-paralax-step="7")
+	+e.wrap.wrap
+		+e.row.flex._justify._vertical
+			+e.left.flex._vertical
+				+e.icon
+					+e.support-icon.IMG(src='/img/support.png')
+				+e.text
+					+e.H3.title.h3 Одобрение ипотеки за 24 часа
+			+e.A.button.flat-button__(href='#')
+				+e.text Получать уведомления
+			+e.FORM.form(action="app/mail")
+				+e.form-left
+					+e.field
+						+e.INPUT.input#phone(type="tel", name="phone", placeholder="+7 (___) ___-__-__")
+						+e.LABEL.field-icon
+							+icon('call-answer','0 0 348.077 348.077')
+					+e.LABEL.checkbox
+						input(type="checkbox", checked="checked")
+						+e.checkbox-icon
+							+icon('checked')
+						+e.checkbox-text
+							| Нажимая на кнопку, вы даете согласие на обработку персональных данных  и соглашаетесь c политикой конфиденциальности
+				+e.BUTTON.form-button.flat-button__
+					+e.SPAN.arrow
+						+icon('rightArrow')
+					
+					

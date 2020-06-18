@@ -1,0 +1,239 @@
+
+.content p,.p,
+.content li, .li{
+	font-size: 16rem;
+	line-height: 28rem;
+
+}
+
+.content ul, .content ol{
+	padding-left: 35rem;
+}
+
+.content b,.b{
+	font-weight: 100;
+	font-family: SFUIDisplay-Medium;
+}
+
+.content a,.a{
+	text-decoration: none;
+}
+
+.h1, .content h1,
+.h2, .content h2,
+.h3, .content h3,
+.h4, .content h4,
+.h5, .content h5,
+.h6, .content h6,{
+	font-weight: 600;
+}
+
+
+
+.h1, .content h1{
+	font-size: 60rem;
+	line-height: 80/60*1;
+}
+
+.h2, .content h2{
+	font-size: 39rem;
+	line-height: 47/39*1;
+	font-weight: 500;
+	margin-bottom: 22rem;
+}
+
+.h3, .content h3{
+	font-size: 36rem;
+	line-height: 40/36*1;
+	font-weight: 500;
+}
+
+.h4, .content h4{
+	font-size: 30rem;
+	font-weight: 500;
+	line-height: 38rem;
+}
+
+.h5, .content h5{
+	font-size: 25rem;
+	line-height: 1.3em;
+	margin-bottom: 35rem;
+	font-weight: normal;
+}
+
+
+.h6, .content h6{
+	font-size: 20rem;
+	line-height: 26rem;
+	font-weight: 500;
+	margin-bottom: 9rem;
+	font-weight: normal;
+}	
+
+.middle{
+	font-size: 14rem;
+	line-height: 25rem;
+}
+
+.small{
+	font-size: 12rem;
+	line-height: 28rem;
+}
+
+.t18{
+	font-size: 18rem;
+	line-height: 1.2em;
+}
+
+.big{
+	font-size: 50rem;
+	line-height: 1em;
+	font-weight: normal;
+}
+
+.label{
+	font-size: 14rem;
+	color: #9d9d9d;
+	margin-bottom: 7rem;
+
+	sup{
+		line-height: 0rem;
+		font-size: .7em;
+	}
+}
+
+.h1{
+	&_small{
+		font-size: 48rem;
+		line-height: 40/36*1;
+		font-weight: 500;
+	}
+	&_middle{
+		font-size: 65rem;
+		line-height: 90rem;
+	}
+	&_big{
+		font-size: 54rem;
+		line-height: 63/54*1;
+		font-weight: 500;
+	}
+	&_verybig{
+		font-size: 70rem;
+		line-height: 78rem;
+		font-weight: normal;
+	}
+}
+
+.h2{
+	&_big{
+		font-size: 48rem;
+		line-height: 1.3em;
+		font-weight: 500;
+	}
+}
+
+
+@include max-screen($small_desktop) {
+	.h1, .content h1{
+		font-size: 50rem;
+		&_small {
+			font-size: 40rem;
+		}
+	}
+	.h2, .content h2{
+		font-size: 34rem;
+	}
+
+	.h3, .content h3{
+		font-size: 30rem;
+		line-height: 52rem;
+
+	}
+
+	.h4, .content h4{
+		font-size: 26rem;
+	}	
+
+	.h5, .content h5{
+		font-size: 22rem;
+	}
+
+	.h6, .content h6{
+		font-size: 18rem;
+		line-height: 1.4em;
+	}
+}
+
+@include max-screen($large_tablet) {
+	.big{
+		font-size: 30rem;
+	}
+	.h3, .content h3{
+		font-size: 26rem;
+		line-height: 1.3em;
+			
+	}	
+	.h1, .content h1{
+		font-size: 42rem;
+		&_small {
+			font-size: 38rem;
+		}
+	}
+	.h4, .content h4{
+		font-size: 24rem;
+		line-height: 1.3em;
+	}
+
+	.h5, .content h5{
+		font-size: 20rem;
+	}
+
+
+
+	.h2, .content h2{
+		font-size: 33rem;
+	}	
+}
+
+@include max-screen($small_tablet) {
+	.h1, .content h1{
+		font-size: 45rem;
+		&_small {
+			font-size: 36rem;
+		}
+	}	
+}
+
+@include max-screen($large_mobile) {
+	.content p,.p {
+		font-size: 14rem;
+		line-height: 1.4em;
+	}
+	.h1, .content h1{
+		font-size: 40rem;
+		&_small {
+			font-size: 36rem;
+		}
+	}
+	.h2, .content h2{
+		font-size: 28rem;
+	}	
+
+	.h6, .content h6{
+		font-size: 16rem;
+	}		
+}
+
+@include max-screen($small_mobile) {
+	.h4, .content h4{
+		font-size: 22rem;
+	}
+
+	.h1, .content h1{
+		font-size: 35rem;
+		letter-spacing: -.10rem;
+		&_small {
+			font-size: 32rem;
+		}
+	}	
+}

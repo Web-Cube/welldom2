@@ -1,0 +1,95 @@
+.image-checkbox{
+	display: block;
+	position: relative;
+	cursor: pointer;
+
+	&__input{
+		display: none;
+
+		&:checked{
+			&+.image-checkbox__content{
+				.image-checkbox__text{
+					color: $orange;
+
+					&:before{
+						border-color: $orange;
+					}
+
+					&:after{
+						opacity: 1;
+						visibility: visible;
+					}
+				}
+			}
+		}
+	}
+
+	picture{
+		display: block;
+		margin-bottom: 13rem;
+		overflow: hidden;
+		border-radius: 5px;
+	}
+
+	&__content{
+		display: block;
+	}
+
+	&__image{
+		height: 160rem;
+		
+		transition: ease .2s;
+		object-fit: cover;
+
+		@include max-screen($large_mobile) {
+			height: 110rem;
+			width: 100%;
+		}
+	}
+
+	&__text{
+		font-size: 19rem;
+		display: block;
+		line-height: 2.5em;
+		color: #1f1f1f;
+		position: relative;
+		padding-left: 61rem;
+		font-weight: 500;
+
+
+		&:before{
+			content: '';
+			display: block;
+			left: 0;
+			top: -.20rem;
+			position: absolute;
+			width: 46rem;
+			height: 46rem;
+			border: 1px solid #cccccc;
+			border-radius: 5px;
+			box-sizing: border-box;
+		}
+
+		&:after{
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: -.20rem;
+			width: 46rem;
+			height: 46rem;
+			visibility: hidden;
+			transition: ease .2s;
+			opacity: 0;
+			background: url('/img/check_3.png') center no-repeat;
+		}
+	}
+
+	&:hover{
+		.image-checkbox{
+			&__image{
+				transform: scale(1.1);
+			}
+		}
+	}
+}

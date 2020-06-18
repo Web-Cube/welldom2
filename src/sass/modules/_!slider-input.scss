@@ -1,0 +1,73 @@
+.slider-input{
+	position: relative;
+	font-size: 16rem;
+	&__bottom {
+		position: absolute;
+		width: calc( 100% - 10px );
+		height: 2px;
+		left: 5px;
+		bottom: 0;
+	}
+	&__input {
+		display: block;
+		width: 100%;
+		height: 66rem;
+		border-radius: 5px;
+		border: 2px solid rgba(#000, .1);
+		padding-left: 25rem;
+		font-size: 16rem;
+		font-weight: 500;
+		&-wrap {
+			position: relative;
+		}
+	}
+	.ui-slider-range {
+		background: $orange;
+		height: 2px;
+	}
+	.ui-slider-handle {
+		position: absolute;
+		top: -9px;
+		margin-left: -9px;
+		display: block;
+		width: 18px;
+		height: 18px;
+		background: $orange;
+		border-radius: 100%;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		&:before {
+			content: '';
+			display: block;
+			background: #fff;
+			width: 8px;
+			height: 8px;
+			border-radius: 100%;
+			transition: ease .2s;
+		}
+		&:hover {
+			&:before {
+				transform: scale(0);
+				opacity: 1;
+			}
+		}
+	}
+	&__percent {
+		position: absolute;
+		right: 28rem;
+		font-size: 14rem;
+		color: $orange;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+@include max-screen($large_tablet) {
+	.slider-input {
+		&__input {
+			height: 50px;
+		}
+	}
+}

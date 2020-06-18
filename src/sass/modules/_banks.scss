@@ -1,0 +1,39 @@
+.banks {
+	&__desc {
+		margin-top: 55rem;
+		font-weight: 500;
+		color: $gray;
+	}
+	&__bottom {
+		margin-top: 65rem;
+	}
+	&__button {
+		width: 100%;
+		max-width: 290rem;
+	}
+}
+
+@include max-screen($small_tablet) {
+	.banks {
+		&__item {
+			width: 50%;
+			text-align: center;
+			margin-top: 30rem;
+			padding: 0 15px;
+		}
+		&__bottom {
+			margin-top: 55rem;
+		}
+		&__row {
+			margin: 0 -15px;
+		}
+	}
+}
+
+@include max-screen($large_mobile) {
+	.banks {
+		&__bottom, &__desc {
+			margin-top: 40rem;
+		}
+	}
+}

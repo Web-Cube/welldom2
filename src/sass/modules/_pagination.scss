@@ -1,0 +1,36 @@
+.pagination{
+	border: 2px solid rgba(0, 0, 0, 0.102);
+	border-radius: 5px;
+	overflow: hidden;
+
+	&__item{
+		
+		&:not(:last-child){
+			border-right: 2px solid rgba(0, 0, 0, 0.102);
+		}
+	}
+	&__link{
+		color: #1f1f1f;
+		width: 64rem;
+		height: 64rem;
+		font-size: 20rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&.is-active{
+			background-color: $orange;
+			color: #fff;
+		}
+	}
+}
+
+@include max-screen($large_mobile) {
+	.pagination {
+		&__link {
+			width: 50rem;
+			height: 50rem;
+			font-size: 17rem;
+		}
+	}
+}

@@ -1,0 +1,192 @@
+.catalog{
+	padding-bottom: 42rem;
+	overflow: hidden;
+	margin-top: 140rem;
+	
+	&__title{
+		margin-bottom: 37rem;
+	}
+
+	&__list{
+		margin-left: -38rem;
+		margin-right: -38rem;
+	}
+
+	&__sub{
+		color: rgba(#000000, .7);
+		margin-bottom: 11rem;
+	}
+
+	&__item{
+		width: 33.33%;
+		margin-bottom: 94rem;
+		padding: 0 38rem;
+	}
+
+	&__top{
+		margin-bottom: 56rem;
+	}
+
+	&__preview{
+		position: relative;
+		border-radius: 10px;
+		&:hover {
+			.owl-prev, .owl-next {
+				opacity: 1;
+				transform: translateX(0);
+			}
+		}
+	}
+	
+	&__image {
+		min-height: 390rem;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-radius: 8px;
+	}
+
+	&__pagination{
+		margin-right: 140rem;
+	}
+
+	&__name{
+		font-size: 24rem;
+		line-height: 33/24*1;
+		min-height: 66rem;
+		margin-top: 24rem;
+		margin-bottom: 28rem;
+
+		sup{
+			line-height: 0rem;
+			font-size: .5em;
+		}
+	}
+
+	&__link{
+		font-weight: 500;
+	}
+	
+	.owl-carousel .owl-item img {
+		width: auto;
+	}
+	
+	.owl-nav {
+		z-index: 10;
+		margin-top: -40rem;
+	}
+	.owl-prev, .owl-next {
+		width: 40rem;
+		height: 80rem;
+		position: absolute;
+		overflow: hidden;
+		transition: ease .2s;
+		opacity: 0;
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			width: 80rem;
+			height: 80rem;
+			background-color: #fff !important;
+			border-radius: 100%;
+			cursor: pointer;
+			box-sizing: border-box;
+		}
+		&:after {
+			content: '';
+			display: block;
+			background: url(/img/catalog__arrow.png) 0 0 no-repeat;
+			width: 10rem;
+			height: 18rem;
+			background-size: 100% 100%;
+			position: absolute;
+			top: 50%;
+			margin-top: -9rem;
+			right: 4rem;
+		}
+	}
+	.owl-prev {
+		left: -1px;
+		transform: translateX(-50%);
+		&:before {
+			right: 0;
+		}
+		&:after {
+			right: 25rem;
+		}
+	}
+	.owl-next {
+		right: -1px;
+		transform: translateX(50%);
+		&:before {
+			left: 0;
+		}
+		&:after {
+			transform: rotate(180deg);
+		}
+	}
+	&__button{
+		width: 100%;
+		max-width: 290rem;
+	}
+}
+
+@include max-screen($large_tablet) {
+	.catalog {
+		&__image {
+			min-height: 280rem;
+		}
+		.owl-prev, .owl-next {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+}
+
+@include max-screen($small_tablet) {
+	.catalog {
+		&__list {
+			margin-left: -15px;
+			margin-right: -15px;
+		}
+		&__item {
+			padding: 0 15px;
+		}
+		&__name {
+			font-size: 20rem;
+			min-height: 50rem;
+		}
+	}
+}
+
+@include max-screen($large_mobile) {
+	.catalog {
+		&__item {
+			width: 50%;
+			margin-bottom: 60rem;
+		}
+		&__name {
+			font-size: 18rem;
+		}
+		&__pagination {
+			margin-right: 0;
+			margin-bottom: 15rem;
+		}
+	}
+}
+
+@include max-screen($small_mobile) {
+	.catalog {
+		&__item {
+			width: 100%;
+		}
+		&__name {
+			min-height: inherit;
+			font-size: 22rem;
+			margin-top: 20rem;
+			margin-bottom: 20rem;
+		}
+	}
+}

@@ -1,0 +1,243 @@
+.mortgage{
+	position: relative;
+	background-color: #fff;
+
+	&:before{
+		content: '';
+		display: block;
+		position: absolute;
+		left: 50%;
+		top: 0;
+		// z-index: 500;
+		width: 1rem;
+		height: 100%;
+		background-color: #f2f2f2;
+	}
+
+	@include max-screen($large_mobile) {
+		&:before{
+			display: none;
+		}
+	}
+	
+	&__form-button{
+		width: 100%;
+		margin-top: 12rem;
+	}
+
+	&__list{
+		width: 475rem;
+		max-width: 80%;
+		margin: auto;
+		text-align: left;
+
+		li{
+			color: rgba(#000000, .82);
+			font-size: 20rem;
+			line-height: 25rem;
+			&:before{
+				top: 7rem;
+			}
+
+			&:not(:last-child){
+				margin-bottom: 18rem;
+			}
+
+			@include max-screen($large_tablet) {
+				font-size: 16rem;
+				line-height: 1.4em;
+			}
+		}
+	}
+
+	&__cell{
+		padding-top: 43rem;
+		padding-bottom: 20rem;		
+		width: 50%;
+
+		&_left{
+			padding-left: 70rem;
+			padding-right: 101rem;
+		}
+
+		&_right{
+			text-align: center;
+			color: #1f1f1f;
+			padding-left: 25rem;
+			padding-right: 25rem;
+		}
+
+		@include max-screen($large_tablet) {
+			&_left{
+				padding-left: 15rem;
+				padding-right: 15rem;
+			}
+
+			&_right{
+				padding-top: 0;
+				padding-bottom: 0;
+			}
+		}
+
+		@include max-screen($large_mobile) {
+			width: 100%;
+
+			&_right{
+				padding-top: 0;
+				padding-left: 5rem;
+				padding-right: 5rem;
+				padding-bottom: 60rem;
+			}			
+		}
+	}
+
+	&__column{
+		margin: 0 40rem;
+		margin-bottom: 38rem;
+
+		@include max-screen($small_desktop) {
+			margin: 0 20rem 38rem;
+		}
+
+		@include max-screen($small_desktop) {
+			width: 50%;
+			margin-left: 0;
+			margin-right: 0;
+			padding: 0 15rem;
+		}
+
+		@include max-screen($small_tablet) {
+			width: 100%;
+			padding: 0;
+			margin: 0 0 5rem;
+		}
+	}
+
+	&__price{
+		font-size: 90rem;
+		line-height: 1em;
+		margin-bottom: 20rem;
+
+		@include max-screen($small_desktop) {
+			font-size: 70rem;
+		}
+
+		@include max-screen($large_tablet) {
+			font-size: 50rem;
+		}
+
+		@include max-screen($small_tablet) {
+			font-size: 35rem;
+		}
+	}
+
+	&__sub{
+		margin-bottom: 25rem;
+
+		@include max-screen($small_mobile) {
+			margin-bottom: 15rem;
+		}
+	}
+
+	&__field{
+		width: 100%;
+	}
+
+	&__part{
+		&_left{
+			width: 42.05%;
+		}
+
+		&_right{
+			width: 50.7%;
+		}
+
+		@include max-screen($small_mobile) {
+			width: 100%;
+
+			&:not(:last-child){
+				margin-bottom: 15rem;
+			}
+		}
+	}
+
+	&__bold{
+		font-family: SFUIDisplay-Semibold;
+		color: #1f1f1f;
+		margin-bottom: 12rem;
+
+		@include max-screen($small_tablet) {
+			margin-bottom: 5rem;
+		}
+	}
+
+	&__row{
+		@include max-screen($large_mobile) {
+			margin-bottom: 30rem;
+		}
+	}
+
+	&__btn{
+		margin-top: 43rem;
+		width: 380rem;
+		transition: ease .3s;
+
+		@include max-screen($small_tablet) {
+			margin-top: 15rem;
+		}
+
+		@include max-screen($large_mobile) {
+			margin-top: 30rem;
+		    max-width: 90%;
+		    margin-left: auto;
+		    margin-right: auto;
+		    padding: 0;
+		}
+	}
+
+	&__small-price{
+		font-family: SFUIDisplay-Regular;
+
+	}
+
+	&__li{
+		transition: ease .3s;
+	}
+
+	&__string{
+		margin-bottom: 34rem;
+
+		&_big{
+			margin-bottom: 45rem;
+		}
+
+		@include max-screen($small_mobile) {
+			margin-bottom: 15rem;
+
+			&_big{
+				margin-bottom: 30rem;
+			}
+		}
+	}
+}
+
+.is-mortgage-hidden{
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(15rem);
+	transition-duration: .5s;
+	transition-timing-function: ease;
+
+	&.is-visible{
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0rem);	
+	}
+
+	@include max-screen($large_tablet) {
+		opacity: 1;
+		visibility: visible;
+		transform: none;
+	}
+	
+}

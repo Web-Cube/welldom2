@@ -1,0 +1,147 @@
+.nav{
+	text-align: center;
+	z-index: 800;
+	position: relative;
+	min-height: 63rem;
+
+
+	&.is-fixed{
+		.nav__inner{
+		    border-color: #e6e6e6;
+			position: fixed;
+		}
+	}
+
+	&.is-modern{
+		.nav{
+			&__list{
+				transform: translate(0, 0);
+				transition: .6s ease .4s;
+				left: 0;
+			}
+
+			&__right{
+				transition: .6s ease .4s;
+				opacity: 1;
+				visibility: visible;
+			}
+
+			&__item{
+				margin: 0 30rem;
+				transition: .4s ease;
+
+				&:first-child{
+					margin-left: 0!important;
+				}
+			}
+
+			@include max-screen($small_desktop) {
+				&__item{
+				    margin: 0 10rem;
+				}
+			}
+
+			@include max-screen($large_tablet) {
+				&__item{
+				    margin: 0 5rem;
+				}				
+			}
+		}
+	}
+
+	@include max-screen($small_tablet) {
+		display: none;
+	}
+
+	&__list{
+		flex-wrap: nowrap;
+	}
+
+	&__center{
+		position: relative;				
+	}
+
+	&__inner{
+		left: 0;
+		top: 0;
+		position: relative;
+		width: 100%;		
+		
+		background-color: #ffffff;
+		border-bottom: 1rem solid transparent;
+
+		&:hover{
+			.nav__link{
+				color: rgba(26,27,29, .7);
+			}
+		}
+	}
+
+	&__right{
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 100%;
+		opacity: 0;
+		visibility: hidden;
+		transition: .6s ease 0s;
+	}
+
+	&__part{
+		&_mess{
+			margin-left: 44rem;
+			width: 60rem;
+		}
+
+		@include max-screen($large_tablet) {
+			&_mess{
+				margin-left: 15rem;
+				width: 40rem;
+
+				svg{
+					max-width: 60%
+				}
+			}			
+		}
+	}
+
+	&__item{
+		// margin: 0 35rem;
+		// margin: 0 67rem;
+		// transition: ease .5s;
+		display: block;
+		flex: 0 0 auto;
+		
+
+		transition: .4s ease .6s;	
+	}
+
+	&__link{
+		padding: 17rem 0;
+		display: block;
+		color: #333333;
+		position: relative;
+		transition: ease .3s;
+
+		&:hover{
+			color: $orange!important;
+		}
+
+		&_current{
+			color: $orange!important;
+		}
+
+		// &.mPS2id-highlight{
+		// 	color: rgba(26,27,29, 1)!important;
+
+		// 	&:before, &:after{
+		// 		opacity: 1;
+		// 	}
+		// }
+
+		@include max-screen($large_tablet) {
+			font-size: 14rem;
+		}
+	}
+}
+

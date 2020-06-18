@@ -1,0 +1,52 @@
++b.SECTION.offer-slider._full.need-load-class
+	+e.slider.swiper-container.parallax-slider__.loading
+		.swiper-wrapper
+			.swiper-slide
+				+e.FIGURE.item
+					+e.IMG.image.object-fit(src='/img/offer-slide_1.jpg')
+			.swiper-slide
+				+e.FIGURE.item
+					+e.IMG.image.object-fit(src='/img/testhome1.jpg')
+			.swiper-slide
+				+e.FIGURE.item
+					+e.IMG.image.object-fit(src='/img/testhome2.jpg')
+			.swiper-slide
+				+e.FIGURE.item
+					+e.IMG.image.object-fit(src='/img/testhome3.jpg')
+			.swiper-slide
+				+e.FIGURE.item
+					+e.IMG.image.object-fit(src='/img/testhome6.jpg')
+			.swiper-slide
+				+e.FIGURE.item
+					+e.IMG.image.object-fit(src='/img/testhome5.jpg')
+		.owl-nav
+			include owl-arrows.pug
+		+b.offer-slider
+			+e.bottom
+				+e.wrap.wrap
+					+e.row.flex
+						+e.cell._left
+							+e.part-row.flex
+								+e.part
+									+e.sub.h4 185
+									+e.text.p квартир
+								+e.part._small
+									+e.sub.h4 
+										| 40
+									+e.text.p 
+										| площадь от, м
+										sup 2
+								+e.part
+									+e.sub.h4 5 000 000
+									+e.text.p стоимость от, ₽
+							+e.nav.owl-scrollbar__
+								+e.num._left 01
+								+e.line
+									+e.path
+										+e.done._auto
+								+e.num._right 05
+						+e.cell._right
+							+e.A.button.button__.js-modal(href="#presentation")
+								+e.icon
+									+e.IMG(src="/img/icon-2.png")
+								+e.text Скачать презентацию	

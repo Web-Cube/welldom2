@@ -1,0 +1,90 @@
++b.SECTION.contacts.css-gray-bg#contacts
+	+e.wrap.wrap
+		+e.row.flex
+			+e.cell._left(data-aos="fade-in" data-aos-offset="200")
+				+e.title.h2
+					| Приходите 
+					| в гости!
+				include ../layouts/contact-ul.pug
+				
+				+e.map-button.js-modal(data-modal="#map-contacts")
+					+e.map-list
+						+e.map-circle
+						+e.map-circle
+						+e.map-circle
+					+e.IMG.map-hover.object-fit(src="/img/map-hover.jpg")
+					+e.map-inner
+						+e.map-center
+							+e.map-icon
+								+icon('location-pointer', '0 0 50 80')
+							+e.map-text.p Показать на карте
+			+e.cell._center(data-aos="fade-in" data-aos-offset="200" data-aos-delay="150")
+				+e.man
+					+e.help.help__
+						+e.sub.p 
+							| Игорь
+						+e.text.middle
+							| Дежурный
+							br
+							| менеджер
+					+e.IMG.man-image(src="/img/man.png")
+			+e.cell._right(data-aos="fade-in" data-aos-offset="200" data-aos-delay="300")
+				+e.title.h2
+					| Ответы на главные
+					| вопросы
+				+e.accordion-list
+					+e.accordion.accordion__
+						+e.header В чем преимущество апартаментов?
+						+e.body
+							+e.text.p
+								| Lorem Ipsum - это текст-"рыба", часто используемый в печати
+								| и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
+								| для текстов на латинице с начала XVI века. Lorem Ipsum
+								| - это текст-"рыба", часто используемый в печати
+								| и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
+								| для текстов на латинице с начала XVI века.
+					+e.accordion.accordion__
+						+e.header Какая мебелировка будет входить в стоимость?
+						+e.body
+							+e.text.p
+								| Lorem Ipsum - это текст-"рыба", часто используемый в печати
+								| и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
+								| для текстов на латинице с начала XVI века. Lorem Ipsum
+								| - это текст-"рыба", часто используемый в печати
+								| и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
+								| для текстов на латинице с начала XVI века.
+					+e.accordion.accordion__
+						+e.header 
+							| Могу ли я получить скидку при покупке
+							br
+							| нескольких апартаментов?
+						+e.body
+							+e.text.p
+								| Lorem Ipsum - это текст-"рыба", часто используемый в печати
+								| и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
+								| для текстов на латинице с начала XVI века. Lorem Ipsum
+								| - это текст-"рыба", часто используемый в печати
+								| и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
+								| для текстов на латинице с начала XVI века.
+					+e.accordion.accordion__
+						+e.header Почему застройщик смело гарантирует доход?
+						+e.body
+							+e.text.p
+								| Lorem Ipsum - это текст-"рыба", часто используемый в печати
+								| и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
+								| для текстов на латинице с начала XVI века. Lorem Ipsum
+								| - это текст-"рыба", часто используемый в печати
+								| и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
+								| для текстов на латинице с начала XVI века.
+					+e.accordion.accordion__
+						+e.header Как получить одобрение в 95% случаев на ипотеку?
+						+e.body
+							+e.text.p
+								| Lorem Ipsum - это текст-"рыба", часто используемый в печати
+								| и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
+								| для текстов на латинице с начала XVI века. Lorem Ipsum
+								| - это текст-"рыба", часто используемый в печати
+								| и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
+								| для текстов на латинице с начала XVI века.
+				+e.A.button.flat-button__.js-modal(href="#recall" data-title="Получить ответ на свой вопрос" data-input="Получить ответ на свой вопрос")
+					+e.text Получить ответ на свой вопрос

@@ -1,0 +1,30 @@
+.discount-btn {
+	position: fixed!important;
+	right: 5%;
+	top: 50%;
+	z-index: 100;
+	border-radius: 35px!important;
+	font-size: 16rem!important;
+	overflow: hidden;
+	width: 66rem;
+	height: 66rem!important;
+	.flat-button__text {
+		display: none;
+		min-width: 170rem;
+	}
+	.flat-button__percent {
+		transform: translateX(-12rem);
+	}
+	&:hover {
+		width: 260rem;
+		.flat-button__text {
+			display: block;
+		}
+	}
+}
+
+@include max-screen($large_tablet) {
+	.discount-btn {
+		right: 15px;
+	}
+}

@@ -1,0 +1,23 @@
+.contact-ul{
+	&__item{
+		padding-left: 23rem;
+		display: block;
+		position: relative;
+
+		&:not(:last-child){
+			margin-bottom: 9rem;
+		}
+	}
+
+	&__icon{
+		width: 9rem;
+		position: absolute;
+		left: 0;
+		display: block;
+		top: 13rem;
+		transform: translateY(-50%);
+		svg{
+			fill: #cacdd9;
+		}
+	}	
+}

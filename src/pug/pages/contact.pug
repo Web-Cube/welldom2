@@ -1,0 +1,86 @@
+extends ../layouts/base
+
+append vars
+	- title = 'Контакты';
+	- body['classList'] = 'is-loaded';
+
+block content
+	+b.SECTION.fullscreen
+		+e.container._fix._header
+			include ../layouts/header
+			include ../layouts/nav
+		+b.page
+			+e.head
+				+e.head-wrap.wrap.flex._justify
+					+e.H1.title.h1
+						| Контакты
+					+e.UL.breadcrumbs.breadcrumbs__
+						+e.LI.item
+							+e.A.link(href="main.html") Главная
+						+e.LI.item
+							+e.SPAN.current Контакты
+			+e.contact.contact__
+				+e.wrap.wrap
+					+e.list.flex._justify
+						+e.item
+							+e.label Адрес:
+							+e.text
+								+e.SPAN.text-icon
+									+icon('location-pointer','0 0 50 80')
+								| Улица Заставская 22к2, 
+								br
+								| офис 904, БЦ «Мега Парк»
+						+e.item
+							+e.label Телефон:
+							+e.text
+								+e.SPAN.text-icon._phone
+									+icon('phone','0 0 15 21')
+								a(href="tel:+78126465130") +7 (812) 646-51-30
+						+e.item
+							+e.label Почта:
+							+e.text
+								+e.SPAN.text-icon._email
+									+icon('email','0 0 14 14')
+								a(href="mailto:namename@yandex.ru") namename@yandex.ru
+				+e.map.map-box#map-footer(data-len="59.8886", data-lng="30.3277")
+			+e.recall.recall__._big#view(data-aos="recall-aos" data-aos-offset="200")
+				+e.wrap.wrap
+					+e.H2.head-title.h1._small.css-text-center
+						| Запишитесь на просмотр шоу-рума
+					+e.parent
+						+e.box.flex
+							+e.icon
+								+b.IMG.icon(src="/img/loupe.png")
+							+e.cell._image
+								+e.IMG.image.object-fit(src='/img/recall.jpg')
+							+e.cell._content
+								+e.center
+									+e.title.h2 
+										| Посмотрите квартиры
+									+e.text.p
+										| Взгляните лично. Устроим вам 30 минутную экскурсию по 
+										| территории ЖК Шереметьевский
+								+e.FORM.form.form__
+									+e.thank.flex._vertical._center
+										+e.thank-center
+											+e.thank-title.h2
+												| Ваша заявка успешно отправлена
+											+e.thank-text.p
+												| Менеджер свяжется с Вами в ближайшее время
+									+e.INPUT(type="hidden" name="form" value="form 1")
+									+e.item
+										+e.INPUT.input(type="text" name="name" placeholder="Имя" required="")
+										+e.icon
+											+icon('man-user', '0 0 350 350')
+									+e.item
+										+e.INPUT.input(type="text" name="phone" placeholder="Телефон" required="")
+										+e.icon
+											+icon('call-answer', '0 0 348.077 348.077')
+									+e.BUTTON.button.flat-button__
+										+e.text Записаться на просмотр
+									+e.LABEL.accept.checkbox__
+										+e.INPUT.input(type="checkbox" name="accept" checked="")
+										+e.SPAN.text.middle
+											| Нажимая на кнопку, вы даете согласие на обработку
+											| персональных данных и соглашаетесь c политикой
+											| конфиденциальности

@@ -1,0 +1,18 @@
+.messenger{
+	width: 100%;
+	padding-top: 100%;
+	border-radius: 50%;
+	border: 1rem solid #e7e7e7;
+	position: relative;
+    box-sizing: content-box;
+
+    @include max-screen($large_mobile) {
+    	&_desktop{
+    		display: none;
+    	}
+
+    	&_mobile{
+    		display: block;
+    	}
+    }
+}

@@ -1,0 +1,33 @@
+extends ../layouts/base
+
+append vars
+	- title = 'Главная';
+	- body['classList'] = 'is-loaded';
+
+block content
+	+b.SECTION.fullscreen
+		+e.container._fix._header
+			include ../layouts/header
+			include ../layouts/nav
+		+e.container._auto
+			include ../layouts/offer	
+	include ../layouts/facts_first
+	include ../layouts/about-slider
+	include ../layouts/info_slider
+	include ../layouts/presentation
+	include ../layouts/gallery
+	include ../layouts/catalog
+	include ../layouts/quiz
+	include ../layouts/notify
+	.css-black-bg
+		include ../layouts/recall
+		include ../layouts/payments
+	.css-light-bg
+		include ../layouts/calc
+		include ../layouts/expert
+		include ../layouts/promo
+	include ../layouts/contact
+	include ../layouts/notify_second
+	//include ../layouts/facts_third
+	//include ../layouts/council
+	//include ../layouts/docs

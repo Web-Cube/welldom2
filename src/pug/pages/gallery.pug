@@ -1,0 +1,62 @@
+extends ../layouts/base
+
+append vars
+	- title = 'Галерея';
+	- body['classList'] = 'is-loaded';
+
+block content
+	+b.SECTION.fullscreen
+		+e.container._fix._header
+			include ../layouts/header
+			include ../layouts/nav
+		+b.page
+			+e.head
+				+e.head-wrap.wrap.flex._justify
+					+e.H1.title.h1
+						| Галерея изображений объекта
+					+e.UL.breadcrumbs.breadcrumbs__
+						+e.LI.item
+							+e.A.link(href="main.html") Главная
+						+e.LI.item
+							+e.SPAN.current Галерея
+			+b.SECTION.gallery-section(data-aos="singleSlider" data-aos-offset="300")
+				+b.gallery.autowidth-slider.js-have-bottom.js-inside-nav.owl-carousel.js-gallery
+					+e.A.item(href="/app/img/modernhouse.jpg")
+						+e.IMG.image.object-fit(src="/img/modernhouse.jpg")
+					+e.A.item(href="/app/img/testhome1.jpg")
+						+e.IMG.image.object-fit(src="/img/testhome1.jpg")
+					+e.A.item(href="/app/img/testhome2.jpg")
+						+e.IMG.image.object-fit(src="/img/testhome2.jpg")
+					+e.A.item(href="/app/img/testhome4.jpg")
+						+e.IMG.image.object-fit(src="/img/testhome4.jpg")
+					+e.A.item(href="/app/img/testhome3.jpg")
+						+e.IMG.image.object-fit(src="/img/testhome3.jpg")
+					+e.A.item(href="/app/img/testhome5.jpg")
+						+e.IMG.image.object-fit(src="/img/testhome5.jpg")
+					+e.A.item(href="/app/img/testhome6.jpg")
+						+e.IMG.image.object-fit(src="/img/testhome6.jpg")
+				+e.bottom
+					+e.wrap.wrap
+						+e.nav.owl-scrollbar__._dark
+							+e.part._progress
+								+e.line
+									+e.path
+										+e.done
+							+e.part._num
+								+e.text 
+									span 01
+									|  / 05 
+							+e.part._nav.flex
+								+e.buttons-here.flex
+									include ../layouts/owl-arrows.pug
+			+e.video
+				+e.video-wrap.wrap
+					+e.H2.video-title.h1._small Видео о ЖК ”Шуваловский”
+					+b.video
+						+e.IMG.preview(src="/img/video__preview.jpg")
+						+e.play.owl-arrow__.js-play(data-video='<iframe data-keepplaying="data-keepplaying" src="https://www.youtube.com/embed/wlkCQXHEgjA?autoplay=1&amp;showinfo=0&amp;rel=0&amp;controls=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>')
+							+e.SVG.border(viewBox='30 30 60 60')
+								+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+							+e.icon-play
+								+icon('play','0 0 19 30')
+			include ../layouts/presentation

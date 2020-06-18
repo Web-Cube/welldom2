@@ -1,0 +1,31 @@
++b.SECTION.notify
+	+e.bg._second
+		img.js-paralax(src="/img/notify2.jpg",data-paralax-step="7")
+	+e.wrap.wrap
+		+e.row.flex._justify._vertical
+			+e.left.flex._vertical
+				+e.icon
+					+icon('mail2','0 0 512 512')
+				+e.text
+					+e.H4.title.h4 Ответим на любые вопросы за 5 минут
+					+e.desc.h6
+						| Укажите удобный способ связи и мы свяжемся с вами 
+			+e.A.button.flat-button__(href='#')
+				+e.text Оставить заявку
+			+e.FORM.form(action="app/mail")
+				+e.form-left
+					+e.field
+						+e.INPUT.input#phone(type="tel", name="phone", placeholder="+7 (___) ___-__-__")
+						+e.LABEL.field-icon
+							+icon('call-answer','0 0 348.077 348.077')
+					+e.LABEL.checkbox
+						input(type="checkbox", checked="checked")
+						+e.checkbox-icon
+							+icon('checked')
+						+e.checkbox-text
+							| Нажимая на кнопку, вы даете согласие на обработку персональных данных  и соглашаетесь c политикой конфиденциальности
+				+e.BUTTON.form-button.flat-button__
+					+e.SPAN.arrow
+						+icon('rightArrow')
+					
+					

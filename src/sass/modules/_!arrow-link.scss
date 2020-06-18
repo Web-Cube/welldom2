@@ -1,0 +1,25 @@
+.arrow-link{
+	color: #fff;
+	font-weight: 500;
+	display: inline-flex;
+	align-items: center;
+	&__icon {
+		width: 18rem;
+		fill: #fff;
+		margin-left: 11rem;
+		position: relative;
+		top: 2rem;
+		transition: ease .2s;
+	}
+	&_orange {
+		color: $orange;
+		.arrow-link__icon {
+			fill: $orange;
+		}
+	}
+	&:hover {
+		.arrow-link__icon {
+			transform: translateX(5rem);
+		}
+	}
+}

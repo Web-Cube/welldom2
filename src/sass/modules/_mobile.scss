@@ -1,0 +1,99 @@
+.mobile{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 450;
+	background-color: #fff;
+	padding-left: 5rem;
+	padding-right: 5rem;
+
+	// display: flex;
+	align-items: center;
+	justify-content: center;
+
+	visibility: hidden;
+	opacity: 0;
+
+	display: none;
+
+	transition: ease .4s;
+
+	@include max-screen($large_tablet) {
+		display: flex;
+	}	
+
+	&_visible{
+		opacity: 1;
+		visibility: visible;
+	}
+
+	&__messengers{
+		width: 280rem;
+		margin: auto;
+	}
+
+	&__inner{
+		text-align: center;
+		width: 100%;
+		padding: 0 12rem;
+		padding-top: 50rem;
+	}
+
+	&__list{
+		margin-bottom: 50rem;
+		margin-top: 50rem;
+	}
+
+	&__text{
+	    margin-bottom: 70rem;
+	}
+
+	&__item{
+		display: block;
+		
+
+		&:not(:last-child){
+			border-bottom: 1px solid rgba(#000, .1);
+		}
+	}
+
+	&__messengers{
+		width: 100%;
+	}
+
+	&__link{
+		// display: block;
+		color: $blue;
+		// text-decoration: none;
+		font-size: 16rem;
+		padding: 15rem 0;
+
+		display: flex;
+		align-items: center;
+
+		color: rgba(#000, 1);
+
+		&_center{
+			justify-content: center;
+		}
+
+		.icon{
+			width: 22px;
+			margin-right: 35px;
+			fill: $blue;
+		}
+	}
+
+	&-bg{
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		z-index: 400;
+		transition: .4s ease .7s;
+	}
+}

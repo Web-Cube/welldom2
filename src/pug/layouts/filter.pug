@@ -1,0 +1,278 @@
++b.SECTION.filter#filter
+	+e.newmiddle
+		+e.FORM.form.form(action="")
+			+e.wrap.wrap
+				+e.row._middle.flex._justify._bottom
+					+e.part._center
+						+e.title.h1._verybig Цены и планировки
+						+e.sub.h5 Стоимость недвижимости
+						+e.string.flex
+							+e.field.form__field(data-aos="totop-aos" data-aos-offset="100" data-aos-delay="0")
+								+b.label.middle Цена за
+								+e.line-check._pricefor.line-check__.inline
+									+e.LABEL.item
+										+e.INPUT.input.js-filter-price-type(type="radio" checked="" name="pricefor" value="Квартиру" data-from-min="0" data-from-max="8000000" data-from-default="1000000" data-to-min="0" data-to-max="8000000" data-to-default="5000000")
+										+e.SPAN.text 
+											span Квартиру
+									+e.LABEL.item
+										+e.INPUT.input.js-filter-price-type(type="radio" name="pricefor" value="Метр кв." data-from-min="20000" data-from-max="1000000" data-from-default="30000" data-to-min="20000" data-to-max="1000000" data-to-default="500000")
+										+e.SPAN.text 
+											span 
+												| Метр
+												sup 2
+							.form__field.form__field_mobile2(data-aos="totop-aos" data-aos-offset="100" data-aos-delay="300")
+								+b.label.middle От
+								+b.range-input
+									+e.INPUT.input.js-filter-price-from(type="text" value="1000000" autocomplete="off" name="price-from" placeholder="0 ₽")
+									+e.bottom
+										+e.line
+										+e.path(data-char="₽" data-min="0" data-max="8000000")
+							.form__field.form__field_mobile2(data-aos="totop-aos" data-aos-offset="100" data-aos-delay="600")
+								+b.label.middle До
+								+b.range-input
+									+e.INPUT.input.js-filter-price-to(type="text" value="5000000" autocomplete="off" name="price-from" placeholder="0 ₽")
+									+e.bottom
+										+e.line
+										+e.path(data-char="₽" data-min="0" data-max="8000000")
+							.form__field(data-aos="totop-aos" data-aos-offset="100" data-aos-delay="900")
+								+b.label.middle 
+									| S общая, м
+									sup 2
+								+e.line-check._area.line-check__.inline
+									+e.LABEL.item
+										+e.INPUT.text-field(type="text" autocomplete="off" name="s-full-from" placeholder="от" value="30")
+									+e.LABEL.item
+										+e.INPUT.text-field(type="text" autocomplete="off" name="s-full-to" placeholder="до" value="95")
+						+e.BUTTON.show-button.button__
+							+e.inner
+								+e.icon
+									+icon('settings', '0 0 54 54')
+								+e.text Дополнительные настройки
+						+e.settings
+							+e.string._none.inline
+								.form__field
+									+b.label.middle 
+										| S жилая, м
+										sup 2
+									+e.line-check._modern.line-check__.inline
+										+e.LABEL.item
+											+e.INPUT.text-field(type="text" autocomplete="off" name="s-full-from" placeholder="от")
+										+e.LABEL.item
+											+e.INPUT.text-field(type="text" autocomplete="off" name="s-full-to" placeholder="до")
+								.form__field
+									+b.label.middle 
+										| S кухни, м
+										sup 2
+									+e.line-check._modern.line-check__.inline
+										+e.LABEL.item
+											+e.INPUT.text-field(type="text" autocomplete="off" name="s-full-from" placeholder="от")
+										+e.LABEL.item
+											+e.INPUT.text-field(type="text" autocomplete="off" name="s-full-to" placeholder="до")
+								.form__field
+									+b.label.middle 
+										| Потолки, м 
+									+e.line-check._floor.line-check__.inline
+										+e.LABEL.item
+											+e.INPUT.text-field(type="text" autocomplete="off" name="s-full-from" placeholder="от")
+								+e.BUTTON.close-button.button__
+									+e.inner
+										+e.icon(style="width: 12px")
+											+icon('cancel', '0 0 64 64')
+										+e.text Закрыть
+	+e.bottom
+		+e.wrap.wrap
+			+e.step._cat._current
+				+e.cat-top.flex._vertical
+					+e.cat-column._type
+						+e.label.middle.js-gray
+							| Тип
+					+e.cat-column._price
+						+e.label.middle.js-sort.js-gray.js-active
+							+e.IMG.sort-arrow(src="/img/sort-arrow.png")
+							| Стоимость
+					+e.cat-column._area
+						+e.label.middle.js-sort.js-gray
+							+e.IMG.sort-arrow(src="/img/sort-arrow.png")
+							| Площадь
+					+e.cat-column._floor
+						+e.label.middle.js-sort.js-gray
+							+e.IMG.sort-arrow(src="/img/sort-arrow.png")
+							| Этаж
+					+e.cat-column._count
+						+e.label.middle.js-gray
+							| Кол-во квартир
+				+e.cat-list
+					+e.cat-item(data-aos="totop-aos" data-aos-offset="0" data-aos-delay="0")
+						+e.cat-header.flex._vertical
+							+e.cat-column._type.flex._vertical
+								+e.IMG.icon(src="/img/smalLplan.png")
+								+e.text.p 1 комната
+							+e.cat-column._price
+								+e.text.p От 2 216 432 ₽
+							+e.cat-column._area
+								+e.text.p 
+									| От 16,69 м
+									sup 2
+							+e.cat-column._floor
+								+e.text.p от 4 
+							+e.cat-column._count
+								+e.text._count.p 79 квартир
+					+e.cat-item(data-aos="totop-aos" data-aos-offset="0" data-aos-delay="200")
+						+e.cat-header.flex._vertical
+							+e.cat-column._type.flex._vertical
+								+e.IMG.icon(src="/img/smalLplan.png")
+								+e.text.p 2 комнаты
+							+e.cat-column._price
+								+e.text.p От 2 216 432 ₽
+							+e.cat-column._area
+								+e.text.p 
+									| От 16,69 м
+									sup 2
+							+e.cat-column._floor
+								+e.text.p от 4 
+							+e.cat-column._count
+								+e.text._count.p 79 квартир
+					+e.cat-item(data-aos="totop-aos" data-aos-offset="0" data-aos-delay="400")
+						+e.cat-header.flex._vertical
+							+e.cat-column._type.flex._vertical
+								+e.IMG.icon(src="/img/smalLplan.png")
+								+e.text.p 3 комнаты
+							+e.cat-column._price
+								+e.text.p От 2 216 432 ₽
+							+e.cat-column._area
+								+e.text.p 
+									| От 16,69 м
+									sup 2
+							+e.cat-column._floor
+								+e.text.p от 4 
+							+e.cat-column._count
+								+e.text._count.p 79 квартир
+					+e.cat-item(data-aos="totop-aos" data-aos-offset="0" data-aos-delay="600")
+						+e.cat-header.flex._vertical
+							+e.cat-column._type.flex._vertical
+								+e.IMG.icon(src="/img/smalLplan.png")
+								+e.text.p 4 комнаты
+							+e.cat-column._price
+								+e.text.p От 2 216 432 ₽
+							+e.cat-column._area
+								+e.text.p 
+									| От 16,69 м
+									sup 2
+							+e.cat-column._floor
+								+e.text.p от 4 
+							+e.cat-column._count
+								+e.text._count.p 79 квартир
+			+e.step._list
+				+e.A.back.back-link.p.js-filter-back(href="#")
+					+icon('right-arrow', '0 0 31.49 31.49')
+					+e.text Назад
+				+e.item-top.flex._vertical
+					+e.item-column._type
+						+e.label.middle Студия
+					+e.item-column._price
+						+e.label.middle Стоимость
+					+e.item-column._area
+						+e.label.middle Площадь
+					+e.item-column._floor
+						+e.label.middle Этаж
+					+e.item-column._count
+						+e.label.middle Кол-во квартир
+				+e.item-list
+					+e.item-elem._active.js-modal(data-modal="#home-modal")
+						+e.item-header.flex._vertical
+							+e.item-column._type
+								+e.item-preview
+									+e.IMG.item-image(src="/img/plan.png")
+							+e.item-column._price(data-label="Стоимость")
+								+e.text.p От 2 216 432 ₽
+							+e.item-column._area(data-label="Площадь")
+								+e.text.p 
+									| От 16,69 м
+									sup 2
+							+e.item-column._floor(data-label="Этаж")
+								+e.text.p от 4 
+							+e.item-column._count(data-label="Кол-во квартир")
+								+e.text._blue.p 3 кв. 2019 г.
+					+e.item-elem.js-modal(data-modal="#home-modal")
+						+e.item-header.flex._vertical
+							+e.item-column._type
+								+e.item-preview
+									+e.IMG.item-image(src="/img/plan.png")
+							+e.item-column._price(data-label="Стоимость")
+								+e.text.p От 2 216 432 ₽
+							+e.item-column._area(data-label="Площадь")
+								+e.text.p 
+									| От 16,69 м
+									sup 2
+							+e.item-column._floor(data-label="Этаж")
+								+e.text.p от 4 
+							+e.item-column._count(data-label="Кол-во квартир")
+								+e.text._blue.p 3 кв. 2019 г.
+					+e.item-elem.js-modal(data-modal="#home-modal")
+						+e.item-header.flex._vertical
+							+e.item-column._type
+								+e.item-preview
+									+e.IMG.item-image(src="/img/plan.png")
+							+e.item-column._price(data-label="Стоимость")
+								+e.text.p От 2 216 432 ₽
+							+e.item-column._area(data-label="Площадь")
+								+e.text.p 
+									| От 16,69 м
+									sup 2
+							+e.item-column._floor(data-label="Этаж")
+								+e.text.p от 4 
+							+e.item-column._count(data-label="Кол-во квартир")
+								+e.text._blue.p 3 кв. 2019 г.
+					+e.item-elem.js-modal(data-modal="#home-modal")
+						+e.item-header.flex._vertical
+							+e.item-column._type
+								+e.item-preview
+									+e.IMG.item-image(src="/img/plan.png")
+							+e.item-column._price(data-label="Стоимость")
+								+e.text.p От 2 216 432 ₽
+							+e.item-column._area(data-label="Площадь")
+								+e.text.p 
+									| От 16,69 м
+									sup 2
+							+e.item-column._floor(data-label="Этаж")
+								+e.text.p от 4 
+							+e.item-column._count(data-label="Кол-во квартир")
+								+e.text._blue.p 3 кв. 2019 г.
+					+e.item-elem.js-modal(data-modal="#home-modal")
+						+e.item-header.flex._vertical
+							+e.item-column._type
+								+e.item-preview
+									+e.IMG.item-image(src="/img/plan.png")
+							+e.item-column._price(data-label="Стоимость")
+								+e.text.p От 2 216 432 ₽
+							+e.item-column._area(data-label="Площадь")
+								+e.text.p 
+									| От 16,69 м
+									sup 2
+							+e.item-column._floor(data-label="Этаж")
+								+e.text.p от 4 
+							+e.item-column._count(data-label="Кол-во квартир")
+								+e.text._blue.p 3 кв. 2019 г.
+				+e.pagination.pagination__.clear
+					+e.UL.list.clear__right.flex
+						+e.LI.item
+							+e.A.link._arrow(href='#') 
+								span «					
+						+e.LI.item
+							+e.A.link(href='#') 
+								span 1
+						+e.LI.item
+							+e.A.link._active(href='#') 
+								span 2
+						+e.LI.item
+							+e.A.link(href='#') 
+								span 3
+						+e.LI.item
+							+e.A.link(href='#') 
+								span 4
+						+e.LI.item
+							+e.A.link(href='#') 
+								span 5
+						+e.LI.item
+							+e.A.link._arrow(href='#') 
+								span »

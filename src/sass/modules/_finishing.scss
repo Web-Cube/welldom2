@@ -1,0 +1,109 @@
+.finishing {
+	&__box {
+		background: #f5f6fb;
+		border-radius: 5px;
+		padding: 50rem;
+		
+		&:not(:last-child) {
+			margin-bottom: 40rem;
+		}
+	}
+	&__item {
+		display: block;
+		cursor: zoom-in;
+		img {
+			border-radius: 5px;
+		}
+	}
+	.owl-nav {
+		z-index: 10;
+		margin-top: -40rem;
+	}
+	.owl-prev, .owl-next {
+		width: 40rem;
+		height: 80rem;
+		position: absolute;
+		overflow: hidden;
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			width: 80rem;
+			height: 80rem;
+			background-color: #f5f6fb !important;
+			border-radius: 100%;
+			cursor: pointer;
+			box-sizing: border-box;
+		}
+		&:after {
+			content: '';
+			display: block;
+			background: url(/img/catalog__arrow.png) 0 0 no-repeat;
+			width: 10rem;
+			height: 18rem;
+			background-size: 100% 100%;
+			position: absolute;
+			top: 50%;
+			margin-top: -9rem;
+			right: 4rem;
+		}
+	}
+	.owl-prev {
+		left: -2px;
+		&:before {
+			right: 0;
+		}
+		&:after {
+			right: 25rem;
+		}
+	}
+	.owl-next {
+		right: -3px;
+		&:before {
+			left: 0;
+		}
+		&:after {
+			transform: rotate(180deg);
+		}
+	}
+	
+	&__title {
+		font-size: 40rem;
+		line-height: 55/40*1;
+		margin-top: 30rem;
+	}
+	&__column {
+		font-size: 16rem;
+		margin-top: 20rem;
+		width: 50%;
+		line-height: 30/16*1;
+		@include letter-spacing(16,40);
+		&:nth-child(2) {
+			width: 45%;
+		}
+	}
+}
+
+@include max-screen($small_tablet) {
+	.finishing {
+		&__box {
+			margin-left: -15px;
+			margin-right: -15px;
+			border-radius: 0;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+}
+
+@include max-screen($large_mobile) {
+	.finishing {
+		&__column {
+			width: 100%;
+			&:nth-child(2) {
+				width: 100%;
+			}
+		}
+	}
+}

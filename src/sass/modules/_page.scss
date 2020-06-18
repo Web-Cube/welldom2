@@ -1,0 +1,156 @@
+.page {
+	padding-top: 40rem;
+	&__head {
+		&-wrap {
+			align-items: flex-end;
+		}
+	}
+	&__breadcrumbs {
+		margin-bottom: 17rem;
+	}
+	.gallery-section {
+		padding-top: 60rem;
+	}
+	&__video {
+		padding-top: 60rem;
+		&-title {
+			text-align: center;
+			margin-bottom: 60rem;
+		}
+	}
+	&__about {
+		padding: 65rem 0 70rem 0;
+		&_big {
+			padding: 85rem 0 90rem 0;
+			margin-bottom: 40rem;
+			.page__about-title {
+				padding-bottom: 15rem;
+			}
+		}
+		&-logo {
+			width: 317rem;
+			display: block;
+			margin-bottom: 40rem;
+		}
+		&-column {
+			width: 50%;
+			padding: 0 15px;
+			margin-top: 25rem;
+			font-size: 18rem;
+			line-height: 28/18*1;
+			@include letter-spacing(18,20);
+			&:first-child {
+				padding-right: 70rem;
+			}
+		}
+		&-row {
+			margin: 0 -15px;
+		}
+		&-title {
+			font-weight: 500;
+			margin-bottom: 0;
+		}
+		&-statistics {
+			margin-top: 100rem;
+		}
+	}
+	.related-posts {
+		margin-bottom: 60rem;
+	}
+	&__buy {
+		margin-top: 50rem;
+	}
+	&__banks {
+		padding: 120rem 0 95rem 0;
+	}
+	&__contact {
+		border-top: 0;
+		padding-top: 10rem;
+	}
+	&__recall {
+		&.recall_big {
+			padding-bottom: 90rem;
+		}
+		.recall__parent {
+			box-shadow: none !important;
+			border: 1px solid rgba(#000, .1);
+		}
+	}
+	&__catalog {
+		margin-top: 60rem;
+		padding-bottom: 105rem;
+	}
+	&__finishing {
+		padding: 50rem 0 70rem 0;
+	}
+	&__building {
+		padding: 50rem 0 70rem 0;
+	}
+}
+
+@include max-screen(1200px) {
+	.page {
+		&__about {
+			&-column {
+				&:first-child {
+					padding-right: 15px;
+				}
+			}
+		}
+	}
+}
+
+@include max-screen($small_tablet) {
+	.page {
+		&__breadcrumbs {
+			width: 100%;
+			order: 1;
+		}
+		&__title {
+			order: 2;
+		}
+		&__about {
+			padding-top: 40rem;
+			&-column {
+				width: 100%;
+			}
+			&_big {
+				padding-top: 85rem;
+			}
+		}
+		&__banks {
+			padding-top: 90rem;
+		}
+		&__catalog {
+			margin-top: 30rem;
+		}
+	}
+}
+
+@include max-screen($large_mobile) {
+	.page {
+		&__video {
+			padding-top: 20rem;
+			&-title {
+				margin-bottom: 30rem;
+			}
+		}
+		&__about {
+			padding-bottom: 40rem;
+			&-statistics {
+				margin-top: 60rem;
+			}
+			&_big {
+				padding-bottom: 90rem;
+			}
+		}
+		&__banks {
+			padding: 40rem 0 75rem 0;
+		}
+		&__recall {
+			&.recall_big {
+				padding-bottom: 60rem;
+			}
+		}
+	}
+}
