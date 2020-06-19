@@ -54,7 +54,11 @@ function map_create() {
 	$.getScript( 'https://api-maps.yandex.ru/2.1/?lang=ru_RU', function( data, textStatus, jqxhr ) {
 		ymaps.ready(function () {
 			$('.map-box').each(function() {
-				let len = Number($(this).data('len')), lng = Number($(this).data('lng')), thisID = $(this).attr('id');
+				
+				var position1 = $(this).data('len');
+				var position2 = $(this).data('lng');
+				
+				let len = Number(position1), lng = Number(position2), thisID = $(this).attr('id');
 				var myMap = new ymaps.Map(thisID, {
 					// 
 					center: [len, lng],

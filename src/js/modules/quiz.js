@@ -32,8 +32,9 @@ var quiz = {
 					$('.quiz__slider, .quiz__top, .quiz__nav-cell_right').addClass('is-hidden')
 					$('.quiz__final').addClass('is-visible')
 
-					$('.quiz__status-done').css({'width': '100%'})
+					$('.quiz__status-done, .quiz__nav-cell_left').css({'width': '100%'})
 					$('.quiz__status-text span').text('100%')
+					$('.quiz__text').hide();
 
 					return false;
 				}else{

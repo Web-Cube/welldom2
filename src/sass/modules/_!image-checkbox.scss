@@ -93,3 +93,17 @@
 		}
 	}
 }
+
+@include max-screen($large_mobile) {
+	.image-checkbox{
+		&__text {
+			font-size: 14rem;
+			line-height: 2;
+			padding-left: 46rem;
+			&:before, &:after {
+				width: 30rem;
+				height: 30rem;
+			}
+		}
+	}
+}

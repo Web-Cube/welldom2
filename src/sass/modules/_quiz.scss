@@ -205,12 +205,6 @@
 		position: relative;
 	}
 
-	&__messengers{
-		@include max-screen($small_tablet) {
-			display: none;
-		}		
-	}
-
 	&__row{
 		&_second{
 			width: 50.87%;
@@ -533,8 +527,7 @@
 				transition: ease .3s;
 
 				&.is-hidden{
-					opacity: 0;
-					visibility: hidden;
+					display: none;
 				}
 			}
 		}
@@ -684,6 +677,36 @@
 		@include max-screen($large_mobile) {
 			br {
 				display: none;
+			}
+		}
+	}
+}
+
+@include max-screen($large_mobile) {
+	.quiz {
+		&__slide {
+			padding-top: 0;
+		}
+		&__final {
+			padding-top: 0;
+			padding-bottom: 70px;
+			&-fluid {
+				position: static;
+				margin-left: 0;
+				margin-bottom: 15px;
+			}
+			&-button {
+				margin-top: 0;
+			}
+			&-text {
+				margin-bottom: 15px;
+			}
+		}
+		&__nav {
+			&-cell {
+				&_left {
+					width: 45%;
+				}
 			}
 		}
 	}

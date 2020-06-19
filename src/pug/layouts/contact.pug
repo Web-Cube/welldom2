@@ -3,13 +3,27 @@
 		+e.H2.title.h1.h1_small Наше местоположение
 		+e.list.flex._justify
 			+e.item
-				+e.label Адрес:
+				+e.label Адрес офиса:
 				+e.text
 					+e.SPAN.text-icon
 						+icon('location-pointer','0 0 50 80')
-					| Улица Заставская 22к2, 
+					| Санкт-Петербург, 
 					br
-					| офис 904, БЦ «Мега Парк»
+					| ул. Марата, д.75
+				+e.A.link.is-active(href="#map-footer1")
+					+e.link-text Показать на карте
+					+e.link-icon
+			+e.item
+				+e.label Адрес офиса:
+				+e.text
+					+e.SPAN.text-icon
+						+icon('location-pointer','0 0 50 80')
+					| Санкт-Петербург, 
+					br
+					| ул. Заставская 904
+				+e.link(href="#map-footer2")
+					+e.link-text Показать на карте
+					+e.link-icon
 			+e.item
 				+e.label Телефон:
 				+e.text
@@ -22,4 +36,7 @@
 					+e.SPAN.text-icon._email
 						+icon('email','0 0 14 14')
 					a(href="mailto:namename@yandex.ru") namename@yandex.ru
-	+e.map.map-box#map-footer(data-len="59.8886", data-lng="30.3277")
+	+e.map-list
+		+e.map-wrap
+			+e.map.map-box#map-footer1(data-len="59.920760", data-lng="30.341783")
+			+e.map.map-box#map-footer2(data-len="59.888839", data-lng="30.328642")
