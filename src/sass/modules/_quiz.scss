@@ -9,6 +9,13 @@
 		padding-left: 180rem;
 		padding-right: 180rem;
 		border-right: 5px;
+		color: #1f1f1f;
+		z-index: 1000;
+		
+		&.is-active {
+			opacity: 1;
+			visibility: visible;
+		}
 
 		@include max-screen($small_tablet) {
 			padding: 15px;

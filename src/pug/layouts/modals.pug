@@ -6,12 +6,12 @@
 +b.modals._right.mfp-hide#recall
 	+e.cell
 		+e.title.h2 
-			| Закажите
+			| Получите бесплатную 
 			br
-			| обратный звонок
+			| консультацию
 		+e.text.p
 			| Менеджер перезвонит вам в ближайшее время
-		+e.FORM.form.form__(action="/app/mail")
+		+e.FORM.form.form__(action="/app/mail", data-thank="#thank6")
 			+e.INPUT(type="hidden" name="subj" value="Заявка на: Обратный звонок")
 
 			+b.horizontal-messengers__._default.modals__messengers
@@ -45,48 +45,36 @@
 						+e.SPAN.inner
 							+icon('mail', '0 0 14 14')
 						+e.SPAN.help-label.small Email
-			+e.item._name._show
+			+e.item._name._black._show
 				+e.INPUT.input(type="text" name="name" placeholder="Имя")
 				+e.icon
 					+icon('man-user', '0 0 350 350')
-			+e.item._phone._show
+			+e.item._phone._black._show
 				+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
 				+e.icon
 					+icon('call-answer', '0 0 348.077 348.077')
-			+e.item._mail._hide
+			+e.item._mail._black._hide
 				+e.INPUT.input(type="text" name="email" placeholder="E-mail")
 				+e.icon
 					+icon('mail', '0 0 14 14')
 			+e.BUTTON.button.flat-button__
 				+e.text Заказать звонок
-			+e.LABEL.accept.checkbox__
+			+e.LABEL.accept.checkbox__._black
 				+e.INPUT.input(type="checkbox" name="accept" checked="")
 				+e.SPAN.text.middle
 					| Нажимая на кнопку, вы даете согласие на обработку
 					| персональных данных и соглашаетесь c политикой
 					| конфиденциальности
-+b.modals._right.mfp-hide#thank
-	+e.thank
-		+e.thank-title.h5
-			| Спасибо за доверие
-		+e.thank-desc.t18
-			| Эксперт свяжется с вами в ближайшее время
-		+e.thank-icon
-			+icon('checked','0 0 26 26')
-+b.modals._right.mfp-hide#presentation
++b.modals._right._black.mfp-hide#make
 	+e.cell
 		+e.title.h2 
-			| Скачайте презентацию 
+			| Запишитесь на просмотр 
 			br
-			| об объекте и сделайте 
-			br
-			| правильный выбор
+			| жилого комплекса
 		+e.text.p
-			| Мы расскажем о преимуществах нашего 
-			br
-			| объекта в 25 PDF-страницах
-		+e.FORM.form.form__(action="/app/mail")
-			+e.INPUT(type="hidden" name="subj" value="Заявка на: Скачать презентацию")
+			| Как будет удобнее связаться?
+		+e.FORM.form.form__(action="/app/mail", data-thank="#thank2")
+			+e.INPUT(type="hidden" name="subj" value="Заявка на: Запишитесь на просмотр ")
 
 			+b.horizontal-messengers__._default.modals__messengers
 				+e.item
@@ -132,8 +120,282 @@
 				+e.icon
 					+icon('mail', '0 0 14 14')
 			+e.BUTTON.button.flat-button__
-				+e.text Выслать презентацию
+				+e.text Записаться на просмотр
 			+e.LABEL.accept.checkbox__
+				+e.INPUT.input(type="checkbox" name="accept" checked="")
+				+e.SPAN.text.middle
+					| Нажимая на кнопку, вы даете согласие на обработку
+					| персональных данных и соглашаетесь c политикой
+					| конфиденциальности
++b.modals._right._black.mfp-hide#answer
+	+e.cell
+		+e.title.h2 
+			| Ответим на любые 
+			br
+			| вопросы
+		+e.text.p
+			| Как будет удобнее связаться?
+		+e.FORM.form.form__(action="/app/mail", data-thank="#thank7")
+			+e.INPUT(type="hidden" name="subj" value="Заявка на: Запишитесь на просмотр ")
+
+			+b.horizontal-messengers__._default.modals__messengers
+				+e.item
+					+e.LABEL.link._wa(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="whatsapp")
+						+e.SPAN.inner
+							+icon('whatsapp-logo', '0 0 90 90')
+						+e.SPAN.help-label.small Whatsapp
+				+e.item
+					+e.LABEL.link._viber(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="viber")
+						+e.SPAN.inner
+							+icon('viber', '0 0 514.055 514.055')
+						+e.SPAN.help-label.small Viber
+				+e.item
+					+e.LABEL.link._telegram(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="telegram")
+						+e.SPAN.inner
+							+icon('telegram', '0 0 300 300')
+						+e.SPAN.help-label.small Telegram
+				+e.item
+					+e.LABEL.link._telephone(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="telephone")
+						+e.SPAN.inner
+							+icon('telephone', '0 0 480.56 480.56')
+						+e.SPAN.help-label.small Телефон
+				+e.item
+					+e.LABEL.link._mail(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="email")
+						+e.SPAN.inner
+							+icon('mail', '0 0 14 14')
+						+e.SPAN.help-label.small Email
+			+e.item._name._show
+				+e.INPUT.input(type="text" name="name" placeholder="Имя")
+				+e.icon
+					+icon('man-user', '0 0 350 350')
+			+e.item._phone._show
+				+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
+				+e.icon
+					+icon('call-answer', '0 0 348.077 348.077')
+			+e.item._mail._hide
+				+e.INPUT.input(type="text" name="email" placeholder="E-mail")
+				+e.icon
+					+icon('mail', '0 0 14 14')
+			+e.BUTTON.button.flat-button__
+				+e.text Записаться на просмотр
+			+e.LABEL.accept.checkbox__
+				+e.INPUT.input(type="checkbox" name="accept" checked="")
+				+e.SPAN.text.middle
+					| Нажимая на кнопку, вы даете согласие на обработку
+					| персональных данных и соглашаетесь c политикой
+					| конфиденциальности
++b.modals._right._thank.mfp-hide#thank1
+	+e.thank
+		+e.thank-icon
+			img(src="/img/thank__icon.png")
+		+e.thank-title.h2
+			| Спасибо
+		+e.thank-desc
+			| PDF-презентация загрузится в течение 
+			br
+			| нескольких секунд
+		+e.thank-circle
+		+e.IMG.thank-img._presentation(src="/img/thank__img1.png")
++b.modals._right._thank._black.mfp-hide#thank2
+	+e.thank
+		+e.thank-icon
+			img(src="/img/thank__icon.png")
+		+e.thank-title.h2
+			| Спасибо
+		+e.thank-desc._black
+			| Специалист свяжется с вами 
+			br
+			| в ближайшее время
+		+e.thank-circle._black
+		+e.IMG.thank-img._search(src="/img/thank__img2.png")
++b.modals._right._thank.mfp-hide#thank3
+	+e.thank
+		+e.thank-icon
+			img(src="/img/thank__icon.png")
+		+e.thank-title.h2
+			| Спасибо
+		+e.thank-desc
+			| Специалист свяжется с вами 
+			br
+			| в ближайшее время
+		+e.thank-circle
+		+e.IMG.thank-img._search(src="/img/thank__img2.png")
++b.modals._right._thank.mfp-hide#thank4
+	+e.thank
+		+e.thank-icon
+			img(src="/img/thank__icon.png")
+		+e.thank-title.h2
+			| Спасибо
+		+e.thank-desc
+			| Документ с планировками придет удобным 
+			br
+			| для вас способом через 5 - 10 минут
+		+e.thank-circle
+		+e.IMG.thank-img._plans(src="/img/thank__img3.png")
++b.modals._right._thank.mfp-hide#thank5
+	+e.thank
+		+e.thank-icon
+			img(src="/img/thank__icon.png")
+		+e.thank-title.h2
+			| Данные отправлены 
+			br
+			| специалисту
+		+e.thank-desc
+			| После ознакомления и подсчета 
+			br
+			| менеджер свяжется с вами
+		+e.thank-circle
+		+e.IMG.thank-img._docs(src="/img/thank__img4.png")
++b.modals._right._thank.mfp-hide#thank6
+	+e.thank
+		+e.thank-icon
+			img(src="/img/thank__icon.png")
+		+e.thank-title.h2
+			| Спасибо
+		+e.thank-desc
+			| Эксперт свяжется с вами 
+			br
+			| в ближайшее время
+		+e.thank-circle
+		+e.IMG.thank-img._iphone(src="/img/thank__img5.png")
++b.modals._right._thank._black.mfp-hide#thank7
+	+e.thank
+		+e.thank-icon
+			img(src="/img/thank__icon.png")
+		+e.thank-title.h2
+			| Спасибо
+		+e.thank-desc._black
+			| Эксперт свяжется с вами 
+			br
+			| в ближайшее время
+		+e.thank-circle._black
+		+e.IMG.thank-img._question(src="/img/thank__img6.png")
++b.modals._right.mfp-hide#presentation
+	+e.cell
+		+e.title.h2 
+			| Скачайте презентацию 
+			br
+			| об объекте
+		+e.text.p
+			| Мы расскажем о преимуществах нашего 
+			br
+			| объекта в 25 PDF-страницах
+		+e.FORM.form.form__(action="/app/mail", data-thank="#thank1")
+			+e.INPUT(type="hidden" name="subj" value="Заявка на: Скачать презентацию")
+
+			+b.horizontal-messengers__._default.modals__messengers
+				+e.item
+					+e.LABEL.link._wa(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="whatsapp")
+						+e.SPAN.inner
+							+icon('whatsapp-logo', '0 0 90 90')
+						+e.SPAN.help-label.small Whatsapp
+				+e.item
+					+e.LABEL.link._viber(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="viber")
+						+e.SPAN.inner
+							+icon('viber', '0 0 514.055 514.055')
+						+e.SPAN.help-label.small Viber
+				+e.item
+					+e.LABEL.link._telegram(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="telegram")
+						+e.SPAN.inner
+							+icon('telegram', '0 0 300 300')
+						+e.SPAN.help-label.small Telegram
+				+e.item
+					+e.LABEL.link._telephone(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="telephone")
+						+e.SPAN.inner
+							+icon('telephone', '0 0 480.56 480.56')
+						+e.SPAN.help-label.small Телефон
+				+e.item
+					+e.LABEL.link._mail(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="email")
+						+e.SPAN.inner
+							+icon('mail', '0 0 14 14')
+						+e.SPAN.help-label.small Email
+			+e.item._name._black._show
+				+e.INPUT.input(type="text" name="name" placeholder="Имя")
+				+e.icon
+					+icon('man-user', '0 0 350 350')
+			+e.item._phone._black._show
+				+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
+				+e.icon
+					+icon('call-answer', '0 0 348.077 348.077')
+			+e.item._mail._black._hide
+				+e.INPUT.input(type="text" name="email" placeholder="E-mail")
+				+e.icon
+					+icon('mail', '0 0 14 14')
+			+e.BUTTON.button.flat-button__
+				+e.text Выслать презентацию
+			+e.LABEL.accept.checkbox__._black
+				+e.INPUT.input(type="checkbox" name="accept" checked="")
+				+e.SPAN.text.middle
+					| Нажимая на кнопку, вы даете согласие на обработку
+					| персональных данных и соглашаетесь c политикой
+					| конфиденциальности
++b.modals._right.mfp-hide#make1
+	+e.cell
+		+e.title.h2 
+			| Запишитесь на просмотр 
+			br
+			| жилого комплекса
+		+e.text.p
+			| Как будет удобнее связаться?
+		+e.FORM.form.form__(action="/app/mail", data-thank="#thank3")
+			+e.INPUT(type="hidden" name="subj" value="Заявка на: Скачать презентацию")
+
+			+b.horizontal-messengers__._default.modals__messengers
+				+e.item
+					+e.LABEL.link._wa(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="whatsapp")
+						+e.SPAN.inner
+							+icon('whatsapp-logo', '0 0 90 90')
+						+e.SPAN.help-label.small Whatsapp
+				+e.item
+					+e.LABEL.link._viber(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="viber")
+						+e.SPAN.inner
+							+icon('viber', '0 0 514.055 514.055')
+						+e.SPAN.help-label.small Viber
+				+e.item
+					+e.LABEL.link._telegram(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="telegram")
+						+e.SPAN.inner
+							+icon('telegram', '0 0 300 300')
+						+e.SPAN.help-label.small Telegram
+				+e.item
+					+e.LABEL.link._telephone(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="telephone")
+						+e.SPAN.inner
+							+icon('telephone', '0 0 480.56 480.56')
+						+e.SPAN.help-label.small Телефон
+				+e.item
+					+e.LABEL.link._mail(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="email")
+						+e.SPAN.inner
+							+icon('mail', '0 0 14 14')
+						+e.SPAN.help-label.small Email
+			+e.item._name._black._show
+				+e.INPUT.input(type="text" name="name" placeholder="Имя")
+				+e.icon
+					+icon('man-user', '0 0 350 350')
+			+e.item._phone._black._show
+				+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
+				+e.icon
+					+icon('call-answer', '0 0 348.077 348.077')
+			+e.item._mail._black._hide
+				+e.INPUT.input(type="text" name="email" placeholder="E-mail")
+				+e.icon
+					+icon('mail', '0 0 14 14')
+			+e.BUTTON.button.flat-button__
+				+e.text Выслать презентацию
+			+e.LABEL.accept.checkbox__._black
 				+e.INPUT.input(type="checkbox" name="accept" checked="")
 				+e.SPAN.text.middle
 					| Нажимая на кнопку, вы даете согласие на обработку
@@ -181,21 +443,21 @@
 						+e.SPAN.inner
 							+icon('mail', '0 0 14 14')
 						+e.SPAN.help-label.small Email
-			+e.item._name._show
+			+e.item._name._black._show
 				+e.INPUT.input(type="text" name="name" placeholder="Имя")
 				+e.icon
 					+icon('man-user', '0 0 350 350')
-			+e.item._phone._show
+			+e.item._phone._black._show
 				+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
 				+e.icon
 					+icon('call-answer', '0 0 348.077 348.077')
-			+e.item._mail._hide
+			+e.item._mail._black._hide
 				+e.INPUT.input(type="text" name="email" placeholder="E-mail")
 				+e.icon
 					+icon('mail', '0 0 14 14')
 			+e.BUTTON.button.flat-button__
 				+e.text Выслать презентацию
-			+e.LABEL.accept.checkbox__
+			+e.LABEL.accept.checkbox__._black
 				+e.INPUT.input(type="checkbox" name="accept" checked="")
 				+e.SPAN.text.middle
 					| Нажимая на кнопку, вы даете согласие на обработку
@@ -266,15 +528,139 @@
 +b.modals._right.mfp-hide#mortgage
 	+e.cell
 		+e.title.h2 
-			| Заполните форму и через
+			| Узнайте об условиях 
+			br
+			| получения ипотеки
+		+e.FORM.form.form__(action="/app/mail", data-thank="#thank5")
+			+e.INPUT(type="hidden" name="subj" value="Заявка на: Получите подробную информацию об акции")
+			+b.horizontal-messengers__._default.modals__messengers
+				+e.item
+					+e.LABEL.link._wa(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="whatsapp")
+						+e.SPAN.inner
+							+icon('whatsapp-logo', '0 0 90 90')
+						+e.SPAN.help-label.small Whatsapp
+				+e.item
+					+e.LABEL.link._viber(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="viber")
+						+e.SPAN.inner
+							+icon('viber', '0 0 514.055 514.055')
+						+e.SPAN.help-label.small Viber
+				+e.item
+					+e.LABEL.link._telegram(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="telegram")
+						+e.SPAN.inner
+							+icon('telegram', '0 0 300 300')
+						+e.SPAN.help-label.small Telegram
+				+e.item
+					+e.LABEL.link._telephone(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="telephone")
+						+e.SPAN.inner
+							+icon('telephone', '0 0 480.56 480.56')
+						+e.SPAN.help-label.small Телефон
+				+e.item
+					+e.LABEL.link._mail(href="#" target="_blank")
+						+e.INPUT.input(type="radio" name="recall-type" value="email")
+						+e.SPAN.inner
+							+icon('mail', '0 0 14 14')
+						+e.SPAN.help-label.small Email
+			+e.item._name._black._show
+				+e.INPUT.input(type="text" name="name" placeholder="Имя")
+				+e.icon
+					+icon('man-user', '0 0 350 350')
+			+e.item._phone._black._show
+				+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
+				+e.icon
+					+icon('call-answer', '0 0 348.077 348.077')
+			+e.item._mail._black._hide
+				+e.INPUT.input(type="text" name="email" placeholder="E-mail")
+				+e.icon
+					+icon('mail', '0 0 14 14')
+			+e.BUTTON.button.flat-button__
+				+e.text Выслать презентацию
+			+e.LABEL.accept.checkbox__._black
+				+e.INPUT.input(type="checkbox" name="accept" checked="")
+				+e.SPAN.text.middle
+					| Нажимая на кнопку, вы даете согласие на обработку
+					| персональных данных и соглашаетесь c политикой
+					| конфиденциальности
++b.modals._center.sale__.mfp-hide#sale
+	+e.A.back.button__._grey.js-close-modal
+		+e.inner
+			+e.arrow
+				+icon('rightArrow')
+			+e.text Назад
+	+e.row.flex
+		+e.column._left.flex._center._vertical
+			+e.IMG.img(src="/img/sale.png")
+		+e.column._right
+			+e.title.h2 
+				| Согласуем скидку 
+				br
+				| специально для Вас
+			+e.text.p
+				| Как будет удобнее связаться?
+			+e.FORM.form.form__(action="/app/mail", data-thank="#thank5")
+				+e.INPUT(type="hidden" name="subj" value="Заявка на: Получите подробную информацию об акции")
+				+b.horizontal-messengers__._default.modals__messengers
+					+e.item
+						+e.LABEL.link._wa(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="whatsapp")
+							+e.SPAN.inner
+								+icon('whatsapp-logo', '0 0 90 90')
+							+e.SPAN.help-label.small Whatsapp
+					+e.item
+						+e.LABEL.link._viber(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="viber")
+							+e.SPAN.inner
+								+icon('viber', '0 0 514.055 514.055')
+							+e.SPAN.help-label.small Viber
+					+e.item
+						+e.LABEL.link._telegram(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telegram")
+							+e.SPAN.inner
+								+icon('telegram', '0 0 300 300')
+							+e.SPAN.help-label.small Telegram
+					+e.item
+						+e.LABEL.link._telephone(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telephone")
+							+e.SPAN.inner
+								+icon('telephone', '0 0 480.56 480.56')
+							+e.SPAN.help-label.small Телефон
+					+e.item
+						+e.LABEL.link._mail(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="email")
+							+e.SPAN.inner
+								+icon('mail', '0 0 14 14')
+							+e.SPAN.help-label.small Email
+				+e.item._name._black._show
+					+e.INPUT.input(type="text" name="name" placeholder="Имя")
+					+e.icon
+						+icon('man-user', '0 0 350 350')
+				+e.item._phone._black._show
+					+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
+					+e.icon
+						+icon('call-answer', '0 0 348.077 348.077')
+				+e.item._mail._black._hide
+					+e.INPUT.input(type="text" name="email" placeholder="E-mail")
+					+e.icon
+						+icon('mail', '0 0 14 14')
+				+e.BUTTON.button.flat-button__
+					+e.text Получить скидку
+				+e.LABEL.accept.checkbox__._black
+					+e.INPUT.input(type="checkbox" name="accept" checked="")
+					+e.SPAN.text.middle
+						| Нажимая на кнопку, вы даете согласие на обработку
+						| персональных данных и соглашаетесь c политикой
+						| конфиденциальности
++b.modals._right.mfp-hide#result
+	+e.cell
+		+e.title.h2 
+			| Заполните форму и через 
 			br
 			| минуту придет результат
-		+e.text.p
-			| Получите результаты расчеты ипотеки.
-			br
-			| Выберите удобный способ получения информации
-		+e.FORM.form.form__(action="/app/mail")
-			+e.INPUT(type="hidden" name="subj" value="Заявка на: Получите подробную информацию об акции")
+		+e.FORM.form.form__(action="/app/mail", data-thank="#thank5")
+			+e.INPUT(type="hidden" name="subj" value="Заявка на: Расчет ипотеки")
 			+e.INPUT(type="hidden" name="price" value="21 100 000 ₽")
 			+e.INPUT(type="hidden" name="start" value="500 000 ₽")
 			+e.INPUT(type="hidden" name="year" value="20 лет")
@@ -310,21 +696,21 @@
 						+e.SPAN.inner
 							+icon('mail', '0 0 14 14')
 						+e.SPAN.help-label.small Email
-			+e.item._name._show
+			+e.item._name._black._show
 				+e.INPUT.input(type="text" name="name" placeholder="Имя")
 				+e.icon
 					+icon('man-user', '0 0 350 350')
-			+e.item._phone._show
+			+e.item._phone._black._show
 				+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
 				+e.icon
 					+icon('call-answer', '0 0 348.077 348.077')
-			+e.item._mail._hide
+			+e.item._mail._black._hide
 				+e.INPUT.input(type="text" name="email" placeholder="E-mail")
 				+e.icon
 					+icon('mail', '0 0 14 14')
 			+e.BUTTON.button.flat-button__
 				+e.text Выслать презентацию
-			+e.LABEL.accept.checkbox__
+			+e.LABEL.accept.checkbox__._black
 				+e.INPUT.input(type="checkbox" name="accept" checked="")
 				+e.SPAN.text.middle
 					| Нажимая на кнопку, вы даете согласие на обработку
@@ -333,8 +719,8 @@
 +b.modals._right.mfp-hide#apartment
 	+e.cell
 		+e.title.h2 
-			| Скачать планировки
-		+e.FORM.form.form__(action="/app/mail")
+			| Получить планировки
+		+e.FORM.form.form__(action="/app/mail", data-thank="#thank4")
 			+e.INPUT(type="hidden" name="subj" value="Заявка на: Скачать планировки")
 			+e.fields
 				+e.field._new
@@ -386,21 +772,21 @@
 						+e.SPAN.inner
 							+icon('mail', '0 0 14 14')
 						+e.SPAN.help-label.small Email
-			+e.item._name._show
+			+e.item._name._black._show
 				+e.INPUT.input(type="text" name="name" placeholder="Имя")
 				+e.icon
 					+icon('man-user', '0 0 350 350')
-			+e.item._phone._show
+			+e.item._phone._black._show
 				+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
 				+e.icon
 					+icon('call-answer', '0 0 348.077 348.077')
-			+e.item._mail._hide
+			+e.item._mail._black._hide
 				+e.INPUT.input(type="text" name="email" placeholder="E-mail")
 				+e.icon
 					+icon('mail', '0 0 14 14')
 			+e.BUTTON.button.flat-button__
 				+e.text Получить планировки
-			+e.LABEL.accept.checkbox__
+			+e.LABEL.accept.checkbox__._black
 				+e.INPUT.input(type="checkbox" name="accept" checked="")
 				+e.SPAN.text.middle
 					| Нажимая на кнопку, вы даете согласие на обработку

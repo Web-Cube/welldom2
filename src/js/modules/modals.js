@@ -172,6 +172,22 @@ var modals = {
 
 			});			
 		});
+		
+		/*$(window).on('load',function(){
+			$.magnificPopup.open({
+				tClose: 'Закрыть',
+				removalDelay: 600,
+				fixedContentPos: true,
+				fixedBgPos: true,
+				overflowY: 'hidden',			
+				closeMarkup: '<div class="modals__close close js-close-modal"> <svg class="icon icon-cancel cancel" viewBox="0 0 64 64"> <use xlink:href="/app/icons/sprite.svg#cancel"></use> </svg></div>',
+				mainClass: 'css-modal-animate',				
+				items: {
+					src: '#sale',
+					type: 'inline'
+				}
+			}, 0);
+		});*/
 
 	}
 

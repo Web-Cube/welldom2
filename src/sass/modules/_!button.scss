@@ -44,7 +44,9 @@
 
 
 	&__inner{
-		display: block;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		width: 100%;
 		z-index: 15;
 		position: relative;
@@ -84,6 +86,18 @@
 			width: 25rem;
 		}
 	}
+	
+	&__arrow {
+		margin-right: 18rem;
+		display: block;
+		height: 15rem;
+		svg {
+			width: 16rem;
+			transform: rotate(180deg);
+			opacity: .4;
+			stroke-width: 3;
+		}
+	}
 
 	&:hover{
 		border-color: transparent;
@@ -97,7 +111,13 @@
 				svg{
 					fill: #fff;
 				}
-			}			
+			}
+			&__arrow {
+				svg {
+					fill: #fff;
+					opacity: 1;
+				}
+			}
 		}
 
 		&:before{

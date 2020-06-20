@@ -53,4 +53,15 @@
 			height: 12rem;
 		}
 	}
+	
+	&_black {
+		.checkbox__text {
+			&:before {
+				border: 1rem solid rgba(#000, .1);
+			}
+			&:after{
+				background: url('/img/check.png') center no-repeat;
+			}
+		}
+	}
 }

@@ -200,6 +200,25 @@
 				}
 			}
 		}
+		
+		&_black {
+			.form__input {
+				color: #333333;
+				border: none;
+				background: transparent;
+				border-bottom: 1rem solid rgba(#333333, .2);
+
+				&::-webkit-input-placeholder {color:#333333;}
+				&::-moz-placeholder          {color:#333333;}/* Firefox 19+ */
+				&:-moz-placeholder           {color:#333333;}/* Firefox 18- */
+				&:-ms-input-placeholder      {color:#333333;}
+			}
+			.form__icon {
+				svg {
+					fill: #333333;
+				}
+			}
+		}
 	}
 
 	&__button{

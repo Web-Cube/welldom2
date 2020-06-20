@@ -37,7 +37,14 @@ var forms = {
 				},
 				submitHandler: (form) => {
 					var data = $(form).serialize();
-					thank();
+					var thank = $(form).data('thank');
+					
+					if ( thank == 'quiz__thank' ) {
+						$('.quiz .form__thank').addClass('is-active');
+					} else {
+						sucsess(thank);
+					}
+					
 					$.ajax({
 						type: "POST",
 						url: $(form).attr("action"),
@@ -56,7 +63,7 @@ var forms = {
 			});
 		});
 		
-		function thank() {
+		function sucsess(name) {
 			$.magnificPopup.open({
 				tClose: 'Закрыть',
 				removalDelay: 600,
@@ -66,7 +73,7 @@ var forms = {
 				closeMarkup: '<div class="modals__close close js-close-modal"> <svg class="icon icon-cancel cancel" viewBox="0 0 64 64"> <use xlink:href="/app/icons/sprite.svg#cancel"></use> </svg></div>',
 				mainClass: 'css-modal-animate',				
 				items: {
-					src: '#thank',
+					src: name,
 					type: 'inline'
 				},
 				callbacks: {

@@ -156,6 +156,32 @@
 			}
 		}
 	}
+	
+	&_black {
+		background: #262526;
+		color: #fff;
+		.modals__close {
+			background: none;
+			border-color: rgba(#fff, .2);
+			svg {
+				fill: rgba(#fff, .2);
+			}
+			&:hover {
+				svg {
+					fill: $orange;
+				}
+			}
+		}
+		.horizontal-messengers_default {
+			border: 1px solid rgba(#fff, .2);
+		}
+		.horizontal-messengers_default .horizontal-messengers__item:not(:last-child) .horizontal-messengers__link {
+			border-right: 1px solid rgba(#fff, .2);
+		}
+		.horizontal-messengers__link svg {
+			fill: #fff;
+		}
+	}
 
 
 	@include max-screen($small_tablet) {
@@ -335,21 +361,82 @@
 		}
 	}
 	
+	&_thank {
+		display: block;
+	}
+	
 	&__thank {
-		text-align: center;
+		padding: 160/800*100% 0 0 100rem;
+		position: absolute;
+		left: 0;
+		top: 0;
 		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		&-icon {
+			width: 78rem;
+			margin-bottom: 35rem;
+		}
 		&-title {
 			margin-bottom: 15rem;
-			font-weight: 500;
 		}
 		&-desc {
+			font-size: 16rem;
+			line-height: 25/16*1;
 			font-weight: 500;
-			color: $gray;
+			color: rgba(#333333, .7);
+			&_black {
+				color: rgba(#fff, .7);
+			}
 		}
-		&-icon {
-			margin: 40rem auto 0 auto;
-			width: 35rem;
-			fill: $blue;
+		&-circle {
+			position: absolute;
+			right: -400rem;
+			bottom: -500rem;
+			width: 895rem;
+			height: 895rem;
+			border-radius: 100%;
+			background: #f5f5f5;
+			&_black {
+				background: rgba(#fff, .03);
+			}
+		}
+		&-img {
+			position: absolute;
+			&_presentation {
+				right: 0;
+				bottom: 0;
+				width: 491rem;
+			}
+			&_search {
+				right: 0;
+				bottom: 0;
+				width: 408rem;
+			}
+			&_plans {
+				right: 0;
+				bottom: 20rem;
+				width: 342rem;
+			}
+			&_docs {
+				right: 0;
+				bottom: 0;
+				width: 570rem;
+			}
+			&_iphone {
+				right: 50rem;
+				bottom: 60rem;
+				width: 280rem;
+			}
+			&_question {
+				right: 70rem;
+				bottom: 40rem;
+				width: 251rem;
+			}
+		}
+		
+		@include max-screen($large_mobile) {
+			padding: 60px 0 0 15px;
 		}
 	}
 
@@ -1146,12 +1233,84 @@
 		}
 	}
 }
+
+.sale {
+	padding: 0;
+	&__back {
+		position: absolute;
+		left: 65rem;
+		top: 45rem;
+		width: 156rem;
+	}
+	&__img {
+		width: 574rem;
+	}
+	&__column {
+		width: 50%;
+		&_right {
+			background: #fafafa;
+			padding: 100rem 100rem 90rem 100rem;
+		}
+	}
+	&__form {
+		max-width: 400rem;
+	}
+	.modals__messengers {
+		margin-top: 30rem;
+	}
+	&__text {
+		color: #868686;
+	}
+	.modals__close {
+		display: none;
+	}
+}
+
 @include max-screen($large_tablet) {
 	.css-modal-animate{
 		overflow: visible!important;
 	}
 }
-// 
+@include max-screen($small_tablet) {
+	.sale {
+		&__column {
+			width: 100%;
+			&_left {
+				display: none;
+			}
+		}
+		&__back {
+			display: none;
+		}
+		.modals__close {
+			display: flex;
+		}
+		&__form {
+			margin: auto;
+		}
+		&__title, &__text {
+			text-align: center;
+		}
+	}
+}
+
+@include max-screen($large_mobile) {
+	.sale {
+		width: 100%;
+		border-radius: 0;
+		height: 100vh;
+		margin: 0;
+		background: #fafafa;
+		&__column {
+			&_right {
+				padding: 40px 15px;
+			}
+		}
+		&__title, &__text {
+			text-align: left;
+		}
+	}
+}
 
 .js-open-submodal{
 	cursor: pointer;

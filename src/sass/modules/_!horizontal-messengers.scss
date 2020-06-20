@@ -39,7 +39,7 @@
 
 		&:checked{
 			&+.horizontal-messengers__inner{
-				background-color: $blue;
+				background-color: $orange;
 				svg{
 					fill: #fff;
 				}				
@@ -232,9 +232,9 @@
 		}
 
 		&:hover{
-			background-color: $blue;
+			background-color: $orange;
 			border-radius: 0rem!important;
-			border-color: $blue!important;
+			border-color: $orange!important;
 
 			// border-top-left-radius: 0rem!important;
 			// border-bottom-left-radius: 0rem!important;

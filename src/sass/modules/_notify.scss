@@ -71,7 +71,8 @@
 	}
 	
 	&__left {
-		max-width: 820rem;
+		max-width: 1000rem;
+		flex-wrap: nowrap;
 	}
 	
 	&__form {
@@ -189,6 +190,9 @@
 		&__form {
 			width: 380rem;
 		}
+		&__left {
+			max-width: 700rem;
+		}
 	}
 }
 
@@ -201,11 +205,17 @@
 		&__field {
 			max-width: 300rem;
 		}
+		&__left {
+			max-width:none;
+		}
 	}
 }
 
 @include max-screen($large_mobile) {
 	.notify {
+		&__left {
+			flex-wrap: wrap;
+		}
 		&__icon {
 			margin: 0 auto 30px auto;
 		}

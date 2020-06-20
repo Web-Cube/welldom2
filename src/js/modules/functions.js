@@ -97,7 +97,7 @@ function map_create() {
 	});  
 }
 
-map_create();
+//map_create();
 
 var thousandSeparator = str => {
 	var parts = (str + '').split('.'),

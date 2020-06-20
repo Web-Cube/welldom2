@@ -61,7 +61,11 @@
 		margin-top: 50rem;
 	}
 	&__banks {
-		padding: 120rem 0 95rem 0;
+		padding: 1px 0 95rem 0;
+		.banks__box {
+			position: relative;
+			margin-top: -70rem;
+		}
 	}
 	&__contact {
 		border-top: 0;
@@ -85,6 +89,12 @@
 	}
 	&__building {
 		padding: 50rem 0 70rem 0;
+	}
+	.payments {
+		padding-top: 0;
+	}
+	.calc-section {
+		padding-bottom: 140rem;
 	}
 }
 
@@ -145,12 +155,21 @@
 			}
 		}
 		&__banks {
-			padding: 40rem 0 75rem 0;
+			padding: 0 0 75rem 0;
+			.banks__box {
+				margin-top: 0;
+			}
 		}
 		&__recall {
 			&.recall_big {
 				padding-bottom: 60rem;
 			}
+		}
+		.payments {
+			padding-bottom: 30px;
+		}
+		.calc-section {
+			padding-bottom: 80px;
 		}
 	}
 }

@@ -5,7 +5,7 @@ append vars
 	- body['classList'] = 'is-loaded';
 
 block content
-	+b.SECTION.fullscreen
+	+b.SECTION.fullscreen.css-light-bg
 		+e.container._fix._header
 			include ../layouts/header
 			include ../layouts/nav
@@ -19,23 +19,62 @@ block content
 							+e.A.link(href="main.html") Главная
 						+e.LI.item
 							+e.SPAN.current Как купить
-			+e.buy.css-light-bg
-				include ../layouts/payments
+			+e.buy
+				+b.SECTION.payments
+					+e.wrap.wrap
+						+e.H2.title.h1._small Способы покупки
+						+e.list.flex
+							+e.item
+								+e.item-icon
+									img(src="/img/wallet_black.png")
+								+e.item-title 100% оплата
+								+e.item-desc
+									| Сумму скидки уточняйте 
+									br
+									| у специалиста
+							+e.item
+								+e.item-icon
+									img(src="/img/debit-card_black.png")
+								+e.item-title Беспроцентная рассрочка
+								+e.item-desc
+									| Условия меняются в ходе 
+									br
+									| строительства
+							+e.item
+								+e.item-icon
+									img(src="/img/invoice_black.png")
+								+e.item-title Оплата субсидиями
+								+e.item-desc
+									| Материнский капитал, военная 
+									br
+									| ипотека и прочие субсидии
+							+e.item
+								+e.item-icon
+									img(src="/img/ipoteka_black.png")
+								+e.item-title Ипотека
+								+e.item-desc
+									| Поможем получить особые 
+									br
+									| условия ипотеки
+						+e.bottom
+							+e.A.button.flat-button__.js-modal(href='#recall')
+								+e.text Узнать подробнее
 				include ../layouts/calc
 			include ../layouts/notify_third
-			+e.banks.banks__
+			+e.banks.banks__.css-black-bg
 				+e.wrap.wrap
-					+e.row.flex._justify._vertical
-						+e.item
-							img(src="/img/sberbank.png")
-						+e.item
-							img(src="/img/alfabank.png")
-						+e.item
-							img(src="/img/vtb_bank.png")
-						+e.item
-							img(src="/img/gazprom.png")
-					+e.desc.css-text-center.t18
-						| И еще более 10 банков
-					+e.bottom.css-text-center
-						+e.A.button.flat-button__.js-scroll-to(href="#calc")
-							+e.text Расчитать ипотеку
+					+e.box
+						+e.row.flex._justify._vertical
+							+e.item
+								img(src="/img/sberbank.png")
+							+e.item
+								img(src="/img/alfabank.png")
+							+e.item
+								img(src="/img/vtb_bank.png")
+							+e.item
+								img(src="/img/gazprom.png")
+						+e.desc.css-text-center.t18
+							| И еще более 10 банков
+						+e.bottom.css-text-center
+							+e.A.button.flat-button__.js-scroll-to(href="#calc")
+								+e.text Расчитать ипотеку

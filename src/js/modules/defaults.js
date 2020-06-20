@@ -88,7 +88,7 @@ var defaults = {
 		
 		// Notify
 		
-		$('.notify__button').click(function(){
+		$('.js-notify-button').click(function(){
 			$(this).hide();
 			$('.notify__form').addClass('is-active');
 			
