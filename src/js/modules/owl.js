@@ -139,7 +139,38 @@ var owl = {
 							items: 4
 						}
 					}
-				}				
+				}
+				
+				if ( $(this).hasClass('js-about-gallery') ) {
+					defaults.autoWidth = false;
+					defaults.stagePadding = 0;
+					defaults.responsive = {
+						0:{
+							margin: 0,
+							items: 1
+						},
+						769:{
+							margin: 0,
+							items: 1
+						}
+					}
+				}
+				
+				if ( $(this).hasClass('content-slider') ) {
+					defaults.responsive = {
+						0:{
+							autoWidth: false,
+							items: 1,
+							margin: 0,
+							stagePadding: 0
+						},
+						769:{
+							autoWidth: true,
+							margin: 43,
+							stagePadding: 91
+						}
+					}
+				}
 
 				if($(this).hasClass('js-inside-nav')){
 					defaults.nav = false;

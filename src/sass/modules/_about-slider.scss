@@ -398,28 +398,8 @@
 				margin-left: 15rem;
 				top: 17rem;
 			}
-			&-item {
-				&:nth-child(1) {
-					margin-top: 20rem;
-				}
-				&:nth-child(2) {
-					margin-top: 5rem;
-				}
-				&:nth-child(3) {
-					margin-top: -10rem;
-					margin-right: 15rem;
-				}
-				&:nth-child(4) {
-					margin-top: -25rem;
-					margin-right: 15rem;
-				}
-				&:nth-child(5) {
-					margin-top: -35rem;
-					margin-right: 12rem;
-				}
-				&:nth-child(6) {
-					margin-top: -55rem;
-				}
+			&-list {
+				top: 70rem;
 			}
 		}
 	}

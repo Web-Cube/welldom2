@@ -9,7 +9,7 @@ block content
 		+e.container._fix._header
 			include ../layouts/header
 			include ../layouts/nav
-		+b.page
+		+b.page.css-light-bg
 			+e.head
 				+e.head-wrap.wrap.flex._justify
 					+e.H1.title.h1
@@ -61,7 +61,18 @@ block content
 									|  / 05 
 							+e.part._nav.flex
 								+e.buttons-here.flex
-									include ../layouts/owl-arrows.pug
+									+b.owl-arrow._left._black
+										+e.SVG.border(viewBox='30 30 60 60')
+											+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+										+e.item
+									+b.owl-del
+									+b.owl-arrow._right._black
+										+e.SVG.border(viewBox='30 30 60 60')
+											+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+										+e.item
+										+e.autoplay
+											+e.SVG.autoplay-border(viewBox='30 30 60 60')
+												+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
 					+e.SECTION.box
 						+e.H2.box-title
 							| Ход строительства Январь 2020
@@ -98,7 +109,18 @@ block content
 									|  / 05 
 							+e.part._nav.flex
 								+e.buttons-here.flex
-									include ../layouts/owl-arrows.pug
+									+b.owl-arrow._left._black
+										+e.SVG.border(viewBox='30 30 60 60')
+											+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+										+e.item
+									+b.owl-del
+									+b.owl-arrow._right._black
+										+e.SVG.border(viewBox='30 30 60 60')
+											+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+										+e.item
+										+e.autoplay
+											+e.SVG.autoplay-border(viewBox='30 30 60 60')
+												+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
 					+e.SECTION.box
 						+e.H2.box-title
 							| Ход строительства Январь 2020
@@ -147,5 +169,55 @@ block content
 									|  / 05 
 							+e.part._nav.flex
 								+e.buttons-here.flex
-									include ../layouts/owl-arrows.pug
+									+b.owl-arrow._left._black
+										+e.SVG.border(viewBox='30 30 60 60')
+											+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+										+e.item
+									+b.owl-del
+									+b.owl-arrow._right._black
+										+e.SVG.border(viewBox='30 30 60 60')
+											+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+										+e.item
+										+e.autoplay
+											+e.SVG.autoplay-border(viewBox='30 30 60 60')
+												+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+			+e.recall.recall__._big.css-black-bg#view(data-aos="recall-aos" data-aos-offset="200")
+				+e.wrap.wrap
+					+e.parent
+						+e.box.flex
+							+e.icon
+								+b.IMG.icon(src="/img/loupe.png")
+							+e.cell._image
+								+e.IMG.image.object-fit(src='/img/recall.jpg')
+							+e.cell._content
+								+e.center
+									+e.title.h2 
+										| Посмотрите квартиры
+									+e.text.p
+										| Взгляните лично. Устроим вам 30 минутную экскурсию по 
+										| территории ЖК Шереметьевский
+								+e.FORM.form.form__
+									+e.thank.flex._vertical._center
+										+e.thank-center
+											+e.thank-title.h2
+												| Ваша заявка успешно отправлена
+											+e.thank-text.p
+												| Менеджер свяжется с Вами в ближайшее время
+									+e.INPUT(type="hidden" name="form" value="form 1")
+									+e.item
+										+e.INPUT.input(type="text" name="name" placeholder="Имя" required="")
+										+e.icon
+											+icon('man-user', '0 0 350 350')
+									+e.item
+										+e.INPUT.input(type="text" name="phone" placeholder="Телефон" required="")
+										+e.icon
+											+icon('call-answer', '0 0 348.077 348.077')
+									+e.BUTTON.button.flat-button__
+										+e.text Записаться на просмотр
+									+e.LABEL.accept.checkbox__
+										+e.INPUT.input(type="checkbox" name="accept" checked="")
+										+e.SPAN.text.middle
+											| Нажимая на кнопку, вы даете согласие на обработку
+											| персональных данных и соглашаетесь c политикой
+											| конфиденциальности
 								

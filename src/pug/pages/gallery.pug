@@ -9,17 +9,17 @@ block content
 		+e.container._fix._header
 			include ../layouts/header
 			include ../layouts/nav
-		+b.page
+		+b.page.css-black-bg
 			+e.head
 				+e.head-wrap.wrap.flex._justify
 					+e.H1.title.h1
 						| Галерея изображений объекта
-					+e.UL.breadcrumbs.breadcrumbs__
+					+e.UL.breadcrumbs.breadcrumbs__._white
 						+e.LI.item
 							+e.A.link(href="main.html") Главная
 						+e.LI.item
 							+e.SPAN.current Галерея
-			+b.SECTION.gallery-section(data-aos="singleSlider" data-aos-offset="300")
+			+b.SECTION.gallery-section
 				+b.gallery.autowidth-slider.js-have-bottom.js-inside-nav.owl-carousel.js-gallery
 					+e.A.item(href="/app/img/modernhouse.jpg")
 						+e.IMG.image.object-fit(src="/img/modernhouse.jpg")

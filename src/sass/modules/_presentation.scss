@@ -162,6 +162,9 @@
 					margin-right: 20rem;
 				}
 			}
+			&:before, &:after {
+				display: none;
+			}
 		}
 	}
 }

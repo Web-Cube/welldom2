@@ -112,6 +112,12 @@ var forms = {
 			}
 		});
 		
+		$('.form__input').focus(function(){
+			$(this).parent().addClass("is-active");
+		}).blur(function(){
+			$(this).parent().removeClass("is-active");
+		});
+		
 	},
 
 	init: () => {

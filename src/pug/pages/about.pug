@@ -1,0 +1,252 @@
+extends ../layouts/base
+
+append vars
+	- title = 'О комплексе';
+	- body['classList'] = 'is-loaded';
+
+block content
+	+b.SECTION.fullscreen
+		+e.container._fix._header
+			include ../layouts/header
+			include ../layouts/nav
+		+b.page.css-light-bg
+			+e.head
+				+e.head-wrap.wrap.flex._justify
+					+e.H1.title.h1
+						| О комплексе
+					+e.UL.breadcrumbs.breadcrumbs__
+						+e.LI.item
+							+e.A.link(href="main.html") Главная
+						+e.LI.item
+							+e.SPAN.current О комплексе
+			+e.complex
+				+e.wrap.wrap
+					+e.complex-row.flex_justify
+						+e.complex-content
+							p
+								| Жилой комплекс «Шереметьевский» расположен в районе Марьина Роща города Москвы, в 10 минутах пешком от станции метро «Савёловская» и 15 минутах езды до центра Москвы.
+							p
+								| Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. С другой стороны укрепление и развитие структуры представляет собой интересный эксперимент проверки дальнейших направлений развития. 
+							p
+								| Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. С другой стороны укрепление и развитие структуры представляет собой интересный эксперимент проверки дальнейших направлений развития. Жилой комплекс «Шереметьевский» расположен в районе Марьина Роща города Москвы, в 10 минутах пешком от станции метро  «Савёловская» и 15 минутах езды до центра Москвы. С другой стороны укрепление и развитие структуры представляет собой интересный эксперимент проверки дальнейших направлений развития. 
+						+e.complex-slider
+							+b.gallery.autowidth-slider.js-have-bottom.js-inside-nav.js-about-gallery.owl-carousel.js-gallery
+								+e.A.slide(href="/app/img/about__slide.jpg")
+									+e.IMG.pic(src="/img/about__slide.jpg")
+								+e.A.slide(href="/app/img/about__slide.jpg")
+									+e.IMG.pic(src="/img/about__slide.jpg")
+								+e.A.slide(href="/app/img/about__slide.jpg")
+									+e.IMG.pic(src="/img/about__slide.jpg")
+							+e.nav.owl-scrollbar__._dark
+								+e.part._progress
+									+e.line
+										+e.path
+											+e.done
+								+e.part._num
+									+e.text 
+										span 01
+										|  / 05 
+								+e.part._nav.flex
+									+e.buttons-here.flex
+										+b.owl-arrow._left._black
+											+e.SVG.border(viewBox='30 30 60 60')
+												+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+											+e.item
+										+b.owl-del
+										+b.owl-arrow._right._black
+											+e.SVG.border(viewBox='30 30 60 60')
+												+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+											+e.item
+											+e.autoplay
+												+e.SVG.autoplay-border(viewBox='30 30 60 60')
+													+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+			.css-black-bg
+				+e.facts.facts__.css-black-bg
+					+e.wrap.wrap
+						+e.title.h2._big Преимущества локации
+						+e.row.flex._justify
+							+e.item(data-aos="facts-aos")
+								+e.center
+									+e.preview._bigbottom
+										img(src="/img/train.png")
+									+e.item-title
+										| 5 мин до м. Фрунзенская
+									+e.text._big.gray.p
+										| 15 мин до Технологического
+										br
+										| института
+							+e.item._border(data-aos="facts-aos" data-aos-offset="200")
+								+e.center
+									+e.preview._bigbottom
+										img(src="/img/traffic-light.png")
+									+e.item-title
+										| Район без пробок
+									+e.text._big.gray.p
+										| Нет проблем с парковкой авто
+							+e.item._border(data-aos="facts-aos" data-aos-offset="200")
+								+e.center
+									+e.preview._bigbottom
+										img(src="/img/junction.png")
+									+e.item-title
+										| 15 минут до центра
+									+e.text._big.p
+										| 3 минуты до ЗСД
+				include ../layouts/info_slider
+				section.content-slider-section
+					+e.content-slider.content-slider__.autowidth-slider.js-content-slider.js-have-bottom.js-inside-nav.owl-carousel
+						+e.item
+							+e.icon
+								img(src="/img/flat-icon.png")
+							+e.title.h5.b
+								| Количество квартир
+							+e.desc
+								| Задача организации, в особенности же реализация намеченных плановых заданий позволяет выполнять важные задания по разработке форм развития. Повседневная практика показывает, что дальнейшее развитие различных форм деятельностив значительной степени обуславливает создание новых предложений
+						+e.item
+							+e.icon
+								img(src="/img/finising-icon.png")
+							+e.title.h5.b
+								| Отделка
+							+e.desc
+								| Задача организации, в особенности же реализация намеченных плановых заданий позволяет выполнять важные задания по разработке форм развития. Повседневная практика показывает, что дальнейшее развитие различных форм деятельностив значительной степени обуславливает создание новых предложений
+						+e.item
+							+e.icon
+								img(src="/img/window-icon.png")
+							+e.title.h5.b
+								| Размер окон
+							+e.desc
+								| Задача организации, в особенности же реализация намеченных плановых заданий позволяет выполнять важные задания по разработке форм развития. Повседневная практика показывает, что дальнейшее развитие различных форм деятельностив значительной степени обуславливает создание новых предложений
+						+e.item
+							+e.icon
+								img(src="/img/flat-icon.png")
+							+e.title.h5.b
+								| Количество квартир
+							+e.desc
+								| Задача организации, в особенности же реализация намеченных плановых заданий позволяет выполнять важные задания по разработке форм развития. Повседневная практика показывает, что дальнейшее развитие различных форм деятельностив значительной степени обуславливает создание новых предложений
+						+e.item
+							+e.icon
+								img(src="/img/finising-icon.png")
+							+e.title.h5.b
+								| Отделка
+							+e.desc
+								| Задача организации, в особенности же реализация намеченных плановых заданий позволяет выполнять важные задания по разработке форм развития. Повседневная практика показывает, что дальнейшее развитие различных форм деятельностив значительной степени обуславливает создание новых предложений
+						+e.item
+							+e.icon
+								img(src="/img/window-icon.png")
+							+e.title.h5.b
+								| Размер окон
+							+e.desc
+								| Задача организации, в особенности же реализация намеченных плановых заданий позволяет выполнять важные задания по разработке форм развития. Повседневная практика показывает, что дальнейшее развитие различных форм деятельностив значительной степени обуславливает создание новых предложений
+					+e.bottom
+						+e.wrap.wrap
+							+e.nav.owl-scrollbar__._dark
+								+e.part._progress
+									+e.line
+										+e.path
+											+e.done
+								+e.part._num
+									+e.text 
+										span 01
+										|  / 05 
+								+e.part._nav.flex
+									+e.buttons-here.flex
+										include ../layouts/owl-arrows.pug
+			+e.complex-center
+				+e.video
+					+e.video-wrap.wrap
+						+b.video
+							+e.IMG.preview(src="/img/video__preview.jpg")
+							+e.play.owl-arrow__.js-play(data-video='<iframe data-keepplaying="data-keepplaying" src="https://www.youtube.com/embed/wlkCQXHEgjA?autoplay=1&amp;showinfo=0&amp;rel=0&amp;controls=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>')
+								+e.SVG.border(viewBox='30 30 60 60')
+									+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+								+e.icon-play
+									+icon('play','0 0 19 30')
+				+e.expert.expert__
+					+e.wrap.wrap
+						+e.row
+							+e.foto
+								img(src="/img/foto_expert.jpg")
+								+e.name.h5 Игорь Михайлов
+								+e.position Эксперт проекта
+							+e.right
+								+e.H2.title.h1._small
+									| Получи совет эксперта бесплатно
+								+e.content
+									+e.text
+										| В какую квартиру выгодно инвестировать? Какая планировка будет более комфортная для вашей семьи? Какая планировка будет более комфортная для вашей семьи? Какая планировка будет более комфортная  для вашей семьи? Какая планировка будет более комфортная для вашей семьи?
+								+e.bottom.flex._vertical
+									+e.BUTTON.button.flat-button__.js-modal(data-modal="#recall")
+										+e.text Бесплатная консультация
+									+e.A.link.arrow-link__._orange.t18(href="#")
+										+e.text Полная информация о ЖК
+										+e.icon
+											+icon('rightArrow')
+			.css-black-bg
+				+e.recall.recall__._big._negative#view(data-aos="recall-aos" data-aos-offset="200")
+					+e.wrap.wrap
+						+e.parent
+							+e.box.flex
+								+e.icon
+									+b.IMG.icon(src="/img/loupe.png")
+								+e.cell._image
+									+e.IMG.image.object-fit(src='/img/recall.jpg')
+								+e.cell._content
+									+e.center
+										+e.title.h2 
+											| Посмотрите квартиры
+										+e.text.p
+											| Взгляните лично. Устроим вам 30 минутную экскурсию по 
+											| территории ЖК Шереметьевский
+									+e.FORM.form.form__
+										+e.thank.flex._vertical._center
+											+e.thank-center
+												+e.thank-title.h2
+													| Ваша заявка успешно отправлена
+												+e.thank-text.p
+													| Менеджер свяжется с Вами в ближайшее время
+										+e.INPUT(type="hidden" name="form" value="form 1")
+										+e.item
+											+e.INPUT.input(type="text" name="name" placeholder="Имя" required="")
+											+e.icon
+												+icon('man-user', '0 0 350 350')
+										+e.item
+											+e.INPUT.input(type="text" name="phone" placeholder="Телефон" required="")
+											+e.icon
+												+icon('call-answer', '0 0 348.077 348.077')
+										+e.BUTTON.button.flat-button__
+											+e.text Записаться на просмотр
+										+e.LABEL.accept.checkbox__
+											+e.INPUT.input(type="checkbox" name="accept" checked="")
+											+e.SPAN.text.middle
+												| Нажимая на кнопку, вы даете согласие на обработку
+												| персональных данных и соглашаетесь c политикой
+												| конфиденциальности
+				+e.construction.construction__
+					+e.wrap.wrap
+						+e.row.flex_justify
+							+e.left
+								+e.H2.title
+									| Очереди 
+									br
+									| строительства
+								+e.desc
+									| Таким образом консультация с широким активом представляет собой интересный эксперимент проверки существенных финансовых и административных условий. Задача организации, в особенности же дальнейшее развитие различных форм...
+								+e.H3.title2
+									| Комплекс строится в несколько 
+									br
+									| очередей и этапов:
+								+e.list.flex_justify
+									+e.item
+										+e.item-text 1 очередь
+										+e.item-text._gray 4 квартал 2020 г
+									+e.item
+										+e.item-text 2 очередь
+										+e.item-text._gray 4 квартал 2021 г
+									+e.item
+										+e.item-text 3 очередь
+										+e.item-text._gray 4 квартал 2022 г
+							+e.right
+								+e.img
+									img(src="/img/construction__img.jpg")
+				.construction-bg
+				include ../layouts/presentation
+				include ../layouts/related-posts

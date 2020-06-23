@@ -99,8 +99,8 @@
 		border-radius: 15px;
 
 		@include max-screen($small_tablet) {
-			left: 1rem;
-			top: 1rem;
+			left: 15px;
+			top: 15px;
 		}
 	}
 
@@ -111,7 +111,6 @@
 	}
 
 	&__bottom{
-		margin-top: 40rem;
 		border-top: 1px solid #e5e5e5;
 	}
 
@@ -130,7 +129,7 @@
 
 		@include max-screen($small_tablet) {
 			&_content{
-				padding: 10rem;
+				padding: 15px;
 			}
 		}
 

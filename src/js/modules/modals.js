@@ -8,9 +8,9 @@ var modals = {
 		if(!e)
 			return false;
 		
-		/*if ( $('.modals__iframe').attr('src').length > 0 ) {
+		if ( $('.modals__iframe').attr('src').length > 0 ) {
 			$('.modals__iframe').attr('src', '');
-		}*/
+		}
 
 		e.preventDefault();
 
@@ -24,9 +24,7 @@ var modals = {
 
 		e = e || false;
 
-		if(e) e.preventDefault();
-
-		$.magnificPopup.close();		
+		if(e) e.preventDefault();		
 
 		modal = modal || (e != false ? ($(e.currentTarget).attr('href') ? $(e.currentTarget).attr('href') : $(e.currentTarget).data('modal')) : e);
 
@@ -44,6 +42,8 @@ var modals = {
 		config.log('modal open');
 		
 		var map_load = false;
+		
+		//$.magnificPopup.close();
 
 		$.magnificPopup.open({
 			tClose: 'Закрыть',
@@ -66,21 +66,45 @@ var modals = {
 						map_create()
 					}
 				},
-				afterClose: function() {
+				open: function () {
+				  $('.flat__gallery-item, .flat__icon_zoom').on('click', function(e){
+					e.preventDefault();
 
+					$.magnificPopup.close();
+
+					setTimeout(function(){
+					  $.magnificPopup.open({
+						items: items,
+						type: 'image',
+						closeMarkup: '<div class="modals__close close js-close-modal js-modal" data-modal="#flat"> <svg class="icon icon-cancel cancel" viewBox="0 0 64 64"> <use xlink:href="/app/icons/sprite.svg#cancel"></use> </svg></div>',
+						gallery: {
+							enabled: true,
+							arrowMarkup: '<div class="modals__arrow owl-arrow owl-arrow_%dir% js-gallerybutton js-gallerybutton-%dir%"> <svg class="owl-arrow__border" viewBox="30 30 60 60"> <circle class="owl-arrow__path" cx="60" cy="60" r="29" fill="none"></circle> </svg> <div class="owl-arrow__item"></div></div>',
+						}
+					  });
+					}, 700);
+				  });
+				},
+				afterClose: function() {
 					$('.modals__state_new').removeClass('is-active')
 					$('body').removeClass('no-scroll') 	
 					// $('.modals').removeClass('js-open-submodal')
 					$('*[data-submodal-id]').removeClass('is-visible')
 					$('.modals .horizontal-messengers__input').prop('checked', false);
 
-					$('.modals__video iframe').attr('src', '')
+					$('.modals__video iframe').attr('src', '');
 				},
 				close: function() {
-
 				}
 			}
 		}, 0);
+		
+		var items = [];
+		$(".flat__gallery-item").each(function() {
+		  items.push( {
+			src: $(this).attr("href"),
+		  } );	  		
+		});
 		
 		function map_create() {
 			map_load = true
@@ -173,6 +197,7 @@ var modals = {
 			});			
 		});
 		
+		
 		/*$(window).on('load',function(){
 			$.magnificPopup.open({
 				tClose: 'Закрыть',
@@ -183,7 +208,7 @@ var modals = {
 				closeMarkup: '<div class="modals__close close js-close-modal"> <svg class="icon icon-cancel cancel" viewBox="0 0 64 64"> <use xlink:href="/app/icons/sprite.svg#cancel"></use> </svg></div>',
 				mainClass: 'css-modal-animate',				
 				items: {
-					src: '#sale',
+					src: '#flat',
 					type: 'inline'
 				}
 			}, 0);

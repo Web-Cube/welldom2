@@ -1,5 +1,8 @@
 .info-slider{
 	
+	padding-left: 15px;
+	padding-right: 15px;
+	
 	&__title{
 		letter-spacing: -.50rem;
 		color: #000;
@@ -47,7 +50,7 @@
 
 	&__carousel{
 		background: #fff;
-		max-width: 1700px;
+		max-width: 1700rem;
 		border-radius: 10px;
 		margin: auto;
 		width: auto!important;
@@ -292,8 +295,7 @@
 
 @include max-screen(1700px) {
 	.info-slider__carousel {
-		margin-left: 15px;
-		margin-right: 15px;
+		max-width: calc( 1400rem - 30px );
 	}
 }
 

@@ -15,21 +15,6 @@
 		}
 	}
 
-	&:before{
-		z-index: 1;
-		content: '';
-		display: block;
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-
-		background: url('/img/bg-line_2.png') center no-repeat;
-		background-size: 100%;
-
-	}
-
 	@include max-screen($large_tablet) {
 		padding-top: 80rem;
 		padding-bottom: 40rem;

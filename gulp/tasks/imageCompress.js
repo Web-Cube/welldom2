@@ -25,7 +25,7 @@ module.exports = (gulp, plugins) => {
                     quality: "hight"
                 }),
                 imageminPng({
-                    quality: [0.99, 1]
+                    quality: [0.8, 1]
                 })
 			]
 		}).then((e) => {
@@ -33,7 +33,7 @@ module.exports = (gulp, plugins) => {
 				destination: path.build.img,
 				plugins: [
 	                imageminWebp({
-	                    quality: 99
+	                    quality: 80
 	                })
 				]
 			})

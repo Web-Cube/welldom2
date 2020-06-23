@@ -18,4 +18,13 @@
 	&__current {
 		color: #000;
 	}
+	
+	&_white {
+		.breadcrumbs__item {
+			color: rgba(#fff, .5);
+		}
+		.breadcrumbs__current {
+			color: #fff;
+		}
+	}
 }

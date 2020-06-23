@@ -1,14 +1,14 @@
-import simpleParallax from 'simple-parallax-js';
+//import simpleParallax from 'simple-parallax-js';
 
 var defaults = {
 
 	events: () => {
-		var image = document.getElementsByClassName('offer__bg-image');
+		/*var image = document.getElementsByClassName('offer__bg-image');
 		new simpleParallax(image, {
 			delay: 1.4,
 			scale: 1.2,
 			transition: 'cubic-bezier(0,0,0,1)'
-		});
+		});*/
 		
 		$('*[data-for]').on('click', function() {
 			let type = $(this).data('for');

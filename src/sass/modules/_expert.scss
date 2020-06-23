@@ -34,6 +34,7 @@
 		padding: 37rem;
 		border-radius: 10px;
 		position: relative;
+		background: #fff;
 		&:before, &:after {
 			content: '';
 			display: block;
@@ -96,7 +97,7 @@
 
 @include max-screen($large_mobile) {
 	.expert {
-		padding: 80px 0 80px 0;
+		padding: 80px 0 0 0;
 		&__content {
 			padding-left: 15px;
 			padding-right: 15px;

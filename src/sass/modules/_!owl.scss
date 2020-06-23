@@ -134,6 +134,7 @@
 			@include max-screen($large_mobile) {
 				&_num{
 					min-width: 70rem;
+					padding-left: 30rem;
 				}	
 
 				&_nav{
@@ -227,18 +228,7 @@
 
 				&__done{
 					background-color: $orange;
-					border-radius: 3rem;
-					height: 3rem;
-				}
-
-				@include max-screen($large_tablet) {
-					&__line{
-						height: 2rem;
-					}
-
-					&__done{
-						height: 2rem;
-					}
+					height: 3px;
 				}
 			}
 		}

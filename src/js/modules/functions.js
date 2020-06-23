@@ -97,7 +97,9 @@ function map_create() {
 	});  
 }
 
-//map_create();
+if ( $(window).scrollTop() > ( $('body').wrapInner()/2 ) ) {
+	map_create();
+}
 
 var thousandSeparator = str => {
 	var parts = (str + '').split('.'),

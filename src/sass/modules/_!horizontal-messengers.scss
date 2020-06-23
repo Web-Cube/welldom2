@@ -142,7 +142,7 @@
 			&_close{
 				svg{
 					width: 17rem;
-					fill: $blue;
+					fill: $orange;
 				}
 			}
 
@@ -163,14 +163,14 @@
 			&_telephone{
 				svg{
 					width: 17rem;
-					fill: $blue;
+					fill: $orange;
 				}
 			}
 
 			&_mail{
 				svg{
 					width: 18rem;
-					fill: $blue;
+					fill: $orange;
 				}
 			}
 
@@ -355,7 +355,7 @@
 				border-right: 1px solid #e5e5e5;
 				background: #fff;
 				&:hover {
-					background: $blue;
+					background: $orange;
 				}
 				svg{
 					position: absolute;
@@ -368,7 +368,7 @@
 			&__demo{
 				cursor: pointer;
 				&:hover{
-					background-color: $blue;
+					background-color: $orange;
 					.horizontal-messengers__demo-item{
 						svg{
 							fill: #fff!important;

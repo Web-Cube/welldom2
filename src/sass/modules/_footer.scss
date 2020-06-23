@@ -79,7 +79,7 @@
 			font-weight: 600;
 
 			&:hover{
-				color: $blue;
+				color: $orange;
 			}
 		}
 	}
@@ -111,9 +111,9 @@
 		transition: ease .15s;
 
 		&:hover{
-			color: $blue;
+			color: $orange;
 			span{
-				border-bottom-color: $blue;
+				border-bottom-color: $orange;
 			}
 		}	
 

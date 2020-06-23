@@ -1,5 +1,5 @@
 .page {
-	padding-top: 40rem;
+	padding-top: 80rem;
 	&__head {
 		&-wrap {
 			align-items: flex-end;
@@ -22,20 +22,19 @@
 		padding: 65rem 0 70rem 0;
 		&_big {
 			padding: 85rem 0 90rem 0;
-			margin-bottom: 40rem;
+			background: #f7f6f4;
 			.page__about-title {
 				padding-bottom: 15rem;
 			}
 		}
 		&-logo {
-			width: 317rem;
+			width: 250rem;
 			display: block;
-			margin-bottom: 40rem;
+			margin-bottom: 25rem;
 		}
 		&-column {
 			width: 50%;
 			padding: 0 15px;
-			margin-top: 25rem;
 			font-size: 18rem;
 			line-height: 28/18*1;
 			@include letter-spacing(18,20);
@@ -48,14 +47,37 @@
 		}
 		&-title {
 			font-weight: 500;
-			margin-bottom: 0;
+			margin-bottom: 40rem;
 		}
 		&-statistics {
 			margin-top: 100rem;
 		}
-	}
-	.related-posts {
-		margin-bottom: 60rem;
+		&-stat {
+			width: 100%;
+			margin-top: 30rem;
+			margin-bottom: 40rem;
+			&-item {
+				line-height: 1;
+				&:not(:first-child) {
+					border-left: 1px solid rgba(#000, .1);
+				}
+				&:first-child {
+					width: 45%;
+				}
+				&:last-child {
+					width: 55%;
+				}
+			}
+			&-number {
+				font-size: 60rem;
+				margin-bottom: 25rem;
+			}
+			&-text {
+				font-size: 17rem;
+				@include letter-spacing(17,20);
+				font-weight: 500;
+			}
+		}
 	}
 	&__buy {
 		margin-top: 50rem;
@@ -79,6 +101,12 @@
 			box-shadow: none !important;
 			border: 1px solid rgba(#000, .1);
 		}
+		&.recall_negative {
+			padding-top: 1px;
+			.recall__parent {
+				margin-top: -125rem;
+			}
+		}
 	}
 	&__catalog {
 		margin-top: 60rem;
@@ -88,13 +116,58 @@
 		padding: 50rem 0 70rem 0;
 	}
 	&__building {
-		padding: 50rem 0 70rem 0;
+		padding: 50rem 0 110rem 0;
 	}
 	.payments {
 		padding-top: 0;
 	}
 	.calc-section {
 		padding-bottom: 140rem;
+	}
+	&__promo, .promo {
+		padding-top: 60rem;
+		padding-bottom: 110rem;
+	}
+	&__complex {
+		margin-top: 40rem;
+		padding-bottom: 90rem;
+		&-content {
+			width: 560/1336*100%;
+			p {
+				line-height: 30/16*1;
+				font-size: 16rem;
+				@include letter-spacing(16,40);
+				&:not(:last-child) {
+					margin-bottom: 30rem;
+				}
+			}
+		}
+		&-slider {
+			width: 665/1336*100%;
+		}
+		&-center {
+			.page__video {
+				padding-top: 130rem;
+			}
+			.expert {
+				padding-bottom: 275rem;
+			}
+		}
+	}
+	&__facts {
+		padding-top: 130rem;
+		padding-bottom: 110rem;
+		.facts__wrap {
+			background: none;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+	.content-slider-section {
+		padding-bottom: 100rem;
+	}
+	&__construction {
+		padding: 85rem 0 170rem 0;
 	}
 }
 
@@ -134,11 +207,44 @@
 		&__catalog {
 			margin-top: 30rem;
 		}
+		&__about {
+			padding-bottom: 0;
+			&-stat {
+				order: 2;
+				margin-top: 40px;
+				width: calc( 100% + 30px );
+				margin-left: -15px;
+				&-item {
+					width: 50%!important;
+					text-align: center;
+					display: flex;
+					justify-content: center;
+				}
+				&-text {
+					max-width: 100px;
+					margin-left: auto;
+					margin-right: auto;
+					line-height: 1.2;
+				}
+			}
+			&-column:not(:last-child) {
+				margin-bottom: 30px;
+			}
+		}
+		&__complex {
+			&-content, &-slider {
+				width: 100%;
+			}
+			&-slider {
+				margin-top: 40rem;
+			}
+		}
 	}
 }
 
 @include max-screen($large_mobile) {
 	.page {
+		padding-top: 50px;
 		&__video {
 			padding-top: 20rem;
 			&-title {
@@ -160,6 +266,9 @@
 				margin-top: 0;
 			}
 		}
+		&__building {
+			padding-bottom: 80px;
+		}
 		&__recall {
 			&.recall_big {
 				padding-bottom: 60rem;
@@ -170,6 +279,24 @@
 		}
 		.calc-section {
 			padding-bottom: 80px;
+		}
+		&__facts {
+			padding-top: 70px;
+			padding-bottom: 60px;
+		}
+		&__complex-center {
+			.expert {
+				padding-bottom: 230rem;
+			}
+			.page__video {
+				padding-top: 80rem;
+			}
+		}
+		&__construction {
+			padding: 40rem 0 80rem 0;
+		}
+		.content-slider-section {
+			padding-bottom: 80rem;
 		}
 	}
 }

@@ -409,7 +409,7 @@
 			| на данную квартиру
 		+e.text.p
 			| Куда выслать варианты?
-		+e.FORM.form.form__(action="/app/mail")
+		+e.FORM.form.form__(action="/app/mail", data-thank="#thank4")
 			+e.INPUT(type="hidden" name="subj" value="Заявка на: Скачать презентацию")
 
 			+b.horizontal-messengers__._default.modals__messengers
@@ -456,7 +456,7 @@
 				+e.icon
 					+icon('mail', '0 0 14 14')
 			+e.BUTTON.button.flat-button__
-				+e.text Выслать презентацию
+				+e.text Узнать цену
 			+e.LABEL.accept.checkbox__._black
 				+e.INPUT.input(type="checkbox" name="accept" checked="")
 				+e.SPAN.text.middle
@@ -653,6 +653,108 @@
 						| Нажимая на кнопку, вы даете согласие на обработку
 						| персональных данных и соглашаетесь c политикой
 						| конфиденциальности
++b.modals._center.flat__.mfp-hide#flat
+	+e.H2.title
+		| 1 ккв в ЖК «LEGENDA Героев», 85м2
+	+e.info.flex._vertical
+		+e.metro
+			+e.metro-icon
+				+icon('Spb_metro_logo','0 0 1249 1024')
+			+e.metro-text
+				| Метро Бухарестская
+		+e.run
+			+e.run-icon
+				+icon('running','0 0 512.149 512.149')
+			+e.run-text
+				| 5 мин, Фрузенский р-н, ул. Салова
+	+e.row.flex._justify
+		+e.left
+			+e.SECTION.slider
+				+b.gallery.autowidth-slider.js-have-bottom.js-inside-nav.js-building-gallery.owl-carousel
+					+e.slide
+						img(src="/img/flat__big-img.png")
+					+e.slide
+						img(src="/img/gk1__preview.jpg")
+					+e.slide
+						img(src="/img/gk2__preview.jpg")
+					+e.slide
+						img(src="/img/gk3__preview.jpg")
+					+e.slide
+						img(src="/img/gk1__preview.jpg")
+					+e.slide
+						img(src="/img/gk2__preview.jpg")
+					+e.slide
+						img(src="/img/gk3__preview.jpg")
+				+e.nav.owl-scrollbar__._dark
+					+e.part._progress
+						+e.line
+							+e.path
+								+e.done
+					+e.part._num
+						+e.text 
+							span 01
+							|  / 05 
+					+e.part._nav.flex
+						+e.buttons-here.flex
+							+b.owl-arrow._left._black
+								+e.SVG.border(viewBox='30 30 60 60')
+									+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+								+e.item
+							+b.owl-del
+							+b.owl-arrow._right._black
+								+e.SVG.border(viewBox='30 30 60 60')
+									+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+								+e.item
+								+e.autoplay
+									+e.SVG.autoplay-border(viewBox='30 30 60 60')
+										+e.CIRCLE.path(cx='60', cy='60', r='29', fill='none')
+			+e.preview
+				+e.A.icon._download(href="#")
+					+icon('download', '0 0 512 512')
+				+e.A.icon._zoom(href="#")
+					+icon('zoom-in', '0 0 52.966 52.966')
+				+e.preview-img.A(href="/app/img/flat__big-img.png")
+					img(src="/img/flat__big-img.png")
+			+e.gallery.flex._justify
+				+e.A.gallery-item(href="/app/img/flat__big-img.png")
+				+e.A.gallery-item(href="/app/img/gk1__preview.jpg")
+					img(src="/img/gk1__preview.jpg")
+				+e.A.gallery-item(href="/app/img/gk2__preview.jpg")
+					img(src="/img/gk2__preview.jpg")
+				+e.A.gallery-item(href="/app/img/gk3__preview.jpg")
+					img(src="/img/gk3__preview.jpg")
+				+e.A.gallery-item(href="/app/img/gk1__preview.jpg")
+					img(src="/img/gk1__preview.jpg")
+				+e.A.gallery-item(href="/app/img/gk2__preview.jpg")
+					img(src="/img/gk2__preview.jpg")
+				+e.A.gallery-item(href="/app/img/gk3__preview.jpg")
+					img(src="/img/gk3__preview.jpg")
+		+e.right
+			+e.expert
+				+e.expert-top
+					+e.expert-foto
+						img(src="/img/flat__ava.png")
+					+e.expert-info
+						+e.expert-name
+							| Игорь Михайлов
+						+e.expert-position
+							| Эксперт по новостройками
+				+e.expert-bottom
+					ul
+						li
+							| Как выбрать планировку?
+						li
+							| Куда должны смотреть окна?
+						li
+							| Какие условия по ипотеке?
+					+e.A.link.arrow-link__._orange.t18.js-modal(href="#recall",data-room-name="Название квартиры")
+						+e.text Получить помощь эксперта
+						+e.icon
+							+icon('rightArrow')
+			+e.A.button.flat-button__.js-modal(href="#price")
+				+e.text Узнать цену со скидкой
+			+e.A.button.flat-button__._gray.js-modal(href="#make")
+				+e.text Записаться на просмотр
 +b.modals._right.mfp-hide#result
 	+e.cell
 		+e.title.h2 

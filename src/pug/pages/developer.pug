@@ -9,7 +9,7 @@ block content
 		+e.container._fix._header
 			include ../layouts/header
 			include ../layouts/nav
-		+b.page
+		+b.page.css-light-bg
 			+e.head
 				+e.head-wrap.wrap.flex._justify
 					+e.H1.title.h1
@@ -21,14 +21,25 @@ block content
 							+e.SPAN.current Застройщик
 			+e.about
 				+e.about-wrap.wrap
-					+e.IMG.about-logo(src='/app/img/welldom_logo.svg')
-					+e.H2.about-title.h5 Информация о застройщике
 					+e.about-row.flex_justify
 						+e.about-column
+							+e.IMG.about-logo(src='/app/img/welldom_logo.svg')
+							+e.H2.about-title.h4 Информация о застройщике
+							+e.about-text 
 							| Таким образом рамки и место обучения кадров способствует подготовки и реализации соответствующий условий активизации. Значимость этих проблем настолько очевидна, что рамки и место обучения кадров позволяет выполнять важные задания по разработке системы обучения кадров, соответствует насущным потребностям. Не следует, однако забывать, что сложившаяся структура организации в начительной степени обуславливает создание соответствующий условий активизации. Таким образом рамки и место обучения кадров способствует подготовки.
-						+e.about-column
+						+e.about-column.flex._start
+							+e.about-stat.flex
+								+e.about-stat-item
+									+e.about-stat-wrap
+										+e.about-stat-number.orange 85
+										+e.about-stat-text Построенных объектов
+								+e.about-stat-item.flex._center
+									+e.about-stat-wrap
+										+e.about-stat-number.orange 55
+										+e.about-stat-text Строящихся объектов
+							+e.about-text 
 							| В особенности же дальнейшее развитие различных форм деятельности требуют определения и уточнения форм развития. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание существенных финансовых и административных условий. Не следует, однако забывать, что сложившаяся структура организации в значительной степени обуславливает создание соответствующий условий активизации. Таким образом рамки и место обучения кадров способствует подготовки и реализации соответствующий условий активизации
-					+e.about-statistics.statistics__.flex_justify
+					//+e.about-statistics.statistics__.flex_justify
 						+e.item
 							+e.item-wrap
 								+e.number 85
