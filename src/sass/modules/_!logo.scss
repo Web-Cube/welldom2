@@ -1,6 +1,7 @@
 .logo{
 	z-index: 800;
 	position: relative;
+	display: block;
 
 	@include max-screen($large_desktop) {
 	}
@@ -10,7 +11,7 @@
 	}
 
 	&__text{
-
+		display: block;
 		@include max-screen($large_mobile) {
 			display: none;
 		}

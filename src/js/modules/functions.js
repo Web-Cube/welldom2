@@ -97,9 +97,12 @@ function map_create() {
 	});  
 }
 
-if ( $(window).scrollTop() > ( $('body').wrapInner()/2 ) ) {
-	map_create();
-}
+$(window).on('load', function(){
+	
+	setTimeout(function(){
+		map_create();
+	},1000);
+});
 
 var thousandSeparator = str => {
 	var parts = (str + '').split('.'),

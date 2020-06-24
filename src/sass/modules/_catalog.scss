@@ -30,6 +30,7 @@
 	&__preview{
 		position: relative;
 		border-radius: 10px;
+		cursor: pointer;
 		&:hover {
 			.owl-prev, .owl-next {
 				opacity: 1;
@@ -47,7 +48,7 @@
 	}
 
 	&__pagination{
-		margin-right: 140rem;
+		margin-right: 190rem;
 	}
 
 	&__name{

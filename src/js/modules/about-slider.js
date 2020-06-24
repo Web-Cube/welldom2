@@ -90,6 +90,7 @@ var aboutSlider = {
 			var dir = $(this).hasClass('owl-arrow_right') ? "next" : "prev";
 			slider_to(dir)
 		})
+
 	},
 	
 	load: () => {
