@@ -9,6 +9,10 @@
 	display: none;
 }
 
+.mfp-image-holder {
+	background-color: rgba(0, 0, 0, 0.702);
+}
+
 .mfp-gallery{
 	.mfp-container{
 		padding: 0 3%;	
@@ -16,9 +20,6 @@
 
 	.mfp-figure{
 		position: relative;
-		&:after{
-			box-shadow: 0 0 100rem 0 rgba(108,108,108,.8);
-		}
 
 	}
 
@@ -112,6 +113,7 @@
 		padding-top: 25rem;
 		margin-top: 20rem;
 		margin-bottom: 20rem;
+		overflow: hidden;
 	}
 
 	&_video{

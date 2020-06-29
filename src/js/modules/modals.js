@@ -7,16 +7,13 @@ var modals = {
 
 		if(!e)
 			return false;
-		
-		if ( $('.modals__iframe').attr('src').length > 0 ) {
-			$('.modals__iframe').attr('src', '');
-		}
 
 		e.preventDefault();
 
 		config.log('close modal');
 
 		$.magnificPopup.close();
+		
 
 	},
 
@@ -91,10 +88,9 @@ var modals = {
 					// $('.modals').removeClass('js-open-submodal')
 					$('*[data-submodal-id]').removeClass('is-visible')
 					$('.modals .horizontal-messengers__input').prop('checked', false);
-
-					$('.modals__video iframe').attr('src', '');
 				},
 				close: function() {
+					$('.modals__video iframe').attr('src','');
 				}
 			}
 		}, 0);
@@ -154,7 +150,7 @@ var modals = {
 
 
 	init: (e) => {
-
+		
 		
 		$(document).on('click', '.js-close-modal', modals.close);
 

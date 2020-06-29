@@ -2,7 +2,7 @@
 	+e.wrap.wrap
 		+e.H2.title.h1.h1_small Наше местоположение
 		+e.list.flex._justify
-			+e.item
+			+e.A.item._address.js-address.is-active(href="#map-footer1")
 				+e.label Адрес офиса:
 				+e.text
 					+e.SPAN.text-icon
@@ -10,10 +10,10 @@
 					| Санкт-Петербург, 
 					br
 					| ул. Марата, д.75
-				+e.A.link.is-active(href="#map-footer1")
+				+e.link
 					+e.link-text Показать на карте
 					+e.link-icon
-			+e.item
+			+e.A.item._address.js-address(href="#map-footer2")
 				+e.label Адрес офиса:
 				+e.text
 					+e.SPAN.text-icon
@@ -21,7 +21,7 @@
 					| Санкт-Петербург, 
 					br
 					| ул. Заставская 904
-				+e.link(href="#map-footer2")
+				+e.link
 					+e.link-text Показать на карте
 					+e.link-icon
 			+e.item

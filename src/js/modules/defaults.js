@@ -145,13 +145,6 @@ var defaults = {
 			}
 		});
 		
-		$('.mobile__link').on('click', function(e){
-			e.preventDefault()
-			$('.js-toggle-mobile').removeClass('is-active')		
-			$('html, body').removeClass('js-lock')
-			$('.mobile').removeClass('mobile_visible')
-		});
-		
 	},
 
 	init: () => {

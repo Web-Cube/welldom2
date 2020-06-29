@@ -8,11 +8,27 @@
 	&__item {
 		margin-top: 30rem;
 		padding-left: 25rem;
+		&_address {
+			display: block;
+			color: #aeaeae;
+			transition: ease .2s;
+			&:hover, &.is-active {
+				color: #000;
+				.contact__link-text{
+					color: $orange;
+					border-bottom: 1px solid $orange;
+				}
+				.contact__link-icon {
+					opacity: 1;
+				}
+			}
+		}
 	}
 	&__label {
 		font-weight: 600;
 		color: rgba(#000, .7);
 		margin-bottom: 7rem;
+		display: block;
 	}
 	&__text {
 		font-size: 24rem;
@@ -20,6 +36,7 @@
 		line-height: 35/24*1;
 		max-width: 380rem;
 		position: relative;
+		display: block;
 		&-icon {
 			position: absolute;
 			right: 100%;
@@ -81,15 +98,6 @@
 			opacity: 0;
 			&:before {
 				content: '+';
-			}
-		}
-		&.is-active, &:hover {
-			.contact__link-text{
-				color: $orange;
-				border-bottom: 1px solid $orange;
-			}
-			.contact__link-icon {
-				opacity: 1;
 			}
 		}
 	}

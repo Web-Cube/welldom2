@@ -1,10 +1,10 @@
 var map = {
 	
 	load: () => {
-		$('.contact__link').click(function(){
+		$('.js-address').click(function(){
 			var position = $(this).attr('href');
 
-			$('.contact__link.is-active').removeClass('is-active');
+			$('.js-address.is-active').removeClass('is-active');
 			$(this).addClass('is-active');
 			
 			$('.contact__map:visible').hide();

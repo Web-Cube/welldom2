@@ -57,24 +57,24 @@ include docs
 
 				+e.messengers.horizontal-messengers__._default
 					+e.item
-						+e.A.link._wa(href="#" target="_blank")
+						+e.A.link._wa.js-modal(href='#recall' data-for="whatsapp")
 							+icon('whatsapp-logo', '0 0 90 90')
 					+e.item
-						+e.A.link._viber(href="#" target="_blank")
+						+e.A.link._viber.js-modal(href='#recall' data-for="viber")
 							+icon('viber', '0 0 514.055 514.055')
 					+e.item
-						+e.A.link._telegram(href="#" target="_blank")
+						+e.A.link._telegram.js-modal(href='#recall' data-for="telegram")
 							+icon('telegram', '0 0 300 300')
 					+e.item
-						+e.A.link._telephone(href="#" target="_blank")
+						+e.A.link._telephone.js-modal(href='#recall' data-for="telephone")
 							+icon('telephone', '0 0 480.56 480.56')
 					+e.item
-						+e.A.link._mail(href="#" target="_blank")
+						+e.A.link._mail.js-modal(href='#recall' data-for="email")
 							+icon('mail', '0 0 14 14')
 			+e.bottom-cell._last
 				+e.A.link.p.js-modal(href="#polit")
 					span Политика 
 					br
 					span конфиденциальности
-				+e.A.link._creator.p(href="http://karanikola.ru" target="_blank")
+				//+e.A.link._creator.p(href="http://karanikola.ru" target="_blank")
 					span Создание сайта — Karanikola
