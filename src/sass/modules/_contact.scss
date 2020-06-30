@@ -19,7 +19,7 @@
 					border-bottom: 1px solid $orange;
 				}
 				.contact__link-icon {
-					opacity: 1;
+					fill: $orange;
 				}
 			}
 		}
@@ -84,21 +84,8 @@
 		&-icon {
 			width: 21rem;
 			height: 21rem;
-			border: 2rem solid $orange;
-			border-radius: 100%;
-			margin-left: 10rem;
-			font-size: 18rem;
-			line-height: 0.5;
-			padding-bottom: 2rem;
-			color: $orange;
-			display: inline-flex;
-			justify-content: center;
-			align-items: center;
-			transition: ease .2s;
-			opacity: 0;
-			&:before {
-				content: '+';
-			}
+			margin-left: 7rem;
+			fill: rgba(#000, .3);
 		}
 	}
 	&__button {

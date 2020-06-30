@@ -43,6 +43,13 @@
 			width: 26rem;
 			margin-right: 19rem;
 		}
+		
+		&_spinner {
+			margin-left: 15rem;
+			width: 17rem;
+			height: 17rem;
+			fill: #fff;
+		}
 
 		@include max-screen($large_mobile) {
 			&_presa{

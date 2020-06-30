@@ -43,7 +43,7 @@ var modals = {
 		//$.magnificPopup.close();
 
 		$.magnificPopup.open({
-			tClose: 'Закрыть',
+			tClose: '???????',
 			removalDelay: 600,
 			fixedContentPos: true,
 			fixedBgPos: true,
@@ -173,7 +173,7 @@ var modals = {
 			$(this).magnificPopup({
 				delegate: 'a',
 				type: 'image',
-				tClose: 'Закрыть',
+				tClose: '???????',
 				removalDelay: 600,
 				fixedContentPos: false,
 				closeOnContentClick: false,
@@ -196,7 +196,7 @@ var modals = {
 		
 		/*$(window).on('load',function(){
 			$.magnificPopup.open({
-				tClose: 'Закрыть',
+				tClose: '???????',
 				removalDelay: 600,
 				fixedContentPos: true,
 				fixedBgPos: true,

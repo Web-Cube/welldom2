@@ -36,8 +36,6 @@ var aboutSlider = {
 				}else{
 					next = (current.index() <= 0) ? $slider.find('.about-slider__item:last-child').index() : current.prev().index();
 				}
-
-				console.log('current: ' + current.index() + " | count: " + count)
 			}
 
 			progress =  100 / (count / (next+1))
