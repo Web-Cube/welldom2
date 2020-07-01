@@ -13,15 +13,33 @@ var modals = {
 		config.log('close modal');
 
 		$.magnificPopup.close();
-		
 
+
+	},
+
+	openCallback: (evt, items) => {
+		evt.preventDefault();
+
+		$.magnificPopup.close();
+
+		// setTimeout(function(){
+		$.magnificPopup.open({
+			items: items,
+			type: 'image',
+			closeMarkup: '<div class="modals__close close js-close-modal js-modal"> <svg class="icon icon-cancel cancel" viewBox="0 0 64 64"> <use xlink:href="/app/icons/sprite.svg#cancel"></use> </svg></div>',
+			gallery: {
+				enabled: true,
+				arrowMarkup: '<div class="modals__arrow owl-arrow owl-arrow_%dir% js-gallerybutton js-gallerybutton-%dir%"> <svg class="owl-arrow__border" viewBox="30 30 60 60"> <circle class="owl-arrow__path" cx="60" cy="60" r="29" fill="none"></circle> </svg> <div class="owl-arrow__item"></div></div>',
+			}
+		});
+		// }, 700);
 	},
 
 	open: (e, modal) => {
 
 		e = e || false;
 
-		if(e) e.preventDefault();		
+		if(e) e.preventDefault();
 
 		modal = modal || (e != false ? ($(e.currentTarget).attr('href') ? $(e.currentTarget).attr('href') : $(e.currentTarget).data('modal')) : e);
 
@@ -34,12 +52,12 @@ var modals = {
 
 		if(e && $(e.currentTarget).attr('data-input')){
 			$(modal + ' input[name="form"]').val($(e.currentTarget).data('input'))
-		}	
+		}
 
 		config.log('modal open');
-		
+
 		var map_load = false;
-		
+
 		//$.magnificPopup.close();
 
 		$.magnificPopup.open({
@@ -47,9 +65,9 @@ var modals = {
 			removalDelay: 600,
 			fixedContentPos: true,
 			fixedBgPos: true,
-			overflowY: 'hidden',			
+			overflowY: 'hidden',
 			closeMarkup: '<div class="modals__close close js-close-modal"> <svg class="icon icon-cancel cancel" viewBox="0 0 64 64"> <use xlink:href="/app/icons/sprite.svg#cancel"></use> </svg></div>',
-			mainClass: 'css-modal-animate',				
+			mainClass: 'css-modal-animate',
 			items: {
 				src: modal,
 				type: 'inline'
@@ -65,26 +83,12 @@ var modals = {
 				},
 				open: function () {
 				  $('.flat__gallery-item, .flat__icon_zoom').on('click', function(e){
-					e.preventDefault();
-
-					$.magnificPopup.close();
-
-					setTimeout(function(){
-					  $.magnificPopup.open({
-						items: items,
-						type: 'image',
-						closeMarkup: '<div class="modals__close close js-close-modal js-modal" data-modal="#flat"> <svg class="icon icon-cancel cancel" viewBox="0 0 64 64"> <use xlink:href="/app/icons/sprite.svg#cancel"></use> </svg></div>',
-						gallery: {
-							enabled: true,
-							arrowMarkup: '<div class="modals__arrow owl-arrow owl-arrow_%dir% js-gallerybutton js-gallerybutton-%dir%"> <svg class="owl-arrow__border" viewBox="30 30 60 60"> <circle class="owl-arrow__path" cx="60" cy="60" r="29" fill="none"></circle> </svg> <div class="owl-arrow__item"></div></div>',
-						}
-					  });
-					}, 700);
+						modals.openCallback(e, items)
 				  });
 				},
 				afterClose: function() {
 					$('.modals__state_new').removeClass('is-active')
-					$('body').removeClass('no-scroll') 	
+					$('body').removeClass('no-scroll')
 					// $('.modals').removeClass('js-open-submodal')
 					$('*[data-submodal-id]').removeClass('is-visible')
 					$('.modals .horizontal-messengers__input').prop('checked', false);
@@ -94,14 +98,14 @@ var modals = {
 				}
 			}
 		}, 0);
-		
+
 		var items = [];
 		$(".flat__gallery-item").each(function() {
 		  items.push( {
 			src: $(this).attr("href"),
-		  } );	  		
+		  } );
 		});
-		
+
 		function map_create() {
 			map_load = true
 			$.getScript( 'https://api-maps.yandex.ru/2.1/?lang=ru_RU', function( data, textStatus, jqxhr ) {
@@ -109,7 +113,7 @@ var modals = {
 					$('.map-box').each(function() {
 						let len = Number($(this).data('len')), lng = Number($(this).data('lng')), thisID = $(this).attr('id');
 						var myMap = new ymaps.Map(thisID, {
-							// 
+							//
 							center: [len, lng],
 							zoom: 15,
 							controls: []
@@ -139,36 +143,36 @@ var modals = {
 
 						$('.modals_map').removeClass('js-map-loading')
 
-						myMap.container.fitToViewport();				
-					})			
+						myMap.container.fitToViewport();
+					})
 
 				});
-			});  
+			});
 		}
 
 	},
 
 
 	init: (e) => {
-		
-		
+
+
 		$(document).on('click', '.js-close-modal', modals.close);
 
 		$(document).on('click', '.js-modal', modals.open);
-		
+
 		$(document).on('click', '.js-gallerybutton', function(e) {
 			e.preventDefault()
 			let next = $(this).hasClass('js-gallerybutton-right') ? 1 : 0;
 			var magnificPopup = $.magnificPopup.instance;
 
 			console.log('gallery: ' + next)
-			
+
 			if(next)
 				magnificPopup.next(); // go to next item
 			else
-				magnificPopup.prev();			
+				magnificPopup.prev();
 		});
-		
+
 		$('.js-gallery').each(function() {
 			$(this).magnificPopup({
 				delegate: 'a',
@@ -184,25 +188,25 @@ var modals = {
 					verticalFit: true
 				},
 				gallery: {
-				    arrowMarkup: '<div class="modals__arrow owl-arrow owl-arrow_%dir% js-gallerybutton js-gallerybutton-%dir%"> <svg class="owl-arrow__border" viewBox="30 30 60 60"> <circle class="owl-arrow__path" cx="60" cy="60" r="29" fill="none"></circle> </svg> <div class="owl-arrow__item"></div></div>',			
+				    arrowMarkup: '<div class="modals__arrow owl-arrow owl-arrow_%dir% js-gallerybutton js-gallerybutton-%dir%"> <svg class="owl-arrow__border" viewBox="30 30 60 60"> <circle class="owl-arrow__path" cx="60" cy="60" r="29" fill="none"></circle> </svg> <div class="owl-arrow__item"></div></div>',
 					enabled: true,
 					navigateByImgClick: true
 				}
 
 
-			});			
+			});
 		});
-		
-		
+
+
 		/*$(window).on('load',function(){
 			$.magnificPopup.open({
 				tClose: '???????',
 				removalDelay: 600,
 				fixedContentPos: true,
 				fixedBgPos: true,
-				overflowY: 'hidden',			
+				overflowY: 'hidden',
 				closeMarkup: '<div class="modals__close close js-close-modal"> <svg class="icon icon-cancel cancel" viewBox="0 0 64 64"> <use xlink:href="/app/icons/sprite.svg#cancel"></use> </svg></div>',
-				mainClass: 'css-modal-animate',				
+				mainClass: 'css-modal-animate',
 				items: {
 					src: '#flat',
 					type: 'inline'

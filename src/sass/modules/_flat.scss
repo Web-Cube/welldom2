@@ -1,0 +1,257 @@
+.flat {
+	position: fixed;
+	z-index: 1001;
+	left: 50%;
+	top: 50%;
+	padding: 40rem 50rem 40rem 40rem;
+	transform: translate(-50%, -50%);
+	font-size: 16rem;
+	&__title {
+		font-size: 42rem;
+		font-weight: 500;
+	}
+	.modals__close {
+		right: 50rem;
+		top: 30rem;
+	}
+	&__info {
+		margin-top: 20rem;
+	}
+	&__metro {
+		display: flex;
+		align-items: center;
+		margin-right: 35rem;
+		&-icon {
+			fill: $orange;
+			width: 15rem;
+			height: 12rem;
+			margin-right: 12rem;
+		}
+		&-text {
+			font-size: 14rem;
+		}
+	}
+	&__run {
+		display: flex;
+		align-items: center;
+		margin-right: 35rem;
+		&-icon {
+			fill: #cacdd9;
+			width: 16rem;
+			height: 15rem;
+			margin-right: 12rem;
+		}
+		&-text {
+			font-size: 14rem;
+		}
+	}
+	&__left {
+		width: 790/1245*100%;
+		padding-right: 15rem;
+		max-height: 72vh;
+		overflow-x: hidden;
+		overflow-y: auto;
+		margin-top: 20rem;
+		&::-webkit-scrollbar{
+			width: 5px;
+			background: rgba(#000, .1);
+		}
+		&::-webkit-scrollbar-thumb {
+			background: $orange;
+		}
+	}
+	&__preview {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid rgba(#000, .1);
+		border-radius: 5px;
+		padding: 60rem 30rem;
+		&-img {
+			display: block;
+			img {
+				max-height: 350rem;
+			}
+		}
+	}
+	&__icon {
+		position: absolute;
+		top: 20rem;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 68rem;
+		height: 68rem;
+		border: 1px solid rgba(#000, .1);
+		border-radius: 100%;
+		transition: ease .2s;
+		background: #fff;
+		&_download {
+			left: 20rem;
+		}
+		&_zoom {
+			right: 20rem;
+		}
+		svg {
+			transition: ease .2s;
+		}
+		.icon-download {
+			width: 20rem;
+			height: 20rem;
+		}
+		.icon-zoom-in {
+			width: 24rem;
+			height: 24rem;
+		}
+		&:hover {
+			background: $orange;
+			svg {
+				fill: #fff;
+			}
+		}
+	}
+	&__gallery {
+		margin-top: 26rem;
+		&-item {
+			width: 48%;
+			margin-bottom: 26rem;
+			&:first-child {
+				display: none;
+			}
+			img {
+				border-radius: 5px;
+			}
+		}
+	}
+	&__right {
+		margin-top: 20rem;
+		width: 425/1245*100%;
+	}
+	&__expert {
+		border: 1px solid rgba(#000, .1);
+		border-radius: 5px;
+		margin-bottom: 25rem;
+		&-top {
+			padding: 35rem 35rem 30rem 45rem;
+			display: flex;
+			align-items: center;
+			border-bottom: 1px solid rgba(#000, .1);
+		}
+		&-foto {
+			min-width: 93rem;
+			margin-right: 30rem;
+		}
+		&-info {
+			padding-top: 10rem;
+		}
+		&-name {
+			font-size: 24rem;
+			font-weight: 600;
+			margin-bottom: 5rem;
+		}
+		&-position {
+			font-size: 14rem;
+			color: rgba(#262526, .7);
+		}
+		&-bottom {
+			padding: 30rem 35rem 30rem 45rem;
+			ul {
+				list-style: none;
+				li {
+					position: relative;
+					color: rgba(#262526, .7);
+					font-weight: 500;
+					padding-left: 20rem;
+					&:not(:last-child) {
+						margin-bottom: 12rem;
+					}
+					&:before {
+						content: '';
+						position: absolute;
+						left: 0;
+						top: 6rem;
+						width: 6rem;
+						height: 6rem;
+						border-radius: 100%;
+						background: #cacdd9;
+					}
+				}
+			}
+		}
+	}
+	&__link {
+		margin-top: 30rem;
+		font-size: 16rem;
+		.arrow-link__icon {
+			width: 18rem;
+			top: 0;
+		}
+	}
+	&__button {
+		width: 100%;
+		margin-bottom: 15rem;
+	}
+	&__slider {
+		display: none;
+	}
+	&__nav {
+		margin-top: -15px;
+	}
+
+	&-overlay {
+		position: absolute;
+		z-index: 1000;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, .3);
+		opacity: 0;
+		transition: opacity ease .3s;
+
+		&_active {
+			opacity: 1;
+		}
+	}
+}
+
+.no-display {
+	display: none;
+}
+
+.flat-open {
+	display: block;
+	opacity: 1;
+	animation-name: openFlatModal;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+}
+
+.flat-close {
+	animation-name: closeFlatModal;
+	animation-duration: .3s;
+	animation-timing-function: ease-out;
+}
+
+@keyframes openFlatModal {
+	0% {
+		opacity: 0;
+		transform: translate(-50%, -47%);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-50%, -50%);
+	}
+}
+
+@keyframes closeFlatModal {
+	0% {
+		opacity: 1;
+		transform: translate(-50%, -50%);
+	}
+	100% {
+		opacity: 0;
+		transform: translate(-50%, -53%);
+	}
+}

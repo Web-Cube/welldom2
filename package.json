@@ -43,11 +43,12 @@
     "imagemin-pngquant": "^8.0.0",
     "imagemin-webp": "^5.1.0",
     "jquery-ui": "^1.12.1",
+    "jquery-ui-touch-punch": "^0.2.3",
     "merge-stream": "^2.0.0",
     "owl.carousel": "^2.3.4",
     "simple-parallax-js": "^5.4.0",
     "vinyl-ftp": "^0.6.1",
-    "webpack": "^4.41.5",
+    "webpack": "^4.43.0",
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {

@@ -7,12 +7,13 @@ import { aboutSlider } from "./modules/about-slider";
 import { owl } from "./modules/owl";
 import { calc } from "./modules/calc";
 import { map } from "./modules/map";
+import { priceModal } from "./modules/price-modal";
 import { config } from "./config";
 
 var App = () => {};
 
 App.prototype.init = () => {
-	
+
 	defaults.init();
 	forms.init();
 	modals.init();
@@ -22,9 +23,10 @@ App.prototype.init = () => {
 	owl.init();
 	calc.init();
 	map.init();
+	priceModal.init();
 
 	config.log('app init')
-	
+
 };
 
 export { App };

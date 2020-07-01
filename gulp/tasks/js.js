@@ -8,10 +8,11 @@ let path = require('../settings/path.json'),
 module.exports = (gulp, plugins, browserSync) => {
     return () => {
     	var reload = browserSync.reload;
-	    var stream = 
+	    var stream =
 			// -------------------------------------------- Start Task
 			    gulp.src(path.src.js)
 		        .pipe(webpackStream({
+								// mode: 'development',
 		            output: {
 		                filename: 'app.js',
 		            },
