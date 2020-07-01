@@ -3,6 +3,11 @@
 	padding-top: 300rem;
 	padding-bottom: 200rem;
 	position: relative;
+	
+	
+	&__mobile {
+		font-size: 16rem;
+	}
 
 	&__carousel{
 		// overflow: hidden;
@@ -365,6 +370,35 @@
 		}
 
 	}
+	
+	.owl-dots{
+		pointer-events: none;
+		width: 100%;
+		height: 40px;
+		align-items: center;
+		justify-content: center;
+		margin-top: 10px;
+		display: flex;
+
+	}
+
+	.owl-dot{
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background-color: #e5e5e5!important;
+		margin: 7px;
+		transition: ease .25s;
+		pointer-events: auto;
+
+		&.active{
+			background-color: $blue!important;
+		}			
+	}
+	
+	&__mobile {
+		display: none;
+	}
 
 
 
@@ -435,7 +469,7 @@
 
 @include max-screen($large_mobile) {
 	.about-slider {
-		padding: 80px 0 120px 0;
+		padding: 50px 0 90px 0;
 		overflow: visible;
 		overflow: hidden;
 		&__box, &__il {
@@ -455,9 +489,14 @@
 		&__il {
 			margin-left: 0;
 			margin-top: 20px;
+			transform: translateY(0);
 			display: flex;
-			align-items: center;
 			min-height: 260px;
+			align-items: center;
+			justify-content: center;
+			img {
+				max-height: 260px;
+			}
 		}
 		&__nav {
 			position: static;
@@ -480,6 +519,16 @@
 			&-parent {
 				height: 380px;
 			}
+		}
+		&__mobile {
+			display: block;
+		}
+		&__arrows {
+			margin-right: 0;
+			margin-top: -43px;
+		}
+		&__carousel {
+			display: none;
 		}
 	}
 }
