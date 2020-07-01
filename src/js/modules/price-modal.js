@@ -12,6 +12,7 @@ var params = {
 
 var $closeBtn = params.$popup.find('.modals__close.close');
 var $link = $('.catalog__link');
+var $preview = $('.catalog__preview');
 
 var priceModal = {
 	popupOpen: (params) => {
@@ -64,6 +65,11 @@ var priceModal = {
 
 	init: () => {
 		$link.click((evt) => {
+			evt.preventDefault();
+			priceModal.popupOpen(params);
+		});
+
+		$preview.click((evt) => {
 			evt.preventDefault();
 			priceModal.popupOpen(params);
 		});
