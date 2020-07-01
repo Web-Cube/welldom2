@@ -8,6 +8,7 @@ var params = {
 	closePopupAnimation: 'flat-close',
 	$popup: $('#flat-popup'),
 	$overlay: $('.flat-overlay'),
+	popupContainer: document.createElement('div')
 };
 
 var $closeBtn = params.$popup.find('.modals__close.close');
@@ -16,6 +17,16 @@ var $preview = $('.catalog__preview');
 
 var priceModal = {
 	popupOpen: (params) => {
+		if ($('.flat-popup-container').length === 0) {
+			const $container = $(params.popupContainer);
+
+			$container.addClass('flat-popup-container');
+			$('body').prepend($container);
+			$container.append(params.$popup);
+			$container.append(params.$overlay);
+		}
+
+		$('.flat-popup-container').show();
 		params.$popup.removeClass(params.closePopupAnimation).removeClass(params.hiddenClass).addClass(params.openPopupAnimation);
 		params.$overlay.removeClass(params.hiddenClass).addClass(params.activeOverlayClass);
 
@@ -60,6 +71,7 @@ var priceModal = {
 			params.$popup.addClass(params.hiddenClass);
 			params.$overlay.addClass(params.hiddenClass);
 			$('body').css('overflow-y', '').removeAttr('style');
+			$('.flat-popup-container').hide();
 		}, params.ANIMATION_TIME);
 	},
 
