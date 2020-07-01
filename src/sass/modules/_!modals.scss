@@ -1338,3 +1338,17 @@
 		}
 	}
 }
+
+#presentation {
+	@include min-screen($large_tablet + 1) {
+		max-width: 90%;
+		width: 60%;
+		min-width: 920px;
+	}
+
+	.modals__thank-img_presentation {
+		@include max-screen($large_tablet) {
+			display: none;
+		}
+	}
+}
