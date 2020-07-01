@@ -12,7 +12,7 @@ var params = {
 };
 
 var $closeBtn = params.$popup.find('.modals__close.close');
-var $link = $('.catalog__link');
+var $link = $('.catalog__link[data-modal="#flat-popup"]');
 var $preview = $('.catalog__preview');
 
 var priceModal = {
@@ -26,7 +26,7 @@ var priceModal = {
 			$container.append(params.$overlay);
 		}
 
-		$('.flat-popup-container').show();
+		$('.flat-popup-container').css('display', 'flex');
 		params.$popup.removeClass(params.closePopupAnimation).removeClass(params.hiddenClass).addClass(params.openPopupAnimation);
 		params.$overlay.removeClass(params.hiddenClass).addClass(params.activeOverlayClass);
 
@@ -60,6 +60,11 @@ var priceModal = {
 			evt.preventDefault();
 			$zoomBtn.trigger('click');
 		});
+
+		setTimeout(() => {
+			$(window).trigger('resize');
+		}, 500)
+
 	},
 
 	popupClose: (params) => {
@@ -75,7 +80,26 @@ var priceModal = {
 		}, params.ANIMATION_TIME);
 	},
 
+	correctPosition: ($modal) => {
+		if ($(window).height() < $modal.height() && $modal.hasClass('flat-open') && $(window).width() > 580) {
+			const difference = Math.abs($modal.height() - $(window).height());
+			$modal.css({
+				marginTop: difference > 250 ? difference / 1.5 : difference,
+				marginBottom: '2rem'
+			});
+		} else if ($(window).height() >= $modal.height()) {
+			$modal.css({
+				marginTop: '',
+				// marginBottom: '1rem'
+			});
+		}
+	},
+
 	init: () => {
+		$(window).resize(function () {
+			priceModal.correctPosition(params.$popup);
+		});
+
 		$link.click((evt) => {
 			evt.preventDefault();
 			priceModal.popupOpen(params);
