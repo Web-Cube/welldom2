@@ -656,6 +656,426 @@
 						| Нажимая на кнопку, вы даете согласие на обработку
 						| персональных данных и соглашаетесь c политикой
 						| конфиденциальности
++b.modals._center.sale__.mfp-hide#promo1
+	+e.A.back.button__._grey.js-close-modal
+		+e.inner
+			+e.arrow
+				+icon('rightArrow')
+			+e.text Назад
+	+e.row.flex
+		+e.column._left.flex._center._vertical
+			+e.icon
+				img(src="/img/modal__internet.png")
+		+e.column._right
+			+e.title.h2
+				| Согласуем скидку
+				br
+				| специально для Вас
+			+e.text.p
+				| Как будет удобнее связаться?
+			+e.FORM.form.form__(action="/app/mail", data-thank="#thank5")
+				+e.INPUT(type="hidden" name="subj" value="Заявка на: Получите подробную информацию об акции")
+				+b.horizontal-messengers__._default.modals__messengers
+					+e.item
+						+e.LABEL.link._wa(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="whatsapp")
+							+e.SPAN.inner
+								+icon('whatsapp-logo', '0 0 90 90')
+							+e.SPAN.help-label.small Whatsapp
+					+e.item
+						+e.LABEL.link._viber(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="viber")
+							+e.SPAN.inner
+								+icon('viber', '0 0 514.055 514.055')
+							+e.SPAN.help-label.small Viber
+					+e.item
+						+e.LABEL.link._telegram(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telegram")
+							+e.SPAN.inner
+								+icon('telegram', '0 0 300 300')
+							+e.SPAN.help-label.small Telegram
+					+e.item
+						+e.LABEL.link._telephone(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telephone")
+							+e.SPAN.inner
+								+icon('telephone', '0 0 480.56 480.56')
+							+e.SPAN.help-label.small Телефон
+					+e.item
+						+e.LABEL.link._mail(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="email")
+							+e.SPAN.inner
+								+icon('mail', '0 0 14 14')
+							+e.SPAN.help-label.small Email
+				+e.item._name._black._show
+					+e.INPUT.input(type="text" name="name" placeholder="Имя")
+					+e.icon
+						+icon('man-user', '0 0 350 350')
+				+e.item._phone._black._show
+					+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
+					+e.icon
+						+icon('call-answer', '0 0 348.077 348.077')
+				+e.item._mail._black._hide
+					+e.INPUT.input(type="text" name="email" placeholder="E-mail")
+					+e.icon
+						+icon('mail', '0 0 14 14')
+				+e.BUTTON.button.flat-button__
+					+e.text Получить скидку
+				+e.LABEL.accept.checkbox__._black
+					+e.INPUT.input(type="checkbox" name="accept" checked="")
+					+e.SPAN.text.middle
+						| Нажимая на кнопку, вы даете согласие на обработку
+						| персональных данных и соглашаетесь c политикой
+						| конфиденциальности
++b.modals._center.sale__.mfp-hide#promo2
+	+e.A.back.button__._grey.js-close-modal
+		+e.inner
+			+e.arrow
+				+icon('rightArrow')
+			+e.text Назад
+	+e.row.flex
+		+e.column._left.flex._center._vertical
+			+e.icon
+				img(src="/img/modal__baby.png")
+		+e.column._right
+			+e.title.h2
+				| Согласуем скидку
+				br
+				| специально для Вас
+			+e.text.p
+				| Как будет удобнее связаться?
+			+e.FORM.form.form__(action="/app/mail", data-thank="#thank5")
+				+e.INPUT(type="hidden" name="subj" value="Заявка на: Получите подробную информацию об акции")
+				+b.horizontal-messengers__._default.modals__messengers
+					+e.item
+						+e.LABEL.link._wa(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="whatsapp")
+							+e.SPAN.inner
+								+icon('whatsapp-logo', '0 0 90 90')
+							+e.SPAN.help-label.small Whatsapp
+					+e.item
+						+e.LABEL.link._viber(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="viber")
+							+e.SPAN.inner
+								+icon('viber', '0 0 514.055 514.055')
+							+e.SPAN.help-label.small Viber
+					+e.item
+						+e.LABEL.link._telegram(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telegram")
+							+e.SPAN.inner
+								+icon('telegram', '0 0 300 300')
+							+e.SPAN.help-label.small Telegram
+					+e.item
+						+e.LABEL.link._telephone(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telephone")
+							+e.SPAN.inner
+								+icon('telephone', '0 0 480.56 480.56')
+							+e.SPAN.help-label.small Телефон
+					+e.item
+						+e.LABEL.link._mail(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="email")
+							+e.SPAN.inner
+								+icon('mail', '0 0 14 14')
+							+e.SPAN.help-label.small Email
+				+e.item._name._black._show
+					+e.INPUT.input(type="text" name="name" placeholder="Имя")
+					+e.icon
+						+icon('man-user', '0 0 350 350')
+				+e.item._phone._black._show
+					+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
+					+e.icon
+						+icon('call-answer', '0 0 348.077 348.077')
+				+e.item._mail._black._hide
+					+e.INPUT.input(type="text" name="email" placeholder="E-mail")
+					+e.icon
+						+icon('mail', '0 0 14 14')
+				+e.BUTTON.button.flat-button__
+					+e.text Получить скидку
+				+e.LABEL.accept.checkbox__._black
+					+e.INPUT.input(type="checkbox" name="accept" checked="")
+					+e.SPAN.text.middle
+						| Нажимая на кнопку, вы даете согласие на обработку
+						| персональных данных и соглашаетесь c политикой
+						| конфиденциальности
++b.modals._center.sale__.mfp-hide#promo3
+	+e.A.back.button__._grey.js-close-modal
+		+e.inner
+			+e.arrow
+				+icon('rightArrow')
+			+e.text Назад
+	+e.row.flex
+		+e.column._left.flex._center._vertical
+			+e.icon
+				img(src="/img/modal__house.png")
+		+e.column._right
+			+e.title.h2
+				| Согласуем скидку
+				br
+				| специально для Вас
+			+e.text.p
+				| Как будет удобнее связаться?
+			+e.FORM.form.form__(action="/app/mail", data-thank="#thank5")
+				+e.INPUT(type="hidden" name="subj" value="Заявка на: Получите подробную информацию об акции")
+				+b.horizontal-messengers__._default.modals__messengers
+					+e.item
+						+e.LABEL.link._wa(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="whatsapp")
+							+e.SPAN.inner
+								+icon('whatsapp-logo', '0 0 90 90')
+							+e.SPAN.help-label.small Whatsapp
+					+e.item
+						+e.LABEL.link._viber(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="viber")
+							+e.SPAN.inner
+								+icon('viber', '0 0 514.055 514.055')
+							+e.SPAN.help-label.small Viber
+					+e.item
+						+e.LABEL.link._telegram(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telegram")
+							+e.SPAN.inner
+								+icon('telegram', '0 0 300 300')
+							+e.SPAN.help-label.small Telegram
+					+e.item
+						+e.LABEL.link._telephone(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telephone")
+							+e.SPAN.inner
+								+icon('telephone', '0 0 480.56 480.56')
+							+e.SPAN.help-label.small Телефон
+					+e.item
+						+e.LABEL.link._mail(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="email")
+							+e.SPAN.inner
+								+icon('mail', '0 0 14 14')
+							+e.SPAN.help-label.small Email
+				+e.item._name._black._show
+					+e.INPUT.input(type="text" name="name" placeholder="Имя")
+					+e.icon
+						+icon('man-user', '0 0 350 350')
+				+e.item._phone._black._show
+					+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
+					+e.icon
+						+icon('call-answer', '0 0 348.077 348.077')
+				+e.item._mail._black._hide
+					+e.INPUT.input(type="text" name="email" placeholder="E-mail")
+					+e.icon
+						+icon('mail', '0 0 14 14')
+				+e.BUTTON.button.flat-button__
+					+e.text Получить скидку
+				+e.LABEL.accept.checkbox__._black
+					+e.INPUT.input(type="checkbox" name="accept" checked="")
+					+e.SPAN.text.middle
+						| Нажимая на кнопку, вы даете согласие на обработку
+						| персональных данных и соглашаетесь c политикой
+						| конфиденциальности
++b.modals._center.sale__.mfp-hide#promo4
+	+e.A.back.button__._grey.js-close-modal
+		+e.inner
+			+e.arrow
+				+icon('rightArrow')
+			+e.text Назад
+	+e.row.flex
+		+e.column._left.flex._center._vertical
+			+e.icon
+				img(src="/img/modal__flat.png")
+		+e.column._right
+			+e.title.h2
+				| Согласуем скидку
+				br
+				| специально для Вас
+			+e.text.p
+				| Как будет удобнее связаться?
+			+e.FORM.form.form__(action="/app/mail", data-thank="#thank5")
+				+e.INPUT(type="hidden" name="subj" value="Заявка на: Получите подробную информацию об акции")
+				+b.horizontal-messengers__._default.modals__messengers
+					+e.item
+						+e.LABEL.link._wa(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="whatsapp")
+							+e.SPAN.inner
+								+icon('whatsapp-logo', '0 0 90 90')
+							+e.SPAN.help-label.small Whatsapp
+					+e.item
+						+e.LABEL.link._viber(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="viber")
+							+e.SPAN.inner
+								+icon('viber', '0 0 514.055 514.055')
+							+e.SPAN.help-label.small Viber
+					+e.item
+						+e.LABEL.link._telegram(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telegram")
+							+e.SPAN.inner
+								+icon('telegram', '0 0 300 300')
+							+e.SPAN.help-label.small Telegram
+					+e.item
+						+e.LABEL.link._telephone(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telephone")
+							+e.SPAN.inner
+								+icon('telephone', '0 0 480.56 480.56')
+							+e.SPAN.help-label.small Телефон
+					+e.item
+						+e.LABEL.link._mail(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="email")
+							+e.SPAN.inner
+								+icon('mail', '0 0 14 14')
+							+e.SPAN.help-label.small Email
+				+e.item._name._black._show
+					+e.INPUT.input(type="text" name="name" placeholder="Имя")
+					+e.icon
+						+icon('man-user', '0 0 350 350')
+				+e.item._phone._black._show
+					+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
+					+e.icon
+						+icon('call-answer', '0 0 348.077 348.077')
+				+e.item._mail._black._hide
+					+e.INPUT.input(type="text" name="email" placeholder="E-mail")
+					+e.icon
+						+icon('mail', '0 0 14 14')
+				+e.BUTTON.button.flat-button__
+					+e.text Получить скидку
+				+e.LABEL.accept.checkbox__._black
+					+e.INPUT.input(type="checkbox" name="accept" checked="")
+					+e.SPAN.text.middle
+						| Нажимая на кнопку, вы даете согласие на обработку
+						| персональных данных и соглашаетесь c политикой
+						| конфиденциальности
++b.modals._center.sale__.mfp-hide#promo5
+	+e.A.back.button__._grey.js-close-modal
+		+e.inner
+			+e.arrow
+				+icon('rightArrow')
+			+e.text Назад
+	+e.row.flex
+		+e.column._left.flex._center._vertical
+			+e.icon
+				img(src="/img/modal__money.png")
+		+e.column._right
+			+e.title.h2
+				| Согласуем скидку
+				br
+				| специально для Вас
+			+e.text.p
+				| Как будет удобнее связаться?
+			+e.FORM.form.form__(action="/app/mail", data-thank="#thank5")
+				+e.INPUT(type="hidden" name="subj" value="Заявка на: Получите подробную информацию об акции")
+				+b.horizontal-messengers__._default.modals__messengers
+					+e.item
+						+e.LABEL.link._wa(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="whatsapp")
+							+e.SPAN.inner
+								+icon('whatsapp-logo', '0 0 90 90')
+							+e.SPAN.help-label.small Whatsapp
+					+e.item
+						+e.LABEL.link._viber(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="viber")
+							+e.SPAN.inner
+								+icon('viber', '0 0 514.055 514.055')
+							+e.SPAN.help-label.small Viber
+					+e.item
+						+e.LABEL.link._telegram(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telegram")
+							+e.SPAN.inner
+								+icon('telegram', '0 0 300 300')
+							+e.SPAN.help-label.small Telegram
+					+e.item
+						+e.LABEL.link._telephone(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telephone")
+							+e.SPAN.inner
+								+icon('telephone', '0 0 480.56 480.56')
+							+e.SPAN.help-label.small Телефон
+					+e.item
+						+e.LABEL.link._mail(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="email")
+							+e.SPAN.inner
+								+icon('mail', '0 0 14 14')
+							+e.SPAN.help-label.small Email
+				+e.item._name._black._show
+					+e.INPUT.input(type="text" name="name" placeholder="Имя")
+					+e.icon
+						+icon('man-user', '0 0 350 350')
+				+e.item._phone._black._show
+					+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
+					+e.icon
+						+icon('call-answer', '0 0 348.077 348.077')
+				+e.item._mail._black._hide
+					+e.INPUT.input(type="text" name="email" placeholder="E-mail")
+					+e.icon
+						+icon('mail', '0 0 14 14')
+				+e.BUTTON.button.flat-button__
+					+e.text Получить скидку
+				+e.LABEL.accept.checkbox__._black
+					+e.INPUT.input(type="checkbox" name="accept" checked="")
+					+e.SPAN.text.middle
+						| Нажимая на кнопку, вы даете согласие на обработку
+						| персональных данных и соглашаетесь c политикой
+						| конфиденциальности
++b.modals._center.sale__.mfp-hide#promo6
+	+e.A.back.button__._grey.js-close-modal
+		+e.inner
+			+e.arrow
+				+icon('rightArrow')
+			+e.text Назад
+	+e.row.flex
+		+e.column._left.flex._center._vertical
+			+e.icon
+				img(src="/img/modal__housing.png")
+		+e.column._right
+			+e.title.h2
+				| Согласуем скидку
+				br
+				| специально для Вас
+			+e.text.p
+				| Как будет удобнее связаться?
+			+e.FORM.form.form__(action="/app/mail", data-thank="#thank5")
+				+e.INPUT(type="hidden" name="subj" value="Заявка на: Получите подробную информацию об акции")
+				+b.horizontal-messengers__._default.modals__messengers
+					+e.item
+						+e.LABEL.link._wa(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="whatsapp")
+							+e.SPAN.inner
+								+icon('whatsapp-logo', '0 0 90 90')
+							+e.SPAN.help-label.small Whatsapp
+					+e.item
+						+e.LABEL.link._viber(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="viber")
+							+e.SPAN.inner
+								+icon('viber', '0 0 514.055 514.055')
+							+e.SPAN.help-label.small Viber
+					+e.item
+						+e.LABEL.link._telegram(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telegram")
+							+e.SPAN.inner
+								+icon('telegram', '0 0 300 300')
+							+e.SPAN.help-label.small Telegram
+					+e.item
+						+e.LABEL.link._telephone(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="telephone")
+							+e.SPAN.inner
+								+icon('telephone', '0 0 480.56 480.56')
+							+e.SPAN.help-label.small Телефон
+					+e.item
+						+e.LABEL.link._mail(href="#" target="_blank")
+							+e.INPUT.input(type="radio" name="recall-type" value="email")
+							+e.SPAN.inner
+								+icon('mail', '0 0 14 14')
+							+e.SPAN.help-label.small Email
+				+e.item._name._black._show
+					+e.INPUT.input(type="text" name="name" placeholder="Имя")
+					+e.icon
+						+icon('man-user', '0 0 350 350')
+				+e.item._phone._black._show
+					+e.INPUT.input(type="text" name="phone" placeholder="Телефон")
+					+e.icon
+						+icon('call-answer', '0 0 348.077 348.077')
+				+e.item._mail._black._hide
+					+e.INPUT.input(type="text" name="email" placeholder="E-mail")
+					+e.icon
+						+icon('mail', '0 0 14 14')
+				+e.BUTTON.button.flat-button__
+					+e.text Получить скидку
+				+e.LABEL.accept.checkbox__._black
+					+e.INPUT.input(type="checkbox" name="accept" checked="")
+					+e.SPAN.text.middle
+						| Нажимая на кнопку, вы даете согласие на обработку
+						| персональных данных и соглашаетесь c политикой
+						| конфиденциальности
 +b.modals._right.mfp-hide#result
 	+e.cell
 		+e.title.h2

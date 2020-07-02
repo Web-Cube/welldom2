@@ -208,7 +208,7 @@ var modals = {
 				closeMarkup: '<div class="modals__close close js-close-modal"> <svg class="icon icon-cancel cancel" viewBox="0 0 64 64"> <use xlink:href="/app/icons/sprite.svg#cancel"></use> </svg></div>',
 				mainClass: 'css-modal-animate',
 				items: {
-					src: '#flat',
+					src: '#promo1',
 					type: 'inline'
 				}
 			}, 0);

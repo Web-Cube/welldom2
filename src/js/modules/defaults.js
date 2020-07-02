@@ -124,8 +124,10 @@ var defaults = {
 			$(this).closest(".video").append(video);
 		});
 		
-		$(window).on('load', function(){
-			//$(".catalog__button").click();
+		$('.pagination__link').click(function(){
+			$('.pagination__link.is-active').removeClass('is-active');
+			$(this).addClass('is-active');
+			return false;
 		});
 		
 	},

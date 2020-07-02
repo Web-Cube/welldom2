@@ -17,6 +17,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		transition: ease .2s;
 
 		&.is-active{
 			background-color: $orange;
