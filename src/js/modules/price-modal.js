@@ -13,7 +13,7 @@ var params = {
 
 var $closeBtn = params.$popup.find('.modals__close.close');
 var $link = $('.catalog__link[data-modal="#flat-popup"]');
-var $preview = $('.catalog__preview');
+var $preview = $('.catalog__name');
 
 var priceModal = {
 	popupOpen: (params) => {

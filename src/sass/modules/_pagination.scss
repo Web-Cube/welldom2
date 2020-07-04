@@ -19,7 +19,7 @@
 		justify-content: center;
 		transition: ease .2s;
 
-		&.is-active{
+		&.is-active, &:hover{
 			background-color: $orange;
 			color: #fff;
 		}

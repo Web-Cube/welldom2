@@ -94,13 +94,13 @@
 							| Куда должны смотреть окна?
 						li
 							| Какие условия по ипотеке?
-					+e.A.link.arrow-link__._orange.t18.js-modal(href="#recall",data-room-name="Название квартиры")
+					+e.A.link.arrow-link__._orange.t18.js-modal(href="#recall",data-room-name="Название квартиры", data-for="whatsapp")
 						+e.text Получить помощь эксперта
 						+e.icon
 							+icon('rightArrow')
-			+e.A.button.flat-button__.js-modal(href="#price")
+			+e.A.button.flat-button__.js-modal(href="#price", data-for="whatsapp")
 				+e.text Узнать цену со скидкой
-			+e.A.button.flat-button__._gray.js-modal(href="#make")
+			+e.A.button.flat-button__._gray.js-modal(href="#make", data-for="whatsapp")
 				+e.text Записаться на просмотр
 
 +b.DIV.flat-overlay.no-display

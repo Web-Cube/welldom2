@@ -30,7 +30,6 @@
 	&__preview{
 		position: relative;
 		border-radius: 10px;
-		cursor: pointer;
 		&:hover {
 			.owl-prev, .owl-next {
 				opacity: 1;
@@ -57,7 +56,12 @@
 		min-height: 66rem;
 		margin-top: 24rem;
 		margin-bottom: 28rem;
-
+		transition: ease .2s;
+		display: block;
+		
+		&:hover {
+			color: $orange;
+		}
 		sup{
 			line-height: 0rem;
 			font-size: .5em;

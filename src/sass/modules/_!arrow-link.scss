@@ -3,6 +3,7 @@
 	font-weight: 500;
 	display: inline-flex;
 	align-items: center;
+	position: relative;
 	&__icon {
 		width: 18rem;
 		fill: #fff;
@@ -17,9 +18,25 @@
 			fill: $orange;
 		}
 	}
+	&:after {
+		content: '';
+		display: block;
+		height: 1px;
+		transition: ease .2s;
+		background: $orange;
+		width: 100%;
+		position: absolute;
+		bottom: -4rem;
+		left: 0;
+		transition: ease .2s;
+		transform: scale(0,1);
+	}
 	&:hover {
 		.arrow-link__icon {
 			transform: translateX(5rem);
+		}
+		&:after {
+			transform: scale(1,1);
 		}
 	}
 }
