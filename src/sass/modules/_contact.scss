@@ -117,7 +117,7 @@
 	.contact {
 		&__item {
 			&:nth-child(1) {
-				width: 100%;
+				width: 45%;
 				order: 3;
 				br {
 					display: none;
@@ -125,7 +125,7 @@
 			}
 			&:nth-child(2) {
 				width: 45%;
-				order: 1;
+				order: 3;
 			}
 			&:nth-child(3) {
 				width: 45%;
@@ -146,6 +146,7 @@
 		}
 		&__item {
 			&:nth-child(1) {
+				width: 100%;
 				br {
 					display: block;
 				}
@@ -155,6 +156,7 @@
 			}
 			&:nth-child(3) {
 				width: 100%;
+				order: 0;
 			}
 		}
 		&__button {
